@@ -1,4 +1,13 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{\numberline {1}Prima costruzione del Policlinico}{6}
-\contentsline {chapter}{\numberline {2}Stato attuale}{7}
+\contentsline {chapter}{Prefazione}{3}
+\contentsline {chapter}{\numberline {1}Prima costruzione del Policlinico}{5}
+\contentsline {section}{\numberline {1.1}aeaefaefaefaef}{5}
+\contentsline {subsection}{\numberline {1.1.1}aeaefaefaef}{5}
+\contentsline {subsubsection}{aefaefaefaefaefa}{5}
+\contentsline {chapter}{\numberline {2}Stato attuale}{6}
+\contentsline {chapter}{\numberline {3}Descrizione bando}{7}
+\contentsline {chapter}{\numberline {4}Stato di progetto}{8}
+\contentsline {chapter}{Bibliografia}{9}
+\contentsline {chapter}{Elenco delle figure}{10}
+\contentsline {chapter}{Elenco delle tabelle}{11}

@@ -1,24 +1,38 @@
 \documentclass[a4paper,12pt,openright]{report}
+\usepackage{libertine}
+\usepackage{libertinust1math}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{lipsum}
-\newcommand{\mostracapitoli}{\includeonly{6_1_cap/1_cap, 6_2_cap/2_cap, 6_3_cap/3_cap}}
+\newcommand{\mostracapitoli}{\includeonly{6_1_cap/1_cap, 6_2_cap/2_cap, 6_3_cap/3_cap, 6_4_cap/4_cap}}
 
-\mostracapitoli
+\usepackage{tocloft}
 
+\cftsetindents{chapter}{0em}{2em}
+\cftsetindents{section}{1em}{3em}
+%\cftsetindents{subsection}{em}{2em} CERCA DI METTERE IL NUMERO SUBITO DOPO IL TITOLO NELL'INDICE E TOGLI I PUNTINI 
+
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+
+\setcounter{tocdepth}{1}
+
+%\mostracapitoli
+%\includeonly{6_4_cap/4_cap}
 \begin{document}
 	\include{0_frontespizio/frontespizio}
 	\include{1_dedica/dedica}
-	\include{2_sommario/sommario}
 	\include{3_indicegenerale/indicegenerale}
-	\include{4_elencofig/elencofig}
-	\include{5_elencotab/elencotab}
+	\include{2_sommario/sommario}	
+	\include{9_ringraziamenti/ringra}	
 	\include{6_1_cap/1_cap}
 	\include{6_2_cap/2_cap}
 	\include{6_3_cap/3_cap}
-	\include{7_gloss/gloss}
+	\include{6_4_cap/4_cap}
+	%\include{7_gloss/gloss}
 	\include{8_biblio/biblio}
-	\include{9_ringraziamenti/ringra}
+	\include{4_elencofig/elencofig}
+	\include{5_elencotab/elencotab}
 	\include{10_dedfinale/dedfinale}
 \end{document}
