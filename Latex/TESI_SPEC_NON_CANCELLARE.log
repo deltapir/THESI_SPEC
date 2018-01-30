@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.27)  25 JAN 2018 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.27)  30 JAN 2018 20:54
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -380,124 +380,86 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 (TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
 (1_dedica/dedica.aux) (2_sommario/sommario.aux)
 (3_indicegenerale/indicegenerale.aux) (4_elencofig/elencofig.aux)
-(5_elencotab/elencotab.aux) (6_1_cap/1_cap.aux) (7_gloss/gloss.aux)
-(8_biblio/biblio.aux) (9_ringraziamenti/ringra.aux) (10_dedfinale/dedfinale.aux
-))
+(5_elencotab/elencotab.aux) (6_1_cap/1_cap.aux) (6_2_cap/2_cap.aux)
+(6_3_cap/3_cap.aux) (7_gloss/gloss.aux) (8_biblio/biblio.aux)
+(9_ringraziamenti/ringra.aux) (10_dedfinale/dedfinale.aux))
 \openout1 = `TESI_SPEC_NON_CANCELLARE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Info: Redefining \it@ocap on input line 9.
-LaTeX Info: Redefining \it@ccap on input line 9.
-\openout2 = `0_frontespizio/frontespizio.aux'.
-
- (0_frontespizio/frontespizio.tex [1
-
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-\openout2 = `1_dedica/dedica.aux'.
-
- (1_dedica/dedica.tex) [1
-
-
-]
-\openout2 = `2_sommario/sommario.aux'.
-
- (2_sommario/sommario.tex) [2
-
-
-]
-\openout2 = `3_indicegenerale/indicegenerale.aux'.
-
-
-(3_indicegenerale/indicegenerale.tex (TESI_SPEC_NON_CANCELLARE.toc)
-\tf@toc=\write3
-\openout3 = `TESI_SPEC_NON_CANCELLARE.toc'.
-
-) [3
-
-
-
-]
-\openout2 = `4_elencofig/elencofig.aux'.
-
-
-(4_elencofig/elencofig.tex) [4
-
-
-]
-\openout2 = `5_elencotab/elencotab.aux'.
-
- (5_elencotab/elencotab.tex) [5
-
-
-]
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \it@ocap on input line 10.
+LaTeX Info: Redefining \it@ccap on input line 10.
 \openout2 = `6_1_cap/1_cap.aux'.
 
-
-(6_1_cap/1_cap.tex
+ (6_1_cap/1_cap.tex
 Capitolo 1.
 ) [6
 
 
 
-]
-\openout2 = `7_gloss/gloss.aux'.
-
- (7_gloss/gloss.tex) [7
 
 
-]
-\openout2 = `8_biblio/biblio.aux'.
-
- (8_biblio/biblio.tex) [8
 
 
-]
-\openout2 = `9_ringraziamenti/ringra.aux'.
 
 
-(9_ringraziamenti/ringra.tex) [9
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\openout2 = `6_2_cap/2_cap.aux'.
 
+ (6_2_cap/2_cap.tex
+Capitolo 2.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+) [7
 
-]
-\openout2 = `10_dedfinale/dedfinale.aux'.
-
- (10_dedfinale/dedfinale.tex) [10
 
 
 ]
-(TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
+\openout2 = `6_3_cap/3_cap.aux'.
+
+
+(6_3_cap/3_cap.tex
+Capitolo 3.
+) [8
+
+
+
+] (TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
 (1_dedica/dedica.aux) (2_sommario/sommario.aux)
 (3_indicegenerale/indicegenerale.aux) (4_elencofig/elencofig.aux)
-(5_elencotab/elencotab.aux) (6_1_cap/1_cap.aux) (7_gloss/gloss.aux)
-(8_biblio/biblio.aux) (9_ringraziamenti/ringra.aux) (10_dedfinale/dedfinale.aux
-)) ) 
+(5_elencotab/elencotab.aux) (6_1_cap/1_cap.aux) (6_2_cap/2_cap.aux)
+(6_3_cap/3_cap.aux) (7_gloss/gloss.aux) (8_biblio/biblio.aux)
+(9_ringraziamenti/ringra.aux) (10_dedfinale/dedfinale.aux)) ) 
 Here is how much of TeX's memory you used:
- 1855 strings out of 493323
- 20926 string characters out of 3139025
- 180062 words of memory out of 3000000
- 5338 multiletter control sequences out of 15000+200000
- 7024 words of font info for 19 fonts, out of 3000000 for 9000
+ 1867 strings out of 493323
+ 20928 string characters out of 3139025
+ 181686 words of memory out of 3000000
+ 5355 multiletter control sequences out of 15000+200000
+ 6505 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,23p,810b,148s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Vincenzo Caccavale\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbx1200.pk> <C:\Users\Vincenzo Caccavale\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Vincenzo Caccavale
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (11 pages, 27898 bytes).
+ 25i,4n,23p,810b,146s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Vincenz
+o Caccavale\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm120
+0.pk> <C:\Users\Vincenzo Caccavale\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecbx2488.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (3 pages, 35924 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
