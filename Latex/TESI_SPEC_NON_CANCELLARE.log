@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.27)  31 JAN 2018 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.27)  11 FEB 2018 19:02
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -908,24 +908,24 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
  (6_2_cap/2_cap.tex
 Capitolo 2.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 5.
+ input line 7.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\ts1linuxlibertinet-tlf.fd"
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
-)
+(Font)              scaled to size 12.0pt on input line 7.
+
 [6
 
 
 
-]
+]) [7]
 \openout2 = `6_3_cap/3_cap.aux'.
 
  (6_3_cap/3_cap.tex
 Capitolo 3.
-) [7
+) [8
 
 
 
@@ -934,14 +934,14 @@ Capitolo 3.
 
  (6_4_cap/4_cap.tex
 Capitolo 4.
-) [8
+) [9
 
 
 
 ]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [9
+ (8_biblio/biblio.tex) [10
 
 
 ]
@@ -952,7 +952,7 @@ Capitolo 4.
 \tf@lof=\write4
 \openout4 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [10
+) [11
 
 
 ]
@@ -963,13 +963,13 @@ Capitolo 4.
 \tf@lot=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [11
+) [12
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [12
+ (10_dedfinale/dedfinale.tex) [13
 
 
 ]
@@ -982,7 +982,7 @@ Capitolo 4.
 Here is how much of TeX's memory you used:
  5157 strings out of 493323
  74230 string characters out of 3139025
- 221458 words of memory out of 3000000
+ 221459 words of memory out of 3000000
  8512 multiletter control sequences out of 15000+200000
  65702 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -993,9 +993,9 @@ btn_nh77jq.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_76gp
 a5.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTB.pf
 b>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (13 pages, 184818 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (14 pages, 187031 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
