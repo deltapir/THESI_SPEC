@@ -6,7 +6,15 @@
 \usepackage[italian]{babel}
 \usepackage{lipsum}
 \newcommand{\mostracapitoli}{\includeonly{6_1_cap/1_cap, 6_2_cap/2_cap, 6_3_cap/3_cap, 6_4_cap/4_cap}}
-
+\usepackage{siunitx}
+\usepackage{pgfplots}
+\sisetup{
+		group-digits=true,
+		group-separator={\,},
+		output-decimal-marker={,}
+}
+\SendSettingsToPgf
+\newcommand{\n}[2]{\SI{#1}{#2}}
 \usepackage{tocloft}
 
 \cftsetindents{chapter}{0em}{2em}
