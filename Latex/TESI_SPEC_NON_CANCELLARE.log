@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  25 FEB 2018 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  26 FEB 2018 15:19
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1756,6 +1756,8 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
 (Font)              scaled to size 12.0pt on input line 6.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -1855,11 +1857,11 @@ Capitolo 4.
 (8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux)) ) 
 Here is how much of TeX's memory you used:
- 36657 strings out of 493323
- 870530 string characters out of 3139025
+ 36659 strings out of 493323
+ 870586 string characters out of 3139025
  1101077 words of memory out of 3000000
- 39543 multiletter control sequences out of 15000+200000
- 638322 words of font info for 87 fonts, out of 3000000 for 9000
+ 39544 multiletter control sequences out of 15000+200000
+ 643737 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,96p,10398b,658s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lib
@@ -1876,7 +1878,7 @@ type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Program Files/MiKTeX 2.9
 nts/type1/public/libertine/LinLibertineTB.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/libertine/LinLibertineTBI.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/libertine/LinLibertineTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (19 pages, 594460 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (19 pages, 596276 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
