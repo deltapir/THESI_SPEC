@@ -2,7 +2,8 @@
 \select@language {italian}
 \contentsline {chapter}{Prefazione}{3}
 \contentsline {chapter}{\numberline {1}La prima costruzione del Policlinico}{5}
-\contentsline {section}{Il Progetto}{5}
+\contentsline {section}{L'involucro}{5}
+\contentsline {section}{L'impianto}{9}
 \contentsline {chapter}{\numberline {2}Lo stato attuale}{10}
 \contentsline {section}{\numberline {2.1}L'involucro}{12}
 \contentsline {subsection}{\numberline {2.1.1}Componenti opachi}{12}
