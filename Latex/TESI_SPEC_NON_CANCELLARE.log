@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  3 MAR 2018 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  21 APR 2018 10:58
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1784,15 +1784,15 @@ di-vi-sa, in ri-spet-to del-le nor-me VV.FF.,
 
 [10]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 147.
+ input line 148.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\ts1linuxlibertinet-tlf.fd"
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 147.
+(Font)              scaled to size 10.95pt on input line 148.
  [11]
-Overfull \hbox (1.25175pt too wide) in paragraph at lines 184--185
+Overfull \hbox (1.25175pt too wide) in paragraph at lines 180--181
 []\T1/LinuxLibertineT-TLF/m/it/10.95 Queste re-ti so-no sta-te rea-liz-za-te in
  tu-bi di ac-cia-io tra-fi-la-to <<Man-ne-smann>>,
  []
@@ -1802,28 +1802,31 @@ Overfull \hbox (1.25175pt too wide) in paragraph at lines 184--185
 
  (6_2_cap/2_cap.tex
 Capitolo 2.
+[14
+
+
+
+]
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 12.
-<6_2_cap/img/piano_terra.png, id=58, 953.06062pt x 647.41875pt>
+(Font)              scaled to size 12.0pt on input line 18.
+ <6_2_cap/img/piano_terra.png, id=61, 953.06062pt x 647.41875pt>
 File: 6_2_cap/img/piano_terra.png Graphic file (type png)
 
 <use 6_2_cap/img/piano_terra.png>
-Package pdftex.def Info: 6_2_cap/img/piano_terra.png used on input line 23.
+Package pdftex.def Info: 6_2_cap/img/piano_terra.png used on input line 41.
 (pdftex.def)             Requested size: 592.0pt x 402.16602pt.
- [14
+ [15
 
-
-
-] [15 <./6_2_cap/img/piano_terra.png>]
+] [16 <./6_2_cap/img/piano_terra.png>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 38.
-)
-[16]
+(Font)              scaled to size 14.4pt on input line 59.
+
+[17]) [18]
 \openout2 = `6_3_cap/3_cap.aux'.
 
  (6_3_cap/3_cap.tex
 Capitolo 3.
-) [17
+) [19
 
 
 
@@ -1832,14 +1835,14 @@ Capitolo 3.
 
  (6_4_cap/4_cap.tex
 Capitolo 4.
-) [18
+) [20
 
 
 
 ]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [19
+ (8_biblio/biblio.tex) [21
 
 
 ]
@@ -1850,7 +1853,7 @@ Capitolo 4.
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [20
+) [22
 
 
 ]
@@ -1861,13 +1864,13 @@ Capitolo 4.
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [21
+) [23
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [22
+ (10_dedfinale/dedfinale.tex) [24
 
 
 ]
@@ -1880,11 +1883,11 @@ Capitolo 4.
 Here is how much of TeX's memory you used:
  36733 strings out of 493323
  872062 string characters out of 3139025
- 1102077 words of memory out of 3000000
+ 1101077 words of memory out of 3000000
  39612 multiletter control sequences out of 15000+200000
  658955 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,96p,10398b,911s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,96p,10398b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lib
 ertine/lbtn_naooyc.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust
 1math/libusSYM.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1mat
@@ -1899,9 +1902,9 @@ nts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Program Files/MiKTeX
 9/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/libertine/LinLibertineTBI.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (23 pages, 614461 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (25 pages, 611009 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
