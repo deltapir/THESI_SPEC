@@ -104,7 +104,7 @@ Questi i risultati del componente modellato:
 	\end{tabular}
 \end{center}
 
-\subsubsection{MURO EXT3}
+\subsubsection{MURO EXT Corpo Basso}
 È il componente esterno dei corpi bassi ovvero del Corpo B, C, D ed E.
 \begin{center}
 	\begin{tabular}{lcc}
@@ -129,18 +129,75 @@ Questi i risultati del componente modellato:
 	\end{tabular}
 \end{center}
 \subsubsection{COPERTURA 1}
-È la copertura del Corpo A.
+È la copertura del Corpo A.\\Già oggetto di interventi passati, le sue caratteristiche termo-fisiche sono così riassunte:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Spessore & \num{0.38} & \si{m}\\
+		Trasmittanza & \num{0.36} & \si{W/m^2K}\\
+		Trasmittanza termica periodica & \num{0.10} & \si{W/m^2K}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 \subsubsection{COPERTURA 2}
-È la copertura dei Corpi B, C, E ed E.
+È la copertura dei Corpi B, C, D ed E.
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Componente & Spessore [m] & Conduttività [\si{W/mK}] \\
+		\midrule
+		Intonaco di Calce e Gesso & \num{0.02} & \num{1.61} \\
+		CLS SC  & \num{0.09} & \num{1.48}\\
+		CLS SA & \num{0.10} & \num{0.58} \\
+		Bitume su carta e cartone & \num{0.0050} & \num{0.23} \\
+		\bottomrule
+	\end{tabular}
+\end{center}
+Questi i risultati del componente modellato:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Spessore & \num{0.22} & \si{m}\\
+		Trasmittanza & \num{2.39} & \si{W/m^2K}\\
+		Trasmittanza termica periodica & \num{1.07} & \si{W/m^2K}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 \subsubsection{PAVIMENTO}
-È il componente opaco utilizzato per modellare i pavimenti dell'Edificio 2 (quindi in comune tra tutti i corpi).
+È il componente opaco utilizzato per modellare il pavimento dell'Edificio 2 (quindi in comune a tutti i corpi). È bene precisare che questo componente non è a contatto con il terreno in quanto vi sono i locali della sottocentrale nel piano -1.\\
+Questi i risultati:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Componente & Spessore [m] & Conduttività [\si{W/mK}] \\
+		\midrule
+		Piastrelle di Ceramica & \num{0.01} & \num{1.30} \\
+		CLS SC & \num{0.08} & \num{1.61}\\
+		Blocco da solaio & \num{0.22} & - \\
+		\bottomrule
+	\end{tabular}
+\end{center}
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Spessore & \num{0.31} & \si{m}\\
+		Trasmittanza & \num{1.38} & \si{W/m^2K}\\
+		Trasmittanza termica periodica & \num{0.35} & \si{W/m^2K}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 \subsection{Componenti trasparenti}
+Tutti gli infissi risultano essere ancora quelli originali.\\ 
+Tutti componenti trasparenti sono stati modellati usando gli stessi dati termo-fisici differenziandoli solo per quelli geometrici. 
+Il telaio è metallico senza taglio termico con un'unica lastra trasparente (spessore di \n{4}{mm} senza alcun trattamento superficiale). Pertanto la trasmittanza globale del componente (ovvero la $U_g$) vale \n{5.76}{W/m^2K}.
+
+Si vogliono, comunque, presentare i vari infissi in quanto sono stati modellati all'interno del software BIM.
 \subsubsection{FINESTRA P}
-Finestra Piccola
+È il componente trasparente facente parte delle facciate maggiori del Corpo A.\\ Le sue dimensioni sono: \n{0.33x1.60}{m}.
 \subsubsection{FINESTRA G}
-Finestra Grande
+È la variante alta della \textbf{FINESTRA P}. \\Le sue dimensioni sono: \n{0.67x1.60}{m}.
 \subsubsection{FINESTRA LUC}
-Lucernario in alto in ogni blocco
+Questo è il lucernaio presente nella parte superiore di ogni modulo delle due facciate maggiori del Corpo A.\\ Le dimensioni: \n{0.39x1.45}{m}.
 \subsubsection{FINESTRA...}
 Finestra 
 \subsection{Definizione locali (norma 10339)}
