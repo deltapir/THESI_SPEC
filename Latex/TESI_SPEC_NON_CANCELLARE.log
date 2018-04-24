@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  21 APR 2018 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  24 APR 2018 17:40
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1481,13 +1481,33 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplotmarks.cod
 e.tex"
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen276
+\lightrulewidth=\dimen277
+\cmidrulewidth=\dimen278
+\belowrulesep=\dimen279
+\belowbottomsep=\dimen280
+\aboverulesep=\dimen281
+\abovetopsep=\dimen282
+\cmidrulesep=\dimen283
+\cmidrulekern=\dimen284
+\defaultaddspace=\dimen285
+\@cmidla=\count307
+\@cmidlb=\count308
+\@aboverulesep=\dimen286
+\@belowrulesep=\dimen287
+\@thisruleclass=\count309
+\@lastruleclass=\count310
+\@thisrulewidth=\dimen288
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count307
+\c@r@tfl@t=\count311
 \rotFPtop=\skip58
 \rotFPbot=\skip59
 \rot@float@box=\box63
@@ -1495,7 +1515,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\varioref.sty"
 Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
-\c@vrcnt=\count308
+\c@vrcnt=\count312
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\quoting\quoting.sty"
 Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
@@ -1547,8 +1567,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip87
 \cftfigindent=\skip88
 \cftfignumwidth=\skip89
-\c@lofdepth=\count309
-\c@lotdepth=\count310
+\c@lofdepth=\count313
+\c@lotdepth=\count314
 \cftbeforelottitleskip=\skip90
 \cftafterlottitleskip=\skip91
 \cftbeforetabskip=\skip92
@@ -1563,59 +1583,59 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 (10_dedfinale/dedfinale.aux))
 \openout1 = `TESI_SPEC_NON_CANCELLARE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for LS1/libertinust1math/m/n on input lin
-e 41.
+e 42.
 LaTeX Font Info:    Try loading font information for LS1+libertinust1math on in
-put line 41.
+put line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\libertinust1math\ls1libertinust1math.fd
 "
 File: ls1libertinust1math.fd 2016/03/23 Fontinst v1.933 font definitions for LS
 1/libertinust1math.
 )
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for LS2/libertinust1mathsym/m/n on input 
-line 41.
+line 42.
 LaTeX Font Info:    Try loading font information for LS2+libertinust1mathsym on
- input line 41.
+ input line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\libertinust1math\ls2libertinust1mathsym
 .fd"
 File: ls2libertinust1mathsym.fd 2015/04/17 v1.1.2-latex LibertinusT1Mathsym LS2
  font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 41.
+input line 42.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\t1linuxlibertinet-tlf.fd"
 File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 41.
-\c@mv@tabular=\count311
-\c@mv@boldtabular=\count312
-LaTeX Info: Redefining \it@ocap on input line 41.
-LaTeX Info: Redefining \it@ccap on input line 41.
+(Font)              scaled to size 12.0pt on input line 42.
+\c@mv@tabular=\count315
+\c@mv@boldtabular=\count316
+LaTeX Info: Redefining \it@ocap on input line 42.
+LaTeX Info: Redefining \it@ccap on input line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
 English.dict"
@@ -1626,16 +1646,16 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen276
+\scratchcounter=\count317
+\scratchdimen=\dimen289
 \scratchbox=\box64
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen277
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen290
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks42
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -1670,11 +1690,11 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 41.
+ on input line 42.
 
-\c__siunitx_mathsf_int=\count319
+\c__siunitx_mathsf_int=\count323
 LaTeX Font Info:    Try loading font information for LS2+libertinust1mathex on 
-input line 41.
+input line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\libertinust1math\ls2libertinust1mathex.
 fd"
@@ -1682,7 +1702,7 @@ File: ls2libertinust1mathex.fd 2016/03/15 v1.0.0-latex LibertinusMath extension
 s LS2 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS1+libertinust1mathbb on 
-input line 41.
+input line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\libertinust1math\ls1libertinust1mathbb.
 fd"
@@ -1690,14 +1710,14 @@ File: ls1libertinust1mathbb.fd 2016/08/22 latex LibertinusT1Mathbb LS1 font def
 initions
 )
 LaTeX Font Info:    Try loading font information for LS1+libertinust1mathsf on 
-input line 41.
+input line 42.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\libertinust1math\ls1libertinust1mathsf.
 fd"
 File: ls1libertinust1mathsf.fd 2017/08/11 Font definitions for LS1/ libertinust
 1mathsf
 )
-\c__siunitx_mathtt_int=\count320
+\c__siunitx_mathtt_int=\count324
 \openout2 = `0_frontespizio/frontespizio.aux'.
 
  (0_frontespizio/frontespizio.tex [1
@@ -1821,12 +1841,12 @@ Package pdftex.def Info: 6_2_cap/img/piano_terra.png used on input line 41.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 59.
 
-[17]) [18]
+[17] [18]) [19]
 \openout2 = `6_3_cap/3_cap.aux'.
 
  (6_3_cap/3_cap.tex
 Capitolo 3.
-) [19
+) [20
 
 
 
@@ -1835,14 +1855,14 @@ Capitolo 3.
 
  (6_4_cap/4_cap.tex
 Capitolo 4.
-) [20
+) [21
 
 
 
 ]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [21
+ (8_biblio/biblio.tex) [22
 
 
 ]
@@ -1853,7 +1873,7 @@ Capitolo 4.
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [22
+) [23
 
 
 ]
@@ -1864,13 +1884,13 @@ Capitolo 4.
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [23
+) [24
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [24
+ (10_dedfinale/dedfinale.tex) [25
 
 
 ]
@@ -1881,13 +1901,13 @@ Capitolo 4.
 (8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux)) ) 
 Here is how much of TeX's memory you used:
- 36733 strings out of 493323
- 872062 string characters out of 3139025
- 1101077 words of memory out of 3000000
- 39612 multiletter control sequences out of 15000+200000
+ 36790 strings out of 493323
+ 872816 string characters out of 3139025
+ 1102077 words of memory out of 3000000
+ 39665 multiletter control sequences out of 15000+200000
  658955 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,96p,10398b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,96p,10398b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lib
 ertine/lbtn_naooyc.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust
 1math/libusSYM.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1mat
@@ -1902,9 +1922,9 @@ nts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Program Files/MiKTeX
 9/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/libertine/LinLibertineTBI.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (25 pages, 611009 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (26 pages, 614336 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

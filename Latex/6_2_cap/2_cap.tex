@@ -58,11 +58,76 @@ L'involucro dell'Edificio 2 non è cambiato in questi anni quindi non ci sono di
 Si passa ora a descrivere i componenti (opachi e trasparenti) utilizzati come dati di input per il calcolo del fabbisogno energetico e del carico termico (estivo e invernale) dell'edificio stesso.
 \subsection{Componenti opachi}
 \subsubsection{MURO EXT}
-È il componente esterno delle facciate maggiori del Corpo A. È caratterizzato esternamente da blocchi di silicalcite alternati dagli infissi.\\La stratigrafia\\Comportamento termico. Verticalmente è caratterizzato da una diversa stratigrafia. Si è poi effettuata una media ponderale in modo tale da valutare una caratteristica termica fittizia che sia però l'espressione del comportamento della facciata.
-\subsubsection{MURO EXT2}
+È il componente esterno delle facciate maggiori del Corpo A. \\È caratterizzato esternamente da blocchi di silicalcite alternati dagli infissi. \\Questa tipologia di muro è fittizia poiché si è modellato un componente che nella realtà è caratterizzata da una diversa stratigrafia in senso verticale. Dal punto di vista numerico, quindi, si è effettuata una media ponderale delle varie caratteristiche termo-fisiche in modo tale che il risultato finale sia quanto più possibile veritiero. La parte inferiore è costituita semplicemente da un mattone forato da \n{10}{cm} intonacato internamente ed esternamente; la parte superiore, invece, è caratterizzata dai blocchi di silicalcite. \\ La stratigrafia della parte superiore è (dall'interno verso l'esterno):
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Componente & Spessore [m] & Conduttività [\si{W/mK}] \\
+		\midrule
+		Acciao & \num{0.01} & \num{50.0} \\
+		Intercapedine d'aria & \num{0.05} & -\\
+		CLS & \num{0.35} & \num{1.06} \\
+		\bottomrule
+	\end{tabular}
+\end{center}
+Questi i risultati del componente modellato:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Spessore & \num{0.43} & \si{m}\\
+		Trasmittanza & \num{1.423} & \si{W/m^2K}\\
+		Trasmittanza termica periodica & \num{0.190} & \si{W/m^2K}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
+\subsubsection{MURO EXT 200}
 È il componente esterno delle scale e del torrino.
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Componente & Spessore [m] & Conduttività [\si{W/mK}] \\
+		\midrule
+		Malta di calce-cemento & \num{0.01} & \num{0.90} \\
+		CLS & \num{0.18} & \num{1.48}\\
+		Malta di calce-cemento & \num{0.01} & \num{0.90} \\
+		\bottomrule
+	\end{tabular}
+\end{center}
+Questi i risultati del componente modellato:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Spessore & \num{0.20} & \si{m}\\
+		Trasmittanza & \num{3.29} & \si{W/m^2K}\\
+		Trasmittanza termica periodica & \num{1.71} & \si{W/m^2K}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
+
 \subsubsection{MURO EXT3}
 È il componente esterno dei corpi bassi ovvero del Corpo B, C, D ed E.
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Componente & Spessore [m] & Conduttività [\si{W/mK}] \\
+		\midrule
+		Malta di calce-cemento & \num{0.01} & \num{0.90} \\
+		Mattone forato & \num{0.08} & -\\
+		Intercapedine d'aria & \num{0.05} & - \\
+		CLS & \num{0.1} & \num{1.91}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
+Questi i risultati del componente modellato:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		Spessore & \num{0.24} & \si{m}\\
+		Trasmittanza & \num{1.63} & \si{W/m^2K}\\
+		Trasmittanza termica periodica & \num{1.06} & \si{W/m^2K}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 \subsubsection{COPERTURA 1}
 È la copertura del Corpo A.
 \subsubsection{COPERTURA 2}
