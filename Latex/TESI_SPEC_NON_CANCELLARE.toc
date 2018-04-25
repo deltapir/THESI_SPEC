@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{PAVIMENTO}{19}
 \contentsline {subsection}{\numberline {2.3.2}Componenti trasparenti}{20}
 \contentsline {subsection}{\numberline {2.3.3}Definizione locali (norma 10339)}{21}
-\contentsline {subsubsection}{Degenza}{21}
+\contentsline {subsubsection}{Degenza}{22}
 \contentsline {subsubsection}{Laboratorio}{22}
 \contentsline {subsubsection}{Studio Medico}{22}
 \contentsline {subsubsection}{Cucina}{23}
