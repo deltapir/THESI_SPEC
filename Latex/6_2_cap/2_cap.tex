@@ -70,7 +70,7 @@ Si passa ora a descrivere i componenti (opachi e trasparenti) utilizzati come da
 		\bottomrule
 	\end{tabular}
 \end{center}
-Questi i risultati del componente modellato:
+Questi i risultati del componente modellato (a valle della media ponderale):
 \begin{center}
 	\begin{tabular}{lcc}
 		\toprule
@@ -217,6 +217,136 @@ Si elencano ora i vari infissi utilizzati all'interno del modello dell'edificio:
 \end{itemize}
 
 \subsection{Definizione locali (norma 10339)}
+Il carico termico di un edificio non tiene conto solamente dell'ambiente esterno (temperatura e umidità tutto l'anno mentre la radiazione solare solo in estate). È molto importante considerare la destinazione d'uso del locale che si intende climatizzare. Pertanto sono stati individuati le tipologie di locali e per ognuno di essi si sono definiti i seguenti parametri:
+\begin{itemize}
+	\item \emph{Temperatura} e \emph{umidità relativa} di progetto nella stagione estiva e invernale;
+	\item La \emph{portata di rinnovo} dalla norma \norvent;
+	\item Gli \emph{apporti interni di calore}:
+	\begin{itemize}
+		\item \emph{L'occupazione}, ovvero il numero di persone che affollano il locale con i conseguenti apporti di calore sensibile e latente. In assenza di dati certi (ovvero nell'impossibilità di conoscere le persone che effettivamente affollano un locale - contando il numero di sedie nel caso degli studi medici, per esempio) si è proceduto ad utilizzare i valori di occupazione fissati dalla \norvent;
+		\item \emph{Apparati interni}, ovvero i carichi dovuti a macchinari/fonti di calore sensibile e latente presenti all'interno del locale;
+		\item \emph{L'illuminazione};
+	\end{itemize}
+\end{itemize}
+È molto importante notare che per alcuni di questi apporti interni di calore sono stati definiti dei profili d'uso temporali su base oraria. \emph{L'occupazione} dello Studio Medico, per esempio, ha un profilo d'uso del tipo:
+\begin{center}
+	\begin{tabular}{lr}
+		\toprule
+		Dalle 00:00 alle 08:00 & 0\% \\
+		Dalle 08:00 alle 17:00 & 100\% \\
+		Dalle 17:00 alle 00:00 & 0\% \\
+		\bottomrule
+	\end{tabular}
+\end{center}
+Ovvero all'interno degli studi medici vi sarà il massimo dell'occupazione (calcolata considerando l'indice di affollamento $n_S$ che in questo caso è pari a \n{0.05}{pers/m^2} tratto sempre dalla \norvent) dalle 8:00 alle 17:00 ogni giorno dell'anno.
+
+Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che sono stati maggiormente utilizzati per la modellazione dell'edificio.
+\subsubsection{Degenza}
+\texttt{Inserisci una foto esterna per far vedere dove stanno le degenze}.
+\begin{center}
+	\begin{tabular}{lcc}
+										& Raffrescamento 			& Riscaldamento \\
+		Temperatura interna di progetto & \n{24.0}{\degreeCelsius} 	& \n{21.0}{\degreeCelsius}\\
+		Umidità interna di progetto 	& \n{50.0}{\%}				& \n{30.0}{\%}\\
+		\midrule
+		Ventilazione					& \multicolumn{2}{c}{\n{11}{l/s} per persona} 		\\
+		\midrule
+		\multirow{3}*{Occupazione}		& \multicolumn{2}{c}{\n{5}{m^2/pers}}  		\\
+									 	& \n{75}{W/pers} 		& sensibile	\\
+										& \n{70}{W/pers}		& latente 	\\
+		\midrule
+		Apparati interni 				&\n{15}{W/m^2}			& sensibile\\
+		\midrule
+		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		\midrule
+		Altri carichi					& \multicolumn{2}{c}{--}\\				
+	\end{tabular}
+\end{center}
+\subsubsection{Laboratorio}
+\texttt{Inserisci una foto esterna per far vedere dove stanno i laboratori}.
+\begin{center}
+	\begin{tabular}{lcc}
+										& Raffrescamento 			& Riscaldamento \\
+		Temperatura interna di progetto & \n{25.0}{\degreeCelsius} 	& \n{21.0}{\degreeCelsius}\\
+		Umidità interna di progetto 	& \n{50.0}{\%}				& \n{50.0}{\%}\\
+		\midrule
+		Ventilazione					& \multicolumn{2}{c}{\n{6}{vol/h}} 		\\
+		\midrule
+		\multirow{3}*{Occupazione}		& \multicolumn{2}{c}{\n{20}{m^2/pers}}  		\\
+										& \n{75}{W/pers} 		& sensibile	\\
+										& \n{55}{W/pers}		& latente 	\\
+		\midrule
+		Apparati interni 				&\n{40}{W/m^2}			& sensibile\\
+		\midrule
+		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		\midrule
+		Altri carichi					& \n{1000}{W}			& sensibile \\				
+	\end{tabular}
+\end{center}
+\subsubsection{Studio Medico}
+\texttt{Inserisci una foto esterna per far vedere dove stanno gli studi medici}.
+\begin{center}
+	\begin{tabular}{lcc}
+										& Raffrescamento 			& Riscaldamento \\
+		Temperatura interna di progetto & \n{25.0}{\degreeCelsius} 	& \n{22.0}{\degreeCelsius}\\
+		Umidità interna di progetto 	& \n{50.0}{\%}				& \n{40.0}{\%}\\
+		\midrule
+		Ventilazione					& \multicolumn{2}{c}{\n{11}{l/s} per persona} 		\\
+		\midrule
+		\multirow{3}*{Occupazione}		& \multicolumn{2}{c}{\n{4}{pers}}  		\\
+										& \n{75}{W/pers} 		& sensibile	\\
+										& \n{55}{W/pers}		& latente 	\\
+		\midrule
+		Apparati interni 				&\multicolumn{2}{c}{--}\\
+		\midrule
+		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		\midrule
+		Altri carichi					& \multicolumn{2}{c}{--}\\				
+	\end{tabular}
+\end{center}
+\subsubsection{Cucina}
+\texttt{Inserisci una foto esterna per far vedere dove stanno le cucine}.
+\begin{center}
+	\begin{tabular}{lcc}
+										& Raffrescamento 			& Riscaldamento \\
+		Temperatura interna di progetto & \n{28.0}{\degreeCelsius} 	& \n{20.0}{\degreeCelsius}\\
+		Umidità interna di progetto 	& \n{50.0}{\%}				& \n{30.0}{\%}\\
+		\midrule
+		Ventilazione					& \multicolumn{2}{c}{\n{16.5}{l/s} per \si{m^2}} 		\\
+		\midrule
+		\multirow{3}*{Occupazione}		& \multicolumn{2}{c}{\n{5}{m^2/pers}}  		\\
+										& \n{75}{W/pers} 		& sensibile	\\
+										& \n{70}{W/pers}		& latente 	\\
+		\midrule
+		Apparati interni 				& \n{5.40}{W/m^2} 		& sensibile \\
+		\midrule
+		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		\midrule
+		\multirow{2}{*}{Altri carichi}	& \n{1500}{W} 		& sensibile \\
+										& \n{500}{W} 		& latente   \\
+	\end{tabular}
+\end{center}
+\subsubsection{Ufficio}
+\texttt{Inserisci una foto esterna per far vedere dove stanno gli uffici}.
+\begin{center}
+	\begin{tabular}{lcc}
+										& Raffrescamento 			& Riscaldamento \\
+		Temperatura interna di progetto & \n{25.0}{\degreeCelsius} 	& \n{21.0}{\degreeCelsius}\\
+		Umidità interna di progetto 	& \n{50.0}{\%}				& \n{40.0}{\%}\\
+		\midrule
+		Ventilazione					& \multicolumn{2}{c}{\n{11}{l/s} per persona} 		\\
+		\midrule
+		\multirow{3}*{Occupazione}		& \multicolumn{2}{c}{\n{10}{m^2/pers}}  		\\
+										& \n{75}{W/pers} 		& sensibile	\\
+										& \n{70}{W/pers}		& latente 	\\
+		\midrule
+		Apparati interni 				& \n{15}{W/m^2} 		& sensibile \\
+		\midrule
+		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		\midrule
+		Altri carichi					& \multicolumn{2}{c}{--}\\
+	\end{tabular}
+\end{center}
 \section{L'impianto}
 \section{I risultati energetici}
 \subsection{Stagione Estiva}
