@@ -75,8 +75,8 @@ Questi i risultati del componente modellato:
 	\begin{tabular}{lcc}
 		\toprule
 		Spessore & \num{0.43} & \si{m}\\
-		Trasmittanza & \num{1.423} & \si{W/m^2K}\\
-		Trasmittanza termica periodica & \num{0.190} & \si{W/m^2K}\\
+		Trasmittanza & \num{1.423} & \trasm\\
+		Trasmittanza termica periodica & \num{0.190} & \trasm\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -98,8 +98,8 @@ Questi i risultati del componente modellato:
 	\begin{tabular}{lcc}
 		\toprule
 		Spessore & \num{0.20} & \si{m}\\
-		Trasmittanza & \num{3.29} & \si{W/m^2K}\\
-		Trasmittanza termica periodica & \num{1.71} & \si{W/m^2K}\\
+		Trasmittanza & \num{3.29} & \trasm\\
+		Trasmittanza termica periodica & \num{1.71} & \trasm\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -123,8 +123,8 @@ Questi i risultati del componente modellato:
 	\begin{tabular}{lcc}
 		\toprule
 		Spessore & \num{0.24} & \si{m}\\
-		Trasmittanza & \num{1.63} & \si{W/m^2K}\\
-		Trasmittanza termica periodica & \num{1.06} & \si{W/m^2K}\\
+		Trasmittanza & \num{1.63} & \trasm\\
+		Trasmittanza termica periodica & \num{1.06} & \trasm\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -134,8 +134,8 @@ Questi i risultati del componente modellato:
 	\begin{tabular}{lcc}
 		\toprule
 		Spessore & \num{0.38} & \si{m}\\
-		Trasmittanza & \num{0.36} & \si{W/m^2K}\\
-		Trasmittanza termica periodica & \num{0.10} & \si{W/m^2K}\\
+		Trasmittanza & \num{0.36} & \trasm\\
+		Trasmittanza termica periodica & \num{0.10} & \trasm\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -158,8 +158,8 @@ Questi i risultati del componente modellato:
 	\begin{tabular}{lcc}
 		\toprule
 		Spessore & \num{0.22} & \si{m}\\
-		Trasmittanza & \num{2.39} & \si{W/m^2K}\\
-		Trasmittanza termica periodica & \num{1.07} & \si{W/m^2K}\\
+		Trasmittanza & \num{2.39} & \trasm\\
+		Trasmittanza termica periodica & \num{1.07} & \trasm\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -181,15 +181,27 @@ Questi i risultati:
 	\begin{tabular}{lcc}
 		\toprule
 		Spessore & \num{0.31} & \si{m}\\
-		Trasmittanza & \num{1.38} & \si{W/m^2K}\\
-		Trasmittanza termica periodica & \num{0.35} & \si{W/m^2K}\\
+		Trasmittanza & \num{1.38} & \trasm\\
+		Trasmittanza termica periodica & \num{0.35} & \trasm\\
 		\bottomrule
 	\end{tabular}
 \end{center}
+\clearpage
 \subsection{Componenti trasparenti}
 Tutti gli infissi risultano essere ancora quelli originali.\\ 
-Tutti componenti trasparenti sono stati modellati usando gli stessi dati termo-fisici differenziandoli solo per quelli geometrici. 
-Il telaio è metallico senza taglio termico con un'unica lastra trasparente (spessore di \n{4}{mm} senza alcun trattamento superficiale). Pertanto la trasmittanza globale del componente (ovvero la $U_g$) vale \n{5.76}{W/m^2K}.
+Per la loro modellazione sono stati usati gli stessi dati termo-fisici ($U_g$, $U_f$ e $U_w$) mentre sono stati differenziati solo geometricamente.
+Il telaio è metallico senza taglio termico con un'unica lastra trasparente (spessore di \n{4}{mm} senza alcun trattamento superficiale).
+
+Questi i risultati:
+\begin{center}
+	\begin{tabular}{lcc}
+		\toprule
+		$U_g$ & \num{5.747} & \multirow{3}*{\trasm}\\
+		$U_f$ & \num{5.800} &\\
+		$U_g$ & \num{5.760} &\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 
 Si vogliono, comunque, presentare i vari infissi in quanto sono stati modellati all'interno del software BIM.
 \subsubsection{FINESTRA P}
