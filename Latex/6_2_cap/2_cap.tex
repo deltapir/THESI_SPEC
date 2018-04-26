@@ -385,7 +385,35 @@ Di \textbf{CYPE}, ovvero la suite, sono stati usati i seguenti programmi:
 Per quanto riguarda la parte idronica si è utilizzato un applicativo BIM della software-house \emph{C.A.T.S.} che si appoggia ad \emph{Autodesk Autocad}.
 
 È stato possibile definire inizialmente la tipologia di tubazioni da utilizzare (dimensioni, materiale e coibente), la metodologia di dimensionamento con le velocità minime ammissibili e poi disegnare direttamente in Autocad le tubazioni stesse posizionando le unità locali (radiatori e fancoil). Infine, l'applicativo ha dimensionato le tubazioni, rilasciato il computo metrico e la relazione di calcolo.
-\clearpage
+
+L'edificio è stato suddiviso in 5 zone termiche:
+\begin{itemize}
+	\item \textbf{V Piano};
+	\item \textbf{UTIC};
+	\item \textbf{Emodinamica};
+	\item \textbf{Corpo A} (escluse le zone del V Piano, UTIC e Emodinamica);
+	\item \textbf{Corpo C};
+	\item \textbf{Radiatori}: ovvero tutti i servizi igienici del Corpo A. 
+\end{itemize}
+È necessario spiegare il motivo di questa suddivisione.
+
+Innanzitutto le prime tre zone termiche sono state separate dal resto del Corpo A in quanto era interessante conoscere il carico termico della sola parte del Corpo A stesso oggetto dell'intervento.
+
+Per quanto riguarda la zona \emph{Radiatori}, è sbagliato dal punto di vista termico considerarla esclusa dal resto del Corpo A in quanto non sono due zone termiche distinte. Questa forzatura è stata necessaria in quanto dai risultati ottenuti non era possibile scindere i carichi sensibili dei servizi igienici dal resto dell'edificio. Siccome i radiatori verranno posizionati solo nei servizi igienici, era interessante conoscere, quindi, il carico termico dei soli servizi igienici per poi dimensionare adeguatamente l'impianto a suo servizio. 
 \subsection{Stagione Estiva}
-Inserisci sia le variazioni dei carichi termici e dell'indice di prestazione energetica.
+Questi sono i carichi termici dello stato di fatto dell'Edificio 2.
+\begin{center}
+	\begin{tabular}{lcccccc}
+		\toprule
+		Zona Termica 	& Superficie [\si{m^2}]		& Portata Ventilazione [\si{l/s}]	& Latente [\si{W}]	& Sensibile [\si{W}]	& Totale [\si{W/m^2}]	& Totale [\si{W}]\\
+		\midrule
+		Radiatori		& \num{291.1}				& ---								& ---				& ---					& ---					& ---\\
+		V Piano			& \num{696.7}				& CONTROLLA							& ---				& \num{32728}			& \num{46.97}			& \num{32728}\\
+		UTIC			& \num{145.7}				& CONTROLLA							& ---				& \num{8274}			& \num{63.40}			& \num{9241}\\
+		Emodinamica		& \num{164.4}				& CONTROLLA							& ---				& \num{14520} 			& \num{102.5}			& \num{14520}\\
+		Corpo C			& \num{529.2}				& \num{2438}						& \num{37616}		& \num{106176}			& \num{271.7}			& \num{143792}\\
+		Corpo A			& \num{2352.2}				& \num{4107}						& \num{72586}		& \num{246020}			& \num{135.5}			& \num{318605}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 \subsection{Stagione Invernale}
