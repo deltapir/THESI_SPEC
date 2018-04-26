@@ -348,7 +348,7 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 	\end{tabular}
 \end{center}
 \section{L'impianto}
-L'impianto dell'Edificio 2 è attualmente caratterizzato da una sottocentrale, presente nel piano \num{-1}, la quale alimenta varie unità locali (radiatori e fancoil) e UTA .
+L'impianto dell'Edificio 2 è attualmente caratterizzato da una sottocentrale, presente nel piano \num{-1}, la quale alimenta varie unità locali (radiatori e fancoil) e UTA.
 
 Nel primo capitolo è già stato ampiamente detto che i vari edifici del Policlinico sfruttano la rete di presidio di acqua surriscaldata e refrigerata.
 
@@ -359,9 +359,32 @@ Il quinto piano è gestito da un adeguato impianto a tutt'aria presente in coper
 In una porzione del primo piano vi è l'UTIC (Unità di Terapia Intensiva Coronarica) che è trattata da un altro impianto a tutt'aria montato in un locale dello stesso piano. L'UTA dell'Emodinamica (Piano Terra) con la relativa centrale termo-frigorifera è presente all'esterno.
 
 Queste tre unità (UTIC, Emodinamica e Blocco Operatorio) sono esenti dall'intervento di riqualificazione energetica.
-
-
 \section{I risultati energetici}
+L'analisi di carichi e fabbisogni energetici è stata effettuata con l'ausilio di softwares basati sulla tecnologia \bim.
+
+Il \bim\ (\emph{Building Information Modelling}) è un metodo che, citando da \textit{Wikipedia.it}, permette:
+\begin{quote}
+	 \dots l'ottimizzazione della pianificazione, realizzazione e gestione di costruzioni tramite aiuto di un software. Tramite esso tutti i dati rilevanti di una costruzione possono essere raccolti, combinati e collegati digitalmente. La costruzione virtuale è visualizzabile inoltre come un modello geometrico tridimensionale.
+\end{quote}
+Si sta lavorando a livello Europeo affinché questa metodologia di progettazione possa avere una sua definizione. Al giorno d'oggi, infatti, il BIM viene frainteso con una qualche sorta di tecnologia o addirittura software: niente di più sbagliato. Gli applicativi basati sulla \emph{filosofia del BIM} hanno delle peculiarità che li differenziano in modo marcato dagli altri. Infatti in un programma BIM un oggetto (per esempio un edificio) viene rappresentato tridimensionalmente perché disegnato da un architetto ma ogni parte di questo edificio contiene delle informazioni utili ad uno strutturista (ovvero tipologia del materiale usato per un muro o anche le sue caratteristiche fisiche). Continuando in questa direzione, altre informazioni che è possibile inserire in questo edificio (o file) sono le caratteristiche termiche dell'involucro (opaco e trasparente), il disegno/progettazione dei vari impianti (idraulici, aeraulici e elettrici). Una volta inserite tutte queste informazioni è possibile ricavare dei dati molto preziosi. Per esempio il carico termico nella stagione estiva/invernale, il computo metrico del materiale utilizzato, etc\dots
+
+Tutte queste informazioni sono presenti all'interno di un unico file. E siccome il file è unico, viene incentivata la cooperazione tra i diversi professionisti. Addirittura è possibile lavorare contemporaneamente su quest'unico file in modo tale che una modifica di una parte del progetto si ripercuote automaticamente sugli altri aspetti progettuali in cosicché le altre figure professionali vengono automaticamente avvertite di suddetta modifica. Questo si traduce in una maggiore velocità di esecuzione, una sostanziale diminuzione di errori e costi di progettazione.
+
+Citando dal sito della ACCA:
+\begin{quote}
+	Grazie alla metodologia del BIM l'edificio viene "costruito" prima della sua realizzazione fisica, mediante un modello virtuale, attraverso la collaborazione ed i contributi di tutti gli attori coinvolti nel progetto (architetti, ingegneri, progettisti, consulenti, analisti energetici, etc\dots).
+\end{quote}
+Nello studio di riqualificazione energetica in questione, il programma utilizzato è costituito da una suite di applicativi diversi che si interfacciano in modo tale da realizzare quella che la metodologia BIM impone.
+
+Di \textbf{CYPE}, ovvero la suite, sono stati usati i seguenti programmi:
+\begin{description}
+	\item[IFC Builder]permette di disegnare geometricamente l'edificio definendo di volta in volta i suoi elementi (involucro opaco e trasparente, locali e zone termiche). Il file \textsc{.ifc} realizzato permette di essere esportato e utilizzato da qualsiasi altro programma che supporta questo file. Il formato \texttt{.ifc} è aperto, libero e ben documentato. In parole povere: questo file è alla base del BIM in quanto permette la cooperazione tra diversi programmi (ovvero figure professionali);
+	\item[CYPETHERM Loads]permette di definire le caratteristiche termo-fisiche dell'involucro e la destinazione d'uso dei locali importati nel file \texttt{.ifc}. Restituisce i carichi termici (annuali, mensili e orari) per ogni locale delle zone termiche. Una volta ottenuti i risultati è possibile esportarli in modo tale che qualsiasi altro programma della suite CYPE possa utilizzarli;
+	\item[CYPETHERM HVAC]permette di importare i file realizzati con IFC Builder e Loads e progettare/dimensionare un'adeguata rete aeraulica per la ventilazione;
+\end{description}
+Per quanto riguarda la parte idronica si è utilizzato un applicativo che si appoggia ad \emph{Autodesk Autocad}, basato sempre sul
+
+
 \subsection{Stagione Estiva}
 Inserisci sia le variazioni dei carichi termici e dell'indice di prestazione energetica.
 \subsection{Stagione Invernale}
