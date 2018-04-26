@@ -29,11 +29,11 @@
 \contentsline {subsubsection}{Cucina}{23}
 \contentsline {subsubsection}{Ufficio}{23}
 \contentsline {section}{\numberline {2.4}L'impianto}{24}
-\contentsline {section}{\numberline {2.5}I risultati energetici}{24}
-\contentsline {subsection}{\numberline {2.5.1}Stagione Estiva}{24}
-\contentsline {subsection}{\numberline {2.5.2}Stagione Invernale}{24}
-\contentsline {chapter}{\numberline {3}La descrizione del bando}{25}
-\contentsline {chapter}{\numberline {4}Lo stato di progetto}{26}
-\contentsline {chapter}{Bibliografia}{27}
-\contentsline {chapter}{Elenco delle figure}{28}
-\contentsline {chapter}{Elenco delle tabelle}{29}
+\contentsline {section}{\numberline {2.5}I risultati energetici}{25}
+\contentsline {subsection}{\numberline {2.5.1}Stagione Estiva}{25}
+\contentsline {subsection}{\numberline {2.5.2}Stagione Invernale}{25}
+\contentsline {chapter}{\numberline {3}La descrizione del bando}{26}
+\contentsline {chapter}{\numberline {4}Lo stato di progetto}{27}
+\contentsline {chapter}{Bibliografia}{28}
+\contentsline {chapter}{Elenco delle figure}{29}
+\contentsline {chapter}{Elenco delle tabelle}{30}
