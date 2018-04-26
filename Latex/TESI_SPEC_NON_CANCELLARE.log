@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  26 APR 2018 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  26 APR 2018 18:24
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1863,12 +1863,14 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
  [21] [22] [23] [24] [25]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 381.
-) [26]
+ [26]) [27
+
+]
 \openout2 = `6_3_cap/3_cap.aux'.
 
  (6_3_cap/3_cap.tex
 Capitolo 3.
-) [27
+) [28
 
 
 
@@ -1877,14 +1879,15 @@ Capitolo 3.
 
  (6_4_cap/4_cap.tex
 Capitolo 4.
-) [28
+) [29
 
 
 
 ]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [29
+ (8_biblio/biblio.tex) [30
+
 
 
 ]
@@ -1895,7 +1898,7 @@ Capitolo 4.
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [30
+) [31
 
 
 ]
@@ -1906,13 +1909,13 @@ Capitolo 4.
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [31
+) [32
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [32
+ (10_dedfinale/dedfinale.tex) [33
 
 
 ]
@@ -1923,10 +1926,10 @@ Capitolo 4.
 (8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux)) ) 
 Here is how much of TeX's memory you used:
- 36873 strings out of 493323
- 874579 string characters out of 3139025
- 1103077 words of memory out of 3000000
- 39738 multiletter control sequences out of 15000+200000
+ 36874 strings out of 493323
+ 874589 string characters out of 3139025
+ 1104077 words of memory out of 3000000
+ 39739 multiletter control sequences out of 15000+200000
  663803 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,96p,10398b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1946,9 +1949,9 @@ ts/type1/public/libertine/LinLibertineMT.pfb><C:/Program Files/MiKTeX 2.9/fonts
 pe1/public/libertine/LinLibertineTB.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/libertine/LinLibertineTBI.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/libertine/LinLibertineTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (33 pages, 675372 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (34 pages, 676295 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
