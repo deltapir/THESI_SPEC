@@ -399,21 +399,39 @@ L'edificio è stato suddiviso in 5 zone termiche:
 
 Innanzitutto le prime tre zone termiche sono state separate dal resto del Corpo A in quanto era interessante conoscere il carico termico della sola parte del Corpo A stesso oggetto dell'intervento.
 
-Per quanto riguarda la zona \emph{Radiatori}, è sbagliato dal punto di vista termico considerarla esclusa dal resto del Corpo A in quanto non sono due zone termiche distinte. Questa forzatura è stata necessaria in quanto dai risultati ottenuti non era possibile scindere i carichi sensibili dei servizi igienici dal resto dell'edificio. Siccome i radiatori verranno posizionati solo nei servizi igienici, era interessante conoscere, quindi, il carico termico dei soli servizi igienici per poi dimensionare adeguatamente l'impianto a suo servizio. 
+Per quanto riguarda la zona \emph{Radiatori}, è effettivamente sbagliato dal punto di vista termico considerarla esclusa dal resto del Corpo A in quanto non sono due zone termiche distinte. Questa forzatura è stata necessaria in quanto dai risultati ottenuti non era possibile scindere i carichi sensibili dei servizi igienici dal resto dell'edificio. Siccome i radiatori verranno posizionati solo nei servizi igienici, era interessante conoscere, quindi, il carico termico dei soli servizi igienici per poi dimensionare adeguatamente l'impianto a suo servizio. 
 \subsection{Stagione Estiva}
-Questi sono i carichi termici dello stato di fatto dell'Edificio 2.
+I carichi termici dello stato di fatto dell'Edificio 2.
 \begin{center}
+	\small
 	\begin{tabular}{lcccccc}
 		\toprule
-		Zona Termica 	& Superficie [\si{m^2}]		& Portata Ventilazione [\si{l/s}]	& Latente [\si{W}]	& Sensibile [\si{W}]	& Totale [\si{W/m^2}]	& Totale [\si{W}]\\
+		\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& Latente 			& Sensibile 			& Totale				& Totale \\
+									& [\si{m^2}]		& [\si{l/s}]					& [\si{W}]			& [\si{W}]				&  [\si{W/m^2}] 		& [\si{W}]\\
 		\midrule
 		Radiatori		& \num{291.1}				& ---								& ---				& ---					& ---					& ---\\
-		V Piano			& \num{696.7}				& CONTROLLA							& ---				& \num{32728}			& \num{46.97}			& \num{32728}\\
-		UTIC			& \num{145.7}				& CONTROLLA							& ---				& \num{8274}			& \num{63.40}			& \num{9241}\\
-		Emodinamica		& \num{164.4}				& CONTROLLA							& ---				& \num{14520} 			& \num{102.5}			& \num{14520}\\
+		V Piano			& \num{696.7}				& \num{16721}						& ---				& \num{32728}			& \num{46.97}			& \num{32728}\\
+		UTIC			& \num{145.7}				& \num{3496.8}						& ---				& \num{8274}			& \num{63.40}			& \num{9241}\\
+		Emodinamica		& \num{164.4}				& \num{4046.4}						& ---				& \num{14520} 			& \num{102.5}			& \num{14520}\\
 		Corpo C			& \num{529.2}				& \num{2438}						& \num{37616}		& \num{106176}			& \num{271.7}			& \num{143792}\\
 		Corpo A			& \num{2352.2}				& \num{4107}						& \num{72586}		& \num{246020}			& \num{135.5}			& \num{318605}\\
 		\bottomrule
 	\end{tabular}
 \end{center}
 \subsection{Stagione Invernale}
+\begin{center}
+	\small
+	\begin{tabular}{lcccc}
+		\toprule
+		\multirow{2}*{Zona Termica} & Superficie 		& Trasmissione 					& Ventilazione 	 			& Totale		\\
+									& [\si{m^2}]		& [\si{W}]						& [\si{l/s}]				& [\si{kW}]		\\
+		\midrule
+		Radiatori					& \num{291.1}		& \num{12.5}					& ---						& \num{12.5}	\\
+		V Piano						& \num{696.7}		& \num{38358}					& \num{16721}				& \num{38.4}	\\
+		UTIC						& \num{145.7}		& \num{2290}					& \num{3496.8}				& \num{2.30}	\\
+		Emodinamica					& \num{164.4}		& \num{6486}					& \num{4046.4}				& \num{6.49} 	\\
+		Corpo C						& \num{529.2}		& \num{24255}					& \num{55548}				& \num{79.8}	\\
+		Corpo A						& \num{2352.2}		& \num{43740}					& \num{79136}				& \num{122.9}	\\
+		\bottomrule
+	\end{tabular}
+\end{center}
