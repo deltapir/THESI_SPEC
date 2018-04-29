@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  28 APR 2018 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  29 APR 2018 19:32
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1603,7 +1603,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 (TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
 (1_dedica/dedica.aux) (3_indicegenerale/indicegenerale.aux)
 (2_sommario/sommario.aux) (9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux)
-(6_2_cap/2_cap.aux) (6_3_cap/3_cap.aux) (6_4_cap/4_cap.aux)
+(6_3_cap/3_cap.aux) (6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux)
 (8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux))
 \openout1 = `TESI_SPEC_NON_CANCELLARE.aux'.
@@ -1859,60 +1859,62 @@ Overfull \hbox (1.25175pt too wide) in paragraph at lines 180--181
  []
 
 [12]) [13]
+\openout2 = `6_3_cap/3_cap.aux'.
+
+ (6_3_cap/3_cap.tex
+Capitolo 2.
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
+ on input line 6.
+("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\t1linuxlibertinemonot-tlf.fd"
+File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
+1/LinuxLibertineMonoT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 6.
+) [14
+
+
+
+]
 \openout2 = `6_2_cap/2_cap.aux'.
 
  (6_2_cap/2_cap.tex
-Capitolo 2.
-[14
+Capitolo 3.
+[15
 
 
 
 ]
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 18.
- <6_2_cap/img/piano_terra.png, id=63, 953.06062pt x 647.41875pt>
+ <6_2_cap/img/piano_terra.png, id=67, 953.06062pt x 647.41875pt>
 File: 6_2_cap/img/piano_terra.png Graphic file (type png)
 
 <use 6_2_cap/img/piano_terra.png>
 Package pdftex.def Info: 6_2_cap/img/piano_terra.png used on input line 41.
 (pdftex.def)             Requested size: 592.0pt x 402.16602pt.
- [15
+ [16
 
-] [16 <./6_2_cap/img/piano_terra.png>]
-[17] [18] [19] [20
+] [17 <./6_2_cap/img/piano_terra.png>]
+[18] [19] [20] [21
 
-]
-LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
- on input line 223.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\t1linuxlibertinemonot-tlf.fd"
-File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
-1/LinuxLibertineMonoT-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 223.
- [21] [22] [23] [24] [25] [26]) [27]
-\openout2 = `6_3_cap/3_cap.aux'.
-
- (6_3_cap/3_cap.tex
-Capitolo 3.
-) [28
-
-
-
-]
+] [22] [23] [24] [25] [26] [27] [28]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 419.
+ [29] [30]) [31]
 \openout2 = `6_4_cap/4_cap.aux'.
 
- (6_4_cap/4_cap.tex
+
+(6_4_cap/4_cap.tex
 Capitolo 4.
-) [29
+) [32
 
 
 
 ]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [30
+ (8_biblio/biblio.tex) [33
 
 
 
@@ -1924,7 +1926,7 @@ Capitolo 4.
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [31
+) [34
 
 
 ]
@@ -1935,28 +1937,28 @@ Capitolo 4.
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [32
+) [35
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [33
+ (10_dedfinale/dedfinale.tex) [36
 
 
 ]
 (TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
 (1_dedica/dedica.aux) (3_indicegenerale/indicegenerale.aux)
 (2_sommario/sommario.aux) (9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux)
-(6_2_cap/2_cap.aux) (6_3_cap/3_cap.aux) (6_4_cap/4_cap.aux)
+(6_3_cap/3_cap.aux) (6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux)
 (8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux)) ) 
 Here is how much of TeX's memory you used:
- 36965 strings out of 493323
- 875822 string characters out of 3139025
- 1104077 words of memory out of 3000000
- 39825 multiletter control sequences out of 15000+200000
- 668031 words of font info for 108 fonts, out of 3000000 for 9000
+ 36969 strings out of 493323
+ 875921 string characters out of 3139025
+ 1103077 words of memory out of 3000000
+ 39829 multiletter control sequences out of 15000+200000
+ 673593 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,96p,10398b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lib
@@ -1975,9 +1977,9 @@ ts/type1/public/libertine/LinLibertineMT.pfb><C:/Program Files/MiKTeX 2.9/fonts
 pe1/public/libertine/LinLibertineTB.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/libertine/LinLibertineTBI.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/libertine/LinLibertineTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (34 pages, 686580 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (37 pages, 715799 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

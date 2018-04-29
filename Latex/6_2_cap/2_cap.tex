@@ -55,7 +55,7 @@ L'edificio 2 preserva tutte le opere edili e impiantistiche realizzate all'epoca
 \section{L'involucro}
 L'involucro dell'Edificio 2, sia quello opaco che quello trasparente, non è cambiato in questi anni quindi non ci sono differenze con le stratigrafie indicate dall'\tit{Ing.}{Corrado Beguinot}.
 
-Si passa ora a descrivere i componenti (opachi e trasparenti) utilizzati come dati di input per il calcolo del fabbisogno energetico e del carico termico (estivo e invernale) dell'edificio stesso.
+Segue, quindi, la descrizione numerica dei componenti (opachi e trasparenti) utilizzati come dati di input per il calcolo del fabbisogno energetico e del carico termico (estivo e invernale) dell'edificio stesso.
 \subsection{Componenti opachi}
 \subsubsection{MURO EXT}
 È il componente esterno delle facciate maggiori del Corpo A. \\È caratterizzato esternamente da blocchi di silicalcite alternati dagli infissi. \\Questa tipologia di muro è fittizia poiché si è modellato un componente che nella realtà è caratterizzata da una diversa stratigrafia in senso verticale. Dal punto di vista numerico, quindi, si è effettuata una media ponderale delle varie caratteristiche termo-fisiche in modo tale che il risultato finale sia quanto più possibile veritiero. La parte inferiore è costituita semplicemente da un mattone forato da \n{10}{cm} intonacato internamente ed esternamente; la parte superiore, invece, è caratterizzata dai blocchi di silicalcite. \\ La stratigrafia della parte superiore è (dall'interno verso l'esterno):
@@ -216,10 +216,10 @@ Si elencano ora i vari infissi utilizzati all'interno del modello dell'edificio:
 	\item \textbf{PT-Alta Corpo Basso} \n{1.60x0.35}{m}.\\ È il lucernario di ogni modulo caratterizzante i Corpi B, C, D ed E. 
 \end{itemize}
 
-\subsection{Definizione locali (norma 10339)}
-Il carico termico di un edificio non tiene conto solamente dell'ambiente esterno (temperatura e umidità tutto l'anno mentre la radiazione solare solo in estate). È molto importante considerare la destinazione d'uso del locale che si intende climatizzare. Pertanto sono stati individuati le tipologie di locali e per ognuno di essi si sono definiti i seguenti parametri:
+\subsection{Definizione locali}
+Il carico termico di un edificio (come anche il suo fabbisogno energetico) non tiene conto solamente dell'ambiente esterno (temperatura e umidità tutto l'anno mentre la radiazione solare solo in estate). È molto importante considerare la destinazione d'uso del locale che si intende climatizzare. Pertanto sono stati individuati le tipologie di locali e per ognuno di essi si sono definiti i seguenti parametri:
 \begin{itemize}
-	\item \emph{Temperatura} e \emph{umidità relativa} di progetto nella stagione estiva e invernale. Una loro adeguata scelta in fase progettuale e poi un loro mantenimento ad impianto ultimato e perfettamente funzionante è alla base del benessere di una persona che vive in un locale;
+	\item \emph{Temperatura} e \emph{umidità relativa} di progetto nella stagione estiva e invernale. Una loro adeguata scelta in fase progettuale e poi un loro mantenimento ad impianto ultimato e perfettamente funzionante sono alla base del benessere di una persona che vive in un locale;
 	\item La \emph{portata di rinnovo} dalla norma \norvent. Rappresenta la quantità di aria esterna che si suppone essere priva di agenti nocivi per l'uomo e che è necessario introdurre all'interno dell'ambiente da climatizzare per mantenere entro certi limiti la qualità, appunto, dell'aria;
 	\item Gli \emph{apporti interni di calore}:
 	\begin{itemize}
@@ -352,7 +352,7 @@ L'impianto dell'Edificio 2 è attualmente caratterizzato da una sottocentrale, p
 
 Nel primo capitolo è già stato ampiamente detto che i vari edifici del Policlinico sfruttano la rete di presidio di acqua surriscaldata e refrigerata.
 
-Partendo dal lato utenza, il carico sensibile invernale viene coperto da radiatori (\texttt{INSERISCI FOTO}) e fancoil presenti all'interno di ogni piano. Il carico estivo (sia sensibile che latente) invece viene coperto da monosplit e fancoil ad acqua montati negli ultimi anni durante varie ristrutturazioni (come nel caso del terzo e quarto piano). In questi due piani vi è anche una rete aeraulica per il rinnovo dell'aria. Nonostante la presenza di questi impianti non vengono garantiti l'adeguato recupero energetico dall'impianto di ventilazione e il controllo termo-igrometrico dai fancoil e radiatori. Queste carenze sono evidenti nell'eccessivo ricorso a split per il controllo della temperatura (e in modo indiretto dell'umidità) durante la stagione estiva. È evidente la necessità di una riqualificazione. Negli altri 3 piani la ventilazione è garantita tramite infiltrazione naturale (ovvero apertura delle finestre di piano) mentre è assente del tutto il controllo termo-igrometrico nella stagione estiva.
+Partendo dal lato utenza, il carico sensibile invernale viene coperto da radiatori (\texttt{INSERISCI FOTO}) e fancoil (solo nel IV e III piano) presenti all'interno di ogni piano. Il carico estivo (sia sensibile che latente) invece viene coperto da monosplit e fancoil ad acqua montati negli ultimi anni durante varie ristrutturazioni (come nel caso del terzo e quarto piano). In questi due piani vi è anche una rete aeraulica per il rinnovo dell'aria. Nonostante la presenza di questi impianti non vengono garantiti l'adeguato recupero energetico dall'impianto di ventilazione e il controllo termo-igrometrico dai fancoil e radiatori. Queste carenze sono evidenti nell'eccessivo ricorso a split per il controllo della temperatura (e in modo indiretto dell'umidità) durante la stagione estiva. È evidente la necessità di una riqualificazione. Negli altri 3 piani la ventilazione è garantita tramite infiltrazione naturale (ovvero apertura delle finestre di piano) mentre è assente del tutto il controllo termo-igrometrico nella stagione estiva.
 
 Il quinto piano (in cui è presente il blocco operatorio di cardiochirurgia) è gestito da un adeguato impianto a tutt'aria presente in copertura.
 
@@ -366,7 +366,7 @@ Il \bim\ (\emph{Building Information Modelling}) è un metodo che, citando da \t
 \begin{quote}
 	 \dots l'ottimizzazione della pianificazione, realizzazione e gestione di costruzioni tramite aiuto di un software. Tramite esso tutti i dati rilevanti di una costruzione possono essere raccolti, combinati e collegati digitalmente. La costruzione virtuale è visualizzabile inoltre come un modello geometrico tridimensionale.
 \end{quote}
-Si sta lavorando a livello Europeo affinché questa metodologia di progettazione possa avere una sua definizione. Al giorno d'oggi, infatti, il BIM viene frainteso con una qualche sorta di tecnologia o addirittura software: niente di più sbagliato. Gli applicativi basati sulla \emph{filosofia del BIM} hanno delle peculiarità che li differenziano in modo marcato dagli altri. Infatti in un programma BIM un oggetto (per esempio un edificio) viene rappresentato tridimensionalmente perché disegnato da un architetto ma ogni parte di questo edificio contiene delle informazioni utili ad uno strutturista (ovvero tipologia del materiale usato per un muro o anche le sue caratteristiche fisiche). Continuando in questa direzione, altre informazioni che è possibile inserire in questo edificio (o file) sono le caratteristiche termiche dell'involucro (opaco e trasparente), il disegno/progettazione dei vari impianti (idraulici, aeraulici e elettrici). Una volta inserite tutte queste informazioni è possibile ricavare dei dati molto preziosi. Per esempio il carico termico nella stagione estiva/invernale, il computo metrico del materiale utilizzato, etc\dots
+Si sta lavorando a livello Europeo affinché questa metodologia di progettazione possa avere una sua definizione. Al giorno d'oggi, infatti, il BIM viene frainteso con una qualche sorta di tecnologia o addirittura software: niente di più sbagliato. Gli applicativi basati sulla \emph{filosofia del BIM} hanno delle peculiarità che li differenziano in modo marcato dagli altri. Infatti in un programma BIM un oggetto (per esempio un edificio) viene rappresentato tridimensionalmente perché disegnato da un architetto ma ogni parte di questo edificio contiene delle informazioni utili ad uno strutturista (ovvero tipologia del materiale usato per un muro o anche le sue caratteristiche fisiche). Continuando in questa direzione, altre informazioni che è possibile inserire in questo edificio (o file) sono le caratteristiche termiche dell'involucro (opaco e trasparente), il disegno/progettazione dei vari impianti (idraulici, aeraulici e elettrici). Una volta inserite tutte queste informazioni è possibile ricavare dei dati molto preziosi. Per esempio il carico termico nella stagione estiva/invernale, il computo metrico del materiale utilizzato, fare stime e/o studi sulla vita utile dell'edificio, etc\dots
 
 Tutte queste informazioni sono presenti all'interno di un unico file. E siccome il file è unico, viene incentivata la cooperazione tra i diversi professionisti. Addirittura è possibile lavorare contemporaneamente su quest'unico file in modo tale che una modifica di una parte del progetto si ripercuote automaticamente sugli altri aspetti progettuali in cosicché le altre figure professionali vengono automaticamente avvertite di suddetta modifica. Questo si traduce in una maggiore velocità di esecuzione, una sostanziale diminuzione di errori e costi di progettazione.
 
@@ -374,13 +374,13 @@ Citando dal sito della ACCA:
 \begin{quote}
 	Grazie alla metodologia del BIM l'edificio viene "costruito" prima della sua realizzazione fisica, mediante un modello virtuale, attraverso la collaborazione ed i contributi di tutti gli attori coinvolti nel progetto (architetti, ingegneri, progettisti, consulenti, analisti energetici, etc\dots).
 \end{quote}
-Nello studio di riqualificazione energetica in questione, il programma utilizzato è costituito da una suite di applicativi diversi che si interfacciano in modo tale da realizzare quella che la metodologia BIM impone.
+Nello studio di riqualificazione energetica in questione, il programma utilizzato è costituito da una suite di applicativi diversi che si interfacciano in modo tale da realizzare ciò che la metodologia BIM impone.
 
 Di \textbf{CYPE}, ovvero la suite, sono stati usati i seguenti programmi:
 \begin{description}
 	\item[IFC Builder]permette di disegnare geometricamente l'edificio definendo di volta in volta i suoi elementi (involucro opaco e trasparente, locali e zone termiche). Il file \textsc{.ifc} realizzato permette di essere esportato e utilizzato da qualsiasi altro programma che supporta questo file. Il formato \textsc{.ifc} è aperto, libero e ben documentato. In parole povere: questo file è alla base del BIM in quanto permette la cooperazione tra diversi programmi (ovvero figure professionali);
-	\item[CYPETHERM Loads]permette di definire le caratteristiche termo-fisiche dell'involucro e la destinazione d'uso dei locali importati nel file \textsc{.ifc}. Restituisce i carichi termici (annuali, mensili e orari) per ogni locale delle zone termiche. Una volta ottenuti i risultati è possibile esportarli in modo tale che qualsiasi altro programma della suite CYPE possa utilizzarli;
-	\item[CYPETHERM HVAC]permette di importare i file realizzati con IFC Builder e Loads e progettare/dimensionare un'adeguata rete aeraulica per la ventilazione;
+	\item[CYPETHERM Loads]permette di definire le caratteristiche termo-fisiche dell'involucro e la destinazione d'uso dei locali importati dal file \textsc{.ifc}. Restituisce i carichi termici (annuali, mensili e orari) per ogni locale delle zone termiche. Una volta ottenuti i risultati è possibile esportarli in modo tale che qualsiasi altro programma della suite CYPE possa utilizzarli;
+	\item[CYPETHERM HVAC]permette di importare i file realizzati con IFC Builder e Loads e progettare/dimensionare un adeguato impianto HVAC per l'abbattimento del carico sensibile e latente oltre che per il rinnovo dell'aria;
 \end{description}
 Per quanto riguarda la parte idronica si è utilizzato un applicativo BIM della software-house \emph{C.A.T.S.} che si appoggia ad \emph{Autodesk Autocad}.
 
@@ -401,7 +401,53 @@ Innanzitutto le prime tre zone termiche sono state separate dal resto del Corpo 
 
 Per quanto riguarda la zona \emph{Radiatori}, è effettivamente sbagliato dal punto di vista termico considerarla esclusa dal resto del Corpo A in quanto non sono due zone termiche distinte. Questa forzatura è stata necessaria in quanto dai risultati ottenuti non era possibile scindere i carichi sensibili dei servizi igienici dal resto dell'edificio. Siccome i radiatori verranno posizionati solo nei servizi igienici, era interessante conoscere, quindi, il carico termico dei soli servizi igienici per poi dimensionare adeguatamente l'impianto a suo servizio. 
 \subsection{Stagione Estiva}
-I carichi termici dello stato di fatto dell'Edificio 2.
+Il calcolo del carico termico nella stagione estiva tiene conto non solo dei valori ambientali esterni di temperatura e umidità ma anche - e sopratutto aggiungerei - della radiazione solare.
+
+La radiazione solare rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare \underline{la struttura} di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
+
+Considerando un edificio sito a Napoli, dalla \norvent si hanno questi valori di temperatura esterna:
+\begin{itemize}
+	\item \n{2}{\degreeCelsius} per la stagione invernale;
+	\item \n{32}{\degreeCelsius} per la stagione estiva;
+\end{itemize}
+All'interno dell'edificio, invece, non si devono superare i \n{20}{\degreeCelsius} nella stagione invernale mentre in estate un buon livello di benessere si ottiene con \n{25}{\degreeCelsius}.
+
+È facile notare che, a parità di involucro (e quindi di trasmittanza termica), il salto termico è maggiore in inverno (\n{18}{\degreeCelsius}) che in estate (\n{7}{\degreeCelsius}). Da ciò potremmo concludere che l'involucro debba essere di tipo resistivo (bassa trasmittanza) per resistere, appunto, al forte gradiente termico che si instaura in inverno. 
+
+La realtà delle cose è ben diversa. Questo modo di procedere va molto bene nei Paesi del Nord Europa dove gli inverni sono molto rigidi (si scende tranquillamente sotto gli \n{0}{\degreeCelsius}) mentre le temperature estive sono confortevoli.
+
+Alle nostre latitudini (\ang{41}), invece, l'estate è rappresentata da temperature molto più elevate ma sopratutto da una radiazione solare incidente notevole: si raggiungono i \n{700}{W/m^2}. Il tutto si traduce in un aumento di temperatura delle superfici esposte al sole. Questo fenomeno non è per niente trascurabile. Infatti, nella valutazione del carico termico estivo si usa solitamente la \emph{temperatura sole-aria} (\si{t^'_e}): nell'ipotesi che il solo scambio esterno fosse per sola convezione, la suddetta temperatura è quella che genera la stessa potenza termica che nella realtà viene scambiata anche per irraggiamento.
+
+Per rendere l'idea di quanto l'irraggiamento giochi un ruolo cruciale in estate, questa \si{t^'_e} è pari a \n{61.6}{\degreeCelsius} il 21 Luglio (16:00) alle latitudini napoletane su una superficie esposta a Ovest quando alla stessa ora la temperatura esterna è circa \n{34.4}{\degreeCelsius}. 
+
+Il problema vero e proprio nasce con i componenti trasparenti che permettono, come è risaputo, alla radiazione solare di entrare all'interno degli edifici.
+
+In questo caso si agisce, oltre che sulla trasmittanza globale dell'infisso, anche trattando superficialmente il vetro dell'infisso stesso in modo tale da ottenere superfici che permettano di far entrare all'interno dell'edificio solo una parte della radiazione solare.
+
+Famosi sono i vetri \emph{bassoemissivi} che risultano opachi alla radiazione infrarossa che le attraversa dall'interno verso l'esterno. Questo permette, durante la stagione invernale, di non far uscire verso l'esterno la radiazione infrarossa e, quindi, di risparmiare sul riscaldamento. 
+
+Sempre per la stagione invernale, sono stati studiati i cosiddetti vetri a \emph{guadagno solare} che si fanno facilmente attraversare dalla radiazione solare. 
+
+Esistono poi i vetri a \emph{controllo solare} che si dividono in: \emph{selettivi}, \emph{riflettenti} e \emph{assorbenti}. Siccome la prestazione di una superficie qualunque che scambia calore per irraggiamento è riassumibile nei tre valori
+\begin{center}
+	$\alpha + \tau + \rho = 1$
+\end{center}
+i tre vetri vengono trattati superficialmente in modo tale da far variare di volta in volta i tre coefficienti e ottenere, quindi, prestazioni differenti.
+
+Per esempio, un vetro \emph{selettivo} avrà un elevato valore di $\tau$ in corrispondenza delle onde visibili della radiazione solare per poi annullarsi in corrispondenza del vicino infrarosso.
+
+Il vetro \emph{riflettente} avrà, come già il nome suggerisce, un elevato valore della riflessività nel visibile: ad occhio nudo si comportano come degli specchi.
+
+Infine, il vetro \emph{assorbente} ha un elevato valore di $\alpha$ nel visibile: ciò si traduce con un vetro apparentemente scuro. La problematica di questo trattamento risiede nel fatto che assorbendo la radiazione solare, il vetro tende a riscaldarsi in poco tempo e quindi trasmettere verso l'interno un'aliquota della radiazione solare incidente sulle onde dell'infrarosso: immaginando una parete vetrata di questa tipologia, in poco tempo è come avere una parete radiante che annulla totalmente i benefici di un trattamento per il \emph{controllo solare} estivo. Quindi, un vetro di questo genere viene sempre accoppiato con uno basso-emissivo in modo tale che la radiazione emessa dalla lastra assorbente viene bloccata da quella basso-emissiva. Ovviamente una configurazione di questo genere viene montata in modo tale che il vetro a controllo solare sia posto esternamente.
+ 
+Da tutto ciò discendono queste conclusioni (o modi di progettare l'edificio):
+\begin{itemize}
+	\item In inverno è molto importante avere una trasmittanza bassa per limitare lo scambio termico con l'esterno (sia per i componenti opachi che trasparenti). I componenti trasparenti, inoltre, per migliorare il guadagno solare (ovvero permettere alla radiazione solare di entrare negli edifici diminuendo il carico termico da abbattere con gli impianti) dovrebbero venir posizionati in maniera rilevante sopratutto sulle superfici esposte a sud;
+	\item In estate i componenti opachi dovrebbero avere una elevata \emph{trasmittanza termica periodica} in modo tale che l'onda di calore dovuta alla radiazione solare incidente la parete venga attenuta e sfasata opportunamente. I componenti trasparenti dovrebbero essere limitati, se non addirittura assenti, sulle superfici esposte a est e ovest. A sud il problema dell'ingresso di radiazione solare tramite il vetro a guadagno solare viene risolto posizionando esternamente tendine o coperture: il sole in estate risulta, come è ben noto, più alto sulla volta celeste mentre è più basso in inverno. 
+	\item A nord il componente trasparente non deve essere presente o, al limite, lo si sceglie del tipo \emph{basso-emissivo} per contenere le dispersioni di radiazione infrarossa. 
+\end{itemize}
+
+I carichi termici dello stato di fatto dell'Edificio 2. \texttt{CONTROLLA I VALORI}
 \begin{center}
 	\small
 	\begin{tabular}{lcccccc}
@@ -419,6 +465,7 @@ I carichi termici dello stato di fatto dell'Edificio 2.
 	\end{tabular}
 \end{center}
 \subsection{Stagione Invernale}
+\texttt{CONTROLLA I VALORI}
 \begin{center}
 	\small
 	\begin{tabular}{lcccc}
