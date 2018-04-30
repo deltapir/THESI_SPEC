@@ -6,7 +6,77 @@
 	Parla pure dei softwares usati.\\ Vedi di inserire in questo capitolo la descrizione dei software e della fisica}\\
 \vspace{2cm}
 
-L'essere umano ha il continuo desiderio di vivere un luogo in condizioni termo-igrometriche perfette.
+L'essere umano ha il continuo desiderio di vivere un luogo in condizioni termo-igrometriche perfette. 
+
+La teoria che si cela dietro l'attributo \emph{termo-igrometrico} è alla base della climatizzazione degli edifici.
+
+Cosa si intende per \emph{climatizzazione}? Un edificio si definisce climatizzato o un impianto è di climatizzazione quando vengono controllati questi valori ambientali:
+\begin{itemize}
+	\item Temperatura;
+	\item Umidità;
+	\item Qualità dell'aria mediante un suo ricambio.
+\end{itemize}
+Il controllo di questi tre valori permette di vivere, come già è stato detto, un ambiente in condizioni termo-igrometriche ottimali. E solo un impianto di climatizzazione (solitamente un UTA -- \emph{Unità di Trattamento dell'Aria}) propriamente detto permette di ottenere questi risultati. Se, per esempio, non viene garantito il ricambio dell'aria (ovvero non viene immessa in ambiente una certa portata di aria esterna), l'impianto non è di climatizzazione.
+
+La domanda successiva a cui bisogna dare una risposta è la seguente: \emph{quali sono le condizioni termo-igrometriche ottimali?}
+
+La risposta è complicata anche se alcuni progettisti termo-tecnici tenderebbero subito a rispondere: \n{25}{\degreeCelsius} col \n{40}{\%} in estate e \n{20}{\degreeCelsius} col \n{50}{\%} in inverno.
+
+In verità, per rispondere concretamente a questa domanda bisogna introdurre la teoria che è alla base della climatizzazione degli edifici. E per farlo si parte dal soggetto del primo periodo di questo capitolo: \emph{l'essere umano}.
+
+L'uomo, in quanto essere vivente, trasforma continuamente l'energia chimica presente negli alimenti in forme più consone al mantenimento in vita del proprio corpo e alla sua trasformazione: quest'attività prende il nome di \emph{metabolismo}.
+
+Questa continua trasformazione produce calore che risulta variabile in base all'attività svolta: stare seduto, camminare, correre, fare attività pesante e così via.
+
+Non è difficile concludere che, considerando l'essere umano come un sistema chiuso, questo calore prodotto produce un accrescimento della temperatura corporea. Idealmente fino all'infinito. Ovviamente, l'essere umano non è un sistema chiuso e questo calore interno deve essere smaltito in relazione alle condizioni climatiche dell'ambiente esterno e, contemporaneamente, deve garantire la temperatura interna corporea.
+
+In termini matematici il tutto si traduce in questo bilancio di potenze
+\begin{equation}
+	\label{bilanciocorpoumano}
+	S=M-W-E_d-E_{sw}-E_{ve}-C_{ve}-C-R-C_k
+\end{equation}
+dove:
+\begin{description}
+	\item[$S$]Variazione di energia del corpo umano nell'unità di tempo o accumulo di energia termica nell'unità di tempo;
+	\item[$M$]Potenza metabolica;
+	\item[$E_d$] Potenza termica dispersa per diffusione attraverso la pelle;
+	\item[$E_{sw}$] Potenza termica dispersa per sudorazione attraverso la pelle;
+	\item[$E_{ve}$] Potenza termica dispersa nella respirazione come "calore latente";
+	\item[$C_{ve}$] Potenza termica dispersa nella respirazione come "calore sensibile";
+	\item[$C$] Potenza termica dispersa per convezione;
+	\item[$R$] Potenza termica dispersa per irraggiamento;
+	\item[$C_k$] Potenza dispersa per conduzione;
+\end{description}
+È risaputo che nel caso in cui la temperatura esterna sia eccessivamente alta o bassa, il meccanismo termoregolatorio del corpo tenda rispettivamente a far sudare il corpo stesso o a provocare i brividi. Nel caso in cui questi due ultimi meccanismi non siano sufficienti a mantenere costante l'energia interna del corpo si ha l'\emph{ipertermia} (fino alla morte per danni reversibili alle proteine dei tessuti nervosi) o l'\emph{ipotermia} (fino alla morte per fibrillazione cardiaca).
+
+Quindi, è molto importante vivere in un ambiente che abbia delle condizioni termo-igrometriche tali da non provocare la morte prematura del proprio corpo.
+
+Il vero problema è che queste così agognate \emph{condizioni termo-igrometriche ideali} non sono universali. E il motivo risiede nel fatto che ogni persona è diversa dalle altre. Infatti, ognuno tende a vestirsi diversamente (ovvero cambia la resistenza termica che il corpo oppone verso l'esterno e contemporaneamente anche il suo fattore di vista nel caso dell'irraggiamento) ma sopratutto ognuno tende ad avere un'attività metabolica $M$ completamente diversa. È come se ogni persona desiderasse una propria temperatura. Ovviamente è praticamente impossibile realizzare una cosa del genere in un ambiente affollato.
+
+Citando da \emph{Impianti di climatizzazione per l'edilizia}:
+\begin{quote}
+	Perché ci sia comfort termico, una condizione necessaria è che l'energia interna del corpo umano non aumenti nè diminuisca, ovvero che sia nullo il termine di accumulo che nella \ref{bilanciocorpoumano} è indicato come $S$; per $S=0$ questa equazione diventa una relazione del tipo:
+	\begin{equation}
+	\label{bilanciocorpoumanoSnullo}
+		f(abbigliamento, attivit\grave{a}, t_a, v_a, \Phi, t_r, t_{sk}, E_{sw})=0
+	\end{equation}
+	che lega tra loro otto variabili: due legate al soggetto (abbigliamento e attività), quattro ambientali (temperatura $t_a$, velocità $v_a$ e umidità $\Phi$ dell'aria e temperatura media radiante $t_r$ -- ovvero temperatura di un ambiente fittizio termicamente uniforme che scambierebbe con l'uomo la stessa potenza termica radiante scambiata nell'ambiente reale) e due fisiologiche (temperatura della pelle $t_{sk}$ e potenza termica dispersa per sudorazione o percentuale di pelle bagnata dal sudore $E_{sw}$).
+	
+	In verità le due variabili fisiologiche non sono variabili independenti, ma dipendono con legge complessa dalle altre; 
+	
+	\sdots
+	
+	Secondo Fanger, perché siano verificate le condizioni di benessere, devono essere anche soddisfatte le due equazioni:
+	\begin{gather}
+	\label{Esw}
+		E_{sw}=0.42A_b[(M-W)/A_b-58.2]\\
+	\label{tsk}
+		t_{sk}=35.7-0.0275(M-W)/A_b
+	\end{gather}
+	cioè i valori di $E_{sw}$ e di $t_{sk}$ reali in condizioni di comfort termico sono quelli che si ottengono dalle due ora scritte in funzione dell'attività realmente svolta dal soggetto.
+	
+	In definitiva le possibili condizioni di benessere termico sono le combinazioni delle sei variabili indipendenti che soddisfano contemporaneamente le equazioni \ref{bilanciocorpoumanoSnullo}, \ref{Esw} e la \ref{tsk}.
+\end{quote}
 
 
 
