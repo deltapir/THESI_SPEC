@@ -378,7 +378,7 @@ Nello studio di riqualificazione energetica in questione, il programma utilizzat
 
 Di \textbf{CYPE}, ovvero la suite, sono stati usati i seguenti programmi:
 \begin{description}
-	\item[IFC Builder]permette di disegnare geometricamente l'edificio definendo di volta in volta i suoi elementi (involucro opaco e trasparente, locali e zone termiche). Il file \textsc{.ifc} realizzato permette di essere esportato e utilizzato da qualsiasi altro programma che supporta questo file. Il formato \textsc{.ifc} è aperto, libero e ben documentato. In parole povere: questo file è alla base del BIM in quanto permette la cooperazione tra diversi programmi (ovvero figure professionali);
+	\item[IFC Builder]permette di disegnare geometricamente l'edificio definendo di volta in volta i suoi elementi (involucro opaco e trasparente, locali e zone termiche). Il file \textsc{.ifc} realizzato permette di essere esportato e utilizzato da qualsiasi altro programma che supporta questo file. Il formato \textsc{.ifc} è aperto, libero e ben documentato. In parole povere: questo file è alla base del BIM in quanto permette la cooperazione tra diversi programmi (usati rispettivamente da diverse figure professionali);
 	\item[CYPETHERM Loads]permette di definire le caratteristiche termo-fisiche dell'involucro e la destinazione d'uso dei locali importati dal file \textsc{.ifc}. Restituisce i carichi termici (annuali, mensili e orari) per ogni locale delle zone termiche. Una volta ottenuti i risultati è possibile esportarli in modo tale che qualsiasi altro programma della suite CYPE possa utilizzarli;
 	\item[CYPETHERM HVAC]permette di importare i file realizzati con IFC Builder e Loads e progettare/dimensionare un adeguato impianto HVAC per l'abbattimento del carico sensibile e latente oltre che per il rinnovo dell'aria;
 \end{description}
@@ -401,51 +401,7 @@ Innanzitutto le prime tre zone termiche sono state separate dal resto del Corpo 
 
 Per quanto riguarda la zona \emph{Radiatori}, è effettivamente sbagliato dal punto di vista termico considerarla esclusa dal resto del Corpo A in quanto non sono due zone termiche distinte. Questa forzatura è stata necessaria in quanto dai risultati ottenuti non era possibile scindere i carichi sensibili dei servizi igienici dal resto dell'edificio. Siccome i radiatori verranno posizionati solo nei servizi igienici, era interessante conoscere, quindi, il carico termico dei soli servizi igienici per poi dimensionare adeguatamente l'impianto a suo servizio. 
 \subsection{Stagione Estiva}
-Il calcolo del carico termico nella stagione estiva tiene conto non solo dei valori ambientali esterni di temperatura e umidità ma anche - e sopratutto aggiungerei - della radiazione solare.
 
-La radiazione solare rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare \underline{la struttura} di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
-
-Considerando un edificio sito a Napoli, dalla \norvent si hanno questi valori di temperatura esterna:
-\begin{itemize}
-	\item \n{2}{\degreeCelsius} per la stagione invernale;
-	\item \n{32}{\degreeCelsius} per la stagione estiva;
-\end{itemize}
-All'interno dell'edificio, invece, non si devono superare i \n{20}{\degreeCelsius} nella stagione invernale mentre in estate un buon livello di benessere si ottiene con \n{25}{\degreeCelsius}.
-
-È facile notare che, a parità di involucro (e quindi di trasmittanza termica), il salto termico è maggiore in inverno (\n{18}{\degreeCelsius}) che in estate (\n{7}{\degreeCelsius}). Da ciò potremmo concludere che l'involucro debba essere di tipo resistivo (bassa trasmittanza) per resistere, appunto, al forte gradiente termico che si instaura in inverno. 
-
-La realtà delle cose è ben diversa. Questo modo di procedere va molto bene nei Paesi del Nord Europa dove gli inverni sono molto rigidi (si scende tranquillamente sotto gli \n{0}{\degreeCelsius}) mentre le temperature estive sono confortevoli.
-
-Alle nostre latitudini (\ang{41}), invece, l'estate è rappresentata da temperature molto più elevate ma sopratutto da una radiazione solare incidente notevole: si raggiungono i \n{700}{W/m^2}. Il tutto si traduce in un aumento di temperatura delle superfici esposte al sole. Questo fenomeno non è per niente trascurabile. Infatti, nella valutazione del carico termico estivo si usa solitamente la \emph{temperatura sole-aria} (\si{t^'_e}): nell'ipotesi che il solo scambio esterno fosse per sola convezione, la suddetta temperatura è quella che genera la stessa potenza termica che nella realtà viene scambiata anche per irraggiamento.
-
-Per rendere l'idea di quanto l'irraggiamento giochi un ruolo cruciale in estate, questa \si{t^'_e} è pari a \n{61.6}{\degreeCelsius} il 21 Luglio (16:00) alle latitudini napoletane su una superficie esposta a Ovest quando alla stessa ora la temperatura esterna è circa \n{34.4}{\degreeCelsius}. 
-
-Il problema vero e proprio nasce con i componenti trasparenti che permettono, come è risaputo, alla radiazione solare di entrare all'interno degli edifici.
-
-In questo caso si agisce, oltre che sulla trasmittanza globale dell'infisso, anche trattando superficialmente il vetro dell'infisso stesso in modo tale da ottenere superfici che permettano di far entrare all'interno dell'edificio solo una parte della radiazione solare.
-
-Famosi sono i vetri \emph{bassoemissivi} che risultano opachi alla radiazione infrarossa che le attraversa dall'interno verso l'esterno. Questo permette, durante la stagione invernale, di non far uscire verso l'esterno la radiazione infrarossa e, quindi, di risparmiare sul riscaldamento. 
-
-Sempre per la stagione invernale, sono stati studiati i cosiddetti vetri a \emph{guadagno solare} che si fanno facilmente attraversare dalla radiazione solare. 
-
-Esistono poi i vetri a \emph{controllo solare} che si dividono in: \emph{selettivi}, \emph{riflettenti} e \emph{assorbenti}. Siccome la prestazione di una superficie qualunque che scambia calore per irraggiamento è riassumibile nei tre valori
-\begin{center}
-	$\alpha + \tau + \rho = 1$
-\end{center}
-i tre vetri vengono trattati superficialmente in modo tale da far variare di volta in volta i tre coefficienti e ottenere, quindi, prestazioni differenti.
-
-Per esempio, un vetro \emph{selettivo} avrà un elevato valore di $\tau$ in corrispondenza delle onde visibili della radiazione solare per poi annullarsi in corrispondenza del vicino infrarosso.
-
-Il vetro \emph{riflettente} avrà, come già il nome suggerisce, un elevato valore della riflessività nel visibile: ad occhio nudo si comportano come degli specchi.
-
-Infine, il vetro \emph{assorbente} ha un elevato valore di $\alpha$ nel visibile: ciò si traduce con un vetro apparentemente scuro. La problematica di questo trattamento risiede nel fatto che assorbendo la radiazione solare, il vetro tende a riscaldarsi in poco tempo e quindi trasmettere verso l'interno un'aliquota della radiazione solare incidente sulle onde dell'infrarosso: immaginando una parete vetrata di questa tipologia, in poco tempo è come avere una parete radiante che annulla totalmente i benefici di un trattamento per il \emph{controllo solare} estivo. Quindi, un vetro di questo genere viene sempre accoppiato con uno basso-emissivo in modo tale che la radiazione emessa dalla lastra assorbente viene bloccata da quella basso-emissiva. Ovviamente una configurazione di questo genere viene montata in modo tale che il vetro a controllo solare sia posto esternamente.
- 
-Da tutto ciò discendono queste conclusioni (o modi di progettare l'edificio):
-\begin{itemize}
-	\item In inverno è molto importante avere una trasmittanza bassa per limitare lo scambio termico con l'esterno (sia per i componenti opachi che trasparenti). I componenti trasparenti, inoltre, per migliorare il guadagno solare (ovvero permettere alla radiazione solare di entrare negli edifici diminuendo il carico termico da abbattere con gli impianti) dovrebbero venir posizionati in maniera rilevante sopratutto sulle superfici esposte a sud;
-	\item In estate i componenti opachi dovrebbero avere una elevata \emph{trasmittanza termica periodica} in modo tale che l'onda di calore dovuta alla radiazione solare incidente la parete venga attenuta e sfasata opportunamente. I componenti trasparenti dovrebbero essere limitati, se non addirittura assenti, sulle superfici esposte a est e ovest. A sud il problema dell'ingresso di radiazione solare tramite il vetro a guadagno solare viene risolto posizionando esternamente tendine o coperture: il sole in estate risulta, come è ben noto, più alto sulla volta celeste mentre è più basso in inverno. 
-	\item A nord il componente trasparente non deve essere presente o, al limite, lo si sceglie del tipo \emph{basso-emissivo} per contenere le dispersioni di radiazione infrarossa. 
-\end{itemize}
 
 I carichi termici dello stato di fatto dell'Edificio 2. \texttt{CONTROLLA I VALORI}
 \begin{center}
