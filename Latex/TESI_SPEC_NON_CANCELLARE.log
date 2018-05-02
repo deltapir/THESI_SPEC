@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  30 APR 2018 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  2 MAY 2018 14:45
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1877,42 +1877,42 @@ LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 
 
 
-] [15] [16] [17]
+] [15] [16] [17] [18]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 99.
- [18]) [19]
+(Font)              scaled to size 6.0pt on input line 126.
+ [19]) [20]
 \openout2 = `6_2_cap/2_cap.aux'.
 
  (6_2_cap/2_cap.tex
 Capitolo 3.
-[20
+[21
 
 
 
-] <6_2_cap/img/piano_terra.png, id=83, 953.06062pt x 647.41875pt>
+] <6_2_cap/img/piano_terra.png, id=86, 953.06062pt x 647.41875pt>
 File: 6_2_cap/img/piano_terra.png Graphic file (type png)
 
 <use 6_2_cap/img/piano_terra.png>
 Package pdftex.def Info: 6_2_cap/img/piano_terra.png used on input line 41.
 (pdftex.def)             Requested size: 592.0pt x 402.16602pt.
- [21
+ [22
 
-] [22 <./6_2_cap/img/piano_terra.png>]
-[23] [24] [25] [26
+] [23 <./6_2_cap/img/piano_terra.png>]
+[24] [25] [26] [27
 
-] [27] [28] [29] [30] [31] [32]) [33]
+] [28] [29] [30] [31] [32] [33]) [34]
 \openout2 = `6_4_cap/4_cap.aux'.
 
  (6_4_cap/4_cap.tex
 Capitolo 4.
-) [34
+) [35
 
 
 
 ]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [35
+ (8_biblio/biblio.tex) [36
 
 
 
@@ -1924,7 +1924,7 @@ Capitolo 4.
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [36
+) [37
 
 
 ]
@@ -1935,13 +1935,13 @@ Capitolo 4.
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [37
+) [38
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [38
+ (10_dedfinale/dedfinale.tex) [39
 
 
 ]
@@ -1952,10 +1952,10 @@ Capitolo 4.
 (8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux)) ) 
 Here is how much of TeX's memory you used:
- 37001 strings out of 493323
- 876720 string characters out of 3139025
+ 37002 strings out of 493323
+ 876725 string characters out of 3139025
  1104077 words of memory out of 3000000
- 39861 multiletter control sequences out of 15000+200000
+ 39862 multiletter control sequences out of 15000+200000
  697852 words of font info for 138 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,96p,10398b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1975,9 +1975,9 @@ ts/type1/public/libertine/LinLibertineMT.pfb><C:/Program Files/MiKTeX 2.9/fonts
 pe1/public/libertine/LinLibertineTB.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/libertine/LinLibertineTBI.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/libertine/LinLibertineTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (39 pages, 729563 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (40 pages, 732897 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

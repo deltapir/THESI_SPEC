@@ -22,8 +22,9 @@ La domanda successiva a cui bisogna dare una risposta è la seguente: \emph{qual
 
 La risposta è complicata anche se alcuni progettisti termo-tecnici tenderebbero subito a rispondere: \n{25}{\degreeCelsius} col \n{40}{\%} in estate e \n{20}{\degreeCelsius} col \n{50}{\%} in inverno.
 
-In verità, per rispondere concretamente a questa domanda bisogna introdurre la teoria che è alla base della climatizzazione degli edifici. E per farlo si parte dal soggetto del primo periodo di questo capitolo: \emph{l'essere umano}.
+In verità, per rispondere concretamente a questa domanda bisogna introdurre la teoria sulla climatizzazione degli edifici. E per farlo si parte dal soggetto del primo periodo di questo capitolo: \emph{l'essere umano}.
 
+\section{Il Comfort}
 L'uomo, in quanto essere vivente, trasforma continuamente l'energia chimica presente negli alimenti in forme più consone al mantenimento in vita del proprio corpo e alla sua trasformazione: quest'attività prende il nome di \emph{metabolismo}.
 
 Questa continua trasformazione produce calore che risulta variabile in base all'attività svolta: stare seduto, camminare, correre, fare attività pesante e così via.
@@ -47,7 +48,7 @@ dove:
 	\item[$R$] Potenza termica dispersa per irraggiamento;
 	\item[$C_k$] Potenza dispersa per conduzione;
 \end{description}
-È risaputo che nel caso in cui la temperatura esterna sia eccessivamente alta o bassa, il meccanismo termoregolatorio del corpo tenda rispettivamente a far sudare il corpo stesso o a provocare i brividi. Nel caso in cui questi due ultimi meccanismi non siano sufficienti a mantenere costante l'energia interna del corpo si ha l'\emph{ipertermia} (fino alla morte per danni reversibili alle proteine dei tessuti nervosi) o l'\emph{ipotermia} (fino alla morte per fibrillazione cardiaca).
+È risaputo che nel caso in cui la temperatura esterna sia eccessivamente alta o bassa, il meccanismo termoregolatorio del corpo tenda rispettivamente a far sudare il corpo stesso (smaltendo il calore tramite evaporazione del sudore stesso) o a provocare i brividi (aumento dell'attività muscolare e quindi di calore prodotto). Nel caso in cui questi due ultimi meccanismi non siano sufficienti a mantenere costante l'energia interna del corpo si ha l'\emph{ipertermia} (fino alla morte per danni reversibili alle proteine dei tessuti nervosi) o l'\emph{ipotermia} (fino alla morte per fibrillazione cardiaca).
 
 Quindi, è molto importante vivere in un ambiente che abbia delle condizioni termo-igrometriche tali da non provocare la morte prematura del proprio corpo.
 
@@ -77,9 +78,35 @@ Citando da \emph{Impianti di climatizzazione per l'edilizia}:
 	
 	In definitiva le possibili condizioni di benessere termico sono le combinazioni delle sei variabili indipendenti che soddisfano contemporaneamente le equazioni \ref{bilanciocorpoumanoSnullo}, \ref{Esw} e la \ref{tsk}.
 \end{quote}
+Col tempo sono stati definiti degli indici che permettono di valutare il benessere termico in un locale. 
 
+Uno di questi è il PMV (\emph{Predicted Mean Vote} -- Voto Medio Previsto): indipendentemente dal valore assunto dalle 6 variabili indipendenti,se 
+\begin{equation}
+\label{PMV}
+	-0.5<PMV<0.5
+\end{equation}
+allora una condizione necessaria ma non sufficiente per il benessere è soddisfatta.
 
+L'altra condizione che permette di vivere in un ambiente termicamente accettabile è l'assenza di \emph{discomfort localizzato}, causato da:
+\begin{itemize}
+	\item elevati gradienti verticali di temperatura, ovvero nel momento in cui 
+	\item elevati gradienti orizzontali di temperatura;
+	\item correnti d'aria;
+\end{itemize}
+Per tutte queste cause vi sono altrettanti indici che permettono di esprimere la presenza o meno di una di queste problematiche.
 
+Quindi riassumendo: nel momento in cui le cause di discomfort localizzato sono assenti e il valore del PMV (che è un indice di discomfort \emph{globale} perché interessa tutto l'ambiente) è compreso nel suddetto intervallo \ref{PMV}, allora l'ambiente stesso si può definire termo-igrometricamente accettabile. 
+
+Per concludere questa parte sul discomfort è bene precisare che, citando da \cite[pag 31]{alfano}
+\begin{quote}
+	gli indici esprimono la risposta media di un gran numero di soggetti, il che significa che per valori dell'indice corrispondenti per esempio a condizioni di comfort termico ci possono comunque essere individui che invece avvertono caldo o freddo.
+\end{quote} 
+È chiaro, quindi, che per ogni tipologia di locale (in cui verosimilmente le persone svolgono attività comuni) sono definiti dei valori che permettono di assicurare le condizioni di benessere.
+\section{Il Carico Termico}
+Dopo aver definito il comfort in un ambiente, è necessario calcolare il carico termico (ovvero la potenza termica entrante o uscente da un ambiente) per poi progettare l'impianto che permetta di realizzare quelle condizioni termicamente accettabili.
+
+Con \emph{carico termico} si definisce una potenza che sollecita termicamente un edificio allontanando le condizioni 
+%====================================
 \vspace{2cm}
 Il calcolo del carico termico nella stagione estiva tiene conto non solo dei valori ambientali esterni di temperatura e umidità ma anche - e sopratutto aggiungerei - della radiazione solare.
 
