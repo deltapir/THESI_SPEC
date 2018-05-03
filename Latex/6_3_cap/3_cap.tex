@@ -103,11 +103,34 @@ Per concludere questa parte sul discomfort è bene precisare che, citando da \ci
 \end{quote} 
 È chiaro, quindi, che per ogni tipologia di locale (in cui verosimilmente le persone svolgono attività comuni) sono definiti dei valori che permettono di assicurare le condizioni di benessere.
 \section{Il Carico Termico}
-Dopo aver definito il comfort in un ambiente, è necessario calcolare il carico termico (ovvero la potenza termica entrante o uscente da un ambiente) per poi progettare l'impianto che permetta di realizzare quelle condizioni termicamente accettabili.
+Dopo aver definito il comfort in un ambiente, è necessario calcolare il carico termico che consente di dimensionare l'impianto che permetta di realizzare quelle condizioni termo-igrometricamente accettabili di cui si è parlato nel paragrafo precedente.
 
-Con \emph{carico termico} si definisce una potenza che sollecita termicamente un edificio allontanando le condizioni 
-%====================================
-\vspace{2cm}
+\subsection{Carico Termico Invernale}
+Con \emph{carico termico invernale} si definisce una potenza termica che l'edificio, in precisate condizioni univocamente definite, disperde verso l'ambiente esterno. Le suddette \emph{condizioni definite} sono:
+\begin{itemize}
+	\item il clima, ovvero i \emph{parametri climatici esterni} che costituiscono le sollecitazioni esterne sul sistema edificio. Questi parametri sono di disturbo perchè allontanano le condizioni termiche dell'ambiente interno da quelle desiderate di benessere. Queste cause sono:
+	\begin{itemize}
+		\item la differenza di temperatura tra l'aria interna e quella esterna;
+		\item il vento che investe l'edificio;
+		\item la radiazione solare incidente.
+	\end{itemize}
+	Per una valutazione approssimativa del carico termico invernale, è essenziale conoscere perlomeno la differenza di temperatura tra interno e esterno. La velocità dell'aria, invece, è importante se si vuole considerare anche lo scambio termico convettivo. L'apporto solare non viene considerato nel carico invernale in quanto è un beneficio perché tende a riscaldare l'ambiente interno e quindi, per questioni di sicurezza, viene ignorato;
+	\item l'edificio, inteso come involucro edilizio che racchiude e delimita lo spazio interno nel quale si vogliono imporre le condizioni di benessere per gli occupanti, diventa così il confine fisico tra esterno ed interno e caratterizza fortemente l'interazione termica tra i due ambienti con le sue proprietà geometriche e termofisiche. Progettare un impianto di riscaldamento significa quindi mettere a punto un sistema capace di neutralizzare nell'ambiente interno gli effetti prodotti prevalentemente dal clima esterno;
+	\item l'impianto è lo strumento con cui mantenere nell'ambiente riscaldato le condizioni volute contrastando le perturbazioni indotte dalle variazioni climatiche esterne.
+\end{itemize}
+La trattazioni sui carichi termici invernali non si occupa degli aspetti igrometrici e di quant'altro attiene al vapor d'acqua, si affrontano cioè le sole problematiche legate al cosiddetto \emph{calore sensibile}, ossia agli scambi di calore che manifestano i loro effetti sulla sola temperatura di bulbo asciutto dell'aria esterna.
+
+Da un'analisi energetica sull'edificio, si ricava la seguente relazione:
+\begin{equation}
+	\dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V-\dot{Q}_{sor}-\dot{Q}_{sol}
+\end{equation}
+Solitamente non potendo confidare con certezza in tutta la stagione negli apporti gratuiti interni $\dot{Q}_{sor}$ e solare $\dot{Q}_{sol}$ nell'equazione che definisce il carico termico invernale questi ultimi vengono trascurati. Per cui il \emph{carico termico invernale} è definito attraverso la seguente relazione:
+\begin{equation}
+\dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V+\dot{Q}_{ripr}
+\end{equation}
+dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la UNI EN 12831 (2006) sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
+
+\subsection{Carico Termico Estivo}
 Il calcolo del carico termico nella stagione estiva tiene conto non solo dei valori ambientali esterni di temperatura e umidità ma anche - e sopratutto aggiungerei - della radiazione solare.
 
 La radiazione solare rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare \underline{la struttura} di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
