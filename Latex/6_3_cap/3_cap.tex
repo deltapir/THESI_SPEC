@@ -126,12 +126,53 @@ Da un'analisi energetica sull'edificio, si ricava la seguente relazione:
 \end{equation}
 Solitamente non potendo confidare con certezza in tutta la stagione negli apporti gratuiti interni $\dot{Q}_{sor}$ e solare $\dot{Q}_{sol}$ nell'equazione che definisce il carico termico invernale questi ultimi vengono trascurati. Per cui il \emph{carico termico invernale} è definito attraverso la seguente relazione:
 \begin{equation}
+\label{caricotermico:invernale}
 \dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V+\dot{Q}_{ripr}
 \end{equation}
 dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la UNI EN 12831 (2006) sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
 
+Il calcolo del carico termico invernale si fonda su tre ipotesi:
+\begin{itemize}
+	\item Trascurabilità degli apporti gratuiti: ovvero non si considera la $\dot{Q}_{sor}$ e la $\dot{Q}_{sol}$;
+	\item Condizione statisticamente più sfavorevole: in questo modo l'impianto sarà sempre in grado di mantenere le condizioni di benessere all'interno dell'edificio;
+	\item Regime stazionario: la principale grandezza climatica che ha la capacità di produrre un regime transitorio nell'edificio è la radiazione solare che si è detta trascurabile in inverno.
+\end{itemize}
+
+In base alla norma UNI EN 12831 (2006), la $t_e$ è la temperatura dell'aria esterna di progetto del luogo ove è ubicato l'edificio in esame ed è necessaria per il calcolo della $\dot{Q}_{risc}$. L'ipotesi di \emph{regime stazionario} obbliga a scegliere per il calcolo delle dispersioni una temperatura dell'aria esterna che sia costante (quando evidentemente non lo è perché si tratta di un parametro climatico) e che sia caratteristica delle condizioni meteorologiche del luogo e del clima in cui sorge l'edificio oggetto del calcolo. L'ipotesi delle \emph{condizioni più sfavorevoli} porterebbe a scegliere una temperatura che sia la più bassa tra quelle che stagionalmente si verificano nel corso degli anni nella località in cui l'edificio si trova. Solo in questo caso si sarebbe sicuri di calcolare un carico di picco per l'impianto sufficiente a garantire nell'ambiente riscaldato la temperatura $t_i$ anche al presentarsi delle sollecitazioni esterne più avverse.
+
+Il problema con la seconda ipotesi risiede nel fatto che se si considera la temperatura più bassa degli ultimi, per esempio, 10 anni, si andrebbe a costruire un impianto molto sovradimensionato in quanto quella stessa temperatura potrebbe non aversi per alcuni anni e nel frattempo l'impianto non verrebbe sfruttato al 100\%. 
+
+Proprio per queste ragioni l'ipotesi di \emph{condizioni più sfavorevoli} va in generale coniugata alle esigenze pratiche ed economiche. A tale scopo per stabilire la temperatura esterna di progetto sono stati sviluppati metodi alternativi al precedente. Un criterio già usato in Canada e negli Stati Uniti definisce la $t_e$ come la media delle temperature minime assolute del mese più freddo calcolata su un certo numero di anni. Questa è assunta pari alla temperatura a cui corrisponde un \emph{frequenza cumulata} pari al 97.5\% per gli edifici costruiti con materiali pesanti o normali e del 99\% per quelli di materiale leggero. Per \emph{frequenza cumulata} si intende la percentuale dei valori orari di temperatura che risultano superiori ad un determinato limite. Ad esempio, dire che la frequenza cumulata del valore $t_e=-5°C$ è del 97.5\%, significa che nell'arco di un determinato intervallo temporale, scelto come rappresentativo del periodo più freddo per quella località, c'è solo il 2.5\% di probabilità che si verifichi per la $t_e$ un valore più basso. Con ciò si ammette implicitamente che nel 2.5\% dei giorni di quel periodo possano verificarsi delle condizioni climatiche tali da non permettere all'impianto di garantire la temperatura interna $t_i$ nella zona riscaldata perchè il valore delle dispersioni termiche supera il carico di picco che l'impianto è in grado di bilanciare.
+
 \subsection{Carico Termico Estivo}
-Il calcolo del carico termico nella stagione estiva tiene conto non solo dei valori ambientali esterni di temperatura e umidità ma anche - e sopratutto aggiungerei - della radiazione solare.
+Il calcolo dei carichi termici estivi, rispetto al caso invernale, è più complesso a causa della dinamicità dei fenomeni. In particolare, mentre per il calcolo delle dispersioni invernali si fa riferimento a condizioni stazionarie, nel caso delle rientrate estive ciò non è possibile a causa dell'estrema variabilità nelle ore del giorno dei flussi termici legati alla radiazione solare. Questi ultimi, di lieve entità nella stagione invernale (e pertanto trascurati in quanto sono anche apporti gratuiti in conflitto con le ipotesi di calcolo del carico termico invernale), costituiscono ora un carico termico assolutamente non trascurabile a cui l'impianto deve fare fronte.
+
+L'irradiazione solare è un carico \emph{rotante} in quanto è variabile durante la giornata. Quando l'involucro dell'edificio viene "colpito" dalla radiazione solare, questo tende a riscaldarsi esternamente molto più di quanto non lo faccia la temperatura esterna. Questa potenza termica aggiuntiva, quindi, entrando all'interno dell'involucro riscalda l'ambiente interno per convezione e irraggiamento. Bisogna definire due grandezze molto importanti che prendono il nome di \emph{sfasamento} e \emph{attenuazione} che fanno capo all'\emph{inerzia termica} della struttura. A causa di questi due fenomeni (sfasamento e attenuazione) il carico termico che giunge all'interno risulta essere in ritardo (sfasamento) e di minore intensità (attenuazione) rispetto alla radiazione che colpisce esternamente l'involucro. Siccome è importantissimo bilanciare questi carichi l'ideale sarebbe quelli di attenuarli e sfasarli quanto è più possibile: in questo modo il carico esterno risulta essere costante durante tutte le 24h. 
+
+A differenza della trattazione sui carichi termici invernali ci si occupa in questo caso anche degli \emph{aspetti igrometrici} e di quant'altro attiene al vapore d'acqua; si affrontano dunque sia le problematiche legate al calore sensibile che a quello latente. Al controllo della temperatura si aggiunge spesso in regime estivo quello dell'umidità. Alla semplicità della valutazione dei carichi termici invernali si contrappone quella più complessa nel caso estivo. E lo si può tranquillamente notare di seguito dove vengono classificati i carichi termici estivi.
+\begin{description}
+	\item[Carichi Termici Sensibili] $ $
+	\begin{itemize}
+		\item radiazione solare attraverso i vetri;
+		\item trasmissione attraverso vetri, muri e tetti;
+		\item infiltrazione di aria esterna;
+		\item carico interno all'ambiente dovuto a persone, luci, apparecchiature elettriche;
+	\end{itemize}
+	\item[Carichi Termici Latenti] $ $
+	\begin{itemize}
+		\item apporto di vapore dovuto a persone presenti in ambiente;
+		\item infiltrazione di aria esterna, avente in genere un'umidità specifica superiore a quella dell'aria ambiente;
+		\item vapore prodotto in ambiente da eventuali processo o apparecchiature presenti.
+	\end{itemize}
+\end{description}
+Il tutto si riassume nella seguente relazione di calcolo del \emph{carico termico estivo}:
+\begin{equation}
+	\label{caricotermico:estivo}
+	\dot{Q}_{frigo}=\dot{Q}_{sol}+\dot{Q}_T+\dot{Q}_{sor}+\dot{Q}_V
+\end{equation}
+Siccome il carico $\dot{Q}_{sol}$ risulta essere rotante, il calcolo di $\dot{Q}_{frigo}$ dovrà effettuarsi ora per ora nell'arco della giornata. La potenzialità dell'impianto di climatizzazione è quindi determinata in base al massimo carico corrispondente ad una data ora della giornata. Nelle restanti ore la potenza frigorifera richiesta all'impianto sarà sempre inferiore a quella disponibile. D'altro canto conviene non sovradimensionare troppo il gruppo frigorifero poichè se questo funziona troppo lontano dalla sua potenzialità nominale sarà caratterizzato da basse efficienze energetiche o troppo frequenti intermittenze operative. 
+
+=================================
 
 La radiazione solare rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare \underline{la struttura} di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
 
