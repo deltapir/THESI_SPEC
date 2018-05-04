@@ -129,7 +129,7 @@ Solitamente non potendo confidare con certezza in tutta la stagione negli apport
 \label{caricotermico:invernale}
 \dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V+\dot{Q}_{ripr}
 \end{equation}
-dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la UNI EN 12831 (2006) sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
+dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la \norinv sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
 
 Il calcolo del carico termico invernale si fonda su tre ipotesi:
 \begin{itemize}
@@ -138,7 +138,7 @@ Il calcolo del carico termico invernale si fonda su tre ipotesi:
 	\item Regime stazionario: la principale grandezza climatica che ha la capacità di produrre un regime transitorio nell'edificio è la radiazione solare che si è detta trascurabile in inverno.
 \end{itemize}
 
-In base alla norma UNI EN 12831 (2006), la $t_e$ è la temperatura dell'aria esterna di progetto del luogo ove è ubicato l'edificio in esame ed è necessaria per il calcolo della $\dot{Q}_{risc}$. L'ipotesi di \emph{regime stazionario} obbliga a scegliere per il calcolo delle dispersioni una temperatura dell'aria esterna che sia costante (quando evidentemente non lo è perché si tratta di un parametro climatico) e che sia caratteristica delle condizioni meteorologiche del luogo e del clima in cui sorge l'edificio oggetto del calcolo. L'ipotesi delle \emph{condizioni più sfavorevoli} porterebbe a scegliere una temperatura che sia la più bassa tra quelle che stagionalmente si verificano nel corso degli anni nella località in cui l'edificio si trova. Solo in questo caso si sarebbe sicuri di calcolare un carico di picco per l'impianto sufficiente a garantire nell'ambiente riscaldato la temperatura $t_i$ anche al presentarsi delle sollecitazioni esterne più avverse.
+In base alla norma \norinv, la $t_e$ è la temperatura dell'aria esterna di progetto del luogo ove è ubicato l'edificio in esame ed è necessaria per il calcolo della $\dot{Q}_{risc}$. L'ipotesi di \emph{regime stazionario} obbliga a scegliere per il calcolo delle dispersioni una temperatura dell'aria esterna che sia costante (quando evidentemente non lo è perché si tratta di un parametro climatico) e che sia caratteristica delle condizioni meteorologiche del luogo e del clima in cui sorge l'edificio oggetto del calcolo. L'ipotesi delle \emph{condizioni più sfavorevoli} porterebbe a scegliere una temperatura che sia la più bassa tra quelle che stagionalmente si verificano nel corso degli anni nella località in cui l'edificio si trova. Solo in questo caso si sarebbe sicuri di calcolare un carico di picco per l'impianto sufficiente a garantire nell'ambiente riscaldato la temperatura $t_i$ anche al presentarsi delle sollecitazioni esterne più avverse.
 
 Il problema con la seconda ipotesi risiede nel fatto che se si considera la temperatura più bassa degli ultimi, per esempio, 10 anni, si andrebbe a costruire un impianto molto sovradimensionato in quanto quella stessa temperatura potrebbe non aversi per alcuni anni e nel frattempo l'impianto non verrebbe sfruttato al 100\%. 
 
@@ -147,7 +147,7 @@ Proprio per queste ragioni l'ipotesi di \emph{condizioni più sfavorevoli} va in
 \subsection{Carico Termico Estivo}
 Il calcolo dei carichi termici estivi, rispetto al caso invernale, è più complesso a causa della dinamicità dei fenomeni. In particolare, mentre per il calcolo delle dispersioni invernali si fa riferimento a condizioni stazionarie, nel caso delle rientrate estive ciò non è possibile a causa dell'estrema variabilità nelle ore del giorno dei flussi termici legati alla radiazione solare. Questi ultimi, di lieve entità nella stagione invernale (e pertanto trascurati in quanto sono anche apporti gratuiti in conflitto con le ipotesi di calcolo del carico termico invernale), costituiscono ora un carico termico assolutamente non trascurabile a cui l'impianto deve fare fronte.
 
-L'irradiazione solare è un carico \emph{rotante} in quanto è variabile durante la giornata. Quando l'involucro dell'edificio viene "colpito" dalla radiazione solare, questo tende a riscaldarsi esternamente molto più di quanto non lo faccia la temperatura esterna. Questa potenza termica aggiuntiva, quindi, entrando all'interno dell'involucro riscalda l'ambiente interno per convezione e irraggiamento. Bisogna definire due grandezze molto importanti che prendono il nome di \emph{sfasamento} e \emph{attenuazione} che fanno capo all'\emph{inerzia termica} della struttura. A causa di questi due fenomeni (sfasamento e attenuazione) il carico termico che giunge all'interno risulta essere in ritardo (sfasamento) e di minore intensità (attenuazione) rispetto alla radiazione che colpisce esternamente l'involucro. Siccome è importantissimo bilanciare questi carichi l'ideale sarebbe quelli di attenuarli e sfasarli quanto è più possibile: in questo modo il carico esterno risulta essere costante durante tutte le 24h. 
+L'irradiazione solare è un carico \emph{rotante} in quanto è variabile durante la giornata. Quando l'involucro dell'edificio viene "colpito" dalla radiazione solare, questo tende a riscaldarsi esternamente molto più di quanto non lo faccia la temperatura esterna. Questa potenza termica aggiuntiva, quindi, entrando all'interno dell'involucro riscalda l'ambiente interno per convezione e irraggiamento. Bisogna definire due fenomeni molto importanti che prendono il nome di \emph{sfasamento} e \emph{attenuazione} che fanno capo all'\emph{inerzia termica} della struttura. A causa di questi due fenomeni il carico termico che giunge all'interno risulta essere in ritardo (sfasamento) e di minore intensità (attenuazione) rispetto alla radiazione che colpisce esternamente l'involucro. Siccome è importantissimo bilanciare questi carichi l'ideale sarebbe quelli di attenuarli e sfasarli quanto è più possibile: in questo modo il carico esterno risulta essere costante durante tutte le 24h. 
 
 A differenza della trattazione sui carichi termici invernali ci si occupa in questo caso anche degli \emph{aspetti igrometrici} e di quant'altro attiene al vapore d'acqua; si affrontano dunque sia le problematiche legate al calore sensibile che a quello latente. Al controllo della temperatura si aggiunge spesso in regime estivo quello dell'umidità. Alla semplicità della valutazione dei carichi termici invernali si contrappone quella più complessa nel caso estivo. E lo si può tranquillamente notare di seguito dove vengono classificati i carichi termici estivi.
 \begin{description}
@@ -172,11 +172,49 @@ Il tutto si riassume nella seguente relazione di calcolo del \emph{carico termic
 \end{equation}
 Siccome il carico $\dot{Q}_{sol}$ risulta essere rotante, il calcolo di $\dot{Q}_{frigo}$ dovrà effettuarsi ora per ora nell'arco della giornata. La potenzialità dell'impianto di climatizzazione è quindi determinata in base al massimo carico corrispondente ad una data ora della giornata. Nelle restanti ore la potenza frigorifera richiesta all'impianto sarà sempre inferiore a quella disponibile. D'altro canto conviene non sovradimensionare troppo il gruppo frigorifero poichè se questo funziona troppo lontano dalla sua potenzialità nominale sarà caratterizzato da basse efficienze energetiche o troppo frequenti intermittenze operative. 
 
-=================================
+\subsection{L'edificio}
+Dopo aver valutato i carichi termici nelle due stagioni si vuole sottolineare l'importanza delle proprietà termo-fisiche dell'involucro dell'edificio.
+La base della teoria sulla trasmissione del calore si basa su questa semplice equazione:
+\begin{equation}
+	\dot{Q}=UA\Delta T
+\end{equation}
+Ovviamente la $\dot{Q}$ viene causata dal $\Delta T$ per mezzo della trasmittanza $U$: siccome si è detto che si cerca di avere la $\dot{Q}$ quanto più bassa possibile, bisogna intervenire certamente e in modo più diretto sulla resistenza offerta dall'involucro dell'edificio: impossibile certamente agire sul $\Delta T$. La superficie, invece, può essere progettata in modo tale che il carico termico sia più equilibrato sfruttando l'orientamento, le correnti d'aria prevalenti e, nel caso, anche ombre naturali.
 
-La radiazione solare rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare \underline{la struttura} di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
+È necessario a questo punto elementi di costruzione di un edificio poco energivoro.
 
-Considerando un edificio sito a Napoli, dalla \norvent si hanno questi valori di temperatura esterna:
+\subsubsection{Stagione Invernale}
+Le ipotesi di \emph{regime stazionario} semplifica di molto la stima del carico termico. Anche la scelta dei materiali dell'involucro non è impegnativa. Si cerca, infatti, di avere una trasmittanza tale da contenere la potenza termica entrante. Si agisce essenzialmente sulla $U$. Al giorno d'oggi il Decreto Ministeriale del 26 Giugno 2015 chiede di contenere questi valori di trasmittanza entro quelli riportati nella seguente tabella valida per le strutture opache verticali soggette a riqualificazione:
+\begin{center}
+	\begin{tabular}{ccc}
+		\multirow{2}{*}{Zona Climatica} & \multicolumn{2}{c}{\textbf{U} [\trasm]}	\\
+		\cmidrule(lr){2-3}
+										& \textbf{2015} & \textbf{2021}				\\
+		\midrule
+		A e B							&	0.45		&	0.40 					\\
+		C								& 	0.40		&	0.36					\\
+		D								&	0.36		&	0.32					\\
+		E								&	0.30		&	0.28					\\
+		F								&	0.28		&	0.26					\\
+	\end{tabular}
+\end{center}
+Tabelle simili sono presenti nello stesso decreto per le superfici opache orizzontali, oblique e per i componenti trasparenti.
+
+Bisogna spendere qualche parola sui componenti trasparenti.
+
+Questi, infatti, rappresentano le superfici più delicate all'interno di un edificio. Innanzitutto introducono una discontinuità materiale e geometrica all'interno di una parete: questo comporta un'alterazione del campo termico che in una parete è assimilabile ad un campo piano (cioè la parete si può tranquillamente studiare come una lastra piana). Dove sono presenti gli infissi, il campo termico viene alterato diventando bidimensionale e intensificando la potenza termica trasmessa. Il secondo aspetto che li rende delicati è il fatto che sono trasparenti: se ciò risulta essere un beneficio in inverno, non lo è assolutamente in estate. È necessario, quindi, sfruttare la radiazione solare in inverno per risparmiare sul riscaldamento mentre bisogna evitarla in estate.
+
+Per fare ciò si sono studiati dei trattamenti superficiali a cui sottoporre i vetri.
+
+Quelli dedicati alla stagione invernale risultano essere quanto più trasparenti possibili alla radiazione solare (sopratutto sulle lunghezza d'onda del visibile) ma opachi sull'infrarosso.
+
+I vetri a \emph{guadagno solare} hanno un'elevato comportamento trasmissivo sulle frequenze del visibile mentre quelli \emph{bassoemissivi} sono opachi su quelle dell'infrarosso. Quest'ultima tipologia di trattamento evita la fuoriuscita dall'edificio (tramite gli infissi ovviamente) della radiazione emessa dai corpi presenti all'interno dell'edificio: corpi che in inverno risultano essere certamente più caldi dell'esterno.
+
+\subsubsection{Stagione Estiva}
+Come è già stato ampiamente detto lungo tutto questo capitolo, alla \emph{stazionarietà} della stagione invernale si contrappone la \emph{dinamicità} della stagione estiva provocata dalla radiazione solare.
+
+Essa, infatti, rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare l'involucro di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
+
+Considerando un edificio sito a Napoli, dalla \norvent\ si hanno questi valori di temperatura esterna:
 \begin{itemize}
 	\item \n{2}{\degreeCelsius} per la stagione invernale;
 	\item \n{32}{\degreeCelsius} per la stagione estiva;
@@ -187,29 +225,22 @@ All'interno dell'edificio, invece, non si devono superare i \n{20}{\degreeCelsiu
 
 La realtà delle cose è ben diversa. Questo modo di procedere va molto bene nei Paesi del Nord Europa dove gli inverni sono molto rigidi (si scende tranquillamente sotto gli \n{0}{\degreeCelsius}) mentre le temperature estive sono confortevoli.
 
-Alle nostre latitudini (\ang{41}), invece, l'estate è rappresentata da temperature molto più elevate ma sopratutto da una radiazione solare incidente notevole: si raggiungono i \n{700}{W/m^2}. Il tutto si traduce in un aumento di temperatura delle superfici esposte al sole. Questo fenomeno non è per niente trascurabile. Infatti, nella valutazione del carico termico estivo si usa solitamente la \emph{temperatura sole-aria} (\si{t^'_e}): nell'ipotesi che il solo scambio esterno fosse per sola convezione, la suddetta temperatura è quella che genera la stessa potenza termica che nella realtà viene scambiata anche per irraggiamento.
+Alle nostre latitudini (\ang{41}), invece, l'estate è rappresentata da temperature molto più elevate ma sopratutto da una radiazione solare incidente notevole: si raggiungono i \n{700}{W/m^2}. Il tutto si traduce in un aumento di temperatura delle superfici esposte al sole. Questo fenomeno non è per niente trascurabile. Infatti, nella valutazione del carico termico estivo si usa solitamente la \emph{temperatura sole-aria} (\si{t^'_e}): nell'ipotesi che il solo scambio esterno fosse per convezione, la suddetta temperatura è quella che genera la stessa potenza termica che nella realtà viene scambiata anche per irraggiamento.
 
 Per rendere l'idea di quanto l'irraggiamento giochi un ruolo cruciale in estate, questa \si{t^'_e} è pari a \n{61.6}{\degreeCelsius} il 21 Luglio (16:00) alle latitudini napoletane su una superficie esposta a Ovest quando alla stessa ora la temperatura esterna è circa \n{34.4}{\degreeCelsius}. 
 
+Nel caso estivo non bisogna usare la stessa metodologia invernale: ovvero limitare la trasmittanza per diminuire il carico proveniente dall'esterno. Infatti, come è stato detto nel paragrafo precedente, la stagione estiva, essendo molto dinamica, introduce all'interno dell'edificio onde termiche molto consistenti: si cerca di realizzare l'involucro in modo tale che queste onde siano più attenuate e sfasate possibili.
+
+I muri da utilizzare devono essere molto \emph{capacitivi}: questo lo si realizza con materiali che possiedono o un'elevata capacità termica o realizzando involucri che siano molto massivi. In questo modo la funzione congiunta della capacità termica e della trasmittanza provoca onde sfasate e attenuate. Il risultato ideale è quello di carico termico costante e limitato tutta la giornata. Questo modo di progettare gli involucri nella stagione estiva lo si nota anche nel decreto =======================================================================================================================================================================
+
 Il problema vero e proprio nasce con i componenti trasparenti che permettono, come è risaputo, alla radiazione solare di entrare all'interno degli edifici.
 
-In questo caso si agisce, oltre che sulla trasmittanza globale dell'infisso, anche trattando superficialmente il vetro dell'infisso stesso in modo tale da ottenere superfici che permettano di far entrare all'interno dell'edificio solo una parte della radiazione solare.
-
-Famosi sono i vetri \emph{bassoemissivi} che risultano opachi alla radiazione infrarossa che le attraversa dall'interno verso l'esterno. Questo permette, durante la stagione invernale, di non far uscire verso l'esterno la radiazione infrarossa e, quindi, di risparmiare sul riscaldamento. 
-
-Sempre per la stagione invernale, sono stati studiati i cosiddetti vetri a \emph{guadagno solare} che si fanno facilmente attraversare dalla radiazione solare. 
-
-Esistono poi i vetri a \emph{controllo solare} che si dividono in: \emph{selettivi}, \emph{riflettenti} e \emph{assorbenti}. Siccome la prestazione di una superficie qualunque che scambia calore per irraggiamento è riassumibile nei tre valori
-\begin{center}
-	$\alpha + \tau + \rho = 1$
-\end{center}
-i tre vetri vengono trattati superficialmente in modo tale da far variare di volta in volta i tre coefficienti e ottenere, quindi, prestazioni differenti.
-
-Per esempio, un vetro \emph{selettivo} avrà un elevato valore di $\tau$ in corrispondenza delle onde visibili della radiazione solare per poi annullarsi in corrispondenza del vicino infrarosso.
-
-Il vetro \emph{riflettente} avrà, come già il nome suggerisce, un elevato valore della riflessività nel visibile: ad occhio nudo si comportano come degli specchi.
-
-Infine, il vetro \emph{assorbente} ha un elevato valore di $\alpha$ nel visibile: ciò si traduce con un vetro apparentemente scuro. La problematica di questo trattamento risiede nel fatto che assorbendo la radiazione solare, il vetro tende a riscaldarsi in poco tempo e quindi trasmettere verso l'interno un'aliquota della radiazione solare incidente sulle onde dell'infrarosso: immaginando una parete vetrata di questa tipologia, in poco tempo è come avere una parete radiante che annulla totalmente i benefici di un trattamento per il \emph{controllo solare} estivo. Quindi, un vetro di questo genere viene sempre accoppiato con uno basso-emissivo in modo tale che la radiazione emessa dalla lastra assorbente viene bloccata da quella basso-emissiva. Ovviamente una configurazione di questo genere viene montata in modo tale che il vetro a controllo solare sia posto esternamente.
+I vetri a \emph{controllo solare} sono stati sviluppati per proteggere l'ambiente interno dalla radiazione solare. Essi comprendono:
+\begin{itemize}
+	\item I vetri \emph{selettivi} hanno un un elevato valore di $\tau$ in corrispondenza delle onde visibili della radiazione solare per poi annullarsi in corrispondenza del vicino infrarosso. Siccome la banda a cui i vetri sono trasparenti è molto stretta (proprio per evitare ingressi indesiderati), la $\tau$ è lievemente bassa anche nel visibile e pertanto il vetro risulta essere leggermente più scuro;
+	\item i vetri \emph{assorbenti} hanno un elevato valore  di $\alpha$ nel visibile: ciò si traduce con un vetro apparentemente scuro. La problematica di questo trattamento risiede nel fatto che assorbendo la radiazione solare, il vetro tende a riscaldarsi in poco tempo e quindi trasmettere verso l'interno un'aliquota della radiazione solare incidente sulle onde dell'infrarosso: immaginando una parete vetrata di questa tipologia, in poco tempo è come avere una parete radiante che annulla totalmente i benefici di un trattamento per il \emph{controllo solare} estivo. Quindi, un vetro di questo genere viene sempre accoppiato con uno basso-emissivo in modo tale che la radiazione emessa dalla lastra assorbente viene bloccata da quella basso-emissiva. Ovviamente una configurazione di questo genere viene montata in modo tale che il vetro a controllo solare sia posto esternamente.
+	\item i vetri \emph{riflettenti} hanno un elevato valore della riflessività su tutta la banda a partire dal visibile: ad occhio nudo appaiono come specchi.
+\end{itemize}
 
 Da tutto ciò discendono queste conclusioni (o modi di progettare l'edificio):
 \begin{itemize}

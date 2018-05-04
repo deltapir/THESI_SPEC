@@ -15,29 +15,32 @@
 \contentsline {section}{\numberline {2.2}Il Carico Termico}{18}
 \contentsline {subsection}{\numberline {2.2.1}Carico Termico Invernale}{18}
 \contentsline {subsection}{\numberline {2.2.2}Carico Termico Estivo}{21}
-\contentsline {chapter}{\numberline {3}Lo stato attuale}{25}
-\contentsline {section}{\numberline {3.1}Le modifiche al giorno d'oggi}{25}
-\contentsline {section}{\numberline {3.2}L'edificio 2}{26}
-\contentsline {section}{\numberline {3.3}L'involucro}{28}
-\contentsline {subsection}{\numberline {3.3.1}Componenti opachi}{28}
-\contentsline {subsubsection}{MURO EXT}{28}
-\contentsline {subsubsection}{MURO EXT 200}{29}
-\contentsline {subsubsection}{MURO EXT Corpo Basso}{29}
-\contentsline {subsubsection}{COPERTURA 1}{29}
-\contentsline {subsubsection}{COPERTURA 2}{30}
-\contentsline {subsubsection}{PAVIMENTO}{30}
-\contentsline {subsection}{\numberline {3.3.2}Componenti trasparenti}{31}
-\contentsline {subsection}{\numberline {3.3.3}Definizione locali}{32}
-\contentsline {subsubsection}{Degenza}{33}
-\contentsline {subsubsection}{Laboratorio}{33}
-\contentsline {subsubsection}{Studio Medico}{33}
-\contentsline {subsubsection}{Cucina}{34}
-\contentsline {subsubsection}{Ufficio}{34}
-\contentsline {section}{\numberline {3.4}L'impianto}{35}
-\contentsline {section}{\numberline {3.5}I risultati energetici}{36}
-\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{38}
-\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{38}
-\contentsline {chapter}{\numberline {4}Lo stato di progetto}{39}
-\contentsline {chapter}{Bibliografia}{40}
-\contentsline {chapter}{Elenco delle figure}{41}
-\contentsline {chapter}{Elenco delle tabelle}{42}
+\contentsline {subsection}{\numberline {2.2.3}L'edificio}{22}
+\contentsline {subsubsection}{Stagione Invernale}{22}
+\contentsline {subsubsection}{Stagione Estiva}{23}
+\contentsline {chapter}{\numberline {3}Lo stato attuale}{27}
+\contentsline {section}{\numberline {3.1}Le modifiche al giorno d'oggi}{27}
+\contentsline {section}{\numberline {3.2}L'edificio 2}{28}
+\contentsline {section}{\numberline {3.3}L'involucro}{30}
+\contentsline {subsection}{\numberline {3.3.1}Componenti opachi}{30}
+\contentsline {subsubsection}{MURO EXT}{30}
+\contentsline {subsubsection}{MURO EXT 200}{31}
+\contentsline {subsubsection}{MURO EXT Corpo Basso}{31}
+\contentsline {subsubsection}{COPERTURA 1}{31}
+\contentsline {subsubsection}{COPERTURA 2}{32}
+\contentsline {subsubsection}{PAVIMENTO}{32}
+\contentsline {subsection}{\numberline {3.3.2}Componenti trasparenti}{33}
+\contentsline {subsection}{\numberline {3.3.3}Definizione locali}{34}
+\contentsline {subsubsection}{Degenza}{35}
+\contentsline {subsubsection}{Laboratorio}{35}
+\contentsline {subsubsection}{Studio Medico}{35}
+\contentsline {subsubsection}{Cucina}{36}
+\contentsline {subsubsection}{Ufficio}{36}
+\contentsline {section}{\numberline {3.4}L'impianto}{37}
+\contentsline {section}{\numberline {3.5}I risultati energetici}{38}
+\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{40}
+\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{40}
+\contentsline {chapter}{\numberline {4}Lo stato di progetto}{41}
+\contentsline {chapter}{Bibliografia}{42}
+\contentsline {chapter}{Elenco delle figure}{43}
+\contentsline {chapter}{Elenco delle tabelle}{44}
