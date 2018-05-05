@@ -89,15 +89,14 @@ allora una condizione necessaria ma non sufficiente per il benessere è soddisfa
 
 L'altra condizione che permette di vivere in un ambiente termicamente accettabile è l'assenza di \emph{discomfort localizzato}, causato da:
 \begin{itemize}
-	\item elevati gradienti verticali di temperatura, ovvero nel momento in cui 
-	\item elevati gradienti orizzontali di temperatura;
-	\item correnti d'aria;
+	\item elevati gradienti verticali e orizzontali di temperatura;
+	\item correnti d'aria.
 \end{itemize}
 Per tutte queste cause vi sono altrettanti indici che permettono di esprimere la presenza o meno di una di queste problematiche.
 
-Quindi riassumendo: nel momento in cui le cause di discomfort localizzato sono assenti e il valore del PMV (che è un indice di discomfort \emph{globale} perché interessa tutto l'ambiente) è compreso nel suddetto intervallo \ref{PMV}, allora l'ambiente stesso si può definire termo-igrometricamente accettabile. 
+Quindi riassumendo: nel momento in cui le cause di discomfort localizzato sono assenti e il valore del PMV (che è un indice di discomfort \emph{globale} perché interessa tutto l'ambiente) è compreso nel suddetto intervallo (\ref{PMV}), allora l'ambiente stesso si può definire termo-igrometricamente accettabile. 
 
-Per concludere questa parte sul discomfort è bene precisare che, citando da \cite[pag 31]{alfano}
+Per concludere questa parte sul comfort è bene precisare che, citando da \cite[pag 31]{alfano}
 \begin{quote}
 	gli indici esprimono la risposta media di un gran numero di soggetti, il che significa che per valori dell'indice corrispondenti per esempio a condizioni di comfort termico ci possono comunque essere individui che invece avvertono caldo o freddo.
 \end{quote} 
@@ -129,7 +128,7 @@ Solitamente non potendo confidare con certezza in tutta la stagione negli apport
 \label{caricotermico:invernale}
 \dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V+\dot{Q}_{ripr}
 \end{equation}
-dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la \norinv sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
+dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la \norinv\ sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
 
 Il calcolo del carico termico invernale si fonda su tre ipotesi:
 \begin{itemize}
@@ -142,7 +141,7 @@ In base alla norma \norinv, la $t_e$ è la temperatura dell'aria esterna di prog
 
 Il problema con la seconda ipotesi risiede nel fatto che se si considera la temperatura più bassa degli ultimi, per esempio, 10 anni, si andrebbe a costruire un impianto molto sovradimensionato in quanto quella stessa temperatura potrebbe non aversi per alcuni anni e nel frattempo l'impianto non verrebbe sfruttato al 100\%. 
 
-Proprio per queste ragioni l'ipotesi di \emph{condizioni più sfavorevoli} va in generale coniugata alle esigenze pratiche ed economiche. A tale scopo per stabilire la temperatura esterna di progetto sono stati sviluppati metodi alternativi al precedente. Un criterio già usato in Canada e negli Stati Uniti definisce la $t_e$ come la media delle temperature minime assolute del mese più freddo calcolata su un certo numero di anni. Questa è assunta pari alla temperatura a cui corrisponde un \emph{frequenza cumulata} pari al 97.5\% per gli edifici costruiti con materiali pesanti o normali e del 99\% per quelli di materiale leggero. Per \emph{frequenza cumulata} si intende la percentuale dei valori orari di temperatura che risultano superiori ad un determinato limite. Ad esempio, dire che la frequenza cumulata del valore $t_e=-5°C$ è del 97.5\%, significa che nell'arco di un determinato intervallo temporale, scelto come rappresentativo del periodo più freddo per quella località, c'è solo il 2.5\% di probabilità che si verifichi per la $t_e$ un valore più basso. Con ciò si ammette implicitamente che nel 2.5\% dei giorni di quel periodo possano verificarsi delle condizioni climatiche tali da non permettere all'impianto di garantire la temperatura interna $t_i$ nella zona riscaldata perchè il valore delle dispersioni termiche supera il carico di picco che l'impianto è in grado di bilanciare.
+Proprio per queste ragioni l'ipotesi di \emph{condizioni più sfavorevoli} va in generale coniugata alle esigenze pratiche ed economiche. A tale scopo per stabilire la temperatura esterna di progetto sono stati sviluppati metodi alternativi al precedente. Un criterio già usato in Canada e negli Stati Uniti definisce la $t_e$ come la media delle temperature minime assolute del mese più freddo calcolata su un certo numero di anni. Questa è assunta pari alla temperatura a cui corrisponde un \emph{frequenza cumulata} pari al 97.5\% per gli edifici costruiti con materiali pesanti o normali e del 99\% per quelli di materiale leggero. Per \emph{frequenza cumulata} si intende la percentuale dei valori orari di temperatura che risultano superiori ad un determinato limite. Ad esempio, dire che la frequenza cumulata del valore $t_e=-5$\ \si{\degreeCelsius} è del 97.5\%, significa che nell'arco di un determinato intervallo temporale, scelto come rappresentativo del periodo più freddo per quella località, c'è solo il 2.5\% di probabilità che si verifichi per la $t_e$ un valore più basso. Con ciò si ammette implicitamente che nel 2.5\% dei giorni di quel periodo possano verificarsi delle condizioni climatiche tali da non permettere all'impianto di garantire la temperatura interna $t_i$ nella zona riscaldata perchè il valore delle dispersioni termiche supera il carico di picco che l'impianto è in grado di bilanciare.
 
 \subsection{Carico Termico Estivo}
 Il calcolo dei carichi termici estivi, rispetto al caso invernale, è più complesso a causa della dinamicità dei fenomeni. In particolare, mentre per il calcolo delle dispersioni invernali si fa riferimento a condizioni stazionarie, nel caso delle rientrate estive ciò non è possibile a causa dell'estrema variabilità nelle ore del giorno dei flussi termici legati alla radiazione solare. Questi ultimi, di lieve entità nella stagione invernale (e pertanto trascurati in quanto sono anche apporti gratuiti in conflitto con le ipotesi di calcolo del carico termico invernale), costituiscono ora un carico termico assolutamente non trascurabile a cui l'impianto deve fare fronte.
@@ -180,10 +179,10 @@ La base della teoria sulla trasmissione del calore si basa su questa semplice eq
 \end{equation}
 Ovviamente la $\dot{Q}$ viene causata dal $\Delta T$ per mezzo della trasmittanza $U$: siccome si è detto che si cerca di avere la $\dot{Q}$ quanto più bassa possibile, bisogna intervenire certamente e in modo più diretto sulla resistenza offerta dall'involucro dell'edificio: impossibile certamente agire sul $\Delta T$. La superficie, invece, può essere progettata in modo tale che il carico termico sia più equilibrato sfruttando l'orientamento, le correnti d'aria prevalenti e, nel caso, anche ombre naturali.
 
-È necessario a questo punto elementi di costruzione di un edificio poco energivoro.
+È necessario a questo punto introdurre gli elementi di costruzione di un edificio poco energivoro.
 
 \subsubsection{Stagione Invernale}
-Le ipotesi di \emph{regime stazionario} semplifica di molto la stima del carico termico. Anche la scelta dei materiali dell'involucro non è impegnativa. Si cerca, infatti, di avere una trasmittanza tale da contenere la potenza termica entrante. Si agisce essenzialmente sulla $U$. Al giorno d'oggi il Decreto Ministeriale del 26 Giugno 2015 chiede di contenere questi valori di trasmittanza entro quelli riportati nella seguente tabella valida per le strutture opache verticali soggette a riqualificazione:
+Le ipotesi di \emph{regime stazionario} semplificano di molto la stima del carico termico. Anche la scelta dei materiali dell'involucro non è impegnativa. Si cerca, infatti, di avere una trasmittanza tale da contenere la potenza termica entrante. Si agisce essenzialmente sulla $U$. Al giorno d'oggi il Decreto Ministeriale del 26 Giugno 2015 chiede di contenere questi valori di trasmittanza entro quelli riportati nella seguente tabella valida per le strutture opache verticali soggette a riqualificazione:
 \begin{center}
 	\begin{tabular}{ccc}
 		\multirow{2}{*}{Zona Climatica} & \multicolumn{2}{c}{\textbf{U} [\trasm]}	\\
@@ -205,7 +204,7 @@ Questi, infatti, rappresentano le superfici più delicate all'interno di un edif
 
 Per fare ciò si sono studiati dei trattamenti superficiali a cui sottoporre i vetri.
 
-Quelli dedicati alla stagione invernale risultano essere quanto più trasparenti possibili alla radiazione solare (sopratutto sulle lunghezza d'onda del visibile) ma opachi sull'infrarosso.
+Quelli dedicati alla stagione invernale rendono il vetro quanto più trasparente possibile alla radiazione solare (sopratutto sulle lunghezza d'onda del visibile) ma opachi sull'infrarosso.
 
 I vetri a \emph{guadagno solare} hanno un'elevato comportamento trasmissivo sulle frequenze del visibile mentre quelli \emph{bassoemissivi} sono opachi su quelle dell'infrarosso. Quest'ultima tipologia di trattamento evita la fuoriuscita dall'edificio (tramite gli infissi ovviamente) della radiazione emessa dai corpi presenti all'interno dell'edificio: corpi che in inverno risultano essere certamente più caldi dell'esterno.
 
@@ -231,11 +230,34 @@ Per rendere l'idea di quanto l'irraggiamento giochi un ruolo cruciale in estate,
 
 Nel caso estivo non bisogna usare la stessa metodologia invernale: ovvero limitare la trasmittanza per diminuire il carico proveniente dall'esterno. Infatti, come è stato detto nel paragrafo precedente, la stagione estiva, essendo molto dinamica, introduce all'interno dell'edificio onde termiche molto consistenti: si cerca di realizzare l'involucro in modo tale che queste onde siano più attenuate e sfasate possibili.
 
-I muri da utilizzare devono essere molto \emph{capacitivi}: questo lo si realizza con materiali che possiedono o un'elevata capacità termica o realizzando involucri che siano molto massivi. In questo modo la funzione congiunta della capacità termica e della trasmittanza provoca onde sfasate e attenuate. Il risultato ideale è quello di carico termico costante e limitato tutta la giornata. Questo modo di progettare gli involucri nella stagione estiva lo si nota anche nel decreto =======================================================================================================================================================================
+I muri da utilizzare devono essere molto \emph{capacitivi}: questo lo si realizza con materiali che possiedono o un'elevata capacità termica o realizzando involucri che siano molto massivi. In questo modo la funzione congiunta della capacità termica e della trasmittanza provoca onde sfasate e attenuate. Il risultato ideale è quello di carico termico costante e limitato tutta la giornata. Questo modo di progettare gli involucri nella stagione estiva lo si nota anche nel Decreto Ministeriale del 26 Giugno 2015 dove si legge:
+\begin{quote}
+	Ad esclusione della zona F per le località in cui il valore medio mensile dell'irradianza sul piano orizzontale nel mese di massima insolazione $I_{m,s} \ge \SI{290}{W/m^2}$, verificare che:
+	\begin{itemize}
+		\item per le pareti opache verticali (ad eccezione di quelle nel quadrante Nord-Ovest/Nord/Nord-Est) sia rispettata almeno una delle seguenti condizioni:
+		\begin{itemize}
+			\item $M_s > \SI{260}{kg/m^2}$
+			\item $Y_{IE}<\SI{0.10}{W/m^2K}$
+		\end{itemize}
+		\item per tutte le pareti opache orizzontali e inclinate, che:
+		\begin{itemize}
+			\item $Y_{IE}<\SI{0.18}{W/m^2K}$
+		\end{itemize}
+	\end{itemize}
+	dove:\\
+	$M_s$: rappresenta la massa superficiale della parete opaca compresa la malta dei giunti ed esclusi gli intonaci [\si{kg/m^2}];\\
+	$Y_{IE}$: rappresenta la trasmittanza termica periodica valutata in accordo con UNI EN ISO 13786:2008 e successivi aggiornamenti [\si{W/m^2K}].
+	
+	Note:
+	\begin{itemize}
+		\item Gli effetti positivi che si ottengono con il rispetto dei valori di massa superficiale o trasmittanza termica periodica delle pareti opache, possono essere raggiunti, in alternativa, con l'utilizzo di tecniche e materiali, anche innovativi, ovvero coperture a verde, che permettano di contenere le oscillazioni della temperatura degli ambienti in funzione dell'irraggiamento solare. \sdots
+		
+	\end{itemize}
+\end{quote}
 
 Il problema vero e proprio nasce con i componenti trasparenti che permettono, come è risaputo, alla radiazione solare di entrare all'interno degli edifici.
 
-I vetri a \emph{controllo solare} sono stati sviluppati per proteggere l'ambiente interno dalla radiazione solare. Essi comprendono:
+I vetri a \emph{controllo solare} sono stati sviluppati per proteggere l'ambiente interno dalla radiazione solare stessa. Essi comprendono:
 \begin{itemize}
 	\item I vetri \emph{selettivi} hanno un un elevato valore di $\tau$ in corrispondenza delle onde visibili della radiazione solare per poi annullarsi in corrispondenza del vicino infrarosso. Siccome la banda a cui i vetri sono trasparenti è molto stretta (proprio per evitare ingressi indesiderati), la $\tau$ è lievemente bassa anche nel visibile e pertanto il vetro risulta essere leggermente più scuro;
 	\item i vetri \emph{assorbenti} hanno un elevato valore  di $\alpha$ nel visibile: ciò si traduce con un vetro apparentemente scuro. La problematica di questo trattamento risiede nel fatto che assorbendo la radiazione solare, il vetro tende a riscaldarsi in poco tempo e quindi trasmettere verso l'interno un'aliquota della radiazione solare incidente sulle onde dell'infrarosso: immaginando una parete vetrata di questa tipologia, in poco tempo è come avere una parete radiante che annulla totalmente i benefici di un trattamento per il \emph{controllo solare} estivo. Quindi, un vetro di questo genere viene sempre accoppiato con uno basso-emissivo in modo tale che la radiazione emessa dalla lastra assorbente viene bloccata da quella basso-emissiva. Ovviamente una configurazione di questo genere viene montata in modo tale che il vetro a controllo solare sia posto esternamente.
@@ -245,6 +267,6 @@ I vetri a \emph{controllo solare} sono stati sviluppati per proteggere l'ambient
 Da tutto ciò discendono queste conclusioni (o modi di progettare l'edificio):
 \begin{itemize}
 	\item In inverno è molto importante avere una trasmittanza bassa per limitare lo scambio termico con l'esterno (sia per i componenti opachi che trasparenti). I componenti trasparenti, inoltre, per migliorare il guadagno solare (ovvero permettere alla radiazione solare di entrare negli edifici diminuendo il carico termico da abbattere con gli impianti) dovrebbero venir posizionati in maniera rilevante sopratutto sulle superfici esposte a sud;
-	\item In estate i componenti opachi dovrebbero avere una elevata \emph{trasmittanza termica periodica} in modo tale che l'onda di calore dovuta alla radiazione solare incidente la parete venga attenuta e sfasata opportunamente. I componenti trasparenti dovrebbero essere limitati, se non addirittura assenti, sulle superfici esposte a est e ovest. A sud il problema dell'ingresso di radiazione solare tramite il vetro a guadagno solare viene risolto posizionando esternamente tendine o coperture: il sole in estate risulta, come è ben noto, più alto sulla volta celeste mentre è più basso in inverno. 
+	\item In estate i componenti opachi dovrebbero avere una elevata \emph{trasmittanza termica periodica} in modo tale che l'onda di calore dovuta alla radiazione solare incidente la parete venga attenuata e sfasata opportunamente. I componenti trasparenti dovrebbero essere limitati, se non addirittura assenti, sulle superfici esposte a est e ovest. A sud il problema dell'ingresso di radiazione solare tramite il vetro a guadagno solare viene risolto posizionando esternamente tendine o coperture: il sole in estate risulta, come è ben noto, più alto sulla volta celeste mentre è più basso in inverno. 
 	\item A nord il componente trasparente non deve essere presente o, al limite, lo si sceglie del tipo \emph{basso-emissivo} per contenere le dispersioni di radiazione infrarossa. 
 \end{itemize}
