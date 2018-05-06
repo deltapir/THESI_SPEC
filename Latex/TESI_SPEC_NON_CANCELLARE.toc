@@ -21,26 +21,26 @@
 \contentsline {chapter}{\numberline {3}Lo stato attuale}{27}
 \contentsline {section}{\numberline {3.1}Le modifiche al giorno d'oggi}{27}
 \contentsline {section}{\numberline {3.2}L'edificio 2}{28}
-\contentsline {section}{\numberline {3.3}L'involucro}{30}
-\contentsline {subsection}{\numberline {3.3.1}Componenti opachi}{30}
-\contentsline {subsubsection}{MURO EXT}{30}
-\contentsline {subsubsection}{MURO EXT 200}{31}
-\contentsline {subsubsection}{MURO EXT Corpo Basso}{31}
-\contentsline {subsubsection}{COPERTURA 1}{31}
-\contentsline {subsubsection}{COPERTURA 2}{32}
-\contentsline {subsubsection}{PAVIMENTO}{32}
-\contentsline {subsection}{\numberline {3.3.2}Componenti trasparenti}{33}
-\contentsline {subsection}{\numberline {3.3.3}Definizione locali}{34}
-\contentsline {subsubsection}{Degenza}{35}
-\contentsline {subsubsection}{Laboratorio}{35}
-\contentsline {subsubsection}{Studio Medico}{35}
-\contentsline {subsubsection}{Cucina}{36}
-\contentsline {subsubsection}{Ufficio}{36}
-\contentsline {section}{\numberline {3.4}L'impianto}{37}
-\contentsline {section}{\numberline {3.5}I risultati energetici}{38}
-\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{40}
-\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{40}
-\contentsline {chapter}{\numberline {4}Lo stato di progetto}{41}
-\contentsline {chapter}{Bibliografia}{42}
-\contentsline {chapter}{Elenco delle figure}{43}
-\contentsline {chapter}{Elenco delle tabelle}{44}
+\contentsline {section}{\numberline {3.3}L'involucro}{28}
+\contentsline {subsection}{\numberline {3.3.1}Componenti opachi}{29}
+\contentsline {subsubsection}{MURO EXT}{29}
+\contentsline {subsubsection}{MURO EXT 200}{29}
+\contentsline {subsubsection}{MURO EXT Corpo Basso}{30}
+\contentsline {subsubsection}{COPERTURA 1}{30}
+\contentsline {subsubsection}{COPERTURA 2}{30}
+\contentsline {subsubsection}{PAVIMENTO}{31}
+\contentsline {subsection}{\numberline {3.3.2}Componenti trasparenti}{32}
+\contentsline {subsection}{\numberline {3.3.3}Definizione locali}{33}
+\contentsline {subsubsection}{Degenza}{34}
+\contentsline {subsubsection}{Laboratorio}{34}
+\contentsline {subsubsection}{Studio Medico}{34}
+\contentsline {subsubsection}{Cucina}{35}
+\contentsline {subsubsection}{Ufficio}{35}
+\contentsline {section}{\numberline {3.4}L'impianto}{36}
+\contentsline {section}{\numberline {3.5}I risultati energetici}{43}
+\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{45}
+\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{45}
+\contentsline {chapter}{\numberline {4}Lo stato di progetto}{46}
+\contentsline {chapter}{Bibliografia}{47}
+\contentsline {chapter}{Elenco delle figure}{48}
+\contentsline {chapter}{Elenco delle tabelle}{49}
