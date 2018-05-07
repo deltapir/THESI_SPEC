@@ -17,14 +17,14 @@ Tutto il corpo di fabbrica è destinato alla \emph{Cardiochirurgia}.
 
 Esso è costituito da 5 edifici:
 \begin{itemize}
-	\item Corpo A: è l'edificio principale. Di sviluppo longitudinale lungo un asse orientato lungo la direttrice NE--SO, è costituito da 6 piani fuori terra. Contiene le degenze, gli ambulatori, l'Emodinamica al piano terra, l'UTIC (Unità di Terapia Intensiva Coronarica) e il blocco operatorio con terapia intensiva al quinto piano. La sua superficie coperta è di \n{4920}{m^2}, per singolo piani è di \n{818}{m^2} e un volume di \n{14760}{m^3} (circa il 3\% dell'intero complesso dell'AOU Federico II).
+	\item Corpo A: è l'edificio principale. Di sviluppo longitudinale lungo un asse orientato lungo la direttrice NE--SO, è costituito da 6 piani fuori terra. Contiene le degenze, gli ambulatori, l'Emodinamica al piano terra, l'UTIC (Unità di Terapia Intensiva Coronarica) al primo piano e il blocco operatorio con terapia intensiva al quinto piano. La sua superficie coperta è di \n{4920}{m^2}, per singolo piani è di \n{818}{m^2} e un volume di \n{14760}{m^3} (circa il 3\% dell'intero complesso dell'AOU Federico II).
 	\item Corpo B: contiene gli stabulari. Di pianta pressoché quadrata (\n{102}{m^2}) è alto solo 1 piano. 
-	\item Corpo C: contiene laboratori e ambulatori. E' di pianta rettangolare e alto solo 1 piano. Estensione di \n{812}{m^2} CHIEDI LA DIAGNOSI!!!
+	\item Corpo C: contiene laboratori e ambulatori. E' di pianta rettangolare e alto solo 1 piano. Estensione di \n{812}{m^2} \textbf{CHIEDI LA DIAGNOSI!!!}
 	\item Corpo D: contiene ambulatori, studi medici e laboratori. Di pianta quadrata (\n{217}{m^2}) è alto solo 1 piano. 
 	\item Corpo E: contiene ambulatori cardiologici, geriatrici e di medicina interna, vari laboratori e studi medici. È alto solo 1 piano con un'estensione di \n{305}{m^2}.
 \end{itemize}
 
-L'edificio 2 preserva tutte le opere edili e impiantistiche realizzate all'epoca della sua costruzione. Non è difficile dedurre, quindi, che allo stato attuale sia i comportamenti estivi e invernali dell'involucro come le efficienze termo-meccaniche dell'impianto idro-aeraulico siano quantomeno inferiori a quelli consigliati dalla norma attuale vigente. 
+L'edificio 2 preserva tutte le opere edili e alcune impiantistiche realizzate all'epoca della sua costruzione. Non è difficile dedurre, quindi, che allo stato attuale sia i comportamenti estivi e invernali dell'involucro come le efficienze termo-meccaniche dell'impianto idro-aeraulico siano quantomeno inferiori a quelli consigliati dalla norma attuale vigente. 
 
 %\begin{itemize}
 %	\item componenti opachi
@@ -190,7 +190,7 @@ Questi i risultati:
 Si elencano ora i vari infissi utilizzati all'interno del modello dell'edificio:
 \begin{itemize}
 	\item \textbf{PICCOLA} \n{1.60x0.33}{m}.\\ È il componente trasparente facente parte delle facciate maggiori del Corpo~A. 
-	\item \textbf{GRANDE} \n{1.60x0.67}{m}.\\ È la variante alta della \textbf{FINESTRA P}. 
+	\item \textbf{GRANDE} \n{1.60x0.67}{m}.\\ È la variante alta della finestra \textbf{PICCOLA}. 
 	\item \textbf{LUCERNARIO} \n{1.45x0.39}{m}.\\ Questo è il lucernario presente nella parte superiore di ogni modulo delle due facciate maggiori del Corpo A. 
 	\item \textbf{QUADRA} \n{0.75x0.75}{m}.
 	\item \textbf{LUNGA} \n{0.75x1.70}{m}.\\ Presente al di sotto della finestra \textbf{QUADRA}, insieme a quest'ultima crea un unico infisso che percorre tutta l'altezza del Corpo A nelle scanalature del muro \textbf{MURO EXT 200}. 
@@ -198,6 +198,8 @@ Si elencano ora i vari infissi utilizzati all'interno del modello dell'edificio:
 	\item \textbf{PT-160} \n{1.60x2.00}{m}. \\ È la finestra dei Corpi B, C, D ed E. 
 	\item \textbf{PT-Alta Corpo Basso} \n{1.60x0.35}{m}.\\ È il lucernario di ogni modulo caratterizzante i Corpi B, C, D ed E. 
 \end{itemize}
+
+A conclusione dell'analisi si evidenzia come tutti i valori di trasmittanza calcolati sia per le strutture opache verticali che quelle orizzontali come anche i componenti trasparenti risultano sensibilmente superiori ai valori limite minimi contenuti in \ref{vallim}.
 
 \subsection{Definizione locali}
 Il carico termico di un edificio (come anche il suo fabbisogno energetico) non tiene conto solamente dell'ambiente esterno (temperatura e umidità tutto l'anno mentre la radiazione solare solo in estate). È molto importante considerare la destinazione d'uso del locale che si intende climatizzare. Pertanto sono stati individuati le tipologie di locali e per ognuno di essi si sono definiti i seguenti parametri:
@@ -335,29 +337,33 @@ L'impianto dell'Edificio 2 è attualmente caratterizzato da una sottocentrale, p
 
 Nel primo capitolo è già stato ampiamente detto che i vari edifici del Policlinico sfruttano la rete di presidio di acqua surriscaldata e refrigerata.
 
-Partendo dal lato utenza, il carico sensibile invernale viene coperto da radiatori (\texttt{INSERISCI FOTO}) e fancoil (solo nel IV e III piano) presenti all'interno di ogni piano. Il carico estivo (sia sensibile che latente) invece viene coperto da monosplit e fancoil ad acqua montati negli ultimi anni durante varie ristrutturazioni (come nel caso del terzo e quarto piano). In questi due piani vi è anche una rete aeraulica per il rinnovo dell'aria. Nonostante la presenza di questi impianti non vengono garantiti l'adeguato recupero energetico dall'impianto di ventilazione e il controllo termo-igrometrico dai fancoil e radiatori. Queste carenze sono evidenti nell'eccessivo ricorso a split per il controllo della temperatura (e in modo indiretto dell'umidità) durante la stagione estiva. È evidente la necessità di una riqualificazione. Negli altri 3 piani la ventilazione è garantita tramite infiltrazione naturale (ovvero apertura delle finestre di piano) mentre è assente del tutto il controllo termo-igrometrico nella stagione estiva.
+Partendo dal lato utenza, il carico sensibile invernale viene coperto da radiatori (si veda la \ref{radiatore}) e fancoil (solo nel III e IV piano) presenti all'interno di ogni piano. Il carico estivo (sia sensibile che latente) invece viene coperto da monosplit e fancoil ad acqua montati negli ultimi anni durante varie ristrutturazioni (come nel caso del terzo e quarto piano). In questi due piani vi è anche una rete aeraulica per il rinnovo dell'aria. Nonostante la presenza di questi impianti non vengono garantiti l'adeguato recupero energetico dall'impianto di ventilazione e il controllo termo-igrometrico dai fancoil e radiatori. Queste carenze sono evidenti nell'eccessivo ricorso a split per il controllo della temperatura (e in modo indiretto dell'umidità) durante la stagione estiva. È evidente la necessità di una riqualificazione. Negli altri 3 piani la ventilazione è garantita tramite infiltrazione naturale (ovvero apertura delle finestre di piano) mentre è assente del tutto il controllo termo-igrometrico nella stagione estiva.
+
+\begin{figure}
+	\centering
+	\subfloat[][\emph{Un tipico radiatore presente nel corridoio del Piano Terra -- Corpo A.}]{\includegraphics[width=0.45\textwidth]{6_2_cap/img/radiatore}}	\quad
+	\subfloat[][\emph{Corridoio del IV Piano. Si notano le diverse unità locali.}]{\includegraphics[width=0.45\textwidth]{6_2_cap/img/P4RadFan}}	\\
+	\subfloat[][\emph{Una degenza del IV Piano. Si nota la griglia di mandata del fancoil. Questi hanno anche una presa di aria di rinnovo esterna.}]{\includegraphics[width=0.45\textwidth]{6_2_cap/img/P4FanCoil}} \quad
+	\subfloat[][Diffusore circolare in una degenza del III Piano per l'aria di rinnovo.]{\includegraphics[width=0.45\textwidth]{6_2_cap/img/P3Aer}}
+	\caption{Unità Locali nel Corpo A}\label{unitloca}
+\end{figure}
+	
+	
 
 Il quinto piano (in cui è presente il blocco operatorio di cardiochirurgia) è gestito da un adeguato impianto a tutt'aria presente in copertura.
 
 In una porzione del primo piano vi è l'UTIC (\emph{Unità di Terapia Intensiva Coronarica}) che è trattata da un altro impianto a tutt'aria montato in un locale dello stesso piano. L'UTA dell'Emodinamica (Piano Terra) con la relativa centrale termo-frigorifera è presente all'esterno.
 
-Nonostante siano state elencati e descritti gli usi dei diversi edifici, l'intervento di riqualificazione energetica riguarda solo il Corpo C e A esclusi il Reparto di Emodinamica al Piano Terra, l'UTIC al Primo Piano e il Quinto Piano.
-Il suddetto edificio è stato suddiviso per questioni di comodità e calcolo in \emph{5~strutture}:
-\begin{itemize}
-	\item l'\emph{UTIC} è presente al primo piano dell'edificio alto. Comprende le sale operatorie e le relative degenze.
-	\item \emph{Emodinamica} situata al piano terra dell'edificio alto. Comprende la sala operatoria, una sala operatoria minore e le relative sale controllo.
-	\item il \emph{Quinto Piano} dell'edificio alto. Qui è presente la \emph{Terapia Intensiva}.
-	\item il \emph{Corpo Alto} coincide con l'edificio alto escluse le 3 suddette strutture già menzionate. Sono presenti le degenze, le cucine, i servizi e gli uffici.
-	\item il \emph{Corpo Basso} collegato a quello alto tramite un doppio tunnel di cui solo uno è oggetto di studio: sono presenti i laboratori di \emph{Patologia Immunitaria}.
-\end{itemize}
+Nonostante siano state elencati e descritti gli usi dei diversi edifici, l'intervento di riqualificazione energetica riguarda solo i corpi C e A esclusi il Reparto di Emodinamica al Piano Terra, l'UTIC al Primo Piano e il Quinto Piano.
 
-Si riporta in Fig.~\vref{planimetriapianoterra} la planimetria del Piano Terra con i contorni colorati che evidenziano le zone di intervento. %Ricorda di dire prima perchè ci sono zone di intervento
+Si riportano ora le varie planimetrie dell'Edificio 2 con evidenziate le zone che non saranno interessate dall'intervento.
 
-\includepdf{6_2_cap/img/PT.pdf}	
-\includepdf{6_2_cap/img/P1.pdf}	
-\includepdf{6_2_cap/img/P2.pdf}	
-\includepdf{6_2_cap/img/P3.pdf}	
-\includepdf{6_2_cap/img/P4.pdf}	
+%\includepdf[pagecommand={\null\vfill\captionof{table}{caioooo}}]{6_2_cap/img/PT.pdf}\label{PT}
+\includepdf{6_2_cap/img/PT.pdf}\label{PT}
+\includepdf{6_2_cap/img/P1.pdf}\label{P1}
+\includepdf{6_2_cap/img/P2.pdf}\label{P2}
+\includepdf{6_2_cap/img/P3.pdf}\label{P3}
+\includepdf{6_2_cap/img/P4.pdf}\label{P4}
 
 \section{I risultati energetici}
 L'analisi di carichi e fabbisogni energetici è stata effettuata con l'ausilio di software basati sulla tecnologia \bim.
@@ -382,6 +388,14 @@ Di \textbf{CYPE}, ovvero la suite, sono stati usati i seguenti programmi:
 	\item[CYPETHERM Loads]permette di definire le caratteristiche termo-fisiche dell'involucro e la destinazione d'uso dei locali importati dal file \textsc{.ifc}. Restituisce i carichi termici (annuali, mensili e orari) per ogni locale delle zone termiche. Una volta ottenuti i risultati è possibile esportarli in modo tale che qualsiasi altro programma della suite CYPE possa utilizzarli;
 	\item[CYPETHERM HVAC]permette di importare i file realizzati con IFC Builder e Loads e progettare/dimensionare un adeguato impianto HVAC per l'abbattimento del carico sensibile e latente oltre che per il rinnovo dell'aria;
 \end{description}
+In \ref{bim:cype} è riassunto il funzionamento della suite di CYPE. Si nota la centralità del server \emph{BIMserver.center} a cui tutti i progetti prodotti dai vari programmi fanno capo.
+\begin{figure}[h]
+	\centering
+	\caption[Schema BIM CYPE]{Schema riassuntivo del funzionamento della \emph{suite} CYPE con filosofia BIM.}
+	\label{bim:cype}
+	\includegraphics[width=0.5\textheight]{6_2_cap/img/cypeflow}
+\end{figure}
+
 Per quanto riguarda la parte idronica si è utilizzato un applicativo BIM della software-house \emph{C.A.T.S.} che si appoggia ad \emph{Autodesk Autocad}.
 
 È stato possibile definire inizialmente la tipologia di tubazioni da utilizzare (dimensioni, materiale e coibente), la metodologia di dimensionamento con le velocità minime ammissibili e poi disegnare direttamente in Autocad le tubazioni stesse posizionando le unità locali (radiatori e fancoil). Infine, l'applicativo ha dimensionato le tubazioni, rilasciato il computo metrico e la relazione di calcolo.
@@ -401,8 +415,21 @@ Innanzitutto le prime tre zone termiche sono state separate dal resto del Corpo 
 
 Per quanto riguarda la zona \emph{Radiatori}, è effettivamente sbagliato dal punto di vista termico considerarla esclusa dal resto del Corpo A in quanto non sono due zone termiche distinte. Questa forzatura è stata necessaria in quanto dai risultati ottenuti non era possibile scindere i carichi sensibili dei servizi igienici dal resto dell'edificio. Siccome i radiatori verranno posizionati solo nei servizi igienici, era interessante conoscere, quindi, il carico termico dei soli servizi igienici per poi dimensionare adeguatamente l'impianto a suo servizio. 
 \subsection{Stagione Estiva}
+Si presentano ora i risultati ottenuti.
 
+Per la zona termica \textbf{Radiatori} è ovvio che il carico sia nullo.
 
+Il carico latente è definito come:
+\begin{equation}
+	\label{carico:latente}
+	Q_L=Q_{vent,L}+Q_{int,L}
+\end{equation}
+mentre il carico sensibile
+\begin{equation}
+	\label{carico:sensibile}
+	Q_S=Q_{sol}+Q
+\end{equation}
+Per il V Piano, UTIC e Emodinamica
 I carichi termici dello stato di fatto dell'Edificio 2. \texttt{CONTROLLA I VALORI}
 \begin{center}
 	\small

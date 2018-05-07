@@ -5,9 +5,12 @@
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{lipsum}
-\newcommand{\mostracapitoli}{\includeonly{6_1_cap/1_cap, 6_2_cap/2_cap, 6_3_cap/3_cap, 6_4_cap/4_cap}}
+%\newcommand{\mostracapitoli}{\includeonly{6_1_cap/1_cap, 6_2_cap/2_cap, 6_3_cap/3_cap, 6_4_cap/4_cap}}
 \usepackage{siunitx}
 \usepackage{pgfplots}
+\usepackage{caption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small}
+\usepackage[lofdepth,lotdepth]{subfig}
 \usepackage{graphicx}
 %\usepackage{tabularx}
 \usepackage{booktabs}
@@ -25,17 +28,17 @@
 \usepackage{quoting}
 \quotingsetup{font=small}
 \newcommand{\n}[2]{\SI{#1}{#2}}	%comando per valore e unità di misura
-\usepackage{tocloft}
-\usepackage[draft]{pdfpages}
+%\usepackage{tocloft}RIATTIVA QUESTO
+\usepackage[final]{pdfpages} %draft final
 
-\cftsetindents{chapter}{0em}{2em}
-\cftsetindents{section}{1em}{3em}
+%\cftsetindents{chapter}{0em}{2em}RIATTIVA QUESTO
+%\cftsetindents{section}{1em}{3em}RIATTIVA QUESTO
 %\cftsetindents{subsection}{em}{2em} CERCA DI METTERE IL NUMERO SUBITO DOPO IL TITOLO NELL'INDICE E TOGLI I PUNTINI 
 
-\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
-\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+%\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}RIATTIVA QUESTO
+%\renewcommand\cftaftertoctitle{\hfill\mbox{}}RIATTIVA QUESTO
 
-\setcounter{tocdepth}{1}
+%\setcounter{tocdepth}{1} RIATTIVA QUESTO
 
 \newcommand{\uni}{\textbf{Università di Napoli}}
 \newcommand{\sdots}{\vspace{0.5em}[\dots]\vspace{0.5em}}
