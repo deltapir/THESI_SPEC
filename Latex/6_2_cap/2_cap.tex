@@ -462,26 +462,25 @@ La potenza di raffreddamento e riscaldamento viene fornita da una opportuna port
 	\end{tabular}
 \end{center}
 
-Per quanto riguarda le altre zone termiche (\corpa\ e \corpc) l'impianto utilizzato è di tipo \emph{misto} (come nel III e IV piano) o addirittura assente. Pertanto non è stata effettuata una valutazione pre intervento in quanto sarebbe risultato difficile oltre che inutile. 
-
-Le portate di ventilazione per il \corpa\ e \textbf{C} sono state calcolate definendo di volta in volta la destinazione d'uso per ogni locale: utilizzando l'affollamento o i ricambi orari a seconda delle esigenze (utilizzando la \norvent).
+Per quanto riguarda \corpa\ e \corpc, l'impianto utilizzato è di tipo \emph{misto} (come nel III e IV piano) o addirittura assente. Pertanto non ne è stata effettuata una valutazione sulla ventilazione ma i risultati considerano solo la trasmissione tramite l'involucro e i carichi interni: apparecchiature e persone.
 
 Per la zona termica \radd\ è ovvio che il carico di raffreddamento sia nullo.
 
 In questa tabella sono riassunti tutti i risultati ottenuti per la stagione estiva nello stato di fatto. 
+%{Per i radiatori ovviamente la potenza di raffrescamento è nulla. Per UTIC, BO e EMO il totale tiene conto della trasmissione (ottenuta da CYPE) mentre i carichi interni (sensibili e latenti) sono stati calcolati su Excel. Poi tramite diagramma psicrometrico ho calcolato anche la potenza di ventilazione. Per i due corpi A e C i valori sono stati presi da CYPE senza passare per Excel e per questo motivo i valori tengono conto anche della ventilazione. Tutti i valori stanno su excel.}
 \begin{center}
 	\small
 	\begin{tabular}{lccccc}
 		\toprule
 		\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $Q_L$ 			& $Q_S$ 				& Totale \\
-									& \si{m^2}		& \si{m^3/h}					& \si{kW}			& \si{kW}					& \si{kW}\\
+									& \si{m^2}		& \si{m^3/h}						& \si{kW}			& \si{kW}					& \si{kW}\\
 		\midrule
 		Radiatori		& \num{291.1}				& ---								& ---				& ---						& ---\\
 		B.O.			& \num{696.7}				& \num{21936}						& \num{2.78}		& \num{45.5}				& \num{673.3}\\
 		UTIC			& \num{145.7}				& \num{4371}						& \num{0.583}		& \num{9.89}				& \num{82.9}\\
 		Emod.			& \num{164.4}				& \num{5058}						& \num{0.674}		& \num{15.9} 				& \num{104.7}\\
-		Corpo C			& \num{529.2}				& \num{10532}						& \num{37.6}		& \num{106}					& \num{144}\\
-		Corpo A			& \num{2352.2}				& \num{18304}						& \num{72.6}		& \num{246}					& \num{319}\\
+		Corpo C			& \num{529.2}				& --								& \num{37.6}		& \num{106}					& \num{144}\\
+		Corpo A			& \num{2352.2}				& --								& \num{72.6}		& \num{246}					& \num{319}\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -494,7 +493,7 @@ Si ricordi che i carichi sensibili e latenti per la stagione estiva sono definit
 \subsection{Stagione Invernale}
 Come è già stato detto nel secondo capitolo, in questa stagione si trascura qualsiasi apporto di carico latente. Le valutazioni sono state fatte con una temperatura esterna di \n{0}{\degreeCelsius} mentre all'interno vengono garantiti i \n{22}{\degreeCelsius} col \n{45}{\%} di umidità relativa.
 
-Per determinare le condizioni termoigrometriche di immissione dell'aria nell'UTIC, Emodinamica e Blocco Operatorio si è proceduto facendo un bilancio di energia:
+Per determinare le condizioni termoigrometriche di immissione dell'aria nell'UTIC, Emodinamica e nel Blocco Operatorio si è proceduto facendo un bilancio di energia:
 \begin{align}
 \dot{m}h_s	&	=\dot{m}h_i+\dot{Q}_{trasm}		\label{bilancio}\\
 h_s			&	=h_i+\frac{\dot{Q}_{trasm}}{\dot{m}}	\notag\\
@@ -502,19 +501,20 @@ t_s			&	=\frac{t_ic_p\dot{m}+\dot{Q}_{trasm}}{c_p\dot{m}}\label{bilancio2}
 \end{align}
 Nell'equazione \vref{bilancio2} si è supposta l'aria secca trascurando, quindi, il contributo del vapore d'acqua.
 
-Dalla conoscenza della $t_s$ si è calcolata la potenza necessaria per portare l'aria esterna alle condizioni desiderate. Nella seguente tabella sono riassunti i risultati.
+Con l'ausilio del diagramma psicrometrico, si è proceduto a valutare la potenza necessaria per abbattere il carico invernale. Sono note queste quantità: la portata di ventilazione (che si suppone uguale a quella estiva), il carico invernale da abbattere, le condizioni interne e esterne, il valore di RST. Intersecando le varie rette corrispondenti alle altrettante trasformazioni si sono ottenuti i risultati ricercati riassunti nella seguente tabella. Ovviamente la potenza termica risultante è la somma di quella necessaria alla batteria di pre e post riscaldamento.
 \begin{center}
 	\label{UTA:potenzaFATTO}
-	\begin{tabular}{lcc}
+	\begin{tabular}{lccc}
 		
-					&	$t_s$ [\si{\degreeCelsius}]				&	kW	\\
+						& RTS					&	$t_s$ [\si{\degreeCelsius}]		&	kW	\\
 		\midrule
-		UTIC				&	\num{23.3}						&	\num{33.9}\\
-		Emod.				&	\num{27.4}						&	\num{46.2}\\
-		B.O.				&	\num{25.2}						&	\num{185}\\
+		UTIC			&\multirow{3}{*}{1.1}	&	\num{23.3}						&	\num{52.5}\\
+		Emod.			&						&	\num{27.4}						&	\num{67.4}\\
+		B.O.			&						&	\num{25.2}						&	\num{279}\\
 	\end{tabular}
 \end{center}
-In definitiva, i risultati sono riportati di seguito per ogni zona termica. CONTROLLA I VALORI DI QUESTA TABELLA CON QUELLI DI EXCEL, AGGIORNA I VALORI DEL CORPO A/C SU EXCEL E AGGIORNA QUA
+In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anche in questo caso, per i corpi A e C non si è tenuto conto della ventilazione.
+%{Per i Radiatori il totale tiene conto solo della trasmissione. Per BO, UTIC e EMO ho fatto la somma tra la trasmissione e la potenza di ventilazione calcolata tramite diagramma psicrometrico e ma i risultati stanno anche sul file excel. Per i due Corpi A e C il totale è solo la trasmissione in quanto non è presente la ventilazione.}
 \begin{center}
 	\small
 	\begin{tabular}{lcccc}
@@ -523,11 +523,11 @@ In definitiva, i risultati sono riportati di seguito per ogni zona termica. CONT
 									& [\si{m^2}]		& [\si{kW}]						& [\si{m^3/h}]				& [\si{kW}]		\\
 		\midrule
 		Radiatori					& \num{291.1}		& \num{30.7}					& ---						& \num{30.7}	\\
-		B.O.						& \num{696.7}		& \num{38.4}					& \num{21936}				& \num{223}	\\
-		UTIC						& \num{145.7}		& \num{4.75}					& \num{4371}				& \num{36.2}	\\
-		Emod.						& \num{164.4}		& \num{12.5}					& \num{5058}				& \num{52.7} 	\\
-		Corpo C						& \num{529.2}		& \num{24.26}					& \num{10532}				& \num{79.8}	\\
-		Corpo A						& \num{2352.2}		& \num{43.7}					& \num{18304}				& \num{122.9}	\\
+		B.O.						& \num{696.7}		& \num{38.4}					& \num{21936}				& \num{317}	\\
+		UTIC						& \num{145.7}		& \num{4.75}					& \num{4371}				& \num{57.3}	\\
+		Emod.						& \num{164.4}		& \num{12.5}					& \num{5058}				& \num{79.9} 	\\
+		Corpo C						& \num{529.2}		& \num{59.9}					& --						& \num{59.9}	\\
+		Corpo A						& \num{2352.2}		& \num{142}						& --						& \num{142}	\\
 		\bottomrule
 	\end{tabular}
 \end{center}
