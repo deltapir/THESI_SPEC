@@ -42,6 +42,7 @@
 \contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{50}
 \contentsline {chapter}{\numberline {4}Lo stato di progetto}{52}
 \contentsline {section}{\numberline {4.1}L'involucro}{52}
-\contentsline {chapter}{Bibliografia}{57}
-\contentsline {chapter}{Elenco delle figure}{58}
-\contentsline {chapter}{Elenco delle tabelle}{59}
+\contentsline {section}{\numberline {4.2}I Risultati Energetici}{56}
+\contentsline {chapter}{Bibliografia}{58}
+\contentsline {chapter}{Elenco delle figure}{59}
+\contentsline {chapter}{Elenco delle tabelle}{60}
