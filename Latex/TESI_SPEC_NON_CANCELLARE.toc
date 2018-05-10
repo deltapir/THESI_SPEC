@@ -43,6 +43,7 @@
 \contentsline {chapter}{\numberline {4}Lo stato di progetto}{52}
 \contentsline {section}{\numberline {4.1}L'involucro}{52}
 \contentsline {section}{\numberline {4.2}I Risultati Energetici}{56}
-\contentsline {chapter}{Bibliografia}{58}
-\contentsline {chapter}{Elenco delle figure}{59}
-\contentsline {chapter}{Elenco delle tabelle}{60}
+\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{56}
+\contentsline {chapter}{Bibliografia}{59}
+\contentsline {chapter}{Elenco delle figure}{60}
+\contentsline {chapter}{Elenco delle tabelle}{61}

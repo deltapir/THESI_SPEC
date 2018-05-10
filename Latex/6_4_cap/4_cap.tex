@@ -121,6 +121,7 @@ Il comportamento invernale dei componenti trasparenti viene migliorato tramite l
 
 Questi dati sull'involucro sono stati inseriti nel programma \textbf{CYPETHERM Load} che ha restituito i nuovi valori dei carichi termici. Con queste nuove potenze termiche verrà dimensionato l'impianto e la sua sotto-centrale.
 \section{I Risultati Energetici}
+\subsection{La Stagione Estiva}
 Le zone termiche \utic\ e \emod\ hanno visto diminuire il proprio carico termico (sia estivo che invernale). Il \blocc, invece, che non viene interessato dall'intervento, ha restituito gli stessi valori. Mantenendo la ventilazione costante, i risultati sono riassunti nella seguente tabella che mostra il carico termico estivo.
 \begin{center}
 	\begin{tabular}{lccccc}
@@ -155,22 +156,43 @@ Conoscendo quindi le condizioni ambientali esterne e quelle a cui bisogna immett
 \end{center}
 Per quanto riguarda le altre zone termiche i carichi sensibili e latenti da abbattere sono i seguenti.
 \begin{center}
-	\small
 	\begin{tabular}{lcccc}
 		\toprule
-		\multirow{2}*{Zona Termica} & Superficie 			& $Q_L$ 			& $Q_S$ 				& Totale \\
+		\multirow{2}*{Zona Termica} & Superficie 			& $Q_L$ 			& $Q_S$ 				& $\dot{Q}_{frigo}$  \\
 									& \si{m^2}				& \si{kW}			& \si{kW}				& \si{kW}\\
 		\midrule
 		Radiatori		& \num{291.1}						& ---				& ---					& ---\\
-		Corpo C			& \num{529.2}						& \num{37.6}		& \num{106}				& \num{144}\\
-		Corpo A			& \num{2352.2}						& \num{72.6}		& \num{246}				& \num{319}\\
+		Corpo C			& \num{529.2}						& \num{2.3}			& \num{52.0}			& \num{54.3}\\
+		Corpo A			& \num{2352.2}						& \num{20.6}		& \num{102}				& \num{123}\\
 		\bottomrule
 	\end{tabular}
 \end{center}
+Si può ben vedere come il carico sensibile si è ridotto di quasi la metà per entrambe le zone termiche (\corpa\ e \textbf{C}).
 
+I suddetti carichi termici non tengono conto della ventilazione. Per valutarla è necessario considerare la tipologia di impianto che si vuole installare. Per garantire una buona qualità del comfort termo-igrometrico si è preferito utilizzare un impianto \emph{misto} con aria primaria, per il rinnovo dell'aria e l'abbattimento del calore latente, e fancoil idronici per il calore sensibile. In questa sede non si vogliono dimensionare le unità locali ma valutare solo i carichi termici in gioco i quali verranno utilizzati per effettuare il vero e proprio dimensionamento.
 
-
-I risultati sono riportati in queste tabelle.
+La portata di ventilazione necessaria per garantire una buona qualità dell'aria è presente nella \norvent\ per ogni destinazione d'uso. Sommandole si ottiene la portata che deve essere trattata dall'eventuale UTA:
+\begin{itemize}
+	\item Per il \corpa, la portata di ventilazione è pari a \n{15254}{m^3/h}. Tenendo conto di un fattore di sicurezza del \n{20}{\%}, il valore effettivamente usato in fase progettuale è \n{18303}{m^3/h};
+	\item Per il \corpc, la portata di ventilazione è pari a \n{8777}{m^3/h}. Tenendo conto del fattore di sicurezza, il valore utilizzato è \n{10532}{m^3/h}.
+\end{itemize}
+Con questi valori si valuta il carico termico aggiuntivo necessario per portare l'aria esterna nelle condizioni neutre interne: \emph{neutre} perchè suddetta portata ha la sola funzione di rinnovare l'aria interna e di abbattere il carico latente. La tabella che segue riporta tutti i valori dei carichi termici necessari per dimensionare l'impianto per la stagione estiva.
+\begin{center}
+	\small
+	\begin{tabular}{lccccc}
+		\toprule
+		\multirow{2}*{Zona Termica} & Superficie 						& $Q_L$ 			& $Q_S$ 		& $Q_{vent}$		& $\dot{Q}_{frigo}$  \\
+									& \si{m^2}							& \si{kW}			& \si{kW}		&\si{kW}			& \si{kW}\\
+		\midrule
+		UTIC						& \num{146}							& \num{0.583}		& \num{5.80}	& \num{68.3}		& \num{74.7} \\
+		Emo.						& \num{291.1}						& \num{0.674}		& \num{7.08}	& \num{78.7}		& \num{86.5}\\
+		B.O.						& \num{291.1}						& \num{2.79}		& \num{45.5}	& \num{360}			& \num{408}\\
+		Radiatori					& \num{291.1}						& ---				& ---			& ---				& ---\\
+		Corpo C						& \num{529.2}						& \num{2.3}			& \num{52.0}	&	AGGIORNA				& \num{54.3}\\
+		Corpo A						& \num{2352.2}						& \num{20.6}		& \num{102}		&					& \num{123}\\
+		\bottomrule
+	\end{tabular}
+\end{center}
 
 \vspace{2cm}
 Inserisci qua le migliorie da realizzare sull'edificio 2 del policlinico. Dividi le migliorie per tipologia:
