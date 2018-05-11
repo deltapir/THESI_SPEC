@@ -45,6 +45,7 @@
 \contentsline {section}{\numberline {4.2}I Risultati Energetici}{56}
 \contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{56}
 \contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{58}
-\contentsline {chapter}{Bibliografia}{60}
-\contentsline {chapter}{Elenco delle figure}{61}
-\contentsline {chapter}{Elenco delle tabelle}{62}
+\contentsline {section}{\numberline {4.3}L'Impianto}{59}
+\contentsline {chapter}{Bibliografia}{61}
+\contentsline {chapter}{Elenco delle figure}{62}
+\contentsline {chapter}{Elenco delle tabelle}{63}

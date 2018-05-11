@@ -178,7 +178,6 @@ La portata di ventilazione necessaria per garantire una buona qualità dell'aria
 \end{itemize}
 Con questi valori si valuta il carico termico aggiuntivo necessario per portare l'aria esterna nelle condizioni neutre interne: \emph{neutre} perchè suddetta portata ha la sola funzione di rinnovare l'aria interna e di abbattere il carico latente. La tabella che segue riporta tutti i valori dei carichi termici necessari per dimensionare l'impianto per la stagione estiva.
 \begin{center}
-	\small
 	\begin{tabular}{lccccc}
 		\toprule
 		\multirow{2}*{Zona Termica} & Superficie 						& $\dot{Q}_L$ 			& $\dot{Q}_S$ 		& $\dot{Q}_{vent}$		& $\dot{Q}_{frigo}$  \\
@@ -221,7 +220,7 @@ Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una
 	\begin{tabular}{lccccc}
 		\toprule
 		\multirow{2}*{Zona Termica} & Superficie 		&  $\dot{Q}_{trasm}$	& Ventilazione		&  	 $\dot{Q}_{vent}$			& $\dot{Q}_{risc}$		\\
-		& [\si{m^2}]				& \si{kW}			& \si{kW}			&	\si{m^3/h}		& \si{kW}		\\
+									& [\si{m^2}]		& \si{kW}			& \si{m^3/h}			&	\si{kW}		& \si{kW}		\\
 		\midrule
 		Radiatori					& \num{291.1}		& \num{12.3}		& --			& ---						& \num{12.3}	\\
 		B.O.						& \num{696.7}		& \num{38.4}		& \num{21936}	& \num{293}					& \num{331}	\\
@@ -232,17 +231,18 @@ Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una
 		\bottomrule
 	\end{tabular}
 \end{center}
+dove
+\begin{equation}
+	\dot{Q}_{risc}=\dot{Q}_{trasm}+\dot{Q}_{vent}
+\end{equation}
+Sembrerà strano che un edificio di un solo piano, quale è il corpo C, possa avere un carico termico di trasmissione che sia solo la metà di quello del Corpo A che, invece, è alto 6 piani. Questo fenomeno lo si può spiegare con il rapporto $S/V$ (Superficie disperdente e Volume dell'edificio). È risaputo che il carico termico per trasmissione avviene tramite le superfici dell'involucro. Si capisce bene, quindi, che, a parità di volume, se un edificio ha una quantità maggiore di superfici disperdenti tenderà a scambiare maggiormente con l'ambiente esterno. Per questo motivo, nella costruzione degli edifici, al giorno d'oggi, è importante tenere basso il valore $S/V$. Nel caso in questione, il Corpo A presenta una struttura più compatta in quanto i vari locali sono disposti su più piani; il Corpo C, invece, ha un solo piano e disperde anche dalla copertura (cosa che non accade per il corpo principale in quanto all'ultimo piano vi è il blocco operatorio che è una zona termica a sè). Volendo però ragionare in maniera più pratica, nel corpo A, inteso come edificio e non zona termica, oltre alla $\dot{Q}_{trasm,CorpoA}$ bisogna conteggiare anche le $\dot{Q}_{trasm}$ delle altre zone termiche. In questo modo il carico di riscaldamento del solo corpo principale vale \n{105.3}{kW}: 4 volte superiore al solo corpo C.
+\section{L'Impianto}
+Avendo ottenuto le potenzialità in gioco, è arrivato il momento di dimensionare l'impianto. È necessario, però, descrivere con maggiore precisione che tipologia di impianto si vuole utilizzare. Il ragionamento inizierà dal lato utenza e si concluderà alla sotto-centrale.
 
-
+È già stato detto che l'impianto dell'UTIC, dell'Emodinamica e del Blocco Operatorio non è oggetto di riqualificazione. 
 
 
 \vspace{2cm}
-Inserisci qua le migliorie da realizzare sull'edificio 2 del policlinico. Dividi le migliorie per tipologia:
-\begin{itemize}
-	\item componenti opachi
-	\item componenti finestrati
-	\item impianto
-\end{itemize}
 Descrivi poi i risultati ottenuti dividendo sempre per i vari casi studio. Alla fine metti una tabella riassuntiva con i risultati ottenuti, con le differenza tra stato attuale e di progetto divisi sempre per caso. Inserisci i costi da sostenere per realizzare il progetto (eventuale).
 
 Inserisci uno schema (al limite sempre in formato A3 da piegare nella tesi) dell'impianto (sia sottocentrale termofrigorifera che aeraulica) spiegandone il funzionamento.
