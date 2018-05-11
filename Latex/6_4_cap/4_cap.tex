@@ -200,19 +200,41 @@ Dove:
 Facendo un paragone tra questa tabella e quella \vpageref{stato:fatto}, si può notare come, sopratutto per i due corpi A e C, ci sia una netta diminuzione dei carichi termici dovuti all'involucro, come è già stato detto, ma il carico totale $\dot{Q}_{frigo}$ aumenta a causa della ventilazione: nel Corpo C sono presenti molti laboratori che necessitano di un tasso di rinnovo dell'aria pari a \n{6}{vol/h} mentre il Corpo A è costituito sostanzialmente da degenze e studi medici. La \norvent\ prevede per questi locali o \n{50}{m^3/h} per persona o, nel caso in cui non sia noto il numero di persone che solitamente affollano il locale, si assicurano i \n{2}{vol/h}: per sicurezza si utilizza il valore maggiore tra i due risultati.
 
 \subsection{La Stagione Invernale}
-Si procederà nello stesso modo. Partendo dal solito trittico (\utic, \emod\ e \blocc) si ottengono questi risultati:
+Partendo dal solito trittico (\utic, \emod\ e \blocc) si ottengono questi risultati:
 \begin{center}
 	\label{UTA:potenzaPROGETTO}
 	\begin{tabular}{lcccc}
-						& \multirow{2}{*}{RST}	&	$t_s$ 					& $\dot{Q}_{trasm}$	&	$\dot{Q}_{vent}$	\\
+		\toprule
+		\multirow{2}{*}{Zona Termica}				& \multirow{2}{*}{RST}	&	$t_s$ 					& $\dot{Q}_{trasm}$	&	$\dot{Q}_{vent}$	\\
 							&						&	\si{\degreeCelsius} &	\si{kW}				&	\si{kW}\\
 		\midrule
-		UTIC			&\multirow{3}{*}{1.1}	&	\num{23.6}	&\num{2.23}		&	\num{52.5}\\
+		UTIC			&\multirow{3}{*}{1.1}	&	\num{23.6}	&\num{2.29}		&	\num{52.7}\\
 		Emod.			&						&	\num{25.8}	&\num{6.49}		&	\num{66.1}\\
 		B.O.			&						&	\num{27.2}	&\num{38.4}		&	\num{293}\\
+		\bottomrule
 	\end{tabular}
 \end{center}
 È ovvio che le temperature di immissione dell'aria nei locali diminuiscano in quanto sono diminuiti i carichi termici. Per il Blocco Operatorio la situazione non cambia come era prevedibile. 
+
+Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una diminuzione della potenza $\dot{Q}_{trasm}$ mentre, a causa della ventilazione, si avrà un notevole aumento della $\dot{Q}_{risc}$. I risultati di tutti i carichi invernali, nello stato di progetto, sono riassunti nella seguente tabella.
+\begin{center}
+	\begin{tabular}{lccccc}
+		\toprule
+		\multirow{2}*{Zona Termica} & Superficie 		&  $\dot{Q}_{trasm}$	& Ventilazione		&  	 $\dot{Q}_{vent}$			& $\dot{Q}_{risc}$		\\
+		& [\si{m^2}]				& \si{kW}			& \si{kW}			&	\si{m^3/h}		& \si{kW}		\\
+		\midrule
+		Radiatori					& \num{291.1}		& \num{12.3}		& --			& ---						& \num{12.3}	\\
+		B.O.						& \num{696.7}		& \num{38.4}		& \num{21936}	& \num{293}					& \num{331}	\\
+		UTIC						& \num{145.7}		& \num{2.29}		& \num{4371}	& \num{52.7}				& \num{55.0}	\\
+		Emod.						& \num{164.4}		& \num{6.49}		& \num{5058}	& \num{66.1}				& \num{72.6} 	\\
+		Corpo C						& \num{529.2}		& \num{24.3}		& \num{8777}	& \num{123}					& \num{147}	\\
+		Corpo A						& \num{2352.2}		& \num{45.8}		& \num{15254}	& \num{200}					& \num{246}	\\
+		\bottomrule
+	\end{tabular}
+\end{center}
+
+
+
 
 \vspace{2cm}
 Inserisci qua le migliorie da realizzare sull'edificio 2 del policlinico. Dividi le migliorie per tipologia:
