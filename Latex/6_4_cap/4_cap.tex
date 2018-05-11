@@ -181,18 +181,38 @@ Con questi valori si valuta il carico termico aggiuntivo necessario per portare 
 	\small
 	\begin{tabular}{lccccc}
 		\toprule
-		\multirow{2}*{Zona Termica} & Superficie 						& $Q_L$ 			& $Q_S$ 		& $Q_{vent}$		& $\dot{Q}_{frigo}$  \\
+		\multirow{2}*{Zona Termica} & Superficie 						& $\dot{Q}_L$ 			& $\dot{Q}_S$ 		& $\dot{Q}_{vent}$		& $\dot{Q}_{frigo}$  \\
 									& \si{m^2}							& \si{kW}			& \si{kW}		&\si{kW}			& \si{kW}\\
 		\midrule
 		UTIC						& \num{146}							& \num{0.583}		& \num{5.80}	& \num{68.3}		& \num{74.7} \\
 		Emo.						& \num{291.1}						& \num{0.674}		& \num{7.08}	& \num{78.7}		& \num{86.5}\\
 		B.O.						& \num{291.1}						& \num{2.79}		& \num{45.5}	& \num{360}			& \num{408}\\
 		Radiatori					& \num{291.1}						& ---				& ---			& ---				& ---\\
-		Corpo C						& \num{529.2}						& \num{2.3}			& \num{52.0}	&	AGGIORNA				& \num{54.3}\\
-		Corpo A						& \num{2352.2}						& \num{20.6}		& \num{102}		&					& \num{123}\\
+		Corpo C						& \num{529.2}						& \num{2.3}			& \num{52.0}	& \num{287}			& \num{341}\\
+		Corpo A						& \num{2352.2}						& \num{20.6}		& \num{102}		& \num{165}			& \num{288}\\
 		\bottomrule
 	\end{tabular}
 \end{center}
+Dove:
+\begin{equation}
+	\dot{Q}_{frigo}=\dot{Q}_L+\dot{Q}_S+\dot{Q}_{vent}
+\end{equation}
+Facendo un paragone tra questa tabella e quella \vpageref{stato:fatto}, si può notare come, sopratutto per i due corpi A e C, ci sia una netta diminuzione dei carichi termici dovuti all'involucro, come è già stato detto, ma il carico totale $\dot{Q}_{frigo}$ aumenta a causa della ventilazione: nel Corpo C sono presenti molti laboratori che necessitano di un tasso di rinnovo dell'aria pari a \n{6}{vol/h} mentre il Corpo A è costituito sostanzialmente da degenze e studi medici. La \norvent\ prevede per questi locali o \n{50}{m^3/h} per persona o, nel caso in cui non sia noto il numero di persone che solitamente affollano il locale, si assicurano i \n{2}{vol/h}: per sicurezza si utilizza il valore maggiore tra i due risultati.
+
+\subsection{La Stagione Invernale}
+Si procederà nello stesso modo. Partendo dal solito trittico (\utic, \emod\ e \blocc) si ottengono questi risultati:
+\begin{center}
+	\label{UTA:potenzaPROGETTO}
+	\begin{tabular}{lcccc}
+						& \multirow{2}{*}{RST}	&	$t_s$ 					& $\dot{Q}_{trasm}$	&	$\dot{Q}_{vent}$	\\
+							&						&	\si{\degreeCelsius} &	\si{kW}				&	\si{kW}\\
+		\midrule
+		UTIC			&\multirow{3}{*}{1.1}	&	\num{23.6}	&\num{2.23}		&	\num{52.5}\\
+		Emod.			&						&	\num{25.8}	&\num{6.49}		&	\num{66.1}\\
+		B.O.			&						&	\num{27.2}	&\num{38.4}		&	\num{293}\\
+	\end{tabular}
+\end{center}
+È ovvio che le temperature di immissione dell'aria nei locali diminuiscano in quanto sono diminuiti i carichi termici. Per il Blocco Operatorio la situazione non cambia come era prevedibile. 
 
 \vspace{2cm}
 Inserisci qua le migliorie da realizzare sull'edificio 2 del policlinico. Dividi le migliorie per tipologia:

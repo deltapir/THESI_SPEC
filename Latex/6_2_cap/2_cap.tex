@@ -471,20 +471,21 @@ Per la zona termica \radd\ è ovvio che il carico di raffreddamento sia nullo.
 In questa tabella sono riassunti tutti i risultati ottenuti per la stagione estiva nello stato di fatto. 
 %{Per i radiatori ovviamente la potenza di raffrescamento è nulla. Per UTIC, BO e EMO il totale tiene conto della trasmissione (ottenuta da CYPE) mentre i carichi interni (sensibili e latenti) sono stati calcolati su Excel. Poi tramite diagramma psicrometrico ho calcolato anche la potenza di ventilazione. Per i corpi A e C i valori del sensibile e del latente non tengono conto della ventilazione.}
 \begin{center}
-	\small
-	\begin{tabular}{lccccc}
-		\toprule
-		\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $Q_L$ 			& $Q_S$ 					& $\dot{Q}_{frigo}$  \\
-									& \si{m^2}		& \si{m^3/h}						& \si{kW}			& \si{kW}					& \si{kW}\\
-		\midrule
-		Radiatori		& \num{291.1}				& ---								& ---				& ---						& ---\\
-		B.O.			& \num{696.7}				& \num{21936}						& \num{2.78}		& \num{45.5}				& \num{673.3}\\
-		UTIC			& \num{145.7}				& \num{4371}						& \num{0.583}		& \num{9.89}				& \num{82.9}\\
-		Emod.			& \num{164.4}				& \num{5058}						& \num{0.674}		& \num{15.9} 				& \num{104.7}\\
-		Corpo C			& \num{529.2}				& --								& \num{2.3}			& \num{81.7}				& \num{84}\\
-		Corpo A			& \num{2352.2}				& --								& \num{20.6}		& \num{212}					& \num{233}\\
-		\bottomrule
-	\end{tabular}
+		\label{stato:fatto}
+		\small
+		\begin{tabular}{lccccc}
+			\toprule
+			\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $Q_L$ 			& $Q_S$ 					& $\dot{Q}_{frigo}$  \\
+			& \si{m^2}		& \si{m^3/h}						& \si{kW}			& \si{kW}					& \si{kW}\\
+			\midrule
+			Radiatori		& \num{291.1}				& ---								& ---				& ---						& ---\\
+			B.O.			& \num{696.7}				& \num{21936}						& \num{2.78}		& \num{45.5}				& \num{673.3}\\
+			UTIC			& \num{145.7}				& \num{4371}						& \num{0.583}		& \num{9.89}				& \num{82.9}\\
+			Emod.			& \num{164.4}				& \num{5058}						& \num{0.674}		& \num{15.9} 				& \num{104.7}\\
+			Corpo C			& \num{529.2}				& --								& \num{2.3}			& \num{81.7}				& \num{84}\\
+			Corpo A			& \num{2352.2}				& --								& \num{20.6}		& \num{212}					& \num{233}\\
+			\bottomrule
+		\end{tabular}
 \end{center}
 
 Si ricordi che i carichi sensibili e latenti per la stagione estiva sono definiti come segue:
@@ -503,16 +504,16 @@ t_s			&	=\frac{t_ic_p\dot{m}+\dot{Q}_{trasm}}{c_p\dot{m}}\label{bilancio2}
 \end{align}
 Nell'equazione \vref{bilancio2} si è supposta l'aria secca trascurando, quindi, il contributo del vapore d'acqua.
 
-Con l'ausilio del diagramma psicrometrico, si è proceduto a valutare la potenza necessaria per abbattere il carico invernale. Sono note queste quantità: la portata di ventilazione (che si suppone uguale a quella estiva), il carico invernale da abbattere, le condizioni interne e esterne, il valore di RST. Intersecando le varie rette corrispondenti alle altrettante trasformazioni si sono ottenuti i risultati ricercati riassunti nella seguente tabella. Ovviamente la potenza termica risultante è la somma di quella necessaria alla batteria di pre e post riscaldamento.
+Con l'ausilio del diagramma psicrometrico, si è proceduto a valutare la potenza necessaria per abbattere il carico invernale. Sono note queste quantità: la portata di ventilazione (che si suppone uguale a quella estiva), il carico invernale da abbattere $\dot{Q}_{trasm}$, le condizioni interne e esterne, il valore di RST. Intersecando le varie rette corrispondenti alle altrettante trasformazioni si sono ottenuti i risultati ricercati riassunti nella seguente tabella. Ovviamente la potenza termica risultante $\dot{Q}_{vent}$ è la somma di quella necessaria alla batteria di pre e post riscaldamento.
 \begin{center}
 	\label{UTA:potenzaFATTO}
-	\begin{tabular}{lccc}
-		
-						& RTS					&	$t_s$ [\si{\degreeCelsius}]		&	kW	\\
+	\begin{tabular}{lcccc}
+						& \multirow{2}{*}{RST}	&	$t_s$ 					& $\dot{Q}_{trasm}$	&	$\dot{Q}_{vent}$	\\
+						&						&	\si{\degreeCelsius} &	\si{kW}				&	\si{kW}\\
 		\midrule
-		UTIC			&\multirow{3}{*}{1.1}	&	\num{23.3}						&	\num{52.5}\\
-		Emod.			&						&	\num{27.4}						&	\num{67.4}\\
-		B.O.			&						&	\num{25.2}						&	\num{279}\\
+		UTIC			&\multirow{3}{*}{1.1}	&	\num{25.3}		&\num{4.75}				&	\num{55.4}\\
+		Emod.			&						&	\num{29.4}		&\num{12.5}				&	\num{70.8}\\
+		B.O.			&						&	\num{27.2}		&\num{38.4}				&	\num{293}\\
 	\end{tabular}
 \end{center}
 In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anche in questo caso, per i corpi A e C non si è tenuto conto della ventilazione.
