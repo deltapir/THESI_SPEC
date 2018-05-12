@@ -236,11 +236,11 @@ dove
 	\dot{Q}_{risc}=\dot{Q}_{trasm}+\dot{Q}_{vent}
 \end{equation}
 Sembrerà strano che un edificio di un solo piano, quale è il corpo C, possa avere un carico termico di trasmissione che sia solo la metà di quello del Corpo A che, invece, è alto 6 piani. Questo fenomeno lo si può spiegare con il rapporto $S/V$ (Superficie disperdente e Volume dell'edificio). È risaputo che il carico termico per trasmissione avviene tramite le superfici dell'involucro. Si capisce bene, quindi, che, a parità di volume, se un edificio ha una quantità maggiore di superfici disperdenti tenderà a scambiare maggiormente con l'ambiente esterno. Per questo motivo, nella costruzione degli edifici, al giorno d'oggi, è importante tenere basso il valore $S/V$. Nel caso in questione, il Corpo A presenta una struttura più compatta in quanto i vari locali sono disposti su più piani; il Corpo C, invece, ha un solo piano e disperde anche dalla copertura (cosa che non accade per il corpo principale in quanto all'ultimo piano vi è il blocco operatorio che è una zona termica a sè). Volendo però ragionare in maniera più pratica, nel corpo A, inteso come edificio e non zona termica, oltre alla $\dot{Q}_{trasm,CorpoA}$ bisogna conteggiare anche le $\dot{Q}_{trasm}$ delle altre zone termiche. In questo modo il carico di riscaldamento del solo corpo principale vale \n{105.3}{kW}: 4 volte superiore al solo corpo C.
-\section{L'Impianto}
+\section{L'Impianto - Lato Utenza}
 Avendo calcolato le potenzialità in gioco, è arrivato il momento di dimensionare l'impianto. È necessario, però, descrivere con maggiore precisione che tipologia di impianto si vuole utilizzare. Il ragionamento inizierà dal lato utenza e si concluderà alla sotto-centrale.
 
 È già stato detto che l'impianto a tutt'aria dell'UTIC, dell'Emodinamica e del Blocco Operatorio non è oggetto di riqualificazione. 
-
+\subsection{Impianto Idronico}
 Il resto del corpo A e il corpo C avranno un impianto misto con aria primaria e fancoil a \emph{due tubi}. La zona termica \radd\ avrà, invece, radiatori e la ripresa dell'aria viziata. L'unico locale dedicato ai servizi igienici del corpo C avrà anch'esso il fancoil in quanto non è economicamente e tecnicamente vantaggioso costruire un impianto separato per un unico radiatore distante da tutti gli altri. Nel corpo C vi è un locale destinato al sistema di gestione informatica del corpo di fabbrica: si tratta di un carico sensibile costante tutto l'anno. Per questo motivo non avrebbe senso utilizzare il fancoil in quanto durante l'inverno funzionerebbe in modalità \emph{caldo} poiché l'impianto è a \emph{due tubi}: si utilizzerà pertanto uno split. 
 
 Prima di descrivere con maggiore precisione tutto l'apparato meccanico, si vuole riportare la pianta di un piano del corpo A in cui si evidenziano i vari cavedi che verranno utilizzati per le montanti dell'impianto idronico.
@@ -261,16 +261,34 @@ Il dimensionamento è stato effettuato sfruttando la seguente relazione
 \begin{equation}
 	P=\dot{m}c\Delta T
 \end{equation}
-dove $P$ è la potenza termica sensibile, $\dot{m}$ è la portata d'acqua in \si{kg/s}, $c$ è il calore specifico dell'acqua e vale \n{4.2}{kJ/kgK} e il $\Delta T$ vale \n{5}{\degreeCelsius}.
+dove $P$ è la potenza termica sensibile, $\dot{m}$ è la portata d'acqua in \si{kg/s}, $c$ è il calore specifico dell'acqua e vale \n{4.2}{kJ/kgK} e il $\Delta T$ (differenza tra la temperatura di mandata e ritorno) vale \n{5}{\degreeCelsius}.
 
-Per ogni locale (ovvero fancoil) si è calcolata la sua portata d'acqua necessaria per il funzionamento estivo e invernale. Il valore maggiore tra le due viene utilizzato per la scelta del diametro della tubazione. Alla fine si sommano tutte le portate per dimensionare la sotto-centrale. Per i radiatori si è proceduto nello stesso modo ricordando, però, che $\Delta T = \SI{10}{\degreeCelsius}$.
+Per ogni locale (ovvero fancoil) si è calcolata la sua portata d'acqua necessaria per il funzionamento estivo e invernale. Il valore maggiore tra le due viene utilizzato per la scelta del diametro della tubazione. Alla fine si sommano tutte le portate per dimensionare la sotto-centrale. 
 
 Per i radiatori si è proceduto nello stesso modo ricordando però che $\Delta T=\SI{10}{\degreeCelsius}$.
 
 Per entrambi gli impianti non si è provveduto ad inserire alcun organo di regolazione in quanto, essendo a \emph{ritorno inverso}, esso risulta bilanciato per natura. 
 
+La tipologia dei fancoil è a soffitto sfruttando il dislivello del contro-soffitto.
 
+Inserisci foto dell'impianto idronico (o planimetria o in 3D)
+\subsection{Impianto Aeraulico}
+La portata di aria primaria per i corpi A e C è stata calcolata locale per locale utilizzando la \norvent. La rete aeraulica è stata disegnata su \textbf{CYPETHERM HVAC}. 
 
+Non avendo spazio in cui posizionare le UTA, si sono usati dei recuperatori termodinamici. Tramite uno scambiatore a flussi incrociati, la portata di immissione e quella di estrazione vengono fatte entrare in contatto in modo tale che, in funzionamento estivo per esempio, la portata in uscita tenda a preraffreddare quella in ingresso. A valle di ciò, queste macchine possiedono anche un circuito a compressione di vapore le cui batterie alettate scambiano con la stessa di estrazione e immissione. Siccome le temperature dei due flussi sono vicine, queste pompe di calore hanno dei valori di efficienza (COP e EER) molto elevati.
+
+Sono stati posizionati due recuperatori per piano nel corpo A (ma solo \num{1} al piano terra) nei pianerottoli delle scale antistanti i cavedi A e B. Nel corpo C vengono usati 4 recuperatori posizionati al piano \num{-1}: non è stato possibile posizionarli sopra la copertura in quanto vi è un altro progetto in cui si prevede di costruire un ulteriore piano. 
+
+Siccome queste reti aerauliche forniscono aria primaria ad un edificio ospedaliero, si vuole cercare di mantenere quanto è più pulito l'ambiente interno evitando infiltrazioni dall'esterno. Pertanto la portata di estrazione sarà minore di quella immessa in modo tale da generare un ambiente in sovrappressione rispetto l'esterno. Le velocità utilizzate per i canali di distribuzioni sono inferiori ai \n{3}{m/s} per contenere la rumorosità (oltre alle perdite di carico), mentre nei vari locali è stata diminuita a \n{2}{m/s}. Siccome l'impianto è \emph{misto}, la griglia di mandata dei fancoil viene sfruttata per immettere l'aria primaria della rete aeraulica in ambiente: in questo modo anche se la macchina idronica è spenta, l'impianto aeraulico può funzionare senza impedimenti o ostacoli.
+\includepdf{6_4_cap/img/aeraulica}
+\subsection{La sotto-centrale}
+Prima di procedere con la descrizione della sotto-centrale che alimenta tutto il corpo di fabbrica dell'edificio 2, è doveroso elencare le utenze che usufruiranno dei servizi di acqua calda e refrigerata.
+\begin{itemize}
+	\item L'acqua calda è necessaria a diverse temperature per:
+	\begin{itemize}
+		\item rcvgbnhj
+	\end{itemize}
+\end{itemize}
 \vspace{2cm}
 Descrivi poi i risultati ottenuti dividendo sempre per i vari casi studio. Alla fine metti una tabella riassuntiva con i risultati ottenuti, con le differenza tra stato attuale e di progetto divisi sempre per caso. Inserisci i costi da sostenere per realizzare il progetto (eventuale).
 
