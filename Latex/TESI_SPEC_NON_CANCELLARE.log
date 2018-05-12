@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  12 MAY 2018 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  12 MAY 2018 19:58
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -2369,11 +2369,11 @@ File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [64 <./6_4_cap/img/aeraulica.pdf>])
-[65]
+ [64 <./6_4_cap/img/aeraulica.pdf>]
+[65] [66]) [67]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [66
+ (8_biblio/biblio.tex) [68
 
 
 
@@ -2385,7 +2385,7 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [67
+) [69
 
 
 
@@ -2397,14 +2397,14 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [68
+) [70
 
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [69
+ (10_dedfinale/dedfinale.tex) [71
 
 
 ]
@@ -2430,25 +2430,26 @@ Here is how much of TeX's memory you used:
  716859 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,10398b,980s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{C:/Pr
-ogram Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/libertinust1math/libusMI.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{C:/Program Files/MiKTeX 2.
-9/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Program Files/MiKTeX 2.9/fonts/
-enc/dvips/libertinust1math/libusSYM.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/libertinust1math/libusMR.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
-/libertine/lbtn_76gpa5.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/liberti
-ne/lbtn_nh77jq.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_
-ncsllp.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertinust1math/Lib
-ertinusT1Math.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/Lin
-LibertineMT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLi
-bertineT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLiber
-tineTB.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLiberti
-neTBI.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertin
-eTI.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (70 pages, 9327592 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1math/libusEX.enc}{C:
+/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{C:/Program
+ Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/libertinust1math/libusMI.enc}{C:/Program Files/MiKTeX
+ 2.9/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/libertinust1math/libusSYM.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
+/libertinust1math/libusMR.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libe
+rtine/lbtn_76gpa5.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lb
+tn_nh77jq.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_ncsll
+p.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertinust1math/Libertin
+usT1Math.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLiber
+tineMT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLiberti
+neT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
+B.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.p
+fb>
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (72 pages, 9336687 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 347 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

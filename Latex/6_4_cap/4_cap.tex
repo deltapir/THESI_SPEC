@@ -281,14 +281,90 @@ Sono stati posizionati due recuperatori per piano nel corpo A (ma solo \num{1} a
 
 Siccome queste reti aerauliche forniscono aria primaria ad un edificio ospedaliero, si vuole cercare di mantenere quanto è più pulito l'ambiente interno evitando infiltrazioni dall'esterno. Pertanto la portata di estrazione sarà minore di quella immessa in modo tale da generare un ambiente in sovrappressione rispetto l'esterno. Le velocità utilizzate per i canali di distribuzioni sono inferiori ai \n{3}{m/s} per contenere la rumorosità (oltre alle perdite di carico), mentre nei vari locali è stata diminuita a \n{2}{m/s}. Siccome l'impianto è \emph{misto}, la griglia di mandata dei fancoil viene sfruttata per immettere l'aria primaria della rete aeraulica in ambiente: in questo modo anche se la macchina idronica è spenta, l'impianto aeraulico può funzionare senza impedimenti o ostacoli.
 \includepdf{6_4_cap/img/aeraulica}
-\subsection{La sotto-centrale}
-Prima di procedere con la descrizione della sotto-centrale che alimenta tutto il corpo di fabbrica dell'edificio 2, è doveroso elencare le utenze che usufruiranno dei servizi di acqua calda e refrigerata.
+\section{L'Impianto - Lato Sottocentrale}
+Prima di procedere con la descrizione della sottocentrale che alimenta tutto il corpo di fabbrica dell'edificio 2, è doveroso elencare le utenze che usufruiranno dei servizi di acqua calda e refrigerata. \texttt{ACQUA CALDA SANITARIA}
 \begin{itemize}
 	\item L'acqua calda è necessaria a diverse temperature per:
 	\begin{itemize}
-		\item rcvgbnhj
+		\item Fancoil (\n{50}{\degreeCelsius});
+		\item Radiatori (\n{80}{\degreeCelsius});
+		\item Vecchi impianti, ovvero le UTA per il blocco operatorio, l'UTIC e l'emodinamica (\n{60}{\degreeCelsius}).
+	\end{itemize}
+	\item L'acqua refrigerata è necessaria a \n{7}{\degreeCelsius} per:
+	\begin{itemize}
+		\item Fancoil;
+		\item Vecchi impianti, ovvero le UTA per il blocco operatorio, l'UTIC e l'emodinamica.
 	\end{itemize}
 \end{itemize}
+\subsection{Acqua Calda}
+Come è già stato detto nel primo capitolo, in tutto il policlinico vi è una rete di presidio di acqua surriscaldata e refrigerata prodotta dai reflui termici del cogeneratore, caldaie e assorbitori. 
+
+Per produrre acqua calda ad \n{80}{\degreeCelsius} si usa uno scambiatore dimensionato sulla $\dot{Q}_{risc,TOT} = \sum \dot{Q}_{risc,i}$ dove $\dot{Q}_{risc,i}$ sono le potenze per il riscaldamento dei fancoil, UTA e radiatori delle varie zone termiche. La sommatoria non tiene conto delle potenze di ventilazione per i corpi A e C in quanto quel calore viene fornito (come anche nel caso estivo) dai recuperatori che possiedono un proprio impianto a compressione di vapore. Per questioni di sicurezza la $\dot{Q}_{risc,TOT}$ viene aumentata di un \n{20}{\%} e vengono usati due scambiatori gemelli: in caso di guasto o manutenzione di una macchina, vi sarà l'altra ad assicurare la continuità del servizio. L
+
+Il corretto funzionamento dello scambiatore (ovvero la produzione continua di acqua a \n{80}{\degreeCelsius}), viene assicurato da un termostato, posto nel ramo di mandata alle utenze, che, misurando continuamente la temperatura, invia un segnale ad una valvola a 3 vie a monte dello scambiatore (lato centrale) in modo tale da correggere la portata di acqua surriscaldata che fluisce nello scambiatore. 
+
+In rispetto della \emph{Raccolta R} (elaborata dall'ISPESL -- Istituto Superiore per la Prevenzione e la Sicurezza del Lavoro -- e entrata in vigore nel \num{2011} con circolare INAIL -- Istituto Nazionale Assicurazioni e Infortuni sul Lavoro), a valle di entrambi gli scambiatori sono presenti tutti gli organi che assicurano \emph{Sicurezza}, \emph{Protezione} e \emph{Controllo} nei confronti di un impianto di generazione termica avente temperature di produzione massime non superiori a \n{110}{\degreeCelsius} e potenza nominale massima complessiva dei focolari superiore a \n{35}{kW}.
+
+A monte e valle degli scambiatori sono presenti gli appositi strumenti per la contabilizzazione del calore:
+\begin{itemize}
+	\item flussometro: misura la portata di acqua che lo attraversa;
+	\item 2 termostati: misurano la temperatura di mandata e ritorno e la comunicano ad un apposito controllore elettronico di temperatura (TC);
+	\item TC: calcola la potenza utilizzata e la comunica al sistema informatico della sottocentrale. 
+\end{itemize}
+Solo con l'ausilio di questi strumenti è possibile conoscere effettivamente la potenza utilizzata e, di conseguenza, controllare se il comportamento dell'impianto è in linea con le ipotesi di progettazione.
+
+La distribuzione dell'acqua a \n{80}{\degreeCelsius} viene affidata ad una coppia di pompe inverterate che portano il fluido all'unico collettore del secondario della sottocentrale dove il gruppo-pompe, uno per ogni servizio, alimenta la propria rete. 
+
+La produzione di acqua a temperature inferiori per i fancoil e le batterie di pre e post riscaldamento delle UTA è affidata a valvole miscelatrici presenti sulla mandata: queste valvole miscelano la giusta portata di ritorno (ad una temperatura inferiore) e ad \n{80}{\degreeCelsius} in modo tale da ottenere la temperatura desiderata. Un termostato presente sulla mandata agisce direttamente sulla suddetta valvola a 3 vie.
+
+Per il servizio fancoil (a \n{50}{\degreeCelsius}) si è optato per uno scambiatore. In questo caso, però, bisogna ricordare che la rete dei fancoil funziona con acqua calda in inverno e refrigerata in estate quando, però, bisogna garantire anche il servizio di acqua calda per le batterie di post-riscaldamento delle UTA. \texttt{METTI LO SCHEMA DI FUNZIONAMENTO DEI SOLI FANCOIL}
+
+\subsection{Acqua Refrigerata}
+La produzione di acqua a \n{7}{\degreeCelsius} è affidata ad un mix di macchine ordinate in base alla priorità nel seguente elenco:
+\begin{itemize}
+	\item Assorbitori che sfruttano la rete di acqua surriscaldata di presidio;
+	\item Pompe di calore con impianto geotermico.	
+	\item Scambiatori che sfruttano la rete di acqua refrigerata di presidio;
+\end{itemize}
+Il cogeneratore ha TOT MW di reflui termici in estate di cui solo una parte vengono effettivamente utilizzati negli assorbitori i quali, al giorno d'oggi, non riescono a coprire il carico termico estivo di tutta la rete ospedaliera. Per questo motivo si è optata per l'installazione di un assorbitore in sottocentrale dedicato per il solo Edificio 2: per sfruttare i reflui termici del cogeneratore che altrimenti verrebbero persi.
+
+Le pompe di calore producono acqua refrigerata a \n{7}{\degreeCelsius} in estate e a \n{50}{\degreeCelsius} in inverno per i soli fancoil sul lato utenza, mentre scambiano con un apposito impianto geotermico.
+
+Infine, gli scambiatori sfruttano la rete di presidio di acqua refrigerata per la fornitura del servizio in tutto l'edificio. In caso di guasto o manutenzione di una delle macchine di cui sopra, gli scambiatori permettono comunque di erogare al \n{100}{\%} il servizio.
+
+Il mix così descritto permette di produrre acqua refrigerata con un'elevata affidabilità.
+\subsubsection{L'assorbitore}
+
+\subsubsection{La pompa di calore e l'impianto geotermico}
+
+\subsubsection{Gli scambiatori}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \vspace{2cm}
 Descrivi poi i risultati ottenuti dividendo sempre per i vari casi studio. Alla fine metti una tabella riassuntiva con i risultati ottenuti, con le differenza tra stato attuale e di progetto divisi sempre per caso. Inserisci i costi da sostenere per realizzare il progetto (eventuale).
 
