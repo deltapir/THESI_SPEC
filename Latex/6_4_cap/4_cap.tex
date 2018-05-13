@@ -356,7 +356,7 @@ L'adozione delle torri di raffreddamento evaporativo da un lato permette di aver
 
 Nelle macchine a \emph{semplice effetto} o \emph{monostadio}, il COP, a causa delle irreversibilità presenti, è sempre inferiore a \num{1} con valori intorno a \num{0.7} per le macchine ad alimentazione indiretta (tipicamente ad acqua a \num{80} + \n{90}{\degreeCelsius} per le macchine a acqua e bromuro di litio e a vapore a \num{130} + \n{140}{\degreeCelsius} per quelle ad ammoniaca) ed intorno a \num{0.6} per quelle a fiamma diretta. La limitazione sul valore del COP è superata con macchine più complesse a \emph{doppio effetto} o \emph{bistadio}. In estrema sintesi, rispetto allo schema della macchina monostadio è inserito un secondo generatore a più alta temperatura e pressione (\emph{generatore ad alta temperatura}) che interagisce con l'esterno in modo diretto (fiamma diretta) od indiretto (alimentazione a vapore oltre \n{180}{\degreeCelsius}).
 
-Il vapor d'acqua prodotto internamente a questo generatore ha una temperatura sufficientemente elevata per essere impiegato nel secondo stagio (\emph{secondo generatore}); in esso, a temperatura e pressione prossime a quella del monostadio, condensando realizza, senza ulteriore spesa, un'ulteriore concentrazione/generazione. Da questo punto in poi il circuito è equivalente a quello del monostadio con la differenza che nell'AHP a doppio stadio un'unità di massa prodotta nel generatore ad alta temperatura può fare evaporare , rispetto al monostadio, un'ulteriore unità di massa di refrigerante nel generatore a bassa temperatura, e quindi avere nell'evaporatore l'evaporazione di due unità di massa di refrigerante. il COP massimo raggiunto da queste apparecchiature si aggira intorno a \num{1.3} per le macchine ad alimentazione indiretta e intorno all'unità per quelle a fiamma diretta.
+Il vapor d'acqua prodotto internamente a questo generatore ha una temperatura sufficientemente elevata per essere impiegato nel secondo stadio (\emph{secondo generatore}); in esso, a temperatura e pressione prossime a quella del monostadio, condensando realizza, senza ulteriore spesa, un'ulteriore concentrazione/generazione. Da questo punto in poi il circuito è equivalente a quello del monostadio con la differenza che nell'AHP a doppio stadio un'unità di massa prodotta nel generatore ad alta temperatura può fare evaporare , rispetto al monostadio, un'ulteriore unità di massa di refrigerante nel generatore a bassa temperatura, e quindi avere nell'evaporatore l'evaporazione di due unità di massa di refrigerante. il COP massimo raggiunto da queste apparecchiature si aggira intorno a \num{1.3} per le macchine ad alimentazione indiretta e intorno all'unità per quelle a fiamma diretta.
 
 In definitiva, si può affermare che, rispetto alle tradizionali apparecchiature a compressione di vapore, gli assorbitori offrono i seguenti vantaggi:
 \begin{itemize}
@@ -375,8 +375,40 @@ Di contro ci sono alcuni svantaggi:
 	\item modesto COP;
 	\item necessità di ricorrere ad acqua di torre per la condensazione, sopratutto per gli assorbitori ad acqua/bromuro di litio;
 	\item per gli assorbitori ad acqua/bromuro di litio, la necessità di ricorrere ad un'accurata gestione e manutenzione per quanto riguarda la tenuta al vuoto, indispensabile per il loro corretto funzionamento;
-	\item accurato controllo della temperatura di condensazione in quanto, nel caso in cui sia troppo bassa, rischia di solidificare il bromuro di litio. Infatti sul ritorno dell'acqua di torre vi è termostato che misura la temperatura: nel caso in cui questa sia troppo bassa, agisce su una valvola miscelatrice posta sul ritorno dell'acqua di torre bypassando di fatto la torre di condensazione stessa e facendo tornare all'assorbitore/condensatore acqua calda.
+	\item accurato controllo della temperatura di condensazione in quanto, nel caso in cui sia troppo bassa, rischia di solidificare il bromuro di litio. Infatti sul ritorno dell'acqua di torre vi è termostato che misura la temperatura: nel caso in cui questa sia troppo bassa, agisce su una valvola miscelatrice posta sul ritorno dell'acqua di torre bypassando di fatto la torre di condensazione stessa e facendo tornare all'assorbitore/condensatore acqua calda. \texttt{CHIEDI QUA}
 \end{itemize}
+Tornando nell'ambito progettuale di questo elaborato di laurea, avendo in estate i reflui termici del cogeneratore utilizzabili mediante l'acqua surriscaldata a \n{130}{\degreeCelsius}, si è preferito utilizzare un assorbitore.
+
+Le caratteristiche della macchina, per quello che è stato detto nella teoria, saranno le seguenti: \emph{alimentazione indiretta}, \emph{bistadio} e come fluido \emph{acqua e bromuro di litio}. Si è fissato il COP ad un cautelativo \num{1.25}. 
+
+L'assorbitore è stato dimensionato sul carico massimo estivo. Si spera che in questo modo sia possibile utilizzare quanti più reflui termici essendo questi gratuiti (in quanto il \emph{goal} del cogeneratore è la produzione di energia elettrica per il policlinico).
+
+La potenza termica di raffreddamento è $\dot{Q}_{raff}=\SI{730}{kW}$ e sovradimensionando di un coefficiente di sicurezza pari al \n{20}{\%} si ottiene $\dot{Q}_{raff}=\SI{900}{kW}$ che sarà la potenzialità dell'assorbitore
+
+Scrivendo la relazione del COP
+\begin{equation}
+	COP=\frac{\dot{Q}_{EV}}{\dot{Q}_{GE}}
+\end{equation}
+è possibile quantificare la potenza necessaria al generatore e quindi valutare la portata di acqua surriscaldata necessaria. 
+\begin{align}
+	\dot{Q}_{GE} &= \SI{720}{kW}\\
+	\dot{m}_w &= \frac{\dot{Q}_{GE}}{c\ \Delta T}\label{Portata}\\
+	\dot{m}_w&=\SI{5.7}{kg/s}\label{Portata:acquacalda}
+\end{align}
+nella \vref{Portata} si è fissato $\Delta T=\SI{30}{\degreeCelsius}$.
+
+Siccome per gli assorbitori vale il seguente bilancio energetico
+\begin{equation}
+	\dot{Q}_{GE}+\dot{Q}_{EV}=\dot{Q}_{CO}+\dot{Q}_{ASS}
+\end{equation}
+sarà che la potenza da sottrarre al condensatore e all'assorbitore (e quindi da smaltire in atmosfera mediante la torre evaporativa) vale
+\begin{equation}
+	\dot{Q}_{CO}+\dot{Q}_{ASS}=\SI{1620}{kW}
+\end{equation}
+e quindi, per il solito coefficiente di sicurezza, si dimensionerà la torre evaporativa su una potenzialità pari a $\dot{Q}_{TORRE}=\SI{1900}{kW}$, il che necessita di una portata d'acqua pari a (con $\Delta T=\SI{5}{\degreeCelsius}$)
+\begin{equation}
+	\dot{m}_w\approx \SI{90}{kg/s}
+\end{equation}
 \subsubsection{La pompa di calore e l'impianto geotermico}
 
 \subsubsection{Gli scambiatori}
