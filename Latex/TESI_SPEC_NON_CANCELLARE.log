@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  12 MAY 2018 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  13 MAY 2018 12:58
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -2370,48 +2370,50 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
  [64 <./6_4_cap/img/aeraulica.pdf>]
-[65] [66] [67] [68]) [69]
+[65] [66] [67] [68] [69]) [70]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [70
+ (8_biblio/biblio.tex) [71
 
 
 
 ]
 \openout2 = `4_elencofig/elencofig.aux'.
 
- (4_elencofig/elencofig.tex (TESI_SPEC_NON_CANCELLARE.lof)
+
+(4_elencofig/elencofig.tex (TESI_SPEC_NON_CANCELLARE.lof)
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
-
-) [71
-
-
-
-]
-\openout2 = `5_elencotab/elencotab.aux'.
-
- (5_elencotab/elencotab.tex
-(TESI_SPEC_NON_CANCELLARE.lot)
-\tf@lot=\write6
-\openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
 ) [72
 
 
 
 ]
-\openout2 = `10_dedfinale/dedfinale.aux'.
+\openout2 = `5_elencotab/elencotab.aux'.
 
- (10_dedfinale/dedfinale.tex) [73
+
+(5_elencotab/elencotab.tex (TESI_SPEC_NON_CANCELLARE.lot)
+\tf@lot=\write6
+\openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
+
+) [73
+
 
 
 ]
-(TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
-(1_dedica/dedica.aux) (3_indicegenerale/indicegenerale.aux)
-(2_sommario/sommario.aux) (9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux)
-(6_3_cap/3_cap.aux) (6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux)
-(8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
+\openout2 = `10_dedfinale/dedfinale.aux'.
+
+
+(10_dedfinale/dedfinale.tex) [74
+
+
+] (TESI_SPEC_NON_CANCELLARE.aux
+(0_frontespizio/frontespizio.aux) (1_dedica/dedica.aux)
+(3_indicegenerale/indicegenerale.aux) (2_sommario/sommario.aux)
+(9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux) (6_3_cap/3_cap.aux)
+(6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux) (8_biblio/biblio.aux)
+(4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2446,9 +2448,9 @@ neT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
 B.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.p
 fb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (74 pages, 9342630 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (75 pages, 9345240 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
+ 358 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
