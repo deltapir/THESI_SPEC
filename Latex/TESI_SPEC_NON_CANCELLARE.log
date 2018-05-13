@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  13 MAY 2018 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  14 MAY 2018 00:32
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1630,10 +1630,11 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@templatesizebox=\box69
 )
 (TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
-(1_dedica/dedica.aux) (3_indicegenerale/indicegenerale.aux)
-(2_sommario/sommario.aux) (9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux)
-(6_3_cap/3_cap.aux) (6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux)
-(8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
+(1_dedica/dedica.aux) (11_dedica/dedica.aux)
+(3_indicegenerale/indicegenerale.aux) (2_sommario/sommario.aux)
+(9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux) (6_3_cap/3_cap.aux)
+(6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux) (8_biblio/biblio.aux)
+(4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux))
 \openout1 = `TESI_SPEC_NON_CANCELLARE.aux'.
 
@@ -1818,23 +1819,28 @@ Frontespizio.png>])
 
 
 (1_dedica/dedica.tex
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 5.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 5.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 7.
 ) [1
 
 
 ]
+\openout2 = `11_dedica/dedica.aux'.
+
+ (11_dedica/dedica.tex [2
+
+
+])
 \openout2 = `3_indicegenerale/indicegenerale.aux'.
 
- (3_indicegenerale/indicegenerale.tex
+
+(3_indicegenerale/indicegenerale.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
+ (TESI_SPEC_NON_CANCELLARE.toc [3
 
-(TESI_SPEC_NON_CANCELLARE.toc [2
 
 
 
@@ -1842,26 +1848,25 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 \tf@toc=\write4
 \openout4 = `TESI_SPEC_NON_CANCELLARE.toc'.
 
-) [3]
+)
+[4]
 \openout2 = `2_sommario/sommario.aux'.
 
- (2_sommario/sommario.tex) [4
+ (2_sommario/sommario.tex) [5
 
 
 ]
 \openout2 = `9_ringraziamenti/ringra.aux'.
 
-
-(9_ringraziamenti/ringra.tex) [5
+ (9_ringraziamenti/ringra.tex) [6
 
 
 ]
 \openout2 = `6_1_cap/1_cap.aux'.
 
- (6_1_cap/1_cap.tex
+
+(6_1_cap/1_cap.tex
 Capitolo 1.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 7.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 7.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
@@ -1872,11 +1877,11 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 5.0pt on input line 11.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 20.
-[6
+[7
 
 
 
-] [7] [8] [9]
+] [8] [9] [10]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 85.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -1888,13 +1893,13 @@ LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <6.5> not available
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 93.
-[10]
+[11]
 Overfull \hbox (0.53256pt too wide) in paragraph at lines 107--108
 []\T1/LinuxLibertineT-TLF/m/it/10.95 Affiancata al-la Cen-tra-le Ter-mi-ca, ma 
 di-vi-sa, in ri-spet-to del-le nor-me VV.FF.,
  []
 
-[11]
+[12]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
  input line 148.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\ts1linuxlibertinet-tlf.fd"
@@ -1903,13 +1908,13 @@ LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 148.
- [12]
+ [13]
 Overfull \hbox (1.25175pt too wide) in paragraph at lines 180--181
 []\T1/LinuxLibertineT-TLF/m/it/10.95 Queste re-ti so-no sta-te rea-liz-za-te in
  tu-bi di ac-cia-io tra-fi-la-to <<Man-ne-smann>>,
  []
 
-[13]) [14]
+[14]) [15]
 \openout2 = `6_3_cap/3_cap.aux'.
 
  (6_3_cap/3_cap.tex
@@ -1922,7 +1927,7 @@ File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 6.
- [15
+ [16
 
 
 
@@ -1931,63 +1936,63 @@ LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 27.
- [16] [17] [18] [19] [20] [21] [22]
+ [17] [18] [19] [20] [21] [22] [23]
 
-LaTeX Warning: Reference `vallim' on page 23 undefined on input line 185.
+LaTeX Warning: Reference `vallim' on page 24 undefined on input line 185.
 
 
-LaTeX Warning: Reference `vallim' on page 23 undefined on input line 185.
+LaTeX Warning: Reference `vallim' on page 24 undefined on input line 185.
 
-[23] [24]
+[24] [25]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 229.
- [25] [26]) [27]
+ [26] [27]) [28]
 \openout2 = `6_2_cap/2_cap.aux'.
 
  (6_2_cap/2_cap.tex
 Capitolo 3.
-[28
+[29
 
 
 
-] [29
+] [30
 
-] [30] [31] [32] [33
+] [31] [32] [33] [34
 
-] [34] [35] [36] [37]
-<6_2_cap/img/radiatore.jpg, id=137, 4525.90875pt x 3017.2725pt>
+] [35] [36] [37] [38]
+<6_2_cap/img/radiatore.jpg, id=140, 4525.90875pt x 3017.2725pt>
 File: 6_2_cap/img/radiatore.jpg Graphic file (type jpg)
 
 <use 6_2_cap/img/radiatore.jpg>
 Package pdftex.def Info: 6_2_cap/img/radiatore.jpg used on input line 347.
 (pdftex.def)             Requested size: 175.49881pt x 116.98715pt.
 
-<6_2_cap/img/P4RadFan.jpg, id=138, 3845.36626pt x 2563.5775pt>
+<6_2_cap/img/P4RadFan.jpg, id=141, 3845.36626pt x 2563.5775pt>
 File: 6_2_cap/img/P4RadFan.jpg Graphic file (type jpg)
 
 <use 6_2_cap/img/P4RadFan.jpg>
 Package pdftex.def Info: 6_2_cap/img/P4RadFan.jpg used on input line 348.
 (pdftex.def)             Requested size: 175.49881pt x 116.99892pt.
 
-<6_2_cap/img/P4FanCoil.jpg, id=139, 3657.665pt x 2438.10875pt>
+<6_2_cap/img/P4FanCoil.jpg, id=142, 3657.665pt x 2438.10875pt>
 File: 6_2_cap/img/P4FanCoil.jpg Graphic file (type jpg)
 
 <use 6_2_cap/img/P4FanCoil.jpg>
 Package pdftex.def Info: 6_2_cap/img/P4FanCoil.jpg used on input line 349.
 (pdftex.def)             Requested size: 175.49881pt x 116.96465pt.
 
-<6_2_cap/img/P3Aer.jpg, id=140, 4525.90875pt x 3017.2725pt>
+<6_2_cap/img/P3Aer.jpg, id=143, 4525.90875pt x 3017.2725pt>
 File: 6_2_cap/img/P3Aer.jpg Graphic file (type jpg)
 
 <use 6_2_cap/img/P3Aer.jpg>
 Package pdftex.def Info: 6_2_cap/img/P3Aer.jpg used on input line 350.
 (pdftex.def)             Requested size: 175.49881pt x 116.98715pt.
- [38 <./6_2_cap/img/radiatore.jpg> <./6_2_cap/img/P4RadFan.jpg> <./6_2_cap/img/
+ [39 <./6_2_cap/img/radiatore.jpg> <./6_2_cap/img/P4RadFan.jpg> <./6_2_cap/img/
 P4FanCoil.jpg> <./6_2_cap/img/P3Aer.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/PT.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/PT.pdf, id=144, 845.07724pt x 1194.98447pt>
+<6_2_cap/img/PT.pdf, id=147, 845.07724pt x 1194.98447pt>
 File: 6_2_cap/img/PT.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/PT.pdf>
@@ -2009,7 +2014,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/PT.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/PT.pdf, id=147, page=1, 845.07724pt x 1194.98447pt>
+<6_2_cap/img/PT.pdf, id=150, page=1, 845.07724pt x 1194.98447pt>
 File: 6_2_cap/img/PT.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/PT.pdf, page 1>
@@ -2019,7 +2024,7 @@ File: 6_2_cap/img/PT.pdf Graphic file (type pdf)
  <use 6_2_cap/img/PT.pdf, page 1>
 Package pdftex.def Info: 6_2_cap/img/PT.pdf, page1 used on input line 365.
 (pdftex.def)             Requested size: 597.55902pt x 844.98047pt.
- [39]
+ [40]
 File: 6_2_cap/img/PT.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/PT.pdf, page 1>
@@ -2034,11 +2039,11 @@ File: 6_2_cap/img/PT.pdf Graphic file (type pdf)
 <use 6_2_cap/img/PT.pdf, page 1>
 Package pdftex.def Info: 6_2_cap/img/PT.pdf, page1 used on input line 365.
 (pdftex.def)             Requested size: 597.55902pt x 844.98047pt.
- [40 <./6_2_cap/img/PT.pdf>]
+ [41 <./6_2_cap/img/PT.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P1.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P1.pdf, id=155, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P1.pdf, id=158, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P1.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P1.pdf>
@@ -2060,7 +2065,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P1.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P1.pdf, id=158, page=1, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P1.pdf, id=161, page=1, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P1.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P1.pdf, page 1>
@@ -2084,11 +2089,11 @@ File: 6_2_cap/img/P1.pdf Graphic file (type pdf)
 <use 6_2_cap/img/P1.pdf, page 1>
 Package pdftex.def Info: 6_2_cap/img/P1.pdf, page1 used on input line 366.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [41 <./6_2_cap/img/P1.pdf>]
+ [42 <./6_2_cap/img/P1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P2.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P2.pdf, id=163, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P2.pdf, id=167, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P2.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P2.pdf>
@@ -2110,7 +2115,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P2.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P2.pdf, id=166, page=1, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P2.pdf, id=170, page=1, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P2.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P2.pdf, page 1>
@@ -2134,11 +2139,11 @@ File: 6_2_cap/img/P2.pdf Graphic file (type pdf)
 <use 6_2_cap/img/P2.pdf, page 1>
 Package pdftex.def Info: 6_2_cap/img/P2.pdf, page1 used on input line 367.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [42 <./6_2_cap/img/P2.pdf>]
+ [43 <./6_2_cap/img/P2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P3.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P3.pdf, id=172, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P3.pdf, id=175, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P3.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P3.pdf>
@@ -2160,7 +2165,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P3.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P3.pdf, id=175, page=1, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P3.pdf, id=178, page=1, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P3.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P3.pdf, page 1>
@@ -2184,11 +2189,11 @@ File: 6_2_cap/img/P3.pdf Graphic file (type pdf)
 <use 6_2_cap/img/P3.pdf, page 1>
 Package pdftex.def Info: 6_2_cap/img/P3.pdf, page1 used on input line 368.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [43 <./6_2_cap/img/P3.pdf>]
+ [44 <./6_2_cap/img/P3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P4.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P4.pdf, id=188, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P4.pdf, id=191, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P4.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P4.pdf>
@@ -2210,7 +2215,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./6_2_cap/img/P4.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<6_2_cap/img/P4.pdf, id=191, page=1, 597.55246pt x 845.07724pt>
+<6_2_cap/img/P4.pdf, id=194, page=1, 597.55246pt x 845.07724pt>
 File: 6_2_cap/img/P4.pdf Graphic file (type pdf)
 
 <use 6_2_cap/img/P4.pdf, page 1>
@@ -2234,8 +2239,8 @@ File: 6_2_cap/img/P4.pdf Graphic file (type pdf)
 <use 6_2_cap/img/P4.pdf, page 1>
 Package pdftex.def Info: 6_2_cap/img/P4.pdf, page1 used on input line 369.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [44 <./6_2_cap/img/P4.pdf>] [45]
-<6_2_cap/img/cypeflow.png, id=199, 277.5168pt x 249.8133pt>
+ [45 <./6_2_cap/img/P4.pdf>] [46]
+<6_2_cap/img/cypeflow.png, id=202, 277.5168pt x 249.8133pt>
 File: 6_2_cap/img/cypeflow.png Graphic file (type png)
 
 <use 6_2_cap/img/cypeflow.png>
@@ -2245,26 +2250,26 @@ Package pdftex.def Info: 6_2_cap/img/cypeflow.png used on input line 399.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46] [47 <./6_2_cap/img/cypeflow.png>] [48] [49]) [50] [51]
+[47] [48 <./6_2_cap/img/cypeflow.png>] [49] [50]) [51] [52]
 \openout2 = `6_4_cap/4_cap.aux'.
 
  (6_4_cap/4_cap.tex
 Capitolo 4.
-[52
+[53
 
 
 
-] [53]
+] [54]
 Overfull \hbox (21.40683pt too wide) in paragraph at lines 83--84
 []\T1/LinuxLibertineT-TLF/m/n/12 modificando la stra-ti-gra-fia, si ab-bat-te l
 a tra-smit-tan-za ter-mi-ca fi-no a [][]; 
  []
 
-[54] [55] [56] [57] [58] [59]
+[55] [56] [57] [58] [59] [60]
 
 pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/cavedi.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<6_4_cap/img/cavedi.pdf, id=244, 597.55246pt x 845.07724pt>
+<6_4_cap/img/cavedi.pdf, id=248, 597.55246pt x 845.07724pt>
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/cavedi.pdf>
@@ -2286,7 +2291,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/cavedi.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<6_4_cap/img/cavedi.pdf, id=247, page=1, 597.55246pt x 845.07724pt>
+<6_4_cap/img/cavedi.pdf, id=251, page=1, 597.55246pt x 845.07724pt>
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/cavedi.pdf, page 1>
@@ -2297,7 +2302,7 @@ File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 247.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 
-[60]
+[61]
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
  <use 6_4_cap/img/cavedi.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 247.
@@ -2311,11 +2316,11 @@ File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 <use 6_4_cap/img/cavedi.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 247.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [61 <./6_4_cap/img/cavedi.pdf>] [62]
+ [62 <./6_4_cap/img/cavedi.pdf>] [63]
 
 pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/aeraulica.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<6_4_cap/img/aeraulica.pdf, id=267, 597.55246pt x 845.07724pt>
+<6_4_cap/img/aeraulica.pdf, id=270, 597.55246pt x 845.07724pt>
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf>
@@ -2337,7 +2342,7 @@ pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/aeraulica.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/aeraulica.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<6_4_cap/img/aeraulica.pdf, id=270, page=1, 597.55246pt x 845.07724pt>
+<6_4_cap/img/aeraulica.pdf, id=273, page=1, 597.55246pt x 845.07724pt>
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf, page 1>
@@ -2350,7 +2355,7 @@ File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [63]
+ [64]
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf, page 1>
@@ -2369,47 +2374,48 @@ File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [64 <./6_4_cap/img/aeraulica.pdf>]
-[65] [66] [67] [68] [69] [70] [71] [72] [73] [74]) [75]
+ [65 <./6_4_cap/img/aeraulica.pdf>]
+[66] [67] [68] [69] [70] [71] [72] [73] [74] [75]) [76] [77]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex)
-[76
+
+(8_biblio/biblio.tex) [78
 
 
 
 ]
 \openout2 = `4_elencofig/elencofig.aux'.
 
- (4_elencofig/elencofig.tex (TESI_SPEC_NON_CANCELLARE.lof)
+ (4_elencofig/elencofig.tex
+(TESI_SPEC_NON_CANCELLARE.lof)
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [77
+) [79
 
 
 
 ]
 \openout2 = `5_elencotab/elencotab.aux'.
 
-
-(5_elencotab/elencotab.tex (TESI_SPEC_NON_CANCELLARE.lot)
+ (5_elencotab/elencotab.tex
+(TESI_SPEC_NON_CANCELLARE.lot)
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [78
+) [80
 
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
+ (10_dedfinale/dedfinale.tex) [81
 
-(10_dedfinale/dedfinale.tex) [79
 
-
-] (TESI_SPEC_NON_CANCELLARE.aux
-(0_frontespizio/frontespizio.aux) (1_dedica/dedica.aux)
+]
+(TESI_SPEC_NON_CANCELLARE.aux (0_frontespizio/frontespizio.aux)
+(1_dedica/dedica.aux) (11_dedica/dedica.aux)
 (3_indicegenerale/indicegenerale.aux) (2_sommario/sommario.aux)
 (9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux) (6_3_cap/3_cap.aux)
 (6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux) (8_biblio/biblio.aux)
@@ -2424,21 +2430,21 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 38880 strings out of 493323
- 910266 string characters out of 3139025
- 1108014 words of memory out of 3000000
- 41686 multiletter control sequences out of 15000+200000
- 716859 words of font info for 151 fonts, out of 3000000 for 9000
+ 38868 strings out of 493323
+ 909819 string characters out of 3139025
+ 1108012 words of memory out of 3000000
+ 41669 multiletter control sequences out of 15000+200000
+ 692230 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,10398b,980s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1math/libusEX.enc}{C:
 /Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{C:/Program
  Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/libertinust1math/libusMI.enc}{C:/Program Files/MiKTeX
- 2.9/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/libertinust1math/libusSYM.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
-/libertinust1math/libusMR.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libe
+iKTeX 2.9/fonts/enc/dvips/libertinust1math/libusSYM.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/libertinust1math/libusMI.enc}{C:/Program Files/MiKTeX 2.9
+/fonts/enc/dvips/libertinust1math/libusMR.enc}{C:/Program Files/MiKTeX 2.9/font
+s/enc/dvips/libertine/lbtn_ki75ao.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
+ips/libertine/lbtn_7grukw.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libe
 rtine/lbtn_76gpa5.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lb
 tn_nh77jq.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_ncsll
 p.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertinust1math/Libertin
@@ -2448,9 +2454,9 @@ neT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
 B.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.p
 fb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (80 pages, 9359288 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (82 pages, 9362632 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
+ 380 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

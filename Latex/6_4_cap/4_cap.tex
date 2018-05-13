@@ -442,6 +442,9 @@ L'acqua può essere una sorgente (o pozzo) d'energia termica ottimale. Nel caso 
 
 Nel caso in cui sia possibile utilizzare la configurazione con \emph{circuito aperto} i vantaggi sono molteplici. Innanzitutto l'inerzia termica della sorgente (mare, fiumi, laghi, falda, ecc\dots) garantisce in generale una temperatura stabile per gran parte dell'anno, le fluttuazione sono infatti estremamente lente, dell'ordine di qualche giorno per grado di variazione. Un ulteriore vantaggio è rappresentato, a seconda della stagione, dall'elevata o bassa temperatura della sorgente. In estate ad esempio nel caso dell'acqua di mare, basta scendere di circa \n{10}{m} sotto la superficie per trovare una temperatura compresa tra gli \num{8} e i \n{12}{\degreeCelsius}.
 
+\paragraph{L'energia solare}
+In inverno uno dei principali vantaggi nell'utilizzo della radiazione solare come sorgente d'energia termica nelle pompe di calore è l'elevato valore della temperatura rispetto alle altre sorgenti con conseguente aumento del COP. Rispetto all'utilizzo dell'energia solare senza pompa di calore, l'efficienza e la potenza termica unitaria dei collettori solari è incrementata dalla minor temperatura richiesta al collettore. Vista l'enorme variabilità della radiazione solare durante la giornata, è molto importante accoppiare un impianto di collettori solare ad un accumulo termico correttamente dimensionato.
+
 \paragraph{Il terreno}
 La temperatura del terreno ad una certa profondità si stabilizza ad un valore molto prossimo a quello della media annuale della temperatura dell'aria. Ad elevate profondità, invece, entra in gioco le'energia termica endogena. Infatti oltre i \n{30}{m} di profondità si riscontra in media un incremento di temperatura di circa \n{1}{\degreeCelsius} ogni \n{30}{m}. La temperatura del terreno è quindi più stabile di quella dell'aria esterna, non risente delle oscillazioni giornaliere, le variazioni di temperatura sono smorzate e ritardate di fase. Il tutto è tanto più vero quanto maggiore è la profondità. Le pompe di calore che utilizzano il terreno come sorgente di calore in inverno e pozzo di calore in estate sono dunque vantaggiose.
 
@@ -451,8 +454,28 @@ I sistemi a tubi verticali, invece, utilizzano una o più perforazioni con profo
 
 Le macchine che adottano tale tecnologia possono utilizzare un fluido secondario all'interno del circuito di tubi immerso nel terreno, che può essere acqua nei climi più miti o una miscela acqua-fluido anticongelante in quelli più rigidi. I fluidi anticongelanti più utilizzati sono il metanolo, l'etanolo e il glicol propilenico. In alternativa le macchine possono essere ad espansione diretta se utilizzano viceversa direttamente il fluido refrigerante nel circuito immerso nel terreno.
 
-\paragraph{L'energia solare}
-In inverno uno dei principali vantaggi nell'utilizzo della radiazione solare come sorgente d'energia termica nelle pompe di calore è l'elevato valore della temperatura rispetto alle altre sorgenti con conseguente aumento del COP. Rispetto all'utilizzo dell'energia solare senza pompa di calore, l'efficienza e la potenza termica unitaria dei collettori solari è incrementata dalla minor temperatura richiesta al collettore. Vista l'enorme variabilità 
+Nella progettazione della sottocentrale si è stati obbligati ad utilizzare come sorgente/pozzo di energia termica il terreno.
+
+Innanzitutto è stato necessario capire come modellare il terreno. In assenza di dati, sono stati utilizzati quelli dell'adiacente ``Istituto Nazionale Tumori - IRCCS \emph{Fondazione G. Pascale}'' in cui è stato costruito un campo geotermico e per l'occasione sono stati effettuati dei carotaggi per la valutazione del sottosuolo.
+
+I dati ricavati relativi al terreno sono:
+\begin{itemize}
+	\item conducibilità termica: $\lambda = \SI{0.79}{W/mK}$;
+	\item temperatura indisturbata: $T_g=\SI{15.4}{\degreeCelsius}$
+	\item capacità termica: $c=\SI{1.5}{MJ/m^3K}$
+\end{itemize}
+
+La difficoltà nella progettazione del campo geotermico risiede nella complessa valutazione di scambi energetici che il terreno ha con il resto dell'ambiente. Infatti, la temperatura del terreno dipende da 3 tipologie di fenomeni:
+\begin{itemize}
+	\item scambio d'energia con l'atmosfera: irraggiamento solare, eventi meteorici, trasmissione per convezione (a cui si aggiunge la variabilità del vento), calore estratto dalla vegetazione e calore scambiato con gli edifici soprastanti;
+	\item scambio d'energia con gli acquiferi che, a seconda della stagione, possono apportare od estrarre energia;
+	\item apporto energetico legato al flusso geotermico.
+\end{itemize}
+Purtroppo anche considerando e studiando questi fenomeni singolarmente, il bilancio globale non è determinabile banalmente tramite sovrapposizione degli effetti in quanto è necessario tenere conto della mutua influenza. Sono necessari modelli matematici complessi, da sviluppare caso per caso.
+
+La procedura di calcolo utilizzata per il dimensionamento delle sonde geotermiche verticali è quello proposto dalla ASHRAE: tale procedura, infatti, utilizza il metodo analitico basato sulla teoria della sorgente cilindrica sviluppato da \emph{Ingersoll} e \emph{Zobel} nel 1954 e ripreso da \emph{Kavanaugh} e \emph{Rafferty} nel 1997.
+
+Il modello analitico ha dato risultati
 
 
 \subsubsection{Gli scambiatori}
