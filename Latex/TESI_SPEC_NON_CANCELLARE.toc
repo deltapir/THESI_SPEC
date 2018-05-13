@@ -53,7 +53,11 @@
 \contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{66}
 \contentsline {subsubsection}{L'assorbitore}{67}
 \contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{71}
-\contentsline {subsubsection}{Gli scambiatori}{71}
-\contentsline {chapter}{Bibliografia}{72}
-\contentsline {chapter}{Elenco delle figure}{73}
-\contentsline {chapter}{Elenco delle tabelle}{74}
+\contentsline {paragraph}{L'aria}{72}
+\contentsline {paragraph}{L'acqua}{73}
+\contentsline {paragraph}{Il terreno}{73}
+\contentsline {paragraph}{L'energia solare}{74}
+\contentsline {subsubsection}{Gli scambiatori}{75}
+\contentsline {chapter}{Bibliografia}{76}
+\contentsline {chapter}{Elenco delle figure}{77}
+\contentsline {chapter}{Elenco delle tabelle}{78}
