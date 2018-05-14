@@ -269,3 +269,37 @@ Da tutto ciò discendono queste conclusioni (o modi di progettare l'edificio):
 	\item In estate i componenti opachi dovrebbero avere una elevata \emph{trasmittanza termica periodica} in modo tale che l'onda di calore dovuta alla radiazione solare incidente la parete venga attenuata e sfasata opportunamente. I componenti trasparenti dovrebbero essere limitati, se non addirittura assenti, sulle superfici esposte a est e ovest. A sud il problema dell'ingresso di radiazione solare tramite il vetro a guadagno solare viene risolto posizionando esternamente tendine o coperture: il sole in estate risulta, come è ben noto, più alto sulla volta celeste mentre è più basso in inverno. 
 	\item A nord il componente trasparente non deve essere presente o, al limite, lo si sceglie del tipo \emph{basso-emissivo} per contenere le dispersioni di radiazione infrarossa. 
 \end{itemize}
+\section{I Softwares}
+L'analisi di carichi e fabbisogni energetici è stata effettuata con l'ausilio di software basati sulla tecnologia \bim.
+
+Il \bim\ (\emph{Building Information Modelling}) è un metodo che, citando da \textit{Wikipedia.it}, permette:
+\begin{quote}
+	\dots l'ottimizzazione della pianificazione, realizzazione e gestione di costruzioni tramite aiuto di un software. Tramite esso tutti i dati rilevanti di una costruzione possono essere raccolti, combinati e collegati digitalmente. La costruzione virtuale è visualizzabile inoltre come un modello geometrico tridimensionale.%\footnote{https://it.wikipedia.org/wiki/Building\_Information\_Modeling}
+\end{quote}
+Si sta lavorando a livello Europeo affinché questa metodologia di progettazione possa avere una sua definizione. Al giorno d'oggi, infatti, il BIM viene frainteso con una qualche sorta di tecnologia o addirittura software: niente di più sbagliato. Gli applicativi basati sulla \emph{filosofia del BIM} hanno delle peculiarità che li differenziano in modo marcato dagli altri. Infatti in un programma BIM un oggetto (per esempio un edificio) viene rappresentato tridimensionalmente perché disegnato da un architetto ma ogni parte di questo edificio contiene delle informazioni utili ad uno strutturista (ovvero tipologia del materiale usato per un muro o anche le sue caratteristiche fisiche). Continuando in questa direzione, altre informazioni che è possibile inserire in questo edificio (o file) sono le caratteristiche termiche dell'involucro (opaco e trasparente), il disegno/progettazione dei vari impianti (idraulici, aeraulici e elettrici). Una volta inserite tutte queste informazioni è possibile ricavare dei dati molto preziosi. Per esempio il carico termico nella stagione estiva/invernale, il computo metrico del materiale utilizzato, fare stime e/o studi sulla vita utile dell'edificio, etc\dots
+
+Tutte queste informazioni sono presenti all'interno di un unico file. E siccome il file è unico, viene incentivata la cooperazione tra i diversi professionisti. Addirittura è possibile lavorare contemporaneamente su quest'unico file in modo tale che una modifica di una parte del progetto si ripercuote automaticamente sugli altri aspetti progettuali in cosicché le altre figure professionali vengono automaticamente avvertite di suddetta modifica. Questo si traduce in una maggiore velocità di esecuzione, una sostanziale diminuzione di errori e costi di progettazione.
+
+Citando dal sito della ACCA:
+\begin{quote}
+	Grazie alla metodologia del BIM l'edificio viene "costruito" prima della sua realizzazione fisica, mediante un modello virtuale, attraverso la collaborazione ed i contributi di tutti gli attori coinvolti nel progetto (architetti, ingegneri, progettisti, consulenti, analisti energetici, etc\dots).
+\end{quote}
+Nello studio di riqualificazione energetica in questione, il programma utilizzato è costituito da una suite di applicativi diversi che si interfacciano in modo tale da realizzare ciò che la metodologia BIM impone.
+
+Di \textbf{CYPE}, ovvero la suite, sono stati usati i seguenti programmi:
+\begin{description}
+	\item[IFC Builder]permette di disegnare geometricamente l'edificio definendo di volta in volta i suoi elementi (involucro opaco e trasparente, locali e zone termiche). Il file \textsc{.ifc} realizzato permette di essere esportato e utilizzato da qualsiasi altro programma che supporta questo file. Il formato \textsc{.ifc} è aperto, libero e ben documentato. In parole povere: questo file è alla base del BIM in quanto permette la cooperazione tra diversi programmi (usati rispettivamente da diverse figure professionali);
+	\item[CYPETHERM Loads]permette di definire le caratteristiche termo-fisiche dell'involucro e la destinazione d'uso dei locali importati dal file \textsc{.ifc}. Restituisce i carichi termici (annuali, mensili e orari) per ogni locale delle zone termiche. Una volta ottenuti i risultati è possibile esportarli in modo tale che qualsiasi altro programma della suite CYPE possa utilizzarli;
+	\item[CYPETHERM HVAC]permette di importare i file realizzati con IFC Builder e Loads e progettare/dimensionare un adeguato impianto HVAC per l'abbattimento del carico sensibile e latente oltre che per il rinnovo dell'aria;
+\end{description}
+In \ref{bim:cype} è riassunto il funzionamento della suite di CYPE. Si nota la centralità del server \emph{BIMserver.center} a cui tutti i progetti prodotti dai vari programmi fanno capo.
+\begin{figure}[h]
+	\centering
+	\caption[Schema BIM CYPE]{Schema riassuntivo del funzionamento della \emph{suite} CYPE con filosofia BIM.}
+	\label{bim:cype}
+	\includegraphics[width=0.5\textheight]{6_2_cap/img/cypeflow}
+\end{figure}
+
+Per quanto riguarda la parte idronica si è utilizzato un applicativo BIM della software-house \emph{C.A.T.S.} che si appoggia ad \emph{Autodesk Autocad}.
+
+È stato possibile definire inizialmente la tipologia di tubazioni da utilizzare (dimensioni, materiale e coibente), la metodologia di dimensionamento con le velocità minime ammissibili e poi disegnare direttamente in Autocad le tubazioni stesse posizionando le unità locali (radiatori e fancoil). Infine, l'applicativo ha dimensionato le tubazioni, rilasciato il computo metrico e la relazione di calcolo.
