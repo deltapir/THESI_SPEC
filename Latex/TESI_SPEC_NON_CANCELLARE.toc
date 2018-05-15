@@ -58,7 +58,7 @@
 \contentsline {paragraph}{L'acqua}{77}
 \contentsline {paragraph}{L'energia solare}{77}
 \contentsline {paragraph}{Il terreno}{78}
-\contentsline {subsubsection}{Gli scambiatori}{79}
-\contentsline {chapter}{Bibliografia}{81}
-\contentsline {chapter}{Elenco delle figure}{82}
-\contentsline {chapter}{Elenco delle tabelle}{83}
+\contentsline {subsubsection}{Gli scambiatori}{82}
+\contentsline {chapter}{Bibliografia}{83}
+\contentsline {chapter}{Elenco delle figure}{84}
+\contentsline {chapter}{Elenco delle tabelle}{85}

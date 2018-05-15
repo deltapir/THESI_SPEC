@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  14 MAY 2018 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  15 MAY 2018 13:14
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -2388,11 +2388,11 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
  [68 <./6_4_cap/img/aeraulica.pdf>]
-[69] [70] [71] [72] [73] [74] [75] [76] [77] [78]) [79] [80]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]) [82]
 \openout2 = `8_biblio/biblio.aux'.
 
 
-(8_biblio/biblio.tex) [81
+(8_biblio/biblio.tex) [83
 
 
 
@@ -2404,7 +2404,7 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [82
+) [84
 
 
 
@@ -2416,14 +2416,14 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [83
+) [85
 
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [84
+ (10_dedfinale/dedfinale.tex) [86
 
 
 ]
@@ -2470,9 +2470,9 @@ neT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
 B.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.p
 fb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (85 pages, 9368078 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (87 pages, 9376102 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
+ 396 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

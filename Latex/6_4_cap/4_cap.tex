@@ -473,11 +473,54 @@ La difficoltà nella progettazione del campo geotermico risiede nella complessa 
 \end{itemize}
 Purtroppo anche considerando e studiando questi fenomeni singolarmente, il bilancio globale non è determinabile banalmente tramite sovrapposizione degli effetti in quanto è necessario tenere conto della mutua influenza. Sono necessari modelli matematici complessi, da sviluppare caso per caso.
 
-La procedura di calcolo utilizzata per il dimensionamento delle sonde geotermiche verticali è quello proposto dalla ASHRAE: tale procedura, infatti, utilizza il metodo analitico basato sulla teoria della sorgente cilindrica sviluppato da \emph{Ingersoll} e \emph{Zobel} nel 1954 e ripreso da \emph{Kavanaugh} e \emph{Rafferty} nel 1997.
+La procedura di calcolo utilizzata per il dimensionamento delle sonde geotermiche verticali è quello proposto dalla ASHRAE: tale metodo, infatti, si rifà a quello analitico basato sulla teoria della sorgente cilindrica sviluppato da \emph{Ingersoll} e \emph{Zobel} nel 1954 e ripreso da \emph{Kavanaugh} e \emph{Rafferty} nel 1997.
 
-Il modello analitico ha dato risultati
+Il modello analitico ha dato risultati utili per una buona progettazione del campo geotermico i quali vengono riassunti di seguito.
+\begin{itemize}
+	\item in fase di esercizio dell'impianto geotermico, il funzionamento della pompa di calore, sopratutto in condizioni di massimo carico, può provocare un decremento eccessivo della temperatura del terreno intorno alla sonda e dunque anche del fluido termovettore: tale situazione genera pericoli di gelo e stress meccanici tra terreno e sonda, che potrebbero minare l'incolumità della sonda stessa;
+	\item per operare un corretto dimensionamento della sonda, è necessario conoscere i carichi termici dell'edificio e il loro andamento temporale, in particolare il carico medio annuale standard, il carico mensile massimo e quello orario di punta, sia nel caso invernale che estivo;
+	\item gli impianti geotermici costituiti da molteplici sonde devono garantire distante reciproche sufficienti tra le stesse, in modo da garantire che i campi termici rispettivi non si influenzino reciprocamente. 
+\end{itemize}
+La relazione utilizzata dall'ASHRAE tiene conto della variazione temporale dei flussi termici scambiati tra sonda e terreno e quindi del differente significato che assume la resistenza del terreno al variare del periodo dell'oscillazione del flusso termico. Dal punto di visto matematico, si tiene conto di questo fenomeno facendo riferimento a tre ``impulsi termici'' a gradino di durata differente, mediante una semplice sovrapposizione degli effetti di breve, di medio e di lungo termine. Per ciascun gradino si introduce la resistenza termica del terreno corrispondente all'intervallo di tempo considerato; gli effetti dei tre impulsi vengono sommati, tenendo conto dei carichi termici corrispettivi.
 
+Le relazioni, una per il caso invernale e l'altra per quello estivo, sono:
+\begin{align}
+	L_c&= \frac{\Phi_a R_{ga}+(\Phi_{lc}-W_{c})(R_b+PLF_mR_{gm}+R_{gd}F_{sc})}{T_0-\frac{T_{fi}+T_{fo}}{2}-T_p}\\
+	L_h&= \frac{\Phi_a R_{ga}+(\Phi_{lh}-W_{h})(R_b+PLF_mR_{gm}+R_{gd}F_{sc})}{T_0-\frac{T_{fi}+T_{fo}}{2}-T_p}
+\end{align}
+dove:
+\begin{description}
+	\item[$L_c \-- L_h$] sono le lunghezze di perforazione necessarie per soddisfare rispettivamente il carico estivo (\emph{cooling}) od invernale (\emph{heating}) (il valore maggiore tra i due definisce la profondità di installazione da adottare), in \si{m};
+	\item[$\Phi_a$] è il flusso termico medio scambiato con il sottosuolo in un anno, in \si{W};
+	\item[$\Phi_{lc} \-- \Phi_{lh}$] sono i carichi termici di progetto rispettivamente in raffrescamento ($\Phi_{lc}<0$) e in riscaldamento ($\Phi_{lh}>0$) dell'edificio, in \si{W};
+	\item[$W_c \-- W_h$] sono le potenze elettriche assorbite dal compressore della pompa di calore al carico termico estivo ed invernale di picco, in \si{W};
+	\item[$R_{ga}$] è la resistenza termica lineare equivalente del terreno per un impulso annuale, in \si{mK/W}. Serve a tenere conto dell'andamento della temperatura del terreno sul lungo periodo, sostanzialmente identificabile con la durata dell'impianto. Viene calcolata per un tempo pari a \num{10} anni (\num{3650} giorni);
+	\item[$R_{gm}$] è la resistenza termica lineare equivalente del terreno per un impulso mensile, in \si{mk/W}. Tiene conto delle fluttuazioni stagionali nel carico. Il tempo di riferimento è pari a \num{10} anni più \num{1} mese (\num{3680} giorni);
+	\item[$R_{gd}$] è la resistenza termica lineare equivalente del terreno per un impulso della durata di un giorno o frazione, in \si{mK/W}. Esprime le fluttuazioni di brevissimo periodo. Il tempo di riferimento è pari a \num{3680.25} giorni, ovvero \num{6} ore in più rispetto a quello per $R_{gm}$.;
+	\item[$R_b$] è la resistenza termica per unità di lunghezza della sonda, tra fluido e bordo sonda, in \si{mK/W};
+	\item[$PLF_m$] è il fattore di carico parziale per il mese di picco;
+	\item[$F_{sc}$] è il fattore di perdita legato al possibile cortocircuito termico in sonda tra tubo di mandata e ritorno;
+	\item[$T_0$] è la temperatura del terreno indisturbato, in \si{K};
+	\item[$T_{fi} \-- T_{fo}$] sono le temperature di ingresso e uscita della pompa di calore (riferite al casto estive oppure invernale), in \si{K};
+	\item[$T_p$] è la temperatura di penalizzazione, dovuta all'interferenza reciproca tra sonde attraverso il terreno (positiva in inverno e negativa in estate), in \si{K}.
+\end{description}
+Inserendo opportunamente i dati e considerando come $COP=\num{4.8}$ e $EER=\num{4.5}$ di una generica pompa di calore, si ottengono i seguenti dati:
+\begin{itemize}
+	\item con lunghezze di perforazione da \n{250}{m} è necessario utilizzare \num{44} sonde in \emph{PEad} DN40;
+	\item un impianto di questa estensione ha come potenze di progetto (ovvero verso l'utenza) in estate $\dot{Q}_{geo,c}=\SI{192}{kW}$ e in inverno $\dot{Q}_{geo,h}=\SI{170}{kW}$ ovvero si riesce a coprire il carico annuale del solo corpo C. 
+\end{itemize}
+A questo punto è stato necessario collocare opportunamente le sonde intorno all'edificio 2 facendo attenzione alle fondazioni, ai cunicoli e alle varie reti (idrauliche e elettriche) presenti. Le distanze utilizzate sono:
+\begin{itemize}
+	\item \n{4}{m} dalle fondazioni degli altri edifici;
+	\item \n{7}{m} tra una sonda e l'altra.
+\end{itemize}
+Il campo geotermico è stato suddiviso in più zone, ognuna facente capo ad un collettore. 
 
+Si riporta di seguito il campo sonde.
+
+Nella sottocentrale sono state utilizzate, quindi, due pompe di calore in parallelo capaci di rendere in inverno \n{90}{kW} e \n{100}{kW} in estate: questa scelta è stata effettuata in quanto in caso di carico massimo le due macchine riescono a sfruttare tutto il campo geotermico mentre in occasione dei carichi parziali, è possibile spegnerne una e lavorare sempre a pieno carico. 
+
+\texttt{Si tiene a precisare che mentre assorbitore e scambiatore procudono soltanto freddo la pompa di calore fa il caldo in inverno. È necessario costruire opportunamente la sottocentrale in modo tale da fornire il caldo in inverno nonostante assorbitore e scambiatore funzionino in freddo.}
 \subsubsection{Gli scambiatori}
 
 
