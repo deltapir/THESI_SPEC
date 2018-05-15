@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  15 MAY 2018 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  15 MAY 2018 17:49
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -1637,8 +1637,9 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 
 LaTeX Warning: Label `bim:cype' multiply defined.
 
-) (6_4_cap/4_cap.aux) (8_biblio/biblio.aux) (4_elencofig/elencofig.aux)
-(5_elencotab/elencotab.aux) (10_dedfinale/dedfinale.aux))
+) (6_4_cap/4_cap.aux) (6_5_cap/5_cap.aux) (8_biblio/biblio.aux)
+(4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
+(10_dedfinale/dedfinale.aux))
 \openout1 = `TESI_SPEC_NON_CANCELLARE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -2388,11 +2389,71 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
  [68 <./6_4_cap/img/aeraulica.pdf>]
-[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]) [82]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
+
+pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/geot.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<6_4_cap/img/geot.pdf, id=338, 597.55246pt x 845.07724pt>
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+
+<use 6_4_cap/img/geot.pdf>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf used on input line 521.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/geot.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+<use 6_4_cap/img/geot.pdf>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf used on input line 521.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/geot.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/geot.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<6_4_cap/img/geot.pdf, id=341, page=1, 597.55246pt x 845.07724pt>
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+
+<use 6_4_cap/img/geot.pdf, page 1>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf, page1 used on input line 521.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+ <use 6_4_cap/img/geot.pdf, page 1>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf, page1 used on input line 521.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+ [81]
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+
+<use 6_4_cap/img/geot.pdf, page 1>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf, page1 used on input line 521.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+ <use 6_4_cap/img/geot.pdf, page 1>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf, page1 used on input line 521.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: 6_4_cap/img/geot.pdf Graphic file (type pdf)
+
+<use 6_4_cap/img/geot.pdf, page 1>
+Package pdftex.def Info: 6_4_cap/img/geot.pdf, page1 used on input line 521.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+ [82 <./6_4_cap/img/geot.pdf>]) [83]
+\openout2 = `6_5_cap/5_cap.aux'.
+
+
+(6_5_cap/5_cap.tex
+Capitolo 5.
+) [84
+
+
+
+]
 \openout2 = `8_biblio/biblio.aux'.
 
-
-(8_biblio/biblio.tex) [83
+ (8_biblio/biblio.tex) [85
 
 
 
@@ -2404,7 +2465,7 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [84
+) [86
 
 
 
@@ -2416,14 +2477,14 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [85
+) [87
 
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [86
+ (10_dedfinale/dedfinale.tex) [88
 
 
 ]
@@ -2431,8 +2492,8 @@ Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 28
 (1_dedica/dedica.aux) (11_dedica/dedica.aux)
 (3_indicegenerale/indicegenerale.aux) (2_sommario/sommario.aux)
 (9_ringraziamenti/ringra.aux) (6_1_cap/1_cap.aux) (6_3_cap/3_cap.aux)
-(6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux) (8_biblio/biblio.aux)
-(4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
+(6_2_cap/2_cap.aux) (6_4_cap/4_cap.aux) (6_5_cap/5_cap.aux)
+(8_biblio/biblio.aux) (4_elencofig/elencofig.aux) (5_elencotab/elencotab.aux)
 (10_dedfinale/dedfinale.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2446,10 +2507,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 38868 strings out of 493323
- 909819 string characters out of 3139025
+ 38885 strings out of 493323
+ 910145 string characters out of 3139025
  1108014 words of memory out of 3000000
- 41669 multiletter control sequences out of 15000+200000
+ 41677 multiletter control sequences out of 15000+200000
  692230 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,10398b,980s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2470,9 +2531,9 @@ neT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
 B.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.p
 fb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (87 pages, 9376102 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (89 pages, 9464464 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
+ 415 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
