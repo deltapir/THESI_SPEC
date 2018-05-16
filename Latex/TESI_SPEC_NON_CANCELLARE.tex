@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt,openright]{report}
+\documentclass[a4paper,12pt,oneside]{book}
 \usepackage{libertine}
 \usepackage{libertinust1math}
 \usepackage[T1]{fontenc}
@@ -31,6 +31,11 @@
 %\usepackage{tocloft}RIATTIVA QUESTO
 \usepackage[final]{pdfpages} %draft final
 
+\providecommand{\abstract}{}
+%\providecommand{\abstractname}{Abstract}
+\usepackage{abstract}
+\usepackage{fancyhdr}
+
 %\cftsetindents{chapter}{0em}{2em}RIATTIVA QUESTO
 %\cftsetindents{section}{1em}{3em}RIATTIVA QUESTO
 %\cftsetindents{subsection}{em}{2em} CERCA DI METTERE IL NUMERO SUBITO DOPO IL TITOLO NELL'INDICE E TOGLI I PUNTINI 
@@ -38,7 +43,7 @@
 %\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}RIATTIVA QUESTO
 %\renewcommand\cftaftertoctitle{\hfill\mbox{}}RIATTIVA QUESTO
 
-%\setcounter{tocdepth}{1} RIATTIVA QUESTO
+\setcounter{tocdepth}{1}
 
 \newcommand{\uni}{\textbf{Università di Napoli}}
 \newcommand{\sdots}{\vspace{0.5em}[\dots]\vspace{0.5em}}
@@ -56,12 +61,14 @@
 %\mostracapitoli
 %\includeonly{6_4_cap/4_cap}
 \begin{document}
+	\frontmatter
 	\include{0_frontespizio/frontespizio}
 	\include{1_dedica/dedica}
 	\include{11_dedica/dedica}
 	\include{3_indicegenerale/indicegenerale}
 	\include{2_sommario/sommario}	
 	\include{9_ringraziamenti/ringra}
+	\mainmatter
 	\include{6_1_cap/1_cap}
 	%\include{6_31_cap/31_cap} NON HO IL BANDO
 	\include{6_3_cap/3_cap}
@@ -69,6 +76,7 @@
 	\include{6_4_cap/4_cap}
 	\include{6_5_cap/5_cap}
 	%\include{7_gloss/gloss}
+	\backmatter
 	\include{8_biblio/biblio}
 	\include{4_elencofig/elencofig}
 	\include{5_elencotab/elencotab}
