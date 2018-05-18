@@ -9,7 +9,7 @@
 \usepackage{siunitx}
 \usepackage{pgfplots}
 \usepackage{caption}
-\captionsetup{tableposition=top,figureposition=bottom,font=small}
+\captionsetup{tableposition=bottom,figureposition=bottom,font=small}
 \usepackage[lofdepth,lotdepth]{subfig}
 \usepackage{graphicx}
 %\usepackage{tabularx}
@@ -36,7 +36,18 @@
 \providecommand{\abstract}{}
 %\providecommand{\abstractname}{Abstract}
 \usepackage{abstract}
+%testatine
 \usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\lhead{\leftmark}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
 %\cftsetindents{chapter}{0em}{2em}RIATTIVA QUESTO
 %\cftsetindents{section}{1em}{3em}RIATTIVA QUESTO
