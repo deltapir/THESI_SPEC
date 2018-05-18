@@ -6,11 +6,11 @@ Nel primo capitolo si sono descritti in maniera sommaria l'architettura, l'edili
 
 In questo capitolo, invece, si vuole dare ampio spazio alle condizioni attuali del policlinico e dell'edificio stesso, riportando i dati di input inseriti all'interno dello studio pre-riqualificazione energetica e riferiti, quindi, allo stato di fatto. 
 
-Riferendosi alla sola centrale termica, l'acqua surriscaldata viene prodotta a \n{130}{\degreeCelsius} e non più a \n{170}{\degreeCelsius}. 
+Riferendosi alla sola centrale termica del policlinico, l'acqua surriscaldata viene prodotta a \n{130}{\degreeCelsius} e non più a \n{170}{\degreeCelsius}. Il cogeneratore a gas metano è da \n{5.5}{MW_e} e \n{9}{MW_t} con caldaia a recupero. I reflui termici alimentano da un lato la rete di teleriscaldamento e dall'altra un gruppo di assorbitori bistadio che a loro volta servono la rete di teleraffrescamento. Un'altra modifica che ha interessato la centrale termica è stata la sostituzione delle torri evaporative giustificata da costi di manutenzione eccessivi e usura evidente della struttura portante. Basti pensare che quelle originali erano in legno il quale è stato sottoposto giornalmente (e per tutti questi \num{50} anni) a cicli di umidificazione e deumidificazione (per il loro funzionamento normale) e non bisogna dimenticare la variabilità delle condizioni climatiche esterne (oltre a tutti gli agenti inquinanti atmosferici).
 
-Per quanto riguarda la stagione estiva, invece, l'assorbitore risulta essere ormai non in grado a coprire il fabbisogno \emph{estivo} di tutto il policlinico a causa della diffusione dei fancoil e delle batterie di raffreddamento delle UTA (più numerose oggi che in passato). E se il gruppo ad assorbimento risulta essere \emph{sottodimensionato} ai carichi presenti oggigiorno nel policlinico, vi sono comunque i reflui termici del cogeneratore che in estate non vengono utilizzati: si perde in ambiente una grande fonte di energia ad elevata temperatura. Nell'attesa di una riqualificazione dei vari edifici a cui sarebbe seguito senz'altro il montaggio dei fancoil, molti dipartimenti si sono autogestiti utilizzando \emph{split} per migliorare le condizioni termoigrometriche dei locali durante la stagione estiva. Questo ha comportato un aumento di consumo di energia elettrica in tutto il policlinico.
+Per quanto riguarda la stagione estiva, invece, l'assorbitore risulta essere ormai non in grado a coprire il fabbisogno \emph{estivo} di tutto il policlinico a causa della diffusione dei fancoil e delle batterie di raffreddamento delle UTA (più numerose oggi che in passato). E se il gruppo ad assorbimento risulta essere \emph{sottodimensionato} ai carichi presenti oggigiorno nel policlinico, vi sono comunque i reflui termici del cogeneratore che in estate non vengono utilizzati: si perde in ambiente una grande fonte di energia ad elevata temperatura. Nell'attesa di una riqualificazione dei vari edifici a cui sarebbe seguito senz'altro il montaggio dei fancoil, molti dipartimenti si sono autogestiti utilizzando \emph{split} per migliorare le condizioni termoigrometriche dei locali nella stagione estiva. Questo ha comportato un aumento di consumo di energia elettrica in tutto il policlinico.
 
-Un'altra modifica che ha interessato la centrale termica è stata la sostituzione delle torri evaporative giustificata da costi di manutenzione eccessivi e usura evidente della struttura portante. Basti pensare che quelle originali erano costruite in legno il quale è stato sottoposto giornalmente (e per tutti questi anni) a cicli 
+
 
 Numero caldaie
 \clearpage
@@ -220,6 +220,15 @@ Il carico termico di un edificio (come anche il suo fabbisogno energetico) non t
 \end{center}
 Ovvero all'interno degli studi medici vi sarà il massimo dell'occupazione (calcolata considerando l'indice di affollamento $n_S$ che in questo caso è pari a \n{0.05}{pers/m^2} tratto sempre dalla \norvent) dalle 8:00 alle 17:00 ogni giorno dell'anno.
 
+Un ulteriore aspetto da considerare è l'illuminazione dei locali a destinazione d'uso sanitaria. La maggior parte dei corpi illuminanti consiste in \emph{lampade a fluorescenza} avente efficienza luminosa di circa \n{80}{lm/W}. Dopo aver verificato la potenza effettivamente installata e note le superfici è stato possibile ricavare un indicatore in \si{W/m^2} per ogni locale. Qui di seguito i risultati utilizzati come dati di input:
+\begin{itemize}
+	\item \n{10}{W/m^2} negli uffici, studi medici, segreteria;
+	\item \n{19}{W/m^2} negli ambulatori, laboratori, sale operatorie e degenza;
+	\item \n{10}{W/m^2} nei corridoi, atri e sale d'attesa;
+	\item \n{9}{W/m^2} nei depositi e magazzini;
+	\item \n{8}{W/m^2} nei bagni, spogliatoi e lavatoi.
+\end{itemize}
+
 Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che sono stati maggiormente utilizzati per la modellazione dell'edificio.
 \subsubsection{Degenza}
 \texttt{Inserisci una foto esterna per far vedere dove stanno le degenze}.
@@ -237,7 +246,7 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		\midrule
 		Apparati interni 				&\n{15}{W/m^2}			& sensibile\\
 		\midrule
-		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		Illuminazione					& \multicolumn{2}{c}{\n{19}{W/m^2}}\\
 		\midrule
 		Altri carichi					& \multicolumn{2}{c}{--}\\				
 	\end{tabular}
@@ -258,7 +267,7 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		\midrule
 		Apparati interni 				&\n{40}{W/m^2}			& sensibile\\
 		\midrule
-		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		Illuminazione					& \multicolumn{2}{c}{\n{19}{W/m^2}}\\
 		\midrule
 		Altri carichi					& \n{1000}{W}			& sensibile \\				
 	\end{tabular}
@@ -279,7 +288,7 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		\midrule
 		Apparati interni 				&\multicolumn{2}{c}{--}\\
 		\midrule
-		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		Illuminazione					& \multicolumn{2}{c}{\n{10}{W/m^2}}\\
 		\midrule
 		Altri carichi					& \multicolumn{2}{c}{--}\\				
 	\end{tabular}
@@ -300,7 +309,7 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		\midrule
 		Apparati interni 				& \n{5.40}{W/m^2} 		& sensibile \\
 		\midrule
-		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		Illuminazione					& \multicolumn{2}{c}{\n{10}{W/m^2}}\\
 		\midrule
 		\multirow{2}{*}{Altri carichi}	& \n{1500}{W} 		& sensibile \\
 										& \n{500}{W} 		& latente   \\
@@ -322,7 +331,7 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		\midrule
 		Apparati interni 				& \n{15}{W/m^2} 		& sensibile \\
 		\midrule
-		Illuminazione					& \multicolumn{2}{c}{\n{11.3}{W/m^2}}\\
+		Illuminazione					& \multicolumn{2}{c}{\n{10}{W/m^2}}\\
 		\midrule
 		Altri carichi					& \multicolumn{2}{c}{--}\\
 	\end{tabular}
@@ -343,8 +352,6 @@ Partendo dal lato utenza, il carico sensibile invernale viene coperto da radiato
 	\caption{Unità Locali nel Corpo A}\label{unitloca}
 \end{figure}
 	
-	
-
 Il quinto piano (in cui è presente il blocco operatorio di cardiochirurgia) è gestito da un adeguato impianto a tutt'aria presente in copertura.
 
 In una porzione del primo piano vi è l'UTIC (\emph{Unità di Terapia Intensiva Coronarica}) che è trattata da un altro impianto a tutt'aria montato in un locale dello stesso piano. L'UTA dell'Emodinamica (al Piano Terra) con la relativa centrale termo-frigorifera è presente all'esterno.
@@ -361,6 +368,8 @@ Si riportano ora le varie planimetrie dell'Edificio 2 con evidenziate le zone ch
 \includepdf{6_2_cap/img/P4.pdf}\label{P4}
 
 \section{I risultati energetici}
+Si riportano inizialmente i dati della potenza elete
+
 L'edificio è stato suddiviso in 5 zone termiche:
 \begin{itemize}
 	\item \textbf{V Piano};
