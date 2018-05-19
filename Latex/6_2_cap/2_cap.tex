@@ -27,6 +27,11 @@ Per quanto riguarda la stagione estiva, invece, i gruppi ad assorbimento non ris
 
 \section{L'edificio 2}
 Tutto il corpo di fabbrica è destinato alla \emph{Cardiochirurgia}.
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=\textwidth]{6_2_cap/img/SatellitareED2}
+	\caption{Veduta satellitare dell'edificio 2 e dei suoi 5 corpi. Fonte: \emph{Google Earth}.}
+\end{figure}
 
 Esso è costituito da 5 edifici:
 \begin{itemize}
@@ -37,12 +42,35 @@ Esso è costituito da 5 edifici:
 	\item Corpo E: contiene ambulatori cardiologici, geriatrici e di medicina interna, vari laboratori e studi medici. È alto solo 1 piano con un'estensione di \n{305}{m^2}.
 \end{itemize}
 
-L'edificio 2 preserva tutte le opere edili e alcune impiantistiche realizzate all'epoca della sua costruzione. Non è difficile dedurre, quindi, che allo stato attuale sia i comportamenti estivi e invernali dell'involucro come le efficienze termo-meccaniche dell'impianto idro-aeraulico siano quantomeno inferiori a quelli consigliati dalla norma attuale vigente. 
+L'edificio 2 preserva tutte le opere edili e alcune impiantistiche realizzate all'epoca della sua costruzione. Non è difficile dedurre, quindi, che allo stato attuale sia i comportamenti estivi e invernali dell'involucro come le efficienze termo-meccaniche dell'impianto idro-aeraulico siano quantomeno inferiori a quelli consigliati dalla norma attuale vigente. In \vref{pan} è presente una panoramica in cui è possibile apprezzare i vari corpi. In \vref{IFC} sono state riportate \num{3} immagini del modello tridimensionale dell'edificio 2 costruito con \textbf{IFC Builder}. Il file è stato poi importato nel \textbf{LOAD} da cui sono stati estratti i carichi termici. È interessante notare la verosimiglianza delle suddette immagini con quelle reali riportate in \vref{ed21} e \ref{ed22}.
+
+\begin{figure}
+	\centering
+	\subfloat[][Facciata meridionale]{\includegraphics[width=0.6\textwidth]{6_2_cap/img/IFC1}\label{ifc1}}\\
+	\subfloat[][Facciata settentrionale]{\includegraphics[width=0.6\textwidth]{6_2_cap/img/IFC2}\label{ifc2}}\\
+	\subfloat[][Facciata settentrionale]{\includegraphics[width=0.6\textwidth]{6_2_cap/img/IFC3}\label{ifc3}}
+	\caption{Modelli tridimensionali dell'edificio 2.}\label{IFC}
+\end{figure}
+
+\begin{sidewaysfigure}
+	\centering
+	\includegraphics[scale=0.11]{6_2_cap/img/pan}
+	\caption{Panoramica dell'edificio 2: a destra il corpo E; al centro il corpo C e in fondo in alto il corpo A. È possibile apprezzare il gioco di pieni e vuoti dei blocchi di silicalcite e finestre.}\label{pan}
+\end{sidewaysfigure}
 
 \section{L'involucro}
 L'involucro dell'Edificio 2, sia quello opaco che quello trasparente, non è cambiato in questi anni quindi non ci sono differenze con le stratigrafie indicate dall'\tit{Ing.}{Corrado Beguinot}.
 
 Prima di descrivere come sono stati modellati i vari componenti opachi, è doveroso sottolineare la presenza notevole di ponti termici geometrici e materiali che aumentano il carico invernale e estivo.
+
+\begin{figure}
+	\centering
+	\subfloat[][\emph{Facciata meridionale del Corpo A.}]{\includegraphics[height=0.4\textheight]{6_2_cap/img/ed2dx}\label{ed21}}\quad
+	\subfloat[][\emph{Facciata settentrionale del Corpo A. Qui è presente l'ingresso per il pubblico.}]{\includegraphics[height=0.4\textheight]{6_2_cap/img/ed2sx}\label{ed22}}	\\
+	\subfloat[][\emph{Particolare dei blocchi di silicalcite.}]{\includegraphics[height=0.4\textheight]{6_2_cap/img/ed23}} \quad
+	\subfloat[][\emph{Ingresso secondario privato.}]{\includegraphics[height=0.4\textheight]{6_2_cap/img/ed22}}
+	\caption{L'edificio 2. Particolari del Corpo A.}\label{esterno}
+\end{figure}
 
 Segue, quindi, la descrizione numerica dei componenti (opachi e trasparenti) utilizzati come dati di input per il calcolo del fabbisogno energetico e del carico termico (estivo e invernale) dell'edificio stesso.
 \subsection{Componenti opachi}
@@ -129,7 +157,12 @@ Questi i risultati del componente modellato:
 	\end{tabular}
 \end{center}
 \subsubsection{COPERTURA 2}
-È la copertura dei Corpi B, C, D ed E.
+È la copertura dei Corpi B, C, D ed E. In \vref{cap2} si può apprezzare l'elevato stato di usura dei prefabbricati costituenti la copertura dei corpi \emph{bassi}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{6_2_cap/img/cop2}
+	\caption{Veduta esterna del corpo E. Sullo sfondo il corpo C e A.}\label{cap2}
+\end{figure}
 \begin{center}
 	\begin{tabular}{lcc}
 		\toprule
@@ -198,12 +231,25 @@ Si elencano ora i vari infissi utilizzati all'interno del modello dell'edificio:
 	\item \textbf{PICCOLA} \n{1.60x0.33}{m}.\\ È il componente trasparente facente parte delle facciate maggiori del Corpo~A. 
 	\item \textbf{GRANDE} \n{1.60x0.67}{m}.\\ È la variante alta della finestra \textbf{PICCOLA}. 
 	\item \textbf{LUCERNARIO} \n{1.45x0.39}{m}.\\ Questo è il lucernario presente nella parte superiore di ogni modulo delle due facciate maggiori del Corpo A. 
-	\item \textbf{QUADRA} \n{0.75x0.75}{m}.
+	\item \textbf{QUADRA} \n{0.75x0.75}{m}. Vedere \vref{finq}.
 	\item \textbf{LUNGA} \n{0.75x1.70}{m}.\\ Presente al di sotto della finestra \textbf{QUADRA}, insieme a quest'ultima crea un unico infisso che percorre tutta l'altezza del Corpo A nelle scanalature del muro \textbf{MURO EXT 200}. 
-	\item \textbf{FIN-160} \n{1.60x3.00}{m}. \\ Presente nel corridoio antistante la \emph{medicheria} in ogni piano. Anche questo infisso, come \textbf{FINESTRA LUNGA} e \textbf{FINESTRA QUADRA}, genera un'unica finestra che percorre tutta l'altezza del corpo A.
-	\item \textbf{PT-160} \n{1.60x2.00}{m}. \\ È la finestra dei Corpi B, C, D ed E. 
+	\item \textbf{FIN-160} \n{1.60x3.00}{m}. \\ Presente nel corridoio antistante la \emph{medicheria} in ogni piano. Anche questo infisso, come \textbf{FINESTRA LUNGA} e \textbf{FINESTRA QUADRA}, genera un'unica finestra che percorre tutta l'altezza del corpo A. In \vref{fin1} si può apprezzare un particolare.
+	\item \textbf{PT-160} \n{1.60x2.00}{m}. \\ È la finestra dei Corpi B, C, D ed E. Vedere \vref{fincb}.
 	\item \textbf{PT-Alta Corpo Basso} \n{1.60x0.35}{m}.\\ È il lucernario di ogni modulo caratterizzante i Corpi B, C, D ed E. 
 \end{itemize}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=\textwidth]{6_2_cap/img/fin1}
+	\caption{Particolare del componente \textbf{FIN-160}: notare lo spessore di \n{4}{mm} della lastra di vetro.}\label{fin1}
+\end{figure}
+
+\begin{figure}[t]
+	\centering
+	\subfloat[][\emph{Una delle \textbf{PT-160} del corpo C. Sotto l'elemento di cemento armato ad U capovolto è presente \textbf{PT-Alta Corpo Basso}.}]{\includegraphics[width=0.35\textwidth]{6_2_cap/img/fincb}\label{fincb}} \quad
+	\subfloat[][\emph{Due finestre \textbf{QUADRA}.}]{\includegraphics[width=0.35\textwidth]{6_2_cap/img/finq}\label{finq}} 
+	\caption{Alcuni componenti trasparenti dell'edificio 2.}
+\end{figure}
 
 A conclusione dell'analisi si evidenzia come tutti i valori di trasmittanza calcolati sia per le strutture opache verticali che quelle orizzontali come anche i componenti trasparenti risultano sensibilmente superiori ai valori limite contenuti nel DM 26/6/2015.
 
@@ -241,8 +287,14 @@ Un ulteriore aspetto da considerare è l'illuminazione dei locali a destinazione
 \end{itemize}
 
 Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che sono stati maggiormente utilizzati per la modellazione dell'edificio.
+
+\newpage
 \subsubsection{Degenza}
-\texttt{Inserisci una foto esterna per far vedere dove stanno le degenze}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.5\textwidth]{6_2_cap/img/deg}
+	\caption{Posizione delle degenze all'interno del corpo A.}\label{deg}
+\end{figure}
 \begin{center}
 	\begin{tabular}{lcc}
 										& Raffrescamento 			& Riscaldamento \\
@@ -262,8 +314,14 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		Altri carichi					& \multicolumn{2}{c}{--}\\				
 	\end{tabular}
 \end{center}
+
+\newpage
 \subsubsection{Laboratorio}
-\texttt{Inserisci una foto esterna per far vedere dove stanno i laboratori}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.5\textwidth]{6_2_cap/img/lab}
+	\caption{Posizione dei laboratori nei corpi A e C.}\label{lab}
+\end{figure}
 \begin{center}
 	\begin{tabular}{lcc}
 										& Raffrescamento 			& Riscaldamento \\
@@ -283,8 +341,14 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		Altri carichi					& \n{1000}{W}			& sensibile \\				
 	\end{tabular}
 \end{center}
+
+\newpage
 \subsubsection{Studio Medico}
-\texttt{Inserisci una foto esterna per far vedere dove stanno gli studi medici}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.5\textwidth]{6_2_cap/img/stm}
+	\caption{Posizione degli studi medici nei corpi A e C.}\label{stm}
+\end{figure}
 \begin{center}
 	\begin{tabular}{lcc}
 										& Raffrescamento 			& Riscaldamento \\
@@ -304,8 +368,14 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		Altri carichi					& \multicolumn{2}{c}{--}\\				
 	\end{tabular}
 \end{center}
+
+\newpage
 \subsubsection{Cucina}
-\texttt{Inserisci una foto esterna per far vedere dove stanno le cucine}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.5\textwidth]{6_2_cap/img/cuc}
+	\caption{Posizione dei laboratori nei corpi A e C.}\label{cuc}
+\end{figure}
 \begin{center}
 	\begin{tabular}{lcc}
 										& Raffrescamento 			& Riscaldamento \\
@@ -326,8 +396,14 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 										& \n{500}{W} 		& latente   \\
 	\end{tabular}
 \end{center}
+
+\newpage
 \subsubsection{Ufficio}
-\texttt{Inserisci una foto esterna per far vedere dove stanno gli uffici}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.5\textwidth]{6_2_cap/img/lab}
+	\caption{Posizione degli uffici nei corpi A e C.}\label{uff}
+\end{figure}
 \begin{center}
 	\begin{tabular}{lcc}
 										& Raffrescamento 			& Riscaldamento \\
@@ -347,6 +423,8 @@ Si vogliono descrivere in maniera dettagliata alcune tipologie di locali che son
 		Altri carichi					& \multicolumn{2}{c}{--}\\
 	\end{tabular}
 \end{center}
+
+\newpage
 \section{L'impianto}
 L'impianto dell'Edificio 2 è attualmente caratterizzato da una sottocentrale, presente nel piano \num{-1}, la quale alimenta varie unità locali (radiatori e fancoil) e UTA oltre a produrre (tramite due bollitori da \n{5000}{l} ciascuno) acqua calda sanitaria.
 
@@ -354,7 +432,7 @@ Nel primo capitolo è già stato ampiamente detto che i vari edifici del Policli
 
 Partendo dal lato utenza, il carico sensibile invernale viene coperto da radiatori (si veda la \subref{radiatori} in \vref{unitloca}) presenti all'interno di ogni piano e fancoil solo nel III e IV piano. Il carico estivo (sia sensibile che latente) invece viene coperto da monosplit e fancoil ad acqua montati negli ultimi anni durante varie ristrutturazioni (come nel caso del terzo e quarto piano). In questi due piani vi è anche una rete aeraulica per il rinnovo dell'aria. Nonostante la presenza di questi impianti, non vengono garantiti l'adeguato recupero energetico dall'impianto di ventilazione e il controllo termo-igrometrico dai fancoil e radiatori. Queste carenze sono evidenti nell'eccessivo ricorso a split per il controllo della temperatura (e in modo indiretto dell'umidità) durante la stagione estiva. È evidente la necessità di una riqualificazione. Negli altri 3 piani la ventilazione è garantita tramite infiltrazione naturale (ovvero apertura delle finestre di piano) mentre è assente del tutto il controllo termo-igrometrico nella stagione estiva. Anche in questi piani si è fatto largo uso di monosplit a parete.
 
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 	\subfloat[][\emph{Un tipico radiatore presente nel corridoio del Piano Terra -- Corpo A.}]{\includegraphics[width=0.45\textwidth]{6_2_cap/img/radiatore}\label{radiatori}}	\quad
 	\subfloat[][\emph{Corridoio del IV Piano. Si noti il mix di unità locali.}]{\includegraphics[width=0.45\textwidth]{6_2_cap/img/P4RadFan}}	\\
