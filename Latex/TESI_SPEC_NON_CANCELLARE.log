@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  19 MAY 2018 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  19 MAY 2018 15:47
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -2912,17 +2912,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[77])
+[77]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78]
+[78])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79]
 \openout2 = `8_biblio/biblio.aux'.
 
- (8_biblio/biblio.tex) [79
+ (8_biblio/biblio.tex) [80
 
 
 
@@ -2935,7 +2942,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@lof=\write5
 \openout5 = `TESI_SPEC_NON_CANCELLARE.lof'.
 
-) [80
+) [81
 
 
 
@@ -2947,14 +2954,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@lot=\write6
 \openout6 = `TESI_SPEC_NON_CANCELLARE.lot'.
 
-) [81
+) [82
 
 
 
 ]
 \openout2 = `10_dedfinale/dedfinale.aux'.
 
- (10_dedfinale/dedfinale.tex) [82
+ (10_dedfinale/dedfinale.tex) [83
 
 
 ]
@@ -2998,9 +3005,9 @@ neT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
 B.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (89 pages, 9486305 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (90 pages, 9487337 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
+ 422 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
