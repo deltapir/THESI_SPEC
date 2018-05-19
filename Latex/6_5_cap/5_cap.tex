@@ -69,7 +69,7 @@ Nello stato di progetto, invece, i risultati dell'APE sono riassunti di seguito.
 		$\mathrm{EP_{gl,nren}}$	& \num{0}	& \multicolumn{2}{c}{\si{\frac{kWh}{m^2anno}}} \\
 		Classe Energetica		&	\textbf{A1} & &   \\
 		$\mathrm{EP_{h,nd}}$	& \num{162.62}	& \multicolumn{2}{c}{\si{\frac{kWh}{m^2anno}}} \\
-		Rapporto S/V			&	\num{0} &	&  \\
+		Rapporto S/V			&	\num{0.3} &	&  \\
 		$\mathrm{A_{sol,est}/A_{sol,utile}}$	&	\num{0.04} &	&  \\
 		$\mathrm{Y_{IE}}$	&	\num{0.70}	& \multicolumn{2}{c}{\si{\frac{W}{m^2K}}}  \\
 		\midrule
@@ -82,51 +82,39 @@ Nello stato di progetto, invece, i risultati dell'APE sono riassunti di seguito.
 \end{center}
 Le differenze maggiori si hanno sul risparmio annuo delle fonti energetiche utilizzate. La motivazione risiede sia nelle migliori condizioni dell'involucro e sia nell'utilizzo di fonti rinnovabili (quale è la geotermia). L'intervento di \emph{relamping} ha, inoltre, contribuito alla diminuzione del consumo di energia elettrica. È, però, il decremento di gas naturale a saltare all'occhio in quanto se da una parte viene migliorato l'involucro (e quindi è necessario riscaldare meno come lo si evince dal $\mathrm{EP_{h,nd}}$ che risulta essere molto più basso rispetto al corrispettivo valore dello stato di fatto), dall'altro vengono usate le pompe di calore che sfruttano il calore endogeno del terreno antistante l'edificio 2.
 
-Considerando che l'AOU ``Federico II'' compra da \emph{Studium Power\&Service} (che possiede tutta la centrale termofrigorifera) energia elettrica e termica è possibile valutare il risparmio annuale che si ottiene effettuando gli interventi ipotizzati in questo elaborato di laurea.
+Essendo l'edificio oggetto di intervento sottoposto ad una \emph{riqualificazione energetica}, i \emph{requisiti minimi}\footnote{dal DM 16/6/15} che sono stati verificati sono:
+\begin{itemize}
+	\item trasmittanze opache e trasparenti inferiori ai valori limiti indicati (come in \vref{vallim:opve});
+	\item trasmittanze dei divisori tra edifici o unità immobiliari distinti inferiori a \n{0.8}{\trasm};
+	\item altezze minime dei locali di abitazione derogate fino a un massimo di \n{10}{cm};
+	\item assenza di rischio di formazione di muffe (con particolare attenzione ai ponti termici) e di condensazione interstiziale;
+	\item la riflettanza per le strutture di copertura piane superiore a \num{0.65};
+	\item il valore del fattore di trasmissione solare totale delle chiusure trasparenti $\mathrm{g_{gl+sh}<0.35}$;
+	\item installazione di opportuni dispositivi per la regolazione automatica per singolo ambiente o per singola unità immobiliare, assistita da compensazione climatica.
+\end{itemize}
+È interessante notare come per una riqualificazione energetica non sia necessario considerare l'inerzia dell'involucro opaco per contenere il carico estivo.
 
-Si riportano i prezzi al kWh: 
+Ritornando ai risultati ottenuti, considerando che l'AOU ``Federico II'' compra da \emph{Studium Power\&Service} (che possiede tutta la centrale termofrigorifera) energia elettrica e termica è possibile valutare il risparmio annuale che si ottiene effettuando gli interventi ipotizzati in questo elaborato di laurea.
+
+Si riportano i prezzi unitari offerti al policlinico: 
 \begin{itemize}
 	\item Energia elettrica: \num{0.114}\ \euro/kWh;
 	\item Energia termica: \num{0.057}\ \euro/kWh.
 \end{itemize}
+Il risparmio annuale sarà, quindi:
+\begin{itemize}
+	\item \num{14676.37}\ \euro\- di energia termica; %0.267 euro/mc di gas
+	\item \num{5124.26}\ \euro\- di energia elettrica.
+\end{itemize}
 
+Ad un risparmio energetico ne è sempre affiancato uno di tipo inquinante: utilizzare meno energia significa, per come è costruita la filiera energetica italiana (e mondiale), introdurre in ambiente meno inquinanti.
 
+Pertanto i risultati sono i seguenti:
+\begin{itemize}
+	\item \n{44.37}{tep}; % 1 mc di gas equivale a 8250x10-7
+	\item \num{19.3}\ tonnellate equivalenti di $\mathrm{CO_2}$ % 1 ton di CO2 equivale a 2.30 tep
+\end{itemize}
 
+Lo studio presente in questo elaborato di laurea mi ha permesso sia di affacciarmi in prima persona sul mondo del lavoro (ovvero applicare la teoria appresa all'università), sia di interfacciarmi con la macchina burocratica e con tutto quell'apparato di normative e leggi che da una parte consigliano e promuovono la \emph{retta via}, dall'altra limitano e avviliscono l'operato umano privilegiando la mediocrità senza incoraggiare, invece, l'ingegno e la creatività che contraddistinguono un essere umano dall'altro.
 
-
-====================================
-
-Nella tabella seguente sono riassunti i consumi dell'energia termica, frigorifera e elettrica dell'edificio 2.
-\begin{center}
-	\begin{tabular}{lcccc}
-		\toprule
-		& \multicolumn{2}{c}{Stato di fatto} & \multicolumn{2}{c}{Stato di progetto}\\
-		& \si{kWh/anno} & \euro/anno & \si{kWh/anno} & \euro/anno \\
-		\midrule
-		$E_T$ & \num{541937} & \num{3727.83} & \num{310458} & \num{17389.6} \\
-		$E_F$ & \num{118841} & \num{6738.30}  & \num{0} 	& \num{0}\\
-		$E_E$ & \num{301400} & \num{34962.40} &	\num{243186}& \num{22568}\\
-		\bottomrule		
-	\end{tabular}
-\end{center}
-
-Si riportano anche gli indici di prestazione energetica prima e dopo l'intervento, in \si{kWh/m^2}.
-\begin{center}
-	\begin{tabular}{lccc}
-		\toprule
-				& Stato di fatto & Stato di progetto & Valori limite \\
-		\midrule
-		$EP_{h,nd}$ & \num{96.37} & \num{41.93} & \num{24.94}\\
-		$EP_{c,nd}$ & \num{34.27} & \num{38.88} & \num{30.11}\\
-		$EP_{gl,tot}$ & \num{273.60} & \num{119.16} & \num{85.95}\\
-		\bottomrule
-	\end{tabular}
-\end{center}
-
-Considerando l'ultima riga, ovvero la prestazione energetica globale dell'edificio, si può notare come la classe energetica sia aumentata notevolmente: si è passati  dalla \texttt{inserisci la classe energetica con le figure pre e post intervento}.
-
-Questi dati sono i risultati dell'intervento di riqualificazione energetica che si è operato sui corpi A e C dell'edificio 2. 
-
-Per quanto riguarda la stagione invernale, si nota come le trasmittanze ben al di sotto dei limiti di legge permette di avere consistenti risparmi sul consumo di energia termica. Si ricorda, infatti, che i valori delle trasmittanze dell'involucro opaco sono state diminuite, sfruttando il cappotto termico interno, di oltre l'\n{80}{\%}, mentre quelle degli infissi del \n{70}{\%}. 
-
-Inserisci uno schema (al limite sempre in formato A3 da piegare nella tesi) dell'impianto (sia sottocentrale termofrigorifera che aeraulica) spiegandone il funzionamento.
+Consapevole di dovermi scontrare un giorno con poteri e logiche più forti di me, mi auguro di avere sempre la forza di seguire le parole di \emph{Baden Powell} fondatore dello scoutismo: ``\emph{Procurate di lasciare il mondo un po' migliore di come lo avete trovato}''.
