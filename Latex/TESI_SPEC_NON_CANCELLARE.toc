@@ -36,27 +36,27 @@
 \contentsline {subsubsection}{Ufficio}{43}
 \contentsline {section}{\numberline {3.4}L'impianto}{44}
 \contentsline {section}{\numberline {3.5}I risultati energetici}{50}
-\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{51}
-\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{53}
-\contentsline {chapter}{\numberline {4}Lo stato di progetto}{55}
-\contentsline {section}{\numberline {4.1}L'involucro}{55}
-\contentsline {section}{\numberline {4.2}I Risultati Energetici}{59}
-\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{59}
-\contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{62}
-\contentsline {section}{\numberline {4.3}L'Impianto - Lato Utenza}{63}
-\contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{63}
-\contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{66}
-\contentsline {section}{\numberline {4.4}L'Impianto - Lato Sottocentrale}{69}
-\contentsline {subsection}{\numberline {4.4.1}Acqua Calda}{69}
-\contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{70}
-\contentsline {subsubsection}{L'assorbitore}{71}
-\contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{75}
-\contentsline {paragraph}{L'aria}{76}
-\contentsline {paragraph}{L'acqua}{77}
-\contentsline {paragraph}{L'energia solare}{77}
-\contentsline {paragraph}{Il terreno}{78}
-\contentsline {subsubsection}{Gli scambiatori}{83}
-\contentsline {chapter}{\numberline {5}Conclusioni}{85}
-\contentsline {chapter}{Bibliografia}{90}
-\contentsline {chapter}{Elenco delle figure}{91}
-\contentsline {chapter}{Elenco delle tabelle}{92}
+\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{52}
+\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{54}
+\contentsline {chapter}{\numberline {4}Lo stato di progetto}{56}
+\contentsline {section}{\numberline {4.1}L'involucro}{56}
+\contentsline {section}{\numberline {4.2}I Risultati Energetici}{60}
+\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{60}
+\contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{63}
+\contentsline {section}{\numberline {4.3}L'impianto - Lato Utenza}{64}
+\contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{64}
+\contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{67}
+\contentsline {section}{\numberline {4.4}L'impianto - Lato Sottocentrale}{71}
+\contentsline {subsection}{\numberline {4.4.1}Acqua Calda}{71}
+\contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{72}
+\contentsline {subsubsection}{L'assorbitore}{73}
+\contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{77}
+\contentsline {paragraph}{L'aria}{78}
+\contentsline {paragraph}{L'acqua}{79}
+\contentsline {paragraph}{L'energia solare}{79}
+\contentsline {paragraph}{Il terreno}{80}
+\contentsline {subsubsection}{Gli scambiatori}{85}
+\contentsline {chapter}{\numberline {5}Conclusioni}{87}
+\contentsline {chapter}{Bibliografia}{92}
+\contentsline {chapter}{Elenco delle figure}{93}
+\contentsline {chapter}{Elenco delle tabelle}{94}
