@@ -262,7 +262,7 @@ Prima di descrivere con maggiore precisione tutto l'apparato meccanico, si vuole
 \includepdf{6_4_cap/img/cavedi}
 I cavedi campiti in verde sono destinati alla rete elettrica. Tutti gli altri (in rosso) sono utilizzati dall'impianto idronico e aeraulico. In particolare, i 3 cavedi più grandi (i due adiacenti agli ascensori) e quello a destra nel torrino verranno utilizzati per le montanti dell'impianto a due tubi dei fancoil e dei radiatori. 
 
-L'impianto dei fancoil è costituito da due tubi (una mandata e un ritorno). Vi saranno due montanti con una rete di distribuzione per ogni piano. Vista la configurazione essenzialmente longitudinale dell'edificio si è preferito costruire un circuito a \emph{ritorno inverso} con la montante di mandata che sale dal cavedio \textbf{A} e ritorna in quello \textbf{B}: in questo modo il \emph{ritorno inverso} è naturale. Per il torrino si è, invece, utilizzato il cavedio \textbf{C}. Lo \emph{switch} estate-inverno avviene in sotto-centrale: in questo modo aumenta l'affidabilità di tutto l'impianto perché più semplice e con meno organi di regolazione.
+L'impianto dei fancoil è costituito da due tubi (una mandata e un ritorno). Vi saranno due montanti con una rete di distribuzione per ogni piano. Vista la configurazione essenzialmente longitudinale dell'edificio si è preferito costruire un circuito a \emph{ritorno inverso} con la montante di mandata che sale dal cavedio \textbf{A} e ritorna in quello \textbf{B}: in questo modo il \emph{ritorno inverso} è naturale. Per il torrino si è, invece, utilizzato il cavedio \textbf{C}. Lo \emph{switch} estate-inverno avviene in sottocentrale: in questo modo aumenta l'affidabilità di tutto l'impianto perché più semplice e con meno organi di regolazione.
 
 L'impianto dei radiatori è pure a ritorno inverso e sfrutta i due cavedi \textbf{A} e \textbf{B}. 
 
@@ -284,9 +284,15 @@ Per i radiatori si è proceduto nello stesso modo ricordando però che $\Delta T
 
 Per entrambi gli impianti non si è provveduto ad inserire alcun organo di regolazione in quanto, essendo a \emph{ritorno inverso}, esso risulta bilanciato per natura. 
 
-La tipologia dei fancoil è a soffitto sfruttando il dislivello del contro-soffitto.
+La tipologia dei fancoil è \emph{a soffitto} nel corpo A dove possibile (solitamente nelle degenze), \emph{a terra} nei corridoi e nel corpo C. In \vref{idr} è possibile vedere due figure della rete idronica dei due corpi. Si tratta di \emph{screenshot} dell'applicativo del software BIM della software-house C.A.T.S che permette, come è già stato detto precedentemente, di disegnare la rete, definire i carichi e calcolare la portata necessaria in ogni tratto dimensionandolo secondo criteri ben precisi. I rettangoli viola rappresentano i fancoil, quelli in rosso, invece, i radiatori. Come si nota, nelle degenze i fancoil non sono \emph{a soffitto} in quanto non esiste questa tipologia nel software. I risultati comunque non cambiano.
 
-Inserisci foto dell'impianto idronico (o planimetria o in 3D)
+\begin{figure}
+	\centering
+	\subfloat[][\emph{Facciata meridionale}]{\includegraphics[width=\textwidth]{6_4_cap/img/idr1}\label{idr1}}\\
+	\subfloat[][\emph{Facciata settentrionale}]{\includegraphics[width=\textwidth]{6_4_cap/img/idr2}\label{idr2}}
+	\caption{Rete Idronica}\label{idr}
+\end{figure}
+
 \subsection{Impianto Aeraulico}
 La portata di aria primaria per i corpi A e C è stata calcolata locale per locale utilizzando la \norvent. La rete aeraulica è stata disegnata su \textbf{CYPETHERM HVAC}. 
 
