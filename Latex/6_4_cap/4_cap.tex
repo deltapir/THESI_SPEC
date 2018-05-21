@@ -342,11 +342,42 @@ A monte e valle degli scambiatori sono presenti gli appositi strumenti per la co
 \end{itemize}
 Solo con l'ausilio di questi strumenti è possibile conoscere effettivamente la potenza utilizzata e, di conseguenza, controllare se il comportamento dell'impianto è in linea con le ipotesi di progettazione.
 
-La distribuzione dell'acqua a \n{80}{\degreeCelsius} viene affidata ad una coppia di pompe inverterate che portano il fluido all'unico collettore del secondario della sottocentrale dove il gruppo-pompe, uno per ogni servizio, alimenta la propria rete. 
+La distribuzione dell'acqua a \n{80}{\degreeCelsius} viene affidata ad una coppia di pompe inverterate che portano il fluido all'unico collettore del secondario della sottocentrale dove ogni gruppo-pompe, uno per ogni servizio, alimenta la propria rete. 
 
 La produzione di acqua a temperature inferiori per i fancoil e le batterie di pre e post riscaldamento delle UTA è affidata a valvole miscelatrici presenti sulla mandata: queste valvole miscelano la giusta portata di ritorno (ad una temperatura inferiore) e ad \n{80}{\degreeCelsius} in modo tale da ottenere la temperatura desiderata. Un termostato presente sulla mandata agisce direttamente sulla suddetta valvola a 3 vie.
 
-Per il servizio fancoil (a \n{50}{\degreeCelsius}) si è optato per uno scambiatore. In questo caso, però, bisogna ricordare che la rete dei fancoil funziona con acqua calda in inverno e refrigerata in estate quando, però, bisogna garantire anche il servizio di acqua calda per le batterie di post-riscaldamento delle UTA. \texttt{METTI LO SCHEMA DI FUNZIONAMENTO DEI SOLI FANCOIL}
+Per il servizio fancoil (a \n{50}{\degreeCelsius}) si è optato per uno scambiatore, invece della valvola miscelatrice, per evitare che acqua a \n{80}{\degreeCelsius} entrasse durante la miscelazione nella rete stessa dei fancoil. In questo caso, però, bisogna ricordare che suddetta rete funziona con acqua calda in inverno e refrigerata in estate quando, però, bisogna garantire anche il servizio di acqua calda per le batterie di post-riscaldamento delle UTA. \texttt{METTI LO SCHEMA DI FUNZIONAMENTO DEI SOLI FANCOIL}
+
+Sul collettore del secondario a \n{80}{\degreeCelsius} vi è innestato anche il gruppo pompe per i bollitori dell'acqua calda sanitaria. Per il loro dimensionamento è stata utilizzata la UNI 9182. Si è proceduto in questo modo:
+\begin{enumerate}
+	\item Sono stati considerati 130 bagni in tutto il corpo A e C;
+	\item la norma prevede per gli ospedali da \num{130} a \num{150} \si{l/persona} al giorno ($q_n$);
+	\item la durata del periodo di punta dei consumi di acqua calda per gli ospedali vale 4 ore ($d$);
+	\item si è determinato il massimo consumo orario contemporaneo di acqua calda a \n{40}{\degreeCelsius} usando la \vref{qm} dove $q_1=150$, $N=130$, $d=4$ e i tre fattori riduttivi per la contemporaneità sono unitari;
+	\item Si è calcolato il volume del \emph{preparatore} (ovvero il bollitore) usando la \vref{preparatore};
+	\item Si è calcolata la potenzialità termica da fornire al bollitore tramite l'acqua a \n{80}{\degreeCelsius} usando la \vref{serpentino}.
+\end{enumerate}
+
+\begin{equation}
+q_M=\frac{q_1\times N_1}{d_1}\times f_1 \times f_2 \times f_3
+\label{qm}
+\end{equation}
+
+\begin{equation}
+	V_c=\frac{q_M \times d_p(T_m-T_f)}{d_p+P_r}\times \frac{P_r}{T_c-T_f}
+	\label{preparatore}
+\end{equation}
+
+\begin{equation}
+	W=\frac{q_M \times d_p (T_m-T_f)\times 1.163}{d_p+P_r}
+	\label{serpentino}
+\end{equation}
+
+I risultati sono i seguenti:
+\begin{itemize}
+	\item $V_c = \SI{4400}{l}$ e quindi si useranno 2 bollitori da \n{5000}{l} per aumentare l'affidabilità del sistema;
+	\item $W= \SI{120}{kW}$ e quindi la portata d'acqua a \n{80}{\degreeCelsius} sarà $\dot{m}_w\approx\SI{3}{kg/s}$ per bollitore.
+\end{itemize}
 
 \subsection{Acqua Refrigerata}
 La produzione di acqua a \n{7}{\degreeCelsius} è affidata ad un mix di macchine ordinate in base alla priorità nel seguente elenco:
