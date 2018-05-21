@@ -185,8 +185,9 @@ La portata di ventilazione necessaria per garantire una buona qualità dell'aria
 	\item Per il \corpa, la portata di ventilazione è pari a \n{15254}{m^3/h}. Tenendo conto di un fattore di sicurezza del \n{20}{\%}, il valore effettivamente usato in fase progettuale è \n{18303}{m^3/h};
 	\item Per il \corpc, la portata di ventilazione è pari a \n{8777}{m^3/h}. Tenendo conto del fattore di sicurezza, il valore utilizzato è \n{10532}{m^3/h}.
 \end{itemize}
-Con questi valori si valuta il carico termico aggiuntivo necessario per portare l'aria esterna nelle condizioni neutre interne: \emph{neutre} perchè suddetta portata ha la sola funzione di rinnovare l'aria interna e di abbattere il carico latente. La tabella che segue riporta tutti i valori dei carichi termici necessari per dimensionare l'impianto per la stagione estiva.
-\begin{center}
+Con questi valori si valuta il carico termico aggiuntivo necessario per portare l'aria esterna nelle condizioni neutre interne: \emph{neutre} perchè suddetta portata ha la sola funzione di rinnovare l'aria interna e di abbattere il carico latente. In \vref{car:pro} si riportano tutti i valori dei carichi termici necessari per dimensionare l'impianto nella stagione estiva.
+\begin{table}
+	\centering
 	\begin{tabular}{lccccc}
 		\toprule
 		\multirow{2}*{Zona Termica} & Superficie 						& $\dot{Q}_L$ 			& $\dot{Q}_S$ 		& $\dot{Q}_{vent}$		& $\dot{Q}_{frigo}$  \\
@@ -196,15 +197,18 @@ Con questi valori si valuta il carico termico aggiuntivo necessario per portare 
 		Emo.						& \num{291.1}						& \num{0.674}		& \num{7.08}	& \num{78.7}		& \num{86.5}\\
 		B.O.						& \num{291.1}						& \num{2.79}		& \num{45.5}	& \num{360}			& \num{408}\\
 		Radiatori					& \num{291.1}						& ---				& ---			& ---				& ---\\
-		Corpo C						& \num{529.2}						& \num{2.3}			& \num{52.0}	& \num{287}			& \num{341}\\
-		Corpo A						& \num{2352.2}						& \num{20.6}		& \num{102}		& \num{165}			& \num{288}\\
+		Corpo C						& \num{529.2}						& \num{2.3}			& \num{52.0}	& \num{165}			& \num{219}\\
+		Corpo A						& \num{2352.2}						& \num{20.6}		& \num{102}		& \num{287}			& \num{410}\\
 		\bottomrule
 	\end{tabular}
-\end{center}
-Dove:
+	\caption{Carichi termici estivi -- Stato di progetto}\label{car:pro}
+\end{table}
+
+Vale la seguente relazione:
 \begin{equation}
 	\dot{Q}_{frigo}=\dot{Q}_L+\dot{Q}_S+\dot{Q}_{vent}
 \end{equation}
+
 Facendo un paragone tra questa tabella e quella \vpageref{stato:fatto}, si può notare come, sopratutto per i due corpi A e C, ci sia una netta diminuzione dei carichi termici dovuti all'involucro, come è già stato detto, ma il carico totale $\dot{Q}_{frigo}$ aumenta a causa della ventilazione: nel Corpo C sono presenti molti laboratori che necessitano di un tasso di rinnovo dell'aria pari a \n{6}{vol/h} mentre il Corpo A è costituito sostanzialmente da degenze e studi medici. La \norvent\ prevede per questi locali o \n{50}{m^3/h} per persona o, nel caso in cui non sia noto il numero di persone che solitamente affollano il locale, si assicurano i \n{2}{vol/h}: per sicurezza si utilizza il valore maggiore tra i due risultati.
 
 \subsection{La Stagione Invernale}
@@ -224,8 +228,12 @@ Partendo dal solito trittico (\utic, \emod\ e \blocc) si ottengono questi risult
 \end{center}
 È ovvio che le temperature di immissione dell'aria nei locali diminuiscano in quanto sono diminuiti i carichi termici. Per il Blocco Operatorio la situazione non cambia come era prevedibile. 
 
-Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una diminuzione della potenza $\dot{Q}_{trasm}$ mentre, a causa della ventilazione, si avrà un notevole aumento della $\dot{Q}_{risc}$. I risultati di tutti i carichi invernali, nello stato di progetto, sono riassunti nella seguente tabella.
-\begin{center}
+Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una diminuzione della potenza $\dot{Q}_{trasm}$ mentre, a causa della ventilazione, si avrà un notevole aumento della $\dot{Q}_{risc}$. I risultati di tutti i carichi invernali, nello stato di progetto, sono riassunti in \vref{car:proinv} dove
+\begin{equation}
+\dot{Q}_{risc}=\dot{Q}_{trasm}+\dot{Q}_{vent}
+\end{equation}
+\begin{table}
+	\centering	
 	\begin{tabular}{lccccc}
 		\toprule
 		\multirow{2}*{Zona Termica} & Superficie 		&  $\dot{Q}_{trasm}$	& Ventilazione		&  	 $\dot{Q}_{vent}$			& $\dot{Q}_{risc}$		\\
@@ -235,22 +243,20 @@ Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una
 		B.O.						& \num{696.7}		& \num{38.4}		& \num{21936}	& \num{293}					& \num{331}	\\
 		UTIC						& \num{145.7}		& \num{2.29}		& \num{4371}	& \num{52.7}				& \num{55.0}	\\
 		Emod.						& \num{164.4}		& \num{6.49}		& \num{5058}	& \num{66.1}				& \num{72.6} 	\\
-		Corpo C						& \num{529.2}		& \num{24.3}		& \num{8777}	& \num{123}					& \num{147}	\\
-		Corpo A						& \num{2352.2}		& \num{45.8}		& \num{15254}	& \num{200}					& \num{246}	\\
+		Corpo C						& \num{529.2}		& \num{24.3}		& \num{10532}	& \num{123}					& \num{147}	\\
+		Corpo A						& \num{2352.2}		& \num{45.8}		& \num{18303}	& \num{200}					& \num{246}	\\
 		\bottomrule
 	\end{tabular}
-\end{center}
-dove
-\begin{equation}
-	\dot{Q}_{risc}=\dot{Q}_{trasm}+\dot{Q}_{vent}
-\end{equation}
+	\caption{Carichi termici invernali -- Stato di progetto}\label{car:proinv}
+\end{table}
+
 Sembrerà strano che un edificio di un solo piano, quale è il corpo C, possa avere un carico termico di trasmissione che sia solo la metà di quello del Corpo A che, invece, è alto 6 piani. Questo fenomeno lo si può spiegare con il rapporto $S/V$ (Superficie disperdente e Volume dell'edificio). È risaputo che il carico termico per trasmissione avviene tramite le superfici dell'involucro. Si capisce bene, quindi, che, a parità di volume, se un edificio ha una quantità maggiore di superfici disperdenti tenderà a scambiare maggiormente con l'ambiente esterno. Per questo motivo, nella costruzione degli edifici, al giorno d'oggi, è importante tenere basso il valore $S/V$. Nel caso in questione, il Corpo A presenta una struttura più compatta in quanto i vari locali sono disposti su più piani; il Corpo C, invece, ha un solo piano e disperde anche dalla copertura (cosa che non accade per il corpo principale in quanto all'ultimo piano vi è il blocco operatorio che è una zona termica a sè). Volendo però ragionare in maniera più pratica, nel corpo A, inteso come edificio e non zona termica, oltre alla $\dot{Q}_{trasm,CorpoA}$ bisogna conteggiare anche le $\dot{Q}_{trasm}$ delle altre zone termiche. In questo modo il carico di riscaldamento del solo corpo principale vale \n{105.3}{kW}: 4 volte superiore al solo corpo C.
 \section{L'Impianto - Lato Utenza}
 Avendo calcolato le potenzialità in gioco, è arrivato il momento di dimensionare l'impianto. È necessario, però, descrivere con maggiore precisione che tipologia di impianto si vuole utilizzare. Il ragionamento inizierà dal lato utenza e si concluderà alla sotto-centrale.
 
 È già stato detto che l'impianto a tutt'aria dell'UTIC, dell'Emodinamica e del Blocco Operatorio non è oggetto di riqualificazione. 
 \subsection{Impianto Idronico}
-Il resto del corpo A e il corpo C avranno un impianto misto con aria primaria e fancoil a \emph{due tubi}. La zona termica \radd\ avrà, invece, radiatori e la ripresa dell'aria viziata. L'unico locale dedicato ai servizi igienici del corpo C avrà anch'esso il fancoil in quanto non è economicamente e tecnicamente vantaggioso costruire un impianto separato per un unico radiatore distante da tutti gli altri. Nel corpo C vi è un locale destinato al sistema di gestione informatica del corpo di fabbrica: si tratta di un carico sensibile costante tutto l'anno. Per questo motivo non avrebbe senso utilizzare il fancoil in quanto durante l'inverno funzionerebbe in modalità \emph{caldo} poiché l'impianto è a \emph{due tubi}: si utilizzerà pertanto uno split. 
+Il resto del corpo A e il corpo C avrà un impianto misto con aria primaria e fancoil a \emph{due tubi}. La zona termica \radd\ avrà, invece, radiatori e la ripresa dell'aria viziata. L'unico locale dedicato ai servizi igienici del corpo C avrà anch'esso il fancoil in quanto non è economicamente e tecnicamente vantaggioso costruire un impianto separato per un unico radiatore distante da tutti gli altri. Nel corpo C vi è un locale destinato al sistema di gestione informatica del corpo di fabbrica: si tratta di un carico sensibile costante tutto l'anno. Per questo motivo non avrebbe senso utilizzare il fancoil in quanto durante l'inverno funzionerebbe in modalità \emph{caldo} poiché l'impianto è a \emph{due tubi}: si utilizzerà pertanto uno split. 
 
 Prima di descrivere con maggiore precisione tutto l'apparato meccanico, si vuole riportare la pianta di un piano del corpo A in cui si evidenziano i vari cavedi che verranno utilizzati per le montanti dell'impianto idronico.
 \includepdf{6_4_cap/img/cavedi}

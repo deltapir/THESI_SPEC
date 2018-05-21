@@ -524,10 +524,10 @@ Per quanto riguarda \corpa\ e \corpc, l'impianto utilizzato è di tipo \emph{mis
 
 Per la zona termica \radd\ è ovvio che il carico di raffreddamento sia nullo.
 
-In questa tabella sono riassunti tutti i risultati ottenuti per la stagione estiva nello stato di fatto. 
+In \vref{stato:fatto} sono riassunti tutti i risultati ottenuti per la stagione estiva nello stato di fatto. 
 %{Per i radiatori ovviamente la potenza di raffrescamento è nulla. Per UTIC, BO e EMO il totale tiene conto della trasmissione (ottenuta da CYPE) mentre i carichi interni (sensibili e latenti) sono stati calcolati su Excel. Poi tramite diagramma psicrometrico ho calcolato anche la potenza di ventilazione. Per i corpi A e C i valori del sensibile e del latente non tengono conto della ventilazione.}
-\begin{center}
-		\label{stato:fatto}
+\begin{table}
+		\centering
 		\small
 		\begin{tabular}{lccccc}
 			\toprule
@@ -542,7 +542,8 @@ In questa tabella sono riassunti tutti i risultati ottenuti per la stagione esti
 			Corpo A			& \num{2352.2}				& --								& \num{20.6}		& \num{212}					& \num{233}\\
 			\bottomrule
 		\end{tabular}
-\end{center}
+	\caption{Carichi Termici estivi - Stato di fatto}\label{stato:fatto}
+\end{table}
 
 Si ricordi che i carichi sensibili e latenti per la stagione estiva sono definiti come segue:
 \begin{align}
@@ -572,9 +573,10 @@ Con l'ausilio del diagramma psicrometrico, si è proceduto a valutare la potenza
 		B.O.			&						&	\num{27.2}		&\num{38.4}				&	\num{293}\\
 	\end{tabular}
 \end{center}
-In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anche in questo caso, per i corpi A e C non si è tenuto conto della ventilazione.
+In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anche in questo caso, per i corpi A e C non si è tenuto conto della ventilazione. In \vref{car:fatt} i risultati.
 %{Per i Radiatori il totale tiene conto solo della trasmissione. Per BO, UTIC e EMO ho fatto la somma tra la trasmissione e la potenza di ventilazione calcolata tramite diagramma psicrometrico e ma i risultati stanno anche sul file excel. Per i due Corpi A e C il totale è solo la trasmissione in quanto non è presente la ventilazione.}
-\begin{center}
+\begin{table}
+	\centering
 	\small
 	\begin{tabular}{lcccc}
 		\toprule
@@ -589,5 +591,6 @@ In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anch
 		Corpo A						& \num{2352.2}		& \num{142}						& --						& \num{142}	\\
 		\bottomrule
 	\end{tabular}
-\end{center}
+	\caption{Carichi Termici invernali - Stato di fatto}\label{car:fatt}
+\end{table}
 La potenza totale tiene conto sia della trasmissione che della ventilazione calcolata nella tabella precedente.
