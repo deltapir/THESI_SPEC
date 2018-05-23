@@ -35,14 +35,20 @@ Tutto il corpo di fabbrica è destinato alla \emph{Cardiochirurgia}.
 
 Esso è costituito da 5 edifici:
 \begin{itemize}
-	\item Corpo A: è l'edificio principale. Di sviluppo longitudinale lungo un asse orientato lungo la direttrice NE--SO, è costituito da 6 piani fuori terra. Contiene le degenze, gli ambulatori, l'Emodinamica al piano terra, l'UTIC (Unità di Terapia Intensiva Coronarica) al primo piano e il blocco operatorio con terapia intensiva al quinto piano. La sua superficie coperta è di \n{4920}{m^2}, per singolo piani è di \n{818}{m^2} e un volume di \n{14760}{m^3} (circa il 3\% dell'intero complesso dell'AOU Federico II).
-	\item Corpo B: contiene gli stabulari. Di pianta pressoché quadrata (\n{102}{m^2}) è alto solo 1 piano. 
-	\item Corpo C: contiene laboratori e ambulatori. E' di pianta rettangolare e alto solo 1 piano. Estensione di \n{812}{m^2}
-	\item Corpo D: contiene ambulatori, studi medici e laboratori. Di pianta quadrata (\n{217}{m^2}) è alto solo 1 piano. 
+	\item Corpo A: è l'edificio principale. Di sviluppo longitudinale lungo un asse orientato lungo la direttrice NE--SO, è costituito da 6 piani fuori terra. Contiene le degenze, gli ambulatori, l'Emodinamica al piano terra, l'UTIC (Unità di Terapia Intensiva Coronarica) al primo piano e il blocco operatorio con terapia intensiva al quinto piano. La sua superficie coperta è di \n{5610}{m^2}, per singolo piano è di \n{935}{m^2} e un volume di circa \n{18700}{m^3};
+	\item Corpo B: contiene gli stabulari. Di pianta pressoché quadrata (\n{102}{m^2}) è alto solo 1 piano; 
+	\item Corpo C: contiene laboratori e ambulatori. E' di pianta rettangolare e alto solo 1 piano. Estensione di \n{812}{m^2};
+	\item Corpo D: contiene ambulatori, studi medici e laboratori. Di pianta quadrata (\n{217}{m^2}) è alto solo 1 piano; 
 	\item Corpo E: contiene ambulatori cardiologici, geriatrici e di medicina interna, vari laboratori e studi medici. È alto solo 1 piano con un'estensione di \n{305}{m^2}.
 \end{itemize}
 
 L'edificio 2 preserva tutte le opere edili e alcune impiantistiche realizzate all'epoca della sua costruzione. Non è difficile dedurre, quindi, che allo stato attuale sia i comportamenti estivi e invernali dell'involucro come le efficienze termo-meccaniche dell'impianto idro-aeraulico siano quantomeno inferiori a quelli consigliati dalla norma attuale vigente. In \vref{pan} è presente una panoramica in cui è possibile apprezzare i vari corpi. In \vref{IFC} sono state riportate \num{3} immagini del modello tridimensionale dell'edificio 2 costruito con \textbf{IFC Builder}. Il file è stato poi importato nel \textbf{LOAD} da cui sono stati estratti i carichi termici. È interessante notare la verosimiglianza delle suddette immagini con quelle reali riportate in \vref{ed21} e \ref{ed22}.
+
+L'analisi progettuale ha come oggetti di intervento il corpo A e C. In particolare, del primo non si interessa nel quinto piano (dove è situato il blocco operatorio) e degli impianto dell'UTIC e dell'Emodinamica.
+
+Riassumendo: il corpo A verrà riqualificato \emph{civilmente} in tutti i piani escluso il quinto piano e i tre pozzi delle scale; l'intervento impiantistico interesserà, invece, tutto il corpo A esclusi i tre pozzi delle scale, l'UTIC, l'Emodinamica e tutto il quinto piano; il corpo C verrà riqualificato integralmente sia \emph{civilmente} che \emph{impiantisticamente}.
+
+Da ciò discende la necessità di modellare termo-fisicamente le sole zone oggetto dell'intervento. Paradossalmente, però, per dimensionare l'impianto della sottocentrale si è tenuto conto anche, ovviamente, del quinto piano in quanto ad esso si appoggia.
 
 \begin{figure}
 	\centering
@@ -58,6 +64,7 @@ L'edificio 2 preserva tutte le opere edili e alcune impiantistiche realizzate al
 	\caption{Panoramica dell'edificio 2: a destra il corpo E; al centro il corpo C e in fondo in alto il corpo A. È possibile apprezzare il gioco di pieni e vuoti dei blocchi di silicalcite e finestre.}\label{pan}
 \end{sidewaysfigure}
 
+\clearpage
 \section{L'involucro}
 L'involucro dell'Edificio 2, sia quello opaco che quello trasparente, non è cambiato in questi anni quindi non ci sono differenze con le stratigrafie indicate dall'\tit{Ing.}{Corrado Beguinot}.
 
@@ -75,7 +82,7 @@ Prima di descrivere come sono stati modellati i vari componenti opachi, è dover
 Segue, quindi, la descrizione numerica dei componenti (opachi e trasparenti) utilizzati come dati di input per il calcolo del fabbisogno energetico e del carico termico (estivo e invernale) dell'edificio stesso.
 \subsection{Componenti opachi}
 \subsubsection{MURO EXT}
-È il componente esterno delle facciate maggiori del Corpo A. \\È caratterizzato esternamente da blocchi di silicalcite alternati dagli infissi. \\Questa tipologia di muro è fittizia poiché si è modellato un componente che nella realtà è caratterizzata da una diversa stratigrafia in senso verticale. Dal punto di vista numerico, quindi, si è effettuata una media ponderale delle varie caratteristiche termo-fisiche in modo tale che il risultato finale sia quanto più possibile veritiero. La parte inferiore è costituita semplicemente da un mattone forato da \n{10}{cm} intonacato internamente ed esternamente; la parte superiore, invece, è caratterizzata dai blocchi di silicalcite. \\ La stratigrafia della parte superiore è (dall'interno verso l'esterno):
+È il componente esterno verticale delle facciate maggiori del Corpo A. \\È caratterizzato esternamente da blocchi di silicalcite alternati dagli infissi. \\Questa tipologia di muro è fittizia poiché si è modellato un componente che nella realtà è caratterizzata da una diversa stratigrafia in senso verticale. Dal punto di vista numerico, quindi, si è effettuata una media ponderale delle varie caratteristiche termo-fisiche in modo tale che il risultato finale sia quanto più possibile veritiero. La parte inferiore è costituita semplicemente da un mattone forato da \n{10}{cm} intonacato internamente ed esternamente; la parte superiore, invece, è caratterizzata dai blocchi di silicalcite. \\ La stratigrafia della parte superiore è (dall'interno verso l'esterno):
 \begin{center}
 	\begin{tabular}{lcc}
 		\toprule
@@ -97,8 +104,9 @@ Questi i risultati del componente modellato (a valle della media ponderale):
 		\bottomrule
 	\end{tabular}
 \end{center}
+\newpage
 \subsubsection{MURO EXT 200}
-È il componente esterno delle scale e del torrino.
+È il componente esterno delle pareti in cemento armato.
 \begin{center}
 	\begin{tabular}{lcc}
 		\toprule
@@ -122,7 +130,7 @@ Questi i risultati del componente modellato:
 \end{center}
 
 \subsubsection{MURO EXT Corpo Basso}
-È il componente esterno dei corpi bassi ovvero del Corpo B, C, D ed E.
+È il componente esterno verticale dei corpi bassi ovvero B, C, D ed E.
 \begin{center}
 	\begin{tabular}{lcc}
 		\toprule
@@ -185,6 +193,7 @@ Questi i risultati del componente modellato:
 		\bottomrule
 	\end{tabular}
 \end{center}
+\newpage
 \subsubsection{PAVIMENTO}
 È il componente opaco utilizzato per modellare il pavimento dell'Edificio 2 (quindi in comune a tutti i corpi). È bene precisare che questo componente non è a contatto con il terreno in quanto vi sono i locali della sottocentrale nel piano -1.\\
 Questi i risultati:
@@ -230,10 +239,10 @@ Si elencano ora i vari infissi utilizzati all'interno del modello dell'edificio:
 \begin{itemize}
 	\item \textbf{PICCOLA} \n{1.60x0.33}{m}.\\ È il componente trasparente facente parte delle facciate maggiori del Corpo~A. 
 	\item \textbf{GRANDE} \n{1.60x0.67}{m}.\\ È la variante alta della finestra \textbf{PICCOLA}. 
-	\item \textbf{LUCERNARIO} \n{1.45x0.39}{m}.\\ Questo è il lucernario presente nella parte superiore di ogni modulo delle due facciate maggiori del Corpo A. 
+	\item \textbf{LUCERNARIO} \n{1.45x0.39}{m}.\\ Questo è il lucernario presente nella parte superiore di ogni modulo delle due facciate maggiori del Corpo A. In \vref{unitloca} si possono vedere queste 3 tipologie di componenti trasparenti che caratterizzano le facciate maggiori del corpo A.
 	\item \textbf{QUADRA} \n{0.75x0.75}{m}. Vedere \vref{finq}.
 	\item \textbf{LUNGA} \n{0.75x1.70}{m}.\\ Presente al di sotto della finestra \textbf{QUADRA}, insieme a quest'ultima crea un unico infisso che percorre tutta l'altezza del Corpo A nelle scanalature del muro \textbf{MURO EXT 200}. 
-	\item \textbf{FIN-160} \n{1.60x3.00}{m}. \\ Presente nel corridoio antistante la \emph{medicheria} in ogni piano. Anche questo infisso, come \textbf{FINESTRA LUNGA} e \textbf{FINESTRA QUADRA}, genera un'unica finestra che percorre tutta l'altezza del corpo A. In \vref{fin1} si può apprezzare un particolare.
+	\item \textbf{FIN-160} \n{1.60x3.00}{m}. \\ Presente nel corridoio antistante la \emph{medicheria} in ogni piano. Anche questo infisso, come \textbf{FINESTRA LUNGA} e \textbf{FINESTRA QUADRA}, genera un'unica finestra che percorre tutta l'altezza del corpo A. In \vref{fin1} se ne può apprezzare un particolare.
 	\item \textbf{PT-160} \n{1.60x2.00}{m}. \\ È la finestra dei Corpi B, C, D ed E. Vedere \vref{fincb}.
 	\item \textbf{PT-Alta Corpo Basso} \n{1.60x0.35}{m}.\\ È il lucernario di ogni modulo caratterizzante i Corpi B, C, D ed E. 
 \end{itemize}
@@ -511,7 +520,7 @@ RST sta per \emph{Rapporto Sensibile su Totale} ed è adimensionale. È molto im
 Conoscendo il valore di RST, del carico da bilanciare $Q_{frigo}$ e della portata di ventilazione, dal diagramma psicrometrico si individuano, per ogni zona termica (e le loro rispettive UTA), le proprietà termoigrometriche dell'aria da immettere. Ed è, quindi, possibile calcolare le potenze delle batterie di raffreddamento e post-riscaldamento delle UTA nel caso estivo. Nella seguente tabella sono riassunti i risultati ottenuti in \si{kW}. L'ipotesi alla base di tutte queste valutazioni è che le batterie siano ideali cioè che non vi sia una frazione di portata d'aria che non entri a contatto con le lamelle delle batterie stesse. In questa sede, però, volendo solo effettuare una valutazione pre e post intervento non è importante considerare anche il cosiddetto \emph{by-pass factor} delle batterie (anche se oggigiorno suddetti fattori risultano essere dell'ordine del \n{5}{\%} e quindi tranquillamente trascurabili).
 \begin{center}
 	\begin{tabular}{lcc}
-		&	$Q_{UTA,f}$		&	$Q_{UTA,c}$\\
+		&	$\dot{Q}_{UTA,f}$		&	$\dot{Q}_{UTA,c}$\\
 		\midrule
 		UTIC	&	\num{79.3}			&	\num{6.86}\\
 		Emod.	&	\num{91.7}			&	\num{3.52}\\
@@ -540,7 +549,7 @@ In \vref{stato:fatto} sono riassunti tutti i risultati ottenuti per la stagione 
 		\small
 		\begin{tabular}{lccccc}
 			\toprule
-			\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $Q_L$ 			& $Q_S$ 					& $\dot{Q}_{frigo}$  \\
+			\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $\dot{Q}_L$ 			& $\dot{Q}_S$ 					& $\dot{Q}_{frigo}$  \\
 			& \si{m^2}		& \si{m^3/h}						& \si{kW}			& \si{kW}					& \si{kW}\\
 			\midrule
 			Radiatori		& \num{291.1}				& ---								& ---				& ---						& ---\\
@@ -589,17 +598,18 @@ In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anch
 	\small
 	\begin{tabular}{lcccc}
 		\toprule
-		\multirow{2}*{Zona Termica} & Superficie 		& Trasmissione 					& Ventilazione 	 			& Totale		\\
-									& [\si{m^2}]		& [\si{kW}]						& [\si{m^3/h}]				& [\si{kW}]		\\
+		\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $\dot{Q}_{trasm}$ 	 			& $\dot{Q}_{riscc}$		\\
+									& \si{m^2}			& \si{m^3/h}					& \si{kW}					& \si{kW}		\\
 		\midrule
-		Radiatori					& \num{291.1}		& \num{30.7}					& ---						& \num{30.7}	\\
-		B.O.						& \num{696.7}		& \num{38.4}					& \num{21936}				& \num{317}	\\
-		UTIC						& \num{145.7}		& \num{4.75}					& \num{4371}				& \num{57.3}	\\
-		Emod.						& \num{164.4}		& \num{12.5}					& \num{5058}				& \num{79.9} 	\\
-		Corpo C						& \num{529.2}		& \num{59.9}					& --						& \num{59.9}	\\
-		Corpo A						& \num{2352.2}		& \num{142}						& --						& \num{142}	\\
+		Radiatori					& \num{291.1}		& ---							& \num{30.7}				& \num{30.7}	\\
+		B.O.						& \num{696.7}		& \num{21936}					& \num{38.4}				& \num{317}	\\
+		UTIC						& \num{145.7}		& \num{4371}					& \num{4.75}				& \num{57.3}	\\
+		Emod.						& \num{164.4}		& \num{5058}					& \num{12.5}				& \num{79.9} 	\\
+		Corpo C						& \num{529.2}		& --							& \num{59.9}				& \num{59.9}	\\
+		Corpo A						& \num{2352.2}		& --							& \num{142}					& \num{142}	\\
 		\bottomrule
 	\end{tabular}
 	\caption{Carichi Termici invernali - Stato di fatto}\label{car:fatt}
 \end{table}
+
 La potenza totale tiene conto sia della trasmissione che della ventilazione calcolata nella tabella precedente.

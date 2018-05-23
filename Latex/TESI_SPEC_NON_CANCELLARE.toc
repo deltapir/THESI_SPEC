@@ -19,44 +19,44 @@
 \contentsline {chapter}{\numberline {3}Lo stato attuale}{26}
 \contentsline {section}{\numberline {3.1}Le modifiche al giorno d'oggi}{26}
 \contentsline {section}{\numberline {3.2}L'edificio 2}{27}
-\contentsline {section}{\numberline {3.3}L'involucro}{31}
-\contentsline {subsection}{\numberline {3.3.1}Componenti opachi}{31}
-\contentsline {subsubsection}{MURO EXT}{31}
-\contentsline {subsubsection}{MURO EXT 200}{31}
-\contentsline {subsubsection}{MURO EXT Corpo Basso}{33}
-\contentsline {subsubsection}{COPERTURA 1}{33}
-\contentsline {subsubsection}{COPERTURA 2}{33}
-\contentsline {subsubsection}{PAVIMENTO}{34}
-\contentsline {subsection}{\numberline {3.3.2}Componenti trasparenti}{36}
-\contentsline {subsection}{\numberline {3.3.3}Definizione locali}{37}
-\contentsline {subsubsection}{Degenza}{40}
-\contentsline {subsubsection}{Laboratorio}{41}
-\contentsline {subsubsection}{Studio Medico}{42}
-\contentsline {subsubsection}{Cucina}{43}
-\contentsline {subsubsection}{Ufficio}{44}
-\contentsline {section}{\numberline {3.4}L'impianto}{45}
-\contentsline {section}{\numberline {3.5}I risultati energetici}{51}
-\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{53}
-\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{55}
-\contentsline {chapter}{\numberline {4}Lo stato di progetto}{57}
-\contentsline {section}{\numberline {4.1}L'involucro}{57}
-\contentsline {section}{\numberline {4.2}I Risultati Energetici}{61}
-\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{61}
-\contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{64}
-\contentsline {section}{\numberline {4.3}L'impianto - Lato Utenza}{65}
-\contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{65}
-\contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{68}
-\contentsline {section}{\numberline {4.4}L'impianto - Lato Sottocentrale}{72}
-\contentsline {subsection}{\numberline {4.4.1}Acqua Calda}{72}
-\contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{74}
-\contentsline {subsubsection}{L'assorbitore}{75}
-\contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{79}
-\contentsline {paragraph}{L'aria}{80}
-\contentsline {paragraph}{L'acqua}{81}
-\contentsline {paragraph}{L'energia solare}{81}
-\contentsline {paragraph}{Il terreno}{82}
-\contentsline {subsubsection}{Gli scambiatori}{87}
-\contentsline {chapter}{\numberline {5}Conclusioni}{89}
-\contentsline {chapter}{Bibliografia}{94}
-\contentsline {chapter}{Elenco delle figure}{95}
-\contentsline {chapter}{Elenco delle tabelle}{96}
+\contentsline {section}{\numberline {3.3}L'involucro}{32}
+\contentsline {subsection}{\numberline {3.3.1}Componenti opachi}{32}
+\contentsline {subsubsection}{MURO EXT}{32}
+\contentsline {subsubsection}{MURO EXT 200}{34}
+\contentsline {subsubsection}{MURO EXT Corpo Basso}{34}
+\contentsline {subsubsection}{COPERTURA 1}{34}
+\contentsline {subsubsection}{COPERTURA 2}{35}
+\contentsline {subsubsection}{PAVIMENTO}{36}
+\contentsline {subsection}{\numberline {3.3.2}Componenti trasparenti}{37}
+\contentsline {subsection}{\numberline {3.3.3}Definizione locali}{38}
+\contentsline {subsubsection}{Degenza}{41}
+\contentsline {subsubsection}{Laboratorio}{42}
+\contentsline {subsubsection}{Studio Medico}{43}
+\contentsline {subsubsection}{Cucina}{44}
+\contentsline {subsubsection}{Ufficio}{45}
+\contentsline {section}{\numberline {3.4}L'impianto}{46}
+\contentsline {section}{\numberline {3.5}I risultati energetici}{52}
+\contentsline {subsection}{\numberline {3.5.1}Stagione Estiva}{54}
+\contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{56}
+\contentsline {chapter}{\numberline {4}Lo stato di progetto}{58}
+\contentsline {section}{\numberline {4.1}L'involucro}{58}
+\contentsline {section}{\numberline {4.2}I Risultati Energetici}{62}
+\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{62}
+\contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{65}
+\contentsline {section}{\numberline {4.3}L'impianto - Lato Utenza}{66}
+\contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{66}
+\contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{69}
+\contentsline {section}{\numberline {4.4}L'impianto - Lato Sottocentrale}{73}
+\contentsline {subsection}{\numberline {4.4.1}Acqua Calda}{73}
+\contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{75}
+\contentsline {subsubsection}{L'assorbitore}{76}
+\contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{80}
+\contentsline {paragraph}{L'aria}{81}
+\contentsline {paragraph}{L'acqua}{82}
+\contentsline {paragraph}{L'energia solare}{82}
+\contentsline {paragraph}{Il terreno}{83}
+\contentsline {subsubsection}{Gli scambiatori}{88}
+\contentsline {chapter}{\numberline {5}Conclusioni}{90}
+\contentsline {chapter}{Bibliografia}{95}
+\contentsline {chapter}{Elenco delle figure}{96}
+\contentsline {chapter}{Elenco delle tabelle}{97}
