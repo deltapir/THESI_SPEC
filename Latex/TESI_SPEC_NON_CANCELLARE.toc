@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {4.1}L'involucro}{58}
 \contentsline {section}{\numberline {4.2}I Risultati Energetici}{63}
 \contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{63}
-\contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{65}
+\contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{66}
 \contentsline {section}{\numberline {4.3}L'impianto - Lato Utenza}{67}
 \contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{67}
 \contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{70}
@@ -54,7 +54,7 @@
 \contentsline {paragraph}{L'aria}{82}
 \contentsline {paragraph}{L'acqua}{83}
 \contentsline {paragraph}{L'energia solare}{83}
-\contentsline {paragraph}{Il terreno}{84}
+\contentsline {paragraph}{Il terreno}{83}
 \contentsline {subsubsection}{Gli scambiatori}{89}
 \contentsline {chapter}{\numberline {5}Conclusioni}{91}
 \contentsline {chapter}{Bibliografia}{96}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  23 MAY 2018 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  23 MAY 2018 18:13
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -2797,9 +2797,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [60]
-Overfull \hbox (21.40683pt too wide) in paragraph at lines 105--106
+Underfull \hbox (badness 3612) in paragraph at lines 105--106
 []\T1/LinuxLibertineT-TLF/m/n/12 modificando la stra-ti-gra-fia, si ab-bat-te l
-a tra-smit-tan-za ter-mi-ca fi-no a [][]; 
+a tra-smit-tan-za ter-mi-ca fi-no
  []
 
 
@@ -2851,7 +2851,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/cavedi.pdf>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf used on input line 283.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -2859,7 +2859,7 @@ pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/cavedi.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 <use 6_4_cap/img/cavedi.pdf>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf used on input line 283.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -2873,11 +2873,11 @@ und PDF version <1.7>, but at most version <1.5> allowed
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/cavedi.pdf, page 1>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 283.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
  <use 6_4_cap/img/cavedi.pdf, page 1>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 283.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 
 
@@ -2889,18 +2889,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [67]
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
  <use 6_4_cap/img/cavedi.pdf, page 1>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 283.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
  <use 6_4_cap/img/cavedi.pdf, page 1>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 283.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: 6_4_cap/img/cavedi.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/cavedi.pdf, page 1>
-Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 284.
+Package pdftex.def Info: 6_4_cap/img/cavedi.pdf, page1 used on input line 283.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
  [68 <./6_4_cap/img/cavedi.pdf>]
+Underfull \hbox (badness 6625) in paragraph at lines 304--305
+[]\T1/LinuxLibertineT-TLF/m/n/12 Per i ra-dia-to-ri si è pro-ce-du-to nel-lo st
+es-so mo-do ri-cor-dan-do pe-rò
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2911,28 +2916,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: 6_4_cap/img/idr1.png Graphic file (type png)
 
 <use 6_4_cap/img/idr1.png>
-Package pdftex.def Info: 6_4_cap/img/idr1.png used on input line 313.
+Package pdftex.def Info: 6_4_cap/img/idr1.png used on input line 312.
 (pdftex.def)             Requested size: 390.0pt x 201.89792pt.
 
 <6_4_cap/img/idr2.png, id=344, 621.82312pt x 272.51813pt>
 File: 6_4_cap/img/idr2.png Graphic file (type png)
 
 <use 6_4_cap/img/idr2.png>
-Package pdftex.def Info: 6_4_cap/img/idr2.png used on input line 314.
+Package pdftex.def Info: 6_4_cap/img/idr2.png used on input line 313.
 (pdftex.def)             Requested size: 390.0pt x 170.9222pt.
 
 <6_4_cap/img/aer1.png, id=345, 814.54312pt x 508.90125pt>
 File: 6_4_cap/img/aer1.png Graphic file (type png)
 
 <use 6_4_cap/img/aer1.png>
-Package pdftex.def Info: 6_4_cap/img/aer1.png used on input line 329.
+Package pdftex.def Info: 6_4_cap/img/aer1.png used on input line 328.
 (pdftex.def)             Requested size: 350.99762pt x 219.28918pt.
 
 <6_4_cap/img/aer2.png, id=346, 867.24pt x 487.8225pt>
 File: 6_4_cap/img/aer2.png Graphic file (type png)
 
 <use 6_4_cap/img/aer2.png>
-Package pdftex.def Info: 6_4_cap/img/aer2.png used on input line 330.
+Package pdftex.def Info: 6_4_cap/img/aer2.png used on input line 329.
 (pdftex.def)             Requested size: 350.99762pt x 197.44049pt.
 
 
@@ -2942,7 +2947,7 @@ pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/aeraulica.pdf): PDF inclusion:
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf>
-Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf used on input line 334.
+Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf used on input line 333.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -2950,7 +2955,7 @@ pdfTeX warning: pdflatex.exe (file ./6_4_cap/img/aeraulica.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 <use 6_4_cap/img/aeraulica.pdf>
-Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf used on input line 334.
+Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf used on input line 333.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -2965,13 +2970,13 @@ File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 33
-4.
+3.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 33
-4.
+3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 
 
@@ -2984,19 +2989,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
  <use 6_4_cap/img/aeraulica.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 33
-4.
+3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 33
-4.
+3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: 6_4_cap/img/aeraulica.pdf Graphic file (type pdf)
 
 <use 6_4_cap/img/aeraulica.pdf, page 1>
 Package pdftex.def Info: 6_4_cap/img/aeraulica.pdf, page1 used on input line 33
-4.
+3.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
  [71 <./6_4_cap/img/aeraulica.pdf>]
 
@@ -3013,16 +3018,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [73 <./6_4_cap/img/aer1.png> <./6_4_cap/img/aer2.png>]
-LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
- on input line 336.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\t1linuxlibertinemonot-tlf.fd"
-File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
-1/LinuxLibertineMonoT-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 336.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3044,6 +3039,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [76]
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
+ on input line 425.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\libertine\t1linuxlibertinemonot-tlf.fd"
+File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
+1/LinuxLibertineMonoT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 425.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3280,8 +3285,8 @@ Here is how much of TeX's memory you used:
  698195 words of font info for 133 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,10398b,984s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1math/libusEX.enc}{C:
-/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{C:/Program
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{C:/Pr
+ogram Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1math/libusEX.enc}{C:/Program
  Files/MiKTeX 2.9/fonts/enc/dvips/libertinust1math/libusBMR.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Program Files/MiKTe
 X 2.9/fonts/enc/dvips/libertinust1math/libusSYM.enc}{C:/Program Files/MiKTeX 2.
@@ -3298,7 +3303,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTB.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTBI.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (105 pages, 41719182 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (105 pages, 41717487 bytes).
 PDF statistics:
  519 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
