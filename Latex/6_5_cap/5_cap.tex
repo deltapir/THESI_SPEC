@@ -19,8 +19,9 @@ In questo applicativo è stato importato il file \textsc{.ifc} e le stratigrafie
 \end{itemize}
 Nello stato di fatto il riscaldamento/raffrescamento per UTIC, Emodinamica e il Blocco Operatorio avviene tramite un impianto a tutt'aria (che quindi assicura anche la ventilazione meccanica degli ambienti); per i corpi A e C non vi è il raffrescamento mentre il riscaldamento è assicurato dall'impianto con radiatori; la ventilazione in questi due corpi, invece, è di tipo naturale con un ricambio orario di \n{1}{vol/h}; per il servizio di trasporto è stato inserito un ascensore per il corpo A e le tre unità operatorie; l'illuminazione è stata valutata inserendo la potenzialità per \si{m^2} come indicato in fase di definizione dei locali.
 
-I risultati presenti nell'\emph{Attestato di Prestazione Energetica degli edifici} (conosciuta anche come \emph{APE}) riferita allo stato di fatto, sono riassunti nella seguente tabella.
-\begin{center}
+I risultati presenti nell'\emph{Attestato di Prestazione Energetica degli edifici} (conosciuta anche come \emph{APE}) riferita allo stato di fatto, sono riassunti in \vref{ape:fatto}.
+\begin{table}
+	\centering
 	\begin{tabular}{lccc}
 		\toprule
 		\multicolumn{4}{c}{{\large Stato di fatto}}\\
@@ -44,8 +45,9 @@ I risultati presenti nell'\emph{Attestato di Prestazione Energetica degli edific
 		\multicolumn{2}{l}{Gas Naturale}			  	& \num{97024.34}		& \si{m^3} \\
 		\bottomrule
 	\end{tabular}
-\end{center}
-Le \emph{prestazioni energetiche} del fabbricato hanno restituito valori bassi, ovviamente. Per quanto riguarda la stagione invernale, il limite viene imposto dall'\emph{indice di prestazione termica utile} per il riscaldamento dell'edificio di riferimento. Nel caso, invece, della prestazione energetica estiva dell'involucro, l'indicatore è definito in base alla trasmittanza termica periodica $\mathrm{Y_{IE}}$ e all'area solare equivalente estiva per unità di superficie utile $A_{\mathrm{sol,est}}/A_{\mathrm{sol,utile}}$. Per avere un risultato \textbf{ALTO}:
+\caption{Prestazione Energetica -- Stato di fatto}\label{ape:fatto}
+\end{table}
+Le \emph{prestazioni energetiche} del fabbricato hanno restituito valori bassi, ovviamente. Per quanto riguarda la stagione invernale, il limite viene imposto dall'\emph{indice di prestazione termica utile} per il riscaldamento dell'edificio di riferimento. Nel caso, invece, della prestazione energetica estiva dell'involucro, l'indicatore è definito in base alla trasmittanza termica periodica $\mathrm{Y_{IE}}$ e all'area solare equivalente estiva per unità di superficie utile $\mathrm{A_{sol,est}/A_{sol,utile}}$. Per avere un risultato \textbf{ALTO}:
 \begin{itemize}
 	\item $\mathrm{A_{sol,est}/A_{sol,utile}} < \num{0.03}$;
 	\item $\mathrm{Y_{IE}} < \num{0.14}$.
@@ -53,9 +55,10 @@ Le \emph{prestazioni energetiche} del fabbricato hanno restituito valori bassi, 
 
 Le fonti energetiche utilizzate sono soltanto il \emph{Gas Naturale}, per il cogeneratore della centrale termica del policlinico, e l'\emph{Energia Elettrica} per il funzionamento degli ausiliari, illuminazione e trasporto.
 
-Nello stato di progetto, invece, i risultati dell'APE sono riassunti di seguito.
+Nello stato di progetto, invece, i risultati dell'APE sono riassunti in \vref{ape:progetto}.
 
-\begin{center}
+\begin{table}
+	\centering
 	\begin{tabular}{lccc}
 		\toprule
 		\multicolumn{4}{c}{{\large Stato di progetto}}\\
@@ -79,7 +82,8 @@ Nello stato di progetto, invece, i risultati dell'APE sono riassunti di seguito.
 		\multicolumn{2}{l}{Gas Naturale}			  	& \num{30443.21}		& \si{m^3} \\
 		\bottomrule
 	\end{tabular}
-\end{center}
+\caption{Prestazione Energetica -- Stato di progetto}\label{ape:progetto}
+\end{table}
 Le differenze maggiori si hanno sul risparmio annuo delle fonti energetiche utilizzate. La motivazione risiede sia nelle migliori condizioni dell'involucro e sia nell'utilizzo di fonti rinnovabili (quale è la geotermia). L'intervento di \emph{relamping} ha, inoltre, contribuito alla diminuzione del consumo di energia elettrica. È, però, il decremento di gas naturale a saltare all'occhio in quanto se da una parte viene migliorato l'involucro (e quindi è necessario riscaldare meno come lo si evince dal $\mathrm{EP_{h,nd}}$ che risulta essere molto più basso rispetto al corrispettivo valore dello stato di fatto), dall'altro vengono usate le pompe di calore che sfruttano il calore endogeno del terreno antistante l'edificio 2.
 
 Essendo l'edificio oggetto di intervento sottoposto ad una \emph{riqualificazione energetica}, i \emph{requisiti minimi}\footnote{dal DM 16/6/15} che sono stati verificati sono:
