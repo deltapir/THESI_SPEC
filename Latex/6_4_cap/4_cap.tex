@@ -350,7 +350,11 @@ Prima di procedere con la descrizione della sottocentrale che alimenta tutto il 
 \subsection{Acqua Calda}
 Come è già stato detto nel primo capitolo, in tutto il policlinico vi è una rete di presidio di acqua surriscaldata e refrigerata prodotta dai reflui termici del cogeneratore, caldaie e assorbitori. 
 
-Per produrre acqua calda ad \n{80}{\degreeCelsius} si usa uno scambiatore dimensionato sulla $\dot{Q}_{risc,TOT} = \sum \dot{Q}_{risc,i}$ dove $\dot{Q}_{risc,i}$ sono le potenze per il riscaldamento dei fancoil, UTA e radiatori delle varie zone termiche. La sommatoria non tiene conto delle potenze di ventilazione per i corpi A e C in quanto quel calore viene fornito (come anche nel caso estivo) dai recuperatori che possiedono un proprio impianto a compressione di vapore. Per questioni di sicurezza la $\dot{Q}_{risc,TOT}$ viene aumentata di un \n{20}{\%} e vengono usati due scambiatori gemelli: in caso di guasto o manutenzione di una macchina, vi sarà l'altra ad assicurare la continuità del servizio.
+Per produrre acqua calda ad \n{80}{\degreeCelsius} si usa uno scambiatore dimensionato sulla $\dot{Q}_{\mathrm{risc,TOT}} = \sum \dot{Q}_{\mathrm{risc,i}}$ dove $\dot{Q}_{\mathrm{risc,i}}$ sono le potenze per il riscaldamento dei fancoil, UTA, radiatori delle varie zone termiche e dell'acqua calda sanitaria. La sommatoria non tiene conto delle potenze di ventilazione per i corpi A e C in quanto quel calore viene fornito (come anche nel caso estivo) dai recuperatori che possiedono un proprio impianto a compressione di vapore. Per questioni di sicurezza la $\dot{Q}_{\mathrm{risc,TOT}}$ viene aumentata di un \n{20}{\%} e vengono usati due scambiatori gemelli: in caso di guasto o manutenzione di una macchina, vi sarà l'altra ad assicurare la continuità del servizio.
+
+In definitiva, essendo $\dot{Q}_{\mathrm{risc,TOT}}=\SI{600}{kW}$, sovradimensionando per sicurezza del \n{20}{\%} si ottengono \n{720}{kW}. 
+
+Ogni scambiatore non verrà dimensionato sul massimo della potenzialità ma sui $2/3$ in quanto il picco si avrà solo in poche occasioni, per il resto del tempo (che rappresenta la maggior parte) ogni scambiatore lavorerà \emph{parzializzato}. Pertanto invece di dimensionare il singolo scambiatore sui \n{720}{kW}, si preferisce utilizzarne due da \n{480}{kW}. Nel funzionamento ordinario, sarà attivo un solo scambiatore mentre l'altro è di back-up. Nel caso ci siano esigenze particolari, si fa funzionare anche il secondo scambiatore. In caso di guasto o manutenzione (ordinaria e straordinaria) vi è l'altro scambiatore a garantire la continuità del servizio. Non bisogna dimenticare della presenza delle pompe di calore che comunque coprono una buona parte del carico. Quindi l'affidabilità e soprattutto la continuità del servizio sono garantite.
 
 Il corretto funzionamento dello scambiatore (ovvero la produzione continua di acqua a \n{80}{\degreeCelsius}), viene assicurato da un termostato, posto nel ramo di mandata alle utenze, che, misurando continuamente la temperatura, invia un segnale ad una valvola a 3 vie a monte dello scambiatore (lato centrale) in modo tale da correggere la portata di acqua surriscaldata che fluisce nello scambiatore. 
 
@@ -408,7 +412,7 @@ La produzione di acqua a \n{7}{\degreeCelsius} è affidata ad un mix di macchine
 	\item Pompe di calore con impianto geotermico.	
 	\item Scambiatori che sfruttano la rete di acqua refrigerata di presidio;
 \end{itemize}
-Il cogeneratore ha \n{9}{MW} di reflui termici in estate di cui solo una parte vengono effettivamente utilizzati negli assorbitori i quali, al giorno d'oggi, non riescono a coprire il carico termico estivo di tutta la rete ospedaliera. Per questo motivo si è optata per l'installazione di un assorbitore in sottocentrale dedicato per il solo Edificio 2: per sfruttare i reflui termici del cogeneratore che altrimenti verrebbero persi.
+Il cogeneratore ha \n{9}{MW} di reflui termici in estate di cui solo una parte vengono effettivamente utilizzati negli assorbitori i quali, al giorno d'oggi, non riescono a coprire il carico termico estivo di tutta la rete ospedaliera. Per questo motivo si è optata per l'installazione di un assorbitore in sottocentrale dedicato per il solo edificio 2: per sfruttare i reflui termici del cogeneratore che altrimenti verrebbero persi.
 
 Le pompe di calore producono acqua refrigerata a \n{7}{\degreeCelsius} in estate e a \n{50}{\degreeCelsius} in inverno per i soli fancoil sul lato utenza, mentre scambiano con un apposito impianto geotermico.
 
@@ -422,7 +426,7 @@ Le \emph{AHP} -- Absorption Heat Pump -- sebbene già sviluppate in età pioneri
 
 Il principio di funzionamento si basa sulla capacità di particolari soluzioni chimiche (ottenute mescolando una sostanza \emph{refrigerante} ed una \emph{assorbente}) di assorbire continuativamente il vapore di refrigerante proveniente dall'evaporatore di una macchina frigorifera permettendo dunque che in quest'ultima l'evaporazione, e quindi l'effetto frigorigeno desiderato, siano continui.
 
-\texttt{INSERISCI SCHEMA AHP} Sono ancora presenti l'evaporatore ed il condensatore ma la compressione del vapore non è meccanica (scompare il compressore) ma termochimica (è presente un assorbitore/generatore). Al pari delle EHP, le AHP utilizzano l'evaporazione di un fluido \emph{refrigerante} per sottrarre energia termica dall'ambiente da climatizzare. Il refrigerante vaporizzato viene assorbito da una soluzione acquosa in cui è presente l'assorbente. Le coppie di fluidi di lavoro (refrigerante/assorbente) attualmente più utilizzate sono ammoniaca/acqua e acqua/bromuro di litio che è la più diffusa nelle macchine attualmente in commercio. Accanto alle funzioni di evaporazione ed assorbimento, per assicurare il funzionamento ciclico della macchina occorre far sì che l'assorbente, diluito nel refrigerante, riacquisti la sua capacità assorbente iniziale. A questo scopo viene introdotta una fase di rigenerazione: dall'assorbitore la miscela ricca di refrigerante viene inviata in un ulteriore dispositivo, il generatore, dove, per effetto di un'adduzione d'energia termica, si impoverisce di refrigerante; in tal modo, si ripristinano le condizioni iniziali delle fasi di evaporazione ed assorbimento.
+Sono ancora presenti l'evaporatore ed il condensatore ma la compressione del vapore non è meccanica (scompare il compressore) ma termochimica (è presente un assorbitore/generatore). Al pari delle EHP, le AHP utilizzano l'evaporazione di un fluido \emph{refrigerante} per sottrarre energia termica dall'ambiente da climatizzare. Il refrigerante vaporizzato viene assorbito da una soluzione acquosa in cui è presente l'assorbente. Le coppie di fluidi di lavoro (refrigerante/assorbente) attualmente più utilizzate sono ammoniaca/acqua e acqua/bromuro di litio che è la più diffusa nelle macchine attualmente in commercio. Accanto alle funzioni di evaporazione ed assorbimento, per assicurare il funzionamento ciclico della macchina occorre far sì che l'assorbente, diluito nel refrigerante, riacquisti la sua capacità assorbente iniziale. A questo scopo viene introdotta una fase di rigenerazione: dall'assorbitore la miscela ricca di refrigerante viene inviata in un ulteriore dispositivo, il generatore, dove, per effetto di un'adduzione d'energia termica, si impoverisce di refrigerante; in tal modo, si ripristinano le condizioni iniziali delle fasi di evaporazione ed assorbimento.
 
 Nelle applicazioni attuali si distinguono due tipologie di macchine ad assorbimento: quelle ad \emph{alimentazione indiretta} e quelle a \emph{fiamma diretta}.
 
@@ -455,9 +459,9 @@ In definitiva, si può affermare che, rispetto alle tradizionali apparecchiature
 Di contro ci sono alcuni svantaggi:
 \begin{itemize}
 	\item modesto COP;
-	\item necessità di ricorrere ad acqua di torre per la condensazione, sopratutto per gli assorbitori ad acqua/bromuro di litio;
-	\item per gli assorbitori ad acqua/bromuro di litio, la necessità di ricorrere ad un'accurata gestione e manutenzione per quanto riguarda la tenuta al vuoto, indispensabile per il loro corretto funzionamento;
-	\item accurato controllo della temperatura di condensazione in quanto, nel caso in cui sia troppo bassa, rischia di solidificare il bromuro di litio. Infatti sul ritorno dell'acqua di torre vi è termostato che misura la temperatura: nel caso in cui questa sia troppo bassa, agisce su una valvola miscelatrice posta sul ritorno dell'acqua di torre bypassando di fatto la torre di condensazione stessa e facendo tornare all'assorbitore/condensatore acqua calda. \texttt{CHIEDI QUA}
+	\item necessità di ricorrere ad acqua di torre per la condensazione, soprattutto per gli assorbitori ad acqua/bromuro di litio;
+	\item per gli assorbitori ad acqua/bromuro di litio, la necessità di ricorrere ad un'accurata gestione e manutenzione per quanto riguarda la tenuta al vuoto, indispensabile per il loro corretto funzionamento e per evitare l'insorgenza di corrosione;
+	\item accurato controllo della temperatura dell'acqua di raffreddamento del condensatore/evaporatore in quanto, nel caso in cui sia troppo bassa, rischia di solidificare il bromuro di litio (in relazione alla sua concentrazione). Infatti, sul ritorno dell'acqua di torre vi è termostato che misura la temperatura: nel caso in cui questa sia troppo bassa, agisce su una valvola miscelatrice posta sul ritorno dell'acqua di torre bypassando di fatto la torre di condensazione stessa e facendo tornare all'assorbitore/condensatore acqua calda.
 \end{itemize}
 Tornando nell'ambito progettuale di questo elaborato di laurea, avendo in estate i reflui termici del cogeneratore utilizzabili mediante l'acqua surriscaldata a \n{130}{\degreeCelsius}, si è preferito utilizzare un assorbitore.
 
@@ -465,19 +469,19 @@ Le caratteristiche della macchina, per quello che è stato detto nella teoria, s
 
 L'assorbitore è stato dimensionato sul carico massimo estivo. Si spera che in questo modo sia possibile utilizzare quanti più reflui termici essendo questi gratuiti (in quanto il \emph{goal} del cogeneratore è la produzione di energia elettrica per il policlinico).
 
-La potenza termica di raffreddamento è $\dot{Q}_{raff}=\SI{730}{kW}$ e sovradimensionando di un coefficiente di sicurezza pari al \n{20}{\%} si ottiene $\dot{Q}_{raff}=\SI{900}{kW}$ che sarà la potenzialità dell'assorbitore
+La potenza termica di raffreddamento è $\dot{Q}_{\mathrm{raff}}=\SI{730}{kW}$ e sovradimensionando di un coefficiente di sicurezza pari al \n{20}{\%} si ottiene $\dot{Q}_{\mathrm{raff}}=\SI{900}{kW}$ che sarà la potenzialità dell'assorbitore.
 
-Scrivendo la relazione del COP
+Scrivendo la relazione del COP,
 \begin{equation}
 	COP=\frac{\dot{Q}_{EV}}{\dot{Q}_{GE}}
 \end{equation}
 è possibile quantificare la potenza necessaria al generatore e quindi valutare la portata di acqua surriscaldata necessaria. 
 \begin{align}
 	\dot{Q}_{GE} &= \SI{720}{kW}\\
-	\dot{m}_w &= \frac{\dot{Q}_{GE}}{c\ \Delta T}\label{Portata}\\
+	\dot{m}_w &= \frac{\dot{Q}_{GE}}{c\ \mathit{\Delta} T}\label{Portata}\\
 	\dot{m}_w&=\SI{5.7}{kg/s}\label{Portata:acquacalda}
 \end{align}
-nella \vref{Portata} si è fissato $\Delta T=\SI{30}{\degreeCelsius}$.
+nella \vref{Portata} si è fissato $\mathit{\Delta} T=\SI{30}{\degreeCelsius}$.
 
 Siccome per gli assorbitori vale il seguente bilancio energetico
 \begin{equation}
@@ -491,11 +495,11 @@ e quindi, per il solito coefficiente di sicurezza, si dimensionerà la torre eva
 \begin{equation}
 	\dot{m}_w\approx \SI{90}{kg/s}
 \end{equation}
-\texttt{Calcolo anche la portata di acqua di reintegro?}
+
 \subsubsection{La pompa di calore e l'impianto geotermico}
 Il principio di funzionamento di tali sistemi si basa sul cambiamento di fase del liquido frigorigeno lungo il ciclo termodinamico che quest'ultimo compie. Il raffreddamento è in generale ottenuto dall'evaporazione del refrigerante ad una temperatura e ad una pressione che sono le più basse al'interno del ciclo. Queste ultime sono successivamente innalzate attraverso la compressione meccanica del fluido frigorigeno che alla fine di tale processo è vapore surriscaldato ad una temperatura e ad una pressione che sono le più alte all'interno del ciclo. Il riscaldamento, cioè la somministrazione d'energia termica dal sistema all'ambiente, è ottenuto attraverso il desurriscaldamento del fluido frigorigeno e la sua successiva condensazione. Il ciclo si completa attraverso l'espansione del suddetto fluido attraverso un apposito organo fino alle condizioni in cui ricomincia il processo d'evaporazione. Sono per quanto detto presenti quattro trasformazioni compiute attraverso quattro distinti componenti.
 
-Dal medesimo ciclo termodinamico possono dunque ottenersi sia un impianto \emph{frigorifero} che un impianto a \emph{pompa di calore}. In entrambi i casi è possibile definire un parametro che riferisce dell'efficienza energetica dell'impianto detto COP (\emph{Coefficient Of Performance}). 
+Dal medesimo ciclo termodinamico possono dunque ottenersi sia un impianto \emph{frigorifero} che un impianto a \emph{pompa di calore}. In entrambi i casi è possibile definire un COP (\emph{Coefficient Of Performance}). 
 
 Per quanto riguarda il fluido refrigerante evolvente nell'impianto, è necessario che quest'ultimo abbia delle particolari caratteristiche termodinamiche, economiche e d'impatto ambientale, tra cui:
 \begin{itemize}
@@ -528,7 +532,7 @@ Nel caso in cui sia possibile utilizzare la configurazione con \emph{circuito ap
 In inverno uno dei principali vantaggi nell'utilizzo della radiazione solare come sorgente d'energia termica nelle pompe di calore è l'elevato valore della temperatura rispetto alle altre sorgenti con conseguente aumento del COP. Rispetto all'utilizzo dell'energia solare senza pompa di calore, l'efficienza e la potenza termica unitaria dei collettori solari è incrementata dalla minor temperatura richiesta al collettore. Vista l'enorme variabilità della radiazione solare durante la giornata, è molto importante accoppiare un impianto di collettori solare ad un accumulo termico correttamente dimensionato.
 
 \paragraph{Il terreno}
-La temperatura del terreno ad una certa profondità si stabilizza ad un valore molto prossimo a quello della media annuale della temperatura dell'aria. Ad elevate profondità, invece, entra in gioco le'energia termica endogena. Infatti oltre i \n{30}{m} di profondità si riscontra in media un incremento di temperatura di circa \n{1}{\degreeCelsius} ogni \n{30}{m}. La temperatura del terreno è quindi più stabile di quella dell'aria esterna, non risente delle oscillazioni giornaliere, le variazioni di temperatura sono smorzate e ritardate di fase. Il tutto è tanto più vero quanto maggiore è la profondità. Le pompe di calore che utilizzano il terreno come sorgente di calore in inverno e pozzo di calore in estate sono dunque vantaggiose.
+La temperatura del terreno ad una certa profondità si stabilizza ad un valore molto prossimo a quello della media annuale della temperatura dell'aria. Ad elevate profondità, invece, entra in gioco l'energia termica endogena. Infatti, oltre i \n{30}{m} di profondità si riscontra in media un incremento di temperatura di circa \n{1}{\degreeCelsius} ogni \n{30}{m}. La temperatura del terreno è quindi più stabile di quella dell'aria esterna, non risente delle oscillazioni giornaliere, le variazioni di temperatura sono smorzate e ritardate di fase. Il tutto è tanto più vero quanto maggiore è la profondità. Le pompe di calore che utilizzano il terreno come sorgente di calore in inverno e pozzo di calore in estate sono dunque vantaggiose.
 
 Questo tipo di pompe di calore prevede l'interramento di tubi di adeguata lunghezza attraverso due differenti tecniche: tubi orizzontali o tubi verticali. I sistemi a tubi orizzontali vengono interrati a piccola profondità (\num{0.8} + \n{1.5}{m}) trovando posto di solito sotto un'ampia superficie sgombra da edifici. I tubi devono resistere alla corrosione per periodi molto lunghi. Per questo motivo in passato si sono utilizzati spesso tubi in rame, mentre più recentemente si preferisce ricorrere a materie plastiche come il \emph{polietilene ad alta densità} ed il \emph{polibutilene rinforzato}. Le materie plastiche mentre risolvono il problema della corrosione e diminuiscono i costi, sono ovviamente caratterizzate da minori conduttività termiche rispetto ai metalli.
 
@@ -536,6 +540,7 @@ I sistemi a tubi verticali, invece, utilizzano una o più perforazioni con profo
 
 Le macchine che adottano tale tecnologia possono utilizzare un fluido secondario all'interno del circuito di tubi immerso nel terreno, che può essere acqua nei climi più miti o una miscela acqua-fluido anticongelante in quelli più rigidi. I fluidi anticongelanti più utilizzati sono il metanolo, l'etanolo e il glicol propilenico. In alternativa le macchine possono essere ad espansione diretta se utilizzano viceversa direttamente il fluido refrigerante nel circuito immerso nel terreno.
 
+\vspace{1em}
 Nella progettazione della sottocentrale si è stati obbligati ad utilizzare come sorgente/pozzo di energia termica il terreno.
 
 Innanzitutto è stato necessario capire come modellare il terreno. In assenza di dati, sono stati utilizzati quelli dell'adiacente ``Istituto Nazionale Tumori - IRCCS \emph{Fondazione G. Pascale}'' in cui è stato costruito un campo geotermico e per l'occasione sono stati effettuati dei carotaggi per la valutazione del sottosuolo.
@@ -572,21 +577,21 @@ Le relazioni, una per il caso invernale e l'altra per quello estivo, sono:
 \end{align}
 dove:
 \begin{description}
-	\item[$L_c \-- L_h$] sono le lunghezze di perforazione necessarie per soddisfare rispettivamente il carico estivo (\emph{cooling}) od invernale (\emph{heating}) (il valore maggiore tra i due definisce la profondità di installazione da adottare), in \si{m};
-	\item[$\Phi_a$] è il flusso termico medio scambiato con il sottosuolo in un anno, in \si{W};
-	\item[$\Phi_{lc} \-- \Phi_{lh}$] sono i carichi termici di progetto rispettivamente in raffrescamento ($\Phi_{lc}<0$) e in riscaldamento ($\Phi_{lh}>0$) dell'edificio, in \si{W};
-	\item[$W_c \-- W_h$] sono le potenze elettriche assorbite dal compressore della pompa di calore al carico termico estivo ed invernale di picco, in \si{W};
-	\item[$R_{ga}$] è la resistenza termica lineare equivalente del terreno per un impulso annuale, in \si{mK/W}. Serve a tenere conto dell'andamento della temperatura del terreno sul lungo periodo, sostanzialmente identificabile con la durata dell'impianto. Viene calcolata per un tempo pari a \num{10} anni (\num{3650} giorni);
-	\item[$R_{gm}$] è la resistenza termica lineare equivalente del terreno per un impulso mensile, in \si{mk/W}. Tiene conto delle fluttuazioni stagionali nel carico. Il tempo di riferimento è pari a \num{10} anni più \num{1} mese (\num{3680} giorni);
-	\item[$R_{gd}$] è la resistenza termica lineare equivalente del terreno per un impulso della durata di un giorno o frazione, in \si{mK/W}. Esprime le fluttuazioni di brevissimo periodo. Il tempo di riferimento è pari a \num{3680.25} giorni, ovvero \num{6} ore in più rispetto a quello per $R_{gm}$.;
-	\item[$R_b$] è la resistenza termica per unità di lunghezza della sonda, tra fluido e bordo sonda, in \si{mK/W};
-	\item[$PLF_m$] è il fattore di carico parziale per il mese di picco;
-	\item[$F_{sc}$] è il fattore di perdita legato al possibile cortocircuito termico in sonda tra tubo di mandata e ritorno;
-	\item[$T_0$] è la temperatura del terreno indisturbato, in \si{K};
-	\item[$T_{fi} \-- T_{fo}$] sono le temperature di ingresso e uscita della pompa di calore (riferite al casto estive oppure invernale), in \si{K};
-	\item[$T_p$] è la temperatura di penalizzazione, dovuta all'interferenza reciproca tra sonde attraverso il terreno (positiva in inverno e negativa in estate), in \si{K}.
+	\item[$\mathbf{L_c} \-- \mathbf{L_h}$] sono le lunghezze di perforazione necessarie per soddisfare rispettivamente il carico estivo (\emph{cooling}) od invernale (\emph{heating}) (il valore maggiore tra i due definisce la profondità di installazione da adottare), in \si{m};
+	\item[$\mathbf{\Phi_a}$] è il flusso termico medio scambiato con il sottosuolo in un anno, in \si{W};
+	\item[$\mathbf{\Phi_{lc}} \-- \mathbf{\Phi_{lh}}$] sono i carichi termici di progetto rispettivamente in raffrescamento ($\Phi_{lc}<0$) e in riscaldamento ($\Phi_{lh}>0$) dell'edificio, in \si{W};
+	\item[$\mathbf{W_c} \-- \mathbf{W_h}$] sono le potenze elettriche assorbite dal compressore della pompa di calore al carico termico estivo ed invernale di picco, in \si{W};
+	\item[$\mathbf{R_{ga}}$] è la resistenza termica lineare equivalente del terreno per un impulso annuale, in \si{mK/W}. Serve a tenere conto dell'andamento della temperatura del terreno sul lungo periodo, sostanzialmente identificabile con la durata dell'impianto. Viene calcolata per un tempo pari a \num{10} anni (\num{3650} giorni);
+	\item[$\mathbf{R_{gm}}$] è la resistenza termica lineare equivalente del terreno per un impulso mensile, in \si{mk/W}. Tiene conto delle fluttuazioni stagionali nel carico. Il tempo di riferimento è pari a \num{10} anni più \num{1} mese (\num{3680} giorni);
+	\item[$\mathbf{R_{gd}}$] è la resistenza termica lineare equivalente del terreno per un impulso della durata di un giorno o frazione, in \si{mK/W}. Esprime le fluttuazioni di brevissimo periodo. Il tempo di riferimento è pari a \num{3680.25} giorni, ovvero \num{6} ore in più rispetto a quello per $R_{gm}$.;
+	\item[$\mathbf{R_b}$] è la resistenza termica per unità di lunghezza della sonda, tra fluido e bordo sonda, in \si{mK/W};
+	\item[$\mathbf{PLF_m}$] è il fattore di carico parziale per il mese di picco;
+	\item[$\mathbf{F_{sc}}$] è il fattore di perdita legato al possibile cortocircuito termico in sonda tra tubo di mandata e ritorno;
+	\item[$\mathbf{T_0}$] è la temperatura del terreno indisturbato, in \si{K};
+	\item[$\mathbf{T_{fi}} \-- \mathbf{T_{fo}}$] sono le temperature di ingresso e uscita della pompa di calore (riferite al casto estive oppure invernale), in \si{K};
+	\item[$\mathbf{T_p}$] è la temperatura di penalizzazione, dovuta all'interferenza reciproca tra sonde attraverso il terreno (positiva in inverno e negativa in estate), in \si{K}.
 \end{description}
-Inserendo opportunamente i dati e considerando come $COP=\num{4.8}$ e $EER=\num{4.5}$ di una generica pompa di calore, si ottengono i seguenti dati:
+Inserendo opportunamente i dati e considerando come $\mathrm{COP}=\num{4.8}$ e $\mathrm{EER}=\num{4.5}$ di una generica pompa di calore, si ottengono i seguenti dati:
 \begin{itemize}
 	\item con lunghezze di perforazione da \n{250}{m} è necessario utilizzare \num{44} sonde in \emph{PEad} DN40;
 	\item un impianto di questa estensione ha come potenze di progetto (ovvero verso l'utenza) in estate $\dot{Q}_{geo,c}=\SI{192}{kW}$ e in inverno $\dot{Q}_{geo,h}=\SI{170}{kW}$ ovvero si riesce a coprire il carico annuale sensibile del corpo A e C.
@@ -606,13 +611,13 @@ Nella sottocentrale sono state utilizzate, quindi, due pompe di calore in parall
 \subsubsection{Gli scambiatori}
 Come nel caso dell'acqua calda, gli scambiatori raffreddano l'acqua sfruttando la rete di presidio di acqua refrigerata. Gli scambiatori rappresentano \emph{l'ultima spiaggia} in caso di malfunzionamenti del gruppo ad assorbimento e delle pompe di calore.
 
-Essendo l'ultimo \emph{strumento} disponibile in sottocentrale per \emph{il freddo}, si è deciso di dimensionare la coppia di scambiatori sul massimo carico estivo tenendo conto del solito coefficiente di sicurezza del \n{20}{\%} e di futuri ampliamenti. Quindi essendo $\dot{Q}_{frigo}= \SI{730}{kW}$ la coppia di scambiatori avrà una potenzialità complessiva di \n{1}{MW} (ovvero ognuno è da \n{500}{kW}).
+Essendo l'ultimo \emph{strumento} disponibile in sottocentrale per \emph{il freddo}, si è deciso di dimensionare la coppia di scambiatori sul massimo carico estivo tenendo conto del solito coefficiente di sicurezza del \n{20}{\%} e di futuri ampliamenti. Quindi essendo $\dot{Q}_{\mathrm{frigo}}= \SI{730}{kW}$ la coppia di scambiatori avrà una potenzialità complessiva di \n{1}{MW} (ovvero ognuno è da \n{500}{kW}).
 
 \vspace{1em}
 
 Dopo aver spiegato come viene prodotto il \emph{caldo} e il \emph{freddo} in sottocentrale, è necessario descrivere brevemente la logica di funzionamento.
 
-Per quanto riguarda la stagione invernale, le utenze che necessitano di acqua calda sono i radiatori, le batterie delle UTA, i fancoil e i bollitori per l'acqua calda sanitaria. Quindi avremo funzionanti gli scambiatori, per la produzione di acqua a \n{80}{\degreeCelsius} (per i radiatori e le batterie delle UTA), e le pompe di calore che andranno a produrre acqua a \n{50}{\degreeCelsius} per i fancoil. Per l'acqua calda sanitaria vengono usati i bollitori che sfruttano l'acqua surriscaldata proveniente direttamente dalla centrale. Nel caso in cui la temperatura esterna sia particolarmente estrema, entra in funzione un ulteriore scambiatore che produce acqua calda a \n{50}{\degreeCelsius} per i fancoil utilizzando l'acqua calda a \n{80}{\degreeCelsius} prodotta dai due scambiatori. Quest'ultimo scambiatore per i fancoil è stato dimensionato sulla potenza sensibile invernale dei due corpi maggiorato di un \n{20}{\%} per sicurezza e per tenere in considerazione di eventuali ampliamenti:. La potenzialità risultante è pari a \n{100}{kW}. 
+Per quanto riguarda la stagione invernale, le utenze che necessitano di acqua calda sono i radiatori, le batterie delle UTA, i fancoil e i bollitori per l'acqua calda sanitaria. Quindi avremo funzionanti gli scambiatori, per la produzione di acqua a \n{80}{\degreeCelsius} (per i radiatori e le batterie delle UTA), e le pompe di calore che andranno a produrre acqua a \n{50}{\degreeCelsius} per i fancoil. Per l'acqua calda sanitaria vengono usati i bollitori che sfruttano l'acqua surriscaldata proveniente direttamente dalla centrale. Nel caso in cui la temperatura esterna sia particolarmente estrema, entra in funzione un ulteriore scambiatore che produce acqua calda a \n{50}{\degreeCelsius} per i fancoil utilizzando l'acqua calda a \n{80}{\degreeCelsius} prodotta dai due scambiatori. Quest'ultimo scambiatore per i fancoil è stato dimensionato sulla potenza sensibile invernale dei due corpi maggiorato di un \n{20}{\%} per sicurezza e per tenere in considerazione di eventuali ampliamenti. La potenzialità risultante è pari a \n{100}{kW}. 
 
 Nel caso estivo, invece, l'acqua refrigerata servirà ai fancoil e alle batterie di raffreddamento delle UTA mentre a quelle di post-riscaldamento servirà l'acqua calda. Pertanto funzioneranno sicuramente gli scambiatori per produrre acqua calda a \n{80}{\degreeCelsius} che verrà poi opportunamente miscelata con quella di ritorno più fredda per produrre acqua a \n{60}{\degreeCelsius} per le UTA; le pompe di calore e il gruppo ad assorbimento si occuperanno dell'acqua refrigerata. In questo modo la produzione del freddo risulterà a ``costo zero'' in quanto si usano i reflui termici (senza considerare ovviamente il consumo di energia elettrica per le pompe e il sistema di monitoraggio) prodotti dal cogeneratore e il campo geotermico come pozzo energetico.
 
