@@ -500,13 +500,13 @@ Nel secondo capitolo si è già abbondantemente spiegato il motivo per cui è ne
 Le valutazioni energetiche sono state effettuate con una temperatura e umidità esterna rispettivamente di \n{35}{\degreeCelsius} con il \n{60}{\%} maggiore di quella consigliata dalla \norvent\ per la città di Napoli. All'interno, invece, si sono rispettate le condizioni di benessere termo-igrometrico: \n{24}{\degreeCelsius} con il \n{50}{\%}. Per la ventilazione si è proceduto considerando per ogni locale i ricambi orari minimi.
 
 Relativamente ai soli reparti di Emodinamica, UTIC e Blocco Operatorio che possiedono un loro impianto dedicato a \emph{tutt'aria} si è proceduto in questo modo:
-sono note le superfici e le altezze dei vari locali come anche il carico esterno solare e di trasmissione; si sono supposti i \num{10} ricambi orari di aria esterna (per le sale chirurgiche e di terapia intensiva del blocco operatorio si sono fissati i \num{20} ricambi orari arrivando a \num{11} ricambi medi su tutto il piano); un affollamento di $n=\SI{0.08}{pers/m^2}$; un carico sensibile e latente per le persone pari rispettivamente a $Q_{pers,S}=\SI{70}{W/pers}$ e $Q_{pers,L}=\SI{50}{W/pers}$; un carico interno per le varie apparecchiature di $Q_{int,S}=\SI{10}{W/m^2}$. 
+sono note le superfici e le altezze dei vari locali come anche il carico esterno solare e di trasmissione; si sono supposti i \num{10} ricambi orari di aria esterna (per le sale chirurgiche e di terapia intensiva del blocco operatorio si sono fissati i \num{20} ricambi orari arrivando a \num{11} ricambi medi su tutto il piano); un affollamento di $n=\SI{0.08}{pers/m^2}$; un carico sensibile e latente per le persone pari rispettivamente a $Q_{\mathrm{pers,S}}=\SI{70}{W/pers}$ e $Q_{\mathrm{pers,L}}=\SI{50}{W/pers}$; un carico interno per le varie apparecchiature di $Q_{\mathrm{int,S}}=\SI{10}{W/m^2}$. 
 
 Nella seguente tabella sono mostrati i parametri di input e i risultati per le 3 zone termiche considerate.
 \begin{center}
 	\begin{tabular}{lccccc}
 		\toprule
-					&	Superficie 				&	Portata Aria Est. 			&	$\dot{Q}_{sol}+\dot{Q}_{trasm}$		& 	\multirow{2}{*}{RST}		&	$\dot{Q}_{frigo}$ 	\\
+					&	Superficie 				&	Portata Aria Est. 			&	$\dot{Q}_{\mathrm{sol}}+\dot{Q}_{\mathrm{trasm}}$		& 	\multirow{2}{*}{RST}		&	$\dot{Q}_{\mathrm{frigo}}$ 	\\
 					&	{\small \si{m^2}}		&		{\small \si{kg/s}}		&		{\small \si{kW}}				&								&{\small \si{kW}}		\\					
 		\midrule	
 		UTIC		&		\num{146}			&		\num{1.46}				&	\num{7.62}		&	0.94					&	\num{10.5}		\\
@@ -520,7 +520,7 @@ RST sta per \emph{Rapporto Sensibile su Totale} ed è adimensionale. È molto im
 Conoscendo il valore di RST, del carico da bilanciare $Q_{frigo}$ e della portata di ventilazione, dal diagramma psicrometrico si individuano, per ogni zona termica (e le loro rispettive UTA), le proprietà termoigrometriche dell'aria da immettere. Ed è, quindi, possibile calcolare le potenze delle batterie di raffreddamento e post-riscaldamento delle UTA nel caso estivo. Nella seguente tabella sono riassunti i risultati ottenuti in \si{kW}. L'ipotesi alla base di tutte queste valutazioni è che le batterie siano ideali cioè che non vi sia una frazione di portata d'aria che non entri a contatto con le lamelle delle batterie stesse. In questa sede, però, volendo solo effettuare una valutazione pre e post intervento non è importante considerare anche il cosiddetto \emph{by-pass factor} delle batterie (anche se oggigiorno suddetti fattori risultano essere dell'ordine del \n{5}{\%} e quindi tranquillamente trascurabili).
 \begin{center}
 	\begin{tabular}{lcc}
-		&	$\dot{Q}_{UTA,f}$		&	$\dot{Q}_{UTA,c}$\\
+		&	$\dot{Q}_{\mathrm{UTA,f}}$		&	$\dot{Q}_{\mathrm{UTA,c}}$\\
 		\midrule
 		UTIC	&	\num{79.3}			&	\num{6.86}\\
 		Emod.	&	\num{91.7}			&	\num{3.52}\\
@@ -549,7 +549,7 @@ In \vref{stato:fatto} sono riassunti tutti i risultati ottenuti per la stagione 
 		\small
 		\begin{tabular}{lccccc}
 			\toprule
-			\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $\dot{Q}_L$ 			& $\dot{Q}_S$ 					& $\dot{Q}_{frigo}$  \\
+			\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $\dot{Q}_L$ 			& $\dot{Q}_S$ 					& $\dot{Q}_{\mathrm{frigo}}$  \\
 			& \si{m^2}		& \si{m^3/h}						& \si{kW}			& \si{kW}					& \si{kW}\\
 			\midrule
 			Radiatori		& \num{291.1}				& ---								& ---				& ---						& ---\\
@@ -565,17 +565,17 @@ In \vref{stato:fatto} sono riassunti tutti i risultati ottenuti per la stagione 
 
 Si ricordi che i carichi sensibili e latenti per la stagione estiva sono definiti come segue:
 \begin{align}
-	\dot{Q}_S	&=\dot{Q}_{sol}+\dot{Q}_{trasm}+\dot{Q}_{int,S}+\dot{Q}_{pers,S}\\
-	\dot{Q}_L	&=\dot{Q}_{int,L}+\dot{Q}_{pers,L}
+	\dot{Q}_S	&=\dot{Q}_{\mathrm{sol}}+\dot{Q}_{\mathrm{trasm}}+\dot{Q}_{\mathrm{int,S}}+\dot{Q}_{\mathrm{pers,S}}\\
+	\dot{Q}_L	&=\dot{Q}_{\mathrm{int,L}}+\dot{Q}_{\mathrm{pers,L}}
 \end{align}
 \subsection{Stagione Invernale}
 Come è già stato detto nel secondo capitolo, in questa stagione si trascura qualsiasi apporto di carico latente. Le valutazioni sono state fatte con una temperatura esterna di \n{0}{\degreeCelsius} mentre all'interno vengono garantiti i \n{22}{\degreeCelsius} col \n{45}{\%} di umidità relativa.
 
 Per determinare le condizioni termoigrometriche di immissione dell'aria nell'UTIC, Emodinamica e nel Blocco Operatorio si è proceduto facendo un bilancio di energia:
 \begin{align}
-\dot{m}h_s	&	=\dot{m}h_i+\dot{Q}_{trasm}		\label{bilancio}\\
-h_s			&	=h_i+\frac{\dot{Q}_{trasm}}{\dot{m}}	\notag\\
-t_s			&	=\frac{t_ic_p\dot{m}+\dot{Q}_{trasm}}{c_p\dot{m}}\label{bilancio2}
+\dot{m}h_s	&	=\dot{m}h_i+\dot{Q}_{\mathrm{trasm}}		\label{bilancio}\\
+h_s			&	=h_i+\frac{\dot{Q}_{\mathrm{trasm}}}{\dot{m}}	\notag\\
+t_s			&	=\frac{t_ic_p\dot{m}+\dot{Q}_{\mathrm{trasm}}}{c_p\dot{m}}\label{bilancio2}
 \end{align}
 Nell'equazione \vref{bilancio2} si è supposta l'aria secca trascurando, quindi, il contributo del vapore d'acqua.
 
@@ -583,7 +583,7 @@ Con l'ausilio del diagramma psicrometrico, si è proceduto a valutare la potenza
 \begin{center}
 	\label{UTA:potenzaFATTO}
 	\begin{tabular}{lcccc}
-						& \multirow{2}{*}{RST}	&	$t_s$ 					& $\dot{Q}_{trasm}$	&	$\dot{Q}_{vent}$	\\
+						& \multirow{2}{*}{RST}	&	$t_s$ 					& $\dot{Q}_{\mathrm{trasm}}$	&	$\dot{Q}_{\mathrm{vent}}$	\\
 						&						&	\si{\degreeCelsius} &	\si{kW}				&	\si{kW}\\
 		\midrule
 		UTIC			&\multirow{3}{*}{1.1}	&	\num{25.3}		&\num{4.75}				&	\num{55.4}\\
@@ -598,7 +598,7 @@ In definitiva, i risultati sono riportati di seguito per ogni zona termica. Anch
 	\small
 	\begin{tabular}{lcccc}
 		\toprule
-		\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $\dot{Q}_{trasm}$ 	 			& $\dot{Q}_{riscc}$		\\
+		\multirow{2}*{Zona Termica} & Superficie 		& Ventilazione 					& $\dot{Q}_{\mathrm{trasm}}$ 	 			& $\dot{Q}_{\mathrm{risc}}$		\\
 									& \si{m^2}			& \si{m^3/h}					& \si{kW}					& \si{kW}		\\
 		\midrule
 		Radiatori					& \num{291.1}		& ---							& \num{30.7}				& \num{30.7}	\\

@@ -40,23 +40,23 @@
 \contentsline {subsection}{\numberline {3.5.2}Stagione Invernale}{56}
 \contentsline {chapter}{\numberline {4}Lo stato di progetto}{58}
 \contentsline {section}{\numberline {4.1}L'involucro}{58}
-\contentsline {section}{\numberline {4.2}I Risultati Energetici}{62}
-\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{62}
+\contentsline {section}{\numberline {4.2}I Risultati Energetici}{63}
+\contentsline {subsection}{\numberline {4.2.1}La Stagione Estiva}{63}
 \contentsline {subsection}{\numberline {4.2.2}La Stagione Invernale}{65}
-\contentsline {section}{\numberline {4.3}L'impianto - Lato Utenza}{66}
-\contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{66}
-\contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{69}
-\contentsline {section}{\numberline {4.4}L'impianto - Lato Sottocentrale}{73}
-\contentsline {subsection}{\numberline {4.4.1}Acqua Calda}{73}
-\contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{75}
-\contentsline {subsubsection}{L'assorbitore}{76}
-\contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{80}
-\contentsline {paragraph}{L'aria}{81}
-\contentsline {paragraph}{L'acqua}{82}
-\contentsline {paragraph}{L'energia solare}{82}
-\contentsline {paragraph}{Il terreno}{83}
-\contentsline {subsubsection}{Gli scambiatori}{88}
-\contentsline {chapter}{\numberline {5}Conclusioni}{90}
-\contentsline {chapter}{Bibliografia}{95}
-\contentsline {chapter}{Elenco delle figure}{96}
-\contentsline {chapter}{Elenco delle tabelle}{97}
+\contentsline {section}{\numberline {4.3}L'impianto - Lato Utenza}{67}
+\contentsline {subsection}{\numberline {4.3.1}Impianto Idronico}{67}
+\contentsline {subsection}{\numberline {4.3.2}Impianto Aeraulico}{70}
+\contentsline {section}{\numberline {4.4}L'impianto - Lato Sottocentrale}{74}
+\contentsline {subsection}{\numberline {4.4.1}Acqua Calda}{74}
+\contentsline {subsection}{\numberline {4.4.2}Acqua Refrigerata}{76}
+\contentsline {subsubsection}{L'assorbitore}{77}
+\contentsline {subsubsection}{La pompa di calore e l'impianto geotermico}{81}
+\contentsline {paragraph}{L'aria}{82}
+\contentsline {paragraph}{L'acqua}{83}
+\contentsline {paragraph}{L'energia solare}{83}
+\contentsline {paragraph}{Il terreno}{84}
+\contentsline {subsubsection}{Gli scambiatori}{89}
+\contentsline {chapter}{\numberline {5}Conclusioni}{91}
+\contentsline {chapter}{Bibliografia}{96}
+\contentsline {chapter}{Elenco delle figure}{97}
+\contentsline {chapter}{Elenco delle tabelle}{98}
