@@ -10,7 +10,7 @@ Cosa si intende per \emph{climatizzazione}? Un edificio si definisce climatizzat
 	\item Umidità;
 	\item Qualità dell'aria mediante un suo ricambio.
 \end{itemize}
-Il controllo di questi tre valori permette di vivere, come già è stato detto, un ambiente in condizioni termo-igrometriche ottimali. E solo un impianto di climatizzazione (solitamente un UTA -- \emph{Unità di Trattamento dell'Aria}) propriamente detto permette di ottenere questi risultati. Se, per esempio, non viene garantito il ricambio dell'aria (ovvero non viene immessa in ambiente una certa portata di aria esterna), l'impianto non è di climatizzazione.
+Il controllo di questi tre valori permette di vivere, come già è stato detto, un ambiente in condizioni termo-igrometriche ottimali. E solo un impianto di climatizzazione (solitamente un UTA -- \emph{Unità di Trattamento dell'Aria}) propriamente detto permette di ottenere questi risultati. Se, per esempio, non viene garantito il ricambio dell'aria (ovvero non viene immessa in ambiente una certa portata di aria esterna), l'impianto non è di climatizzazione. A tal proposito, i mono-split a compressione di vapore che abbiamo nelle nostre case non sono \emph{climatizzatori} ma dei semplici \emph{raffrescatori} (o \emph{riscaldatori} a seconda della stagione).
 
 La domanda successiva a cui bisogna dare una risposta è la seguente: \emph{quali sono le condizioni termo-igrometriche ottimali?}
 
@@ -32,32 +32,32 @@ In termini matematici il tutto si traduce in questo bilancio di potenze
 \end{equation}
 dove:
 \begin{description}
-	\item[$S$]Variazione di energia del corpo umano nell'unità di tempo o accumulo di energia termica nell'unità di tempo;
-	\item[$M$]Potenza metabolica;
-	\item[$E_d$] Potenza termica dispersa per diffusione attraverso la pelle;
-	\item[$E_{sw}$] Potenza termica dispersa per sudorazione attraverso la pelle;
-	\item[$E_{ve}$] Potenza termica dispersa nella respirazione come "calore latente";
-	\item[$C_{ve}$] Potenza termica dispersa nella respirazione come "calore sensibile";
-	\item[$C$] Potenza termica dispersa per convezione;
-	\item[$R$] Potenza termica dispersa per irraggiamento;
-	\item[$C_k$] Potenza dispersa per conduzione;
+	\item[$\mathbf{S}$]Variazione di energia del corpo umano nell'unità di tempo o accumulo di energia termica nell'unità di tempo;
+	\item[$\mathbf{M}$]Potenza metabolica;
+	\item[$\mathbf{E_d}$] Potenza termica dispersa per diffusione attraverso la pelle;
+	\item[$\mathbf{E_{sw}}$] Potenza termica dispersa per sudorazione attraverso la pelle;
+	\item[$\mathbf{E_{ve}}$] Potenza termica dispersa nella respirazione come "calore latente";
+	\item[$\mathbf{C_{ve}}$] Potenza termica dispersa nella respirazione come "calore sensibile";
+	\item[$\mathbf{C}$] Potenza termica dispersa per convezione;
+	\item[$\mathbf{R}$] Potenza termica dispersa per irraggiamento;
+	\item[$\mathbf{C_k}$] Potenza dispersa per conduzione;
 \end{description}
-È risaputo che nel caso in cui la temperatura esterna sia eccessivamente alta o bassa, il meccanismo termoregolatorio del corpo tenda rispettivamente a far sudare il corpo stesso (smaltendo il calore tramite evaporazione del sudore stesso) o a provocare i brividi (aumento dell'attività muscolare e quindi di calore prodotto). Nel caso in cui questi due ultimi meccanismi non siano sufficienti a mantenere costante l'energia interna del corpo si ha l'\emph{ipertermia} (fino alla morte per danni reversibili alle proteine dei tessuti nervosi) o l'\emph{ipotermia} (fino alla morte per fibrillazione cardiaca).
+È risaputo che nel caso in cui la temperatura esterna sia eccessivamente alta o bassa, il meccanismo termoregolatorio del corpo tenda rispettivamente a far sudare il corpo stesso (smaltendo il calore tramite evaporazione del sudore) o a provocare i brividi (aumento dell'attività muscolare e quindi di calore prodotto). Nel caso in cui questi due ultimi meccanismi non siano sufficienti a mantenere costante l'energia interna del corpo si ha l'\emph{ipertermia} (fino alla morte per danni reversibili alle proteine dei tessuti nervosi) o l'\emph{ipotermia} (fino alla morte per fibrillazione cardiaca).
 
 Quindi, è molto importante vivere in un ambiente che abbia delle condizioni termo-igrometriche tali da non provocare la morte prematura del proprio corpo.
 
 Il vero problema è che queste così agognate \emph{condizioni termo-igrometriche ideali} non sono universali. E il motivo risiede nel fatto che ogni persona è diversa dalle altre. Infatti, ognuno tende a vestirsi diversamente (ovvero cambia la resistenza termica che il corpo oppone verso l'esterno e contemporaneamente anche il suo fattore di vista nel caso dell'irraggiamento) ma sopratutto ognuno tende ad avere un'attività metabolica $M$ completamente diversa. È come se ogni persona desiderasse una propria temperatura. Ovviamente è praticamente impossibile realizzare una cosa del genere in un ambiente affollato.
 
-Citando da \emph{Impianti di climatizzazione per l'edilizia}:
+Citando da \emph{Impianti di climatizzazione per l'edilizia}~\cite{alfano}:
 \begin{quote}
 	Perché ci sia comfort termico, una condizione necessaria è che l'energia interna del corpo umano non aumenti nè diminuisca, ovvero che sia nullo il termine di accumulo che nella \ref{bilanciocorpoumano} è indicato come $S$; per $S=0$ questa equazione diventa una relazione del tipo:
 	\begin{equation}
 	\label{bilanciocorpoumanoSnullo}
-		f(abbigliamento, attivit\grave{a}, t_a, v_a, \Phi, t_r, t_{sk}, E_{sw})=0
+		f(\mathrm{abbigliamento, attivit\grave{a}}, t_a, v_a, \Phi, t_r, t_{sk}, E_{sw})=0
 	\end{equation}
-	che lega tra loro otto variabili: due legate al soggetto (abbigliamento e attività), quattro ambientali (temperatura $t_a$, velocità $v_a$ e umidità $\Phi$ dell'aria e temperatura media radiante $t_r$ -- ovvero temperatura di un ambiente fittizio termicamente uniforme che scambierebbe con l'uomo la stessa potenza termica radiante scambiata nell'ambiente reale) e due fisiologiche (temperatura della pelle $t_{sk}$ e potenza termica dispersa per sudorazione o percentuale di pelle bagnata dal sudore $E_{sw}$).
+	che lega tra loro otto variabili: due legate al soggetto (abbigliamento e attività), quattro ambientali (temperatura $t_a$, velocità $v_a$ e umidità~$\Phi$ dell'aria e temperatura media radiante $t_r$ -- ovvero temperatura di un ambiente fittizio termicamente uniforme che scambierebbe con l'uomo la stessa potenza termica radiante scambiata nell'ambiente reale) e due fisiologiche (temperatura della pelle $t_{sk}$ e potenza termica dispersa per sudorazione o percentuale di pelle bagnata dal sudore $E_{sw}$).
 	
-	In verità le due variabili fisiologiche non sono variabili independenti, ma dipendono con legge complessa dalle altre; 
+	In verità le due variabili fisiologiche non sono variabili indipendenti, ma dipendono con legge complessa dalle altre; 
 	
 	\sdots
 	
@@ -74,10 +74,10 @@ Citando da \emph{Impianti di climatizzazione per l'edilizia}:
 \end{quote}
 Col tempo sono stati definiti degli indici che permettono di valutare il benessere termico in un locale. 
 
-Uno di questi è il PMV (\emph{Predicted Mean Vote} -- Voto Medio Previsto): indipendentemente dal valore assunto dalle 6 variabili indipendenti,se 
+Uno di questi è il PMV (\emph{Predicted Mean Vote} -- Voto Medio Previsto): indipendentemente dal valore assunto dalle 6 variabili indipendenti, se 
 \begin{equation}
 \label{PMV}
-	-0.5<PMV<0.5
+	-0.5<\textrm{PMV}<0.5
 \end{equation}
 allora una condizione necessaria ma non sufficiente per il benessere è soddisfatta.
 
@@ -86,15 +86,15 @@ L'altra condizione che permette di vivere in un ambiente termicamente accettabil
 	\item elevati gradienti verticali e orizzontali di temperatura;
 	\item correnti d'aria.
 \end{itemize}
-Per tutte queste cause vi sono altrettanti indici che permettono di esprimere la presenza o meno di una di queste problematiche.
+Per tutte queste cause vi sono altrettanti indici che permettono di esprimere la presenza o meno di problematiche.
 
 Quindi riassumendo: nel momento in cui le cause di discomfort localizzato sono assenti e il valore del PMV (che è un indice di discomfort \emph{globale} perché interessa tutto l'ambiente) è compreso nel suddetto intervallo (\ref{PMV}), allora l'ambiente stesso si può definire termo-igrometricamente accettabile. 
 
-Per concludere questa parte sul comfort è bene precisare che, citando da \cite[pag 31]{alfano}
+Per concludere questa parte sul comfort è bene precisare che, citando da \emph{Impianti di climatizzazione per l'edilizia}~\cite[pag 31]{alfano}
 \begin{quote}
 	gli indici esprimono la risposta media di un gran numero di soggetti, il che significa che per valori dell'indice corrispondenti per esempio a condizioni di comfort termico ci possono comunque essere individui che invece avvertono caldo o freddo.
 \end{quote} 
-È chiaro, quindi, che per ogni tipologia di locale (in cui verosimilmente le persone svolgono attività comuni) sono definiti dei valori che permettono di assicurare le condizioni di benessere.
+È chiaro, quindi, che per ogni tipologia di locale (in cui verosimilmente le persone svolgono attività comuni) sono definiti dei valori che permettono di assicurare le condizioni di benessere. Solitamente, comunque, a meno di casi eccezionali in cui sono necessarie condizioni termiche altrettanto particolari, gli ambienti o i locali in cui le persone svolgono attività leggere, vestiti \emph{normalmente}\footnote{È in corsivo perché anche il vestiario è normato e quindi un capo di abbigliamento è diverso dall'altro e produce risultati diversi: non esiste un vestito \emph{normale}. Con questo termine mi riferisco, quindi, ad una tipologia di vestiario comune.} (quindi uffici e similari), in cui non si suda, i valori di temperatura e umidità sono quasi sempre quelli enunciati all'inizio di questo capitolo: \n{25}{\degreeCelsius} col \n{40}{\%} in estate e \n{20}{\degreeCelsius} col \n{50}{\%} in inverno.
 \section{Il Carico Termico}
 Dopo aver definito il comfort in un ambiente, è necessario calcolare il carico termico che consente di dimensionare l'impianto che permetta di realizzare quelle condizioni termo-igrometricamente accettabili di cui si è parlato nel paragrafo precedente.
 
@@ -111,27 +111,27 @@ Con \emph{carico termico invernale} si definisce una potenza termica che l'edifi
 	\item l'edificio, inteso come involucro edilizio che racchiude e delimita lo spazio interno nel quale si vogliono imporre le condizioni di benessere per gli occupanti, diventa così il confine fisico tra esterno ed interno e caratterizza fortemente l'interazione termica tra i due ambienti con le sue proprietà geometriche e termofisiche. Progettare un impianto di riscaldamento significa quindi mettere a punto un sistema capace di neutralizzare nell'ambiente interno gli effetti prodotti prevalentemente dal clima esterno;
 	\item l'impianto è lo strumento con cui mantenere nell'ambiente riscaldato le condizioni volute contrastando le perturbazioni indotte dalle variazioni climatiche esterne.
 \end{itemize}
-La trattazioni sui carichi termici invernali non si occupa degli aspetti igrometrici e di quant'altro attiene al vapor d'acqua, si affrontano cioè le sole problematiche legate al cosiddetto \emph{calore sensibile}, ossia agli scambi di calore che manifestano i loro effetti sulla sola temperatura di bulbo asciutto dell'aria esterna.
+La trattazione sui carichi termici invernali non si occupa degli aspetti igrometrici e di quant'altro attiene al vapor d'acqua, si affrontano cioè le sole problematiche legate al cosiddetto \emph{calore sensibile}, ossia agli scambi di calore che manifestano i loro effetti sulla sola temperatura di bulbo asciutto dell'aria esterna.
 
 Da un'analisi energetica sull'edificio, si ricava la seguente relazione:
 \begin{equation}
-	\dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V-\dot{Q}_{sor}-\dot{Q}_{sol}
+	\dot{Q}_{\textrm{risc}}=\dot{Q}_T+\dot{Q}_V-\dot{Q}_{\textrm{sor}}-\dot{Q}_{\textrm{sol}}
 \end{equation}
-Solitamente non potendo confidare con certezza in tutta la stagione negli apporti gratuiti interni $\dot{Q}_{sor}$ e solare $\dot{Q}_{sol}$ nell'equazione che definisce il carico termico invernale questi ultimi vengono trascurati. Per cui il \emph{carico termico invernale} è definito attraverso la seguente relazione:
+Solitamente non potendo confidare con certezza in tutta la stagione negli apporti gratuiti interni $\dot{Q}_{\textrm{sor}}$ e solare $\dot{Q}_{\textrm{sol}}$ nell'equazione che definisce il carico termico invernale questi ultimi vengono trascurati. Per cui il \emph{carico termico invernale} è definito attraverso la seguente relazione:
 \begin{equation}
 \label{caricotermico:invernale}
-\dot{Q}_{risc}=\dot{Q}_T+\dot{Q}_V+\dot{Q}_{ripr}
+\dot{Q}_{\textrm{risc}}=\dot{Q}_T+\dot{Q}_V+\dot{Q}_{\textrm{ripr}}
 \end{equation}
 dove $\dot{Q}_T$ è il carico termico invernale dovuto alla trasmissione tramite l'involucro dell'edificio e $\dot{Q}_V$ è quello dovuto al riscaldamento dell'aria immessa (con un impianto di ventilazione o tramite semplice infiltrazione naturale) all'interno dell'edificio stesso per portarlo alle condizioni desiderate di progetto. L'ultimo termine viene introdotto in quanto, secondo la \norinv\ sugli \emph{Impianti di riscaldamento negli edifici -- Metodo di calcolo del carico termico di progetto} serve a tener conto della potenza termica aggiuntiva, detta di \emph{ripresa}, necessaria a compensare gli effetti del regime intermittente dell'impianto di riscaldamento.
 
 Il calcolo del carico termico invernale si fonda su tre ipotesi:
 \begin{itemize}
-	\item Trascurabilità degli apporti gratuiti: ovvero non si considera la $\dot{Q}_{sor}$ e la $\dot{Q}_{sol}$;
+	\item Trascurabilità degli apporti gratuiti: ovvero non si considera la $\dot{Q}_{\textrm{sor}}$ e la $\dot{Q}_{\textrm{sol}}$;
 	\item Condizione statisticamente più sfavorevole: in questo modo l'impianto sarà sempre in grado di mantenere le condizioni di benessere all'interno dell'edificio;
 	\item Regime stazionario: la principale grandezza climatica che ha la capacità di produrre un regime transitorio nell'edificio è la radiazione solare che si è detta trascurabile in inverno.
 \end{itemize}
 
-In base alla norma \norinv, la $t_e$ è la temperatura dell'aria esterna di progetto del luogo ove è ubicato l'edificio in esame ed è necessaria per il calcolo della $\dot{Q}_{risc}$. L'ipotesi di \emph{regime stazionario} obbliga a scegliere per il calcolo delle dispersioni una temperatura dell'aria esterna che sia costante (quando evidentemente non lo è perché si tratta di un parametro climatico) e che sia caratteristica delle condizioni meteorologiche del luogo e del clima in cui sorge l'edificio oggetto del calcolo. L'ipotesi delle \emph{condizioni più sfavorevoli} porterebbe a scegliere una temperatura che sia la più bassa tra quelle che stagionalmente si verificano nel corso degli anni nella località in cui l'edificio si trova. Solo in questo caso si sarebbe sicuri di calcolare un carico di picco per l'impianto sufficiente a garantire nell'ambiente riscaldato la temperatura $t_i$ anche al presentarsi delle sollecitazioni esterne più avverse.
+In base alla norma \norinv, la $t_e$ è la temperatura dell'aria esterna di progetto del luogo ove è ubicato l'edificio in esame ed è necessaria per il calcolo della $\dot{Q}_{\textrm{risc}}$. L'ipotesi di \emph{regime stazionario} obbliga a scegliere per il calcolo delle dispersioni una temperatura dell'aria esterna che sia costante (quando evidentemente non lo è perché si tratta di un parametro climatico) e che sia caratteristica delle condizioni meteorologiche del luogo e del clima in cui sorge l'edificio oggetto del calcolo. L'ipotesi delle \emph{condizioni più sfavorevoli} porterebbe a scegliere una temperatura che sia la più bassa tra quelle che stagionalmente si verificano nel corso degli anni nella località in cui l'edificio si trova. Solo in questo caso si sarebbe sicuri di calcolare un carico di picco per l'impianto sufficiente a garantire nell'ambiente riscaldato la temperatura $t_i$ anche al presentarsi delle sollecitazioni esterne più avverse.
 
 Il problema con la seconda ipotesi risiede nel fatto che se si considera la temperatura più bassa degli ultimi, per esempio, 10 anni, si andrebbe a costruire un impianto molto sovradimensionato in quanto quella stessa temperatura potrebbe non aversi per alcuni anni e nel frattempo l'impianto non verrebbe sfruttato al 100\%. 
 
@@ -155,28 +155,28 @@ A differenza della trattazione sui carichi termici invernali ci si occupa in que
 	\begin{itemize}
 		\item apporto di vapore dovuto a persone presenti in ambiente;
 		\item infiltrazione di aria esterna, avente in genere un'umidità specifica superiore a quella dell'aria ambiente;
-		\item vapore prodotto in ambiente da eventuali processo o apparecchiature presenti.
+		\item vapore prodotto in ambiente da eventuali processi o apparecchiature presenti.
 	\end{itemize}
 \end{description}
 Il tutto si riassume nella seguente relazione di calcolo del \emph{carico termico estivo}:
 \begin{equation}
 	\label{caricotermico:estivo}
-	\dot{Q}_{frigo}=\dot{Q}_{sol}+\dot{Q}_T+\dot{Q}_{sor}+\dot{Q}_V
+	\dot{Q}_{\textrm{frigo}}=\dot{Q}_{\textrm{sol}}+\dot{Q}_T+\dot{Q}_{\textrm{sor}}+\dot{Q}_V
 \end{equation}
-Siccome il carico $\dot{Q}_{sol}$ risulta essere rotante, il calcolo di $\dot{Q}_{frigo}$ dovrà effettuarsi ora per ora nell'arco della giornata. La potenzialità dell'impianto di climatizzazione è quindi determinata in base al massimo carico corrispondente ad una data ora della giornata. Nelle restanti ore la potenza frigorifera richiesta all'impianto sarà sempre inferiore a quella disponibile. D'altro canto conviene non sovradimensionare troppo il gruppo frigorifero poichè se questo funziona troppo lontano dalla sua potenzialità nominale sarà caratterizzato da basse efficienze energetiche o troppo frequenti intermittenze operative. 
+Siccome il carico $\dot{Q}_{\textrm{sol}}$ risulta essere rotante, il calcolo di $\dot{Q}_{\textrm{frigo}}$ dovrà effettuarsi ora per ora nell'arco della giornata. La potenzialità dell'impianto di climatizzazione è quindi determinata in base al massimo carico corrispondente ad una data ora della giornata. Nelle restanti ore la potenza frigorifera richiesta all'impianto sarà sempre inferiore a quella disponibile. D'altro canto conviene non sovradimensionare troppo il gruppo frigorifero poichè se questo funziona troppo lontano dalla sua potenzialità nominale sarà caratterizzato da basse efficienze energetiche o troppo frequenti intermittenze operative. 
 
 \subsection{L'edificio}
 Dopo aver valutato i carichi termici nelle due stagioni si vuole sottolineare l'importanza delle proprietà termo-fisiche dell'involucro dell'edificio.
 La base della teoria sulla trasmissione del calore si basa su questa semplice equazione:
 \begin{equation}
-	\dot{Q}=UA\Delta T
+	\dot{Q}=UA\mathit{\Delta} T
 \end{equation}
-Ovviamente la $\dot{Q}$ viene causata dal $\Delta T$ per mezzo della trasmittanza $U$: siccome si è detto che si cerca di avere la $\dot{Q}$ quanto più bassa possibile, bisogna intervenire certamente e in modo più diretto sulla resistenza offerta dall'involucro dell'edificio: impossibile certamente agire sul $\Delta T$. La superficie, invece, può essere progettata in modo tale che il carico termico sia più equilibrato sfruttando l'orientamento, le correnti d'aria prevalenti e, nel caso, anche ombre naturali.
+Ovviamente la $\dot{Q}$ viene causata dal $\mathit{\Delta} T$ per mezzo della trasmittanza $U$: siccome si è detto che si cerca di avere la $\dot{Q}$ quanto più bassa possibile, bisogna intervenire certamente e in modo più diretto sulla resistenza offerta dall'involucro dell'edificio: impossibile certamente agire sul $\mathit{\Delta} T$. La superficie, invece, può essere progettata in modo tale che il carico termico sia più equilibrato sfruttando l'orientamento, le correnti d'aria prevalenti e, nel caso, anche ombre naturali (o costruendone di artificiali).
 
-È necessario a questo punto introdurre gli elementi di costruzione di un edificio poco energivoro.
+È necessario a questo punto introdurre gli elementi costruttivi di un edificio poco energivoro.
 
 \subsubsection{Stagione Invernale}
-Le ipotesi di \emph{regime stazionario} semplificano di molto la stima del carico termico. Anche la scelta dei materiali dell'involucro non è impegnativa. Si cerca, infatti, di avere una trasmittanza tale da contenere la potenza termica entrante. Si agisce essenzialmente sulla $U$. Al giorno d'oggi il Decreto Ministeriale del 26 Giugno 2015 chiede di contenere questi valori di trasmittanza entro quelli riportati nella tabella \vref{vallim} valida per le strutture opache verticali soggette a riqualificazione:
+Le ipotesi di \emph{regime stazionario} semplificano di molto la stima del carico termico. Anche la scelta dei materiali dell'involucro non è impegnativa. Si cerca, infatti, di avere una trasmittanza tale da contenere la potenza termica entrante. Si agisce essenzialmente sulla $U$. Al giorno d'oggi il Decreto Ministeriale del~26~Giugno~2015 chiede di contenere questi valori di trasmittanza entro quelli riportati nella tabella \vref{vallim:opve} valida per le strutture opache verticali soggette a riqualificazione.
 \begin{table}
 	\centering
 	\begin{tabular}{ccc}
@@ -194,20 +194,16 @@ Le ipotesi di \emph{regime stazionario} semplificano di molto la stima del caric
 \end{table}
 Tabelle simili sono presenti nello stesso decreto per le superfici opache orizzontali, oblique e per i componenti trasparenti.
 
-Bisogna spendere qualche parola sui componenti trasparenti.
+Bisogna spendere qualche parola sui componenti trasparenti. Questi, infatti, rappresentano le superfici più delicate all'interno di un edificio. Innanzitutto introducono una discontinuità materiale e geometrica all'interno di una parete: questo comporta un'alterazione del campo termico che in una parete è assimilabile ad un campo piano (cioè la parete si può tranquillamente studiare come una lastra piana). Dove sono presenti gli infissi, il campo termico viene alterato diventando bidimensionale e intensificando la potenza termica trasmessa. Il secondo aspetto che li rende delicati è il fatto che sono trasparenti: se ciò risulta essere un beneficio in inverno, non lo è assolutamente in estate. È necessario, quindi, sfruttare la radiazione solare in inverno per risparmiare sul riscaldamento mentre bisogna evitarla in estate.
 
-Questi, infatti, rappresentano le superfici più delicate all'interno di un edificio. Innanzitutto introducono una discontinuità materiale e geometrica all'interno di una parete: questo comporta un'alterazione del campo termico che in una parete è assimilabile ad un campo piano (cioè la parete si può tranquillamente studiare come una lastra piana). Dove sono presenti gli infissi, il campo termico viene alterato diventando bidimensionale e intensificando la potenza termica trasmessa. Il secondo aspetto che li rende delicati è il fatto che sono trasparenti: se ciò risulta essere un beneficio in inverno, non lo è assolutamente in estate. È necessario, quindi, sfruttare la radiazione solare in inverno per risparmiare sul riscaldamento mentre bisogna evitarla in estate.
-
-Per fare ciò si sono studiati dei trattamenti superficiali a cui sottoporre i vetri.
-
-Quelli dedicati alla stagione invernale rendono il vetro quanto più trasparente possibile alla radiazione solare (sopratutto sulle lunghezza d'onda del visibile) ma opachi sull'infrarosso.
+Per fare ciò si sono studiati dei trattamenti superficiali a cui sottoporre i vetri. Quelli dedicati alla stagione invernale rendono il vetro quanto più trasparente possibile alla radiazione solare (sopratutto sulle lunghezza d'onda del visibile) ma opachi sull'infrarosso.
 
 I vetri a \emph{guadagno solare} hanno un'elevato comportamento trasmissivo sulle frequenze del visibile mentre quelli \emph{bassoemissivi} sono opachi su quelle dell'infrarosso. Quest'ultima tipologia di trattamento evita la fuoriuscita dall'edificio (tramite gli infissi ovviamente) della radiazione emessa dai corpi presenti all'interno dell'edificio: corpi che in inverno risultano essere certamente più caldi dell'esterno.
-
+\newpage
 \subsubsection{Stagione Estiva}
 Come è già stato ampiamente detto lungo tutto questo capitolo, alla \emph{stazionarietà} della stagione invernale si contrappone la \emph{dinamicità} della stagione estiva provocata dalla radiazione solare.
 
-Essa, infatti, rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi, è quasi più importante progettare l'involucro di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
+Essa, infatti, rappresenta un carico termico non indifferente e di cui bisogna tenere debitamente conto. Anzi, al giorno d'oggi e alle nostre latitudini meridionali, è quasi più importante progettare l'involucro di un edificio per "resistere" alla stagione estiva che non a quella invernale. Facendo un semplice ragionamento, infatti, è possibile capire come proprio la radiazione solare rappresenti un punto cruciale per la progettazione, appunto, dell'involucro stesso.
 
 Considerando un edificio sito a Napoli, dalla \norvent\ si hanno questi valori di temperatura esterna:
 \begin{itemize}
@@ -220,13 +216,13 @@ All'interno dell'edificio, invece, non si devono superare i \n{20}{\degreeCelsiu
 
 La realtà delle cose è ben diversa. Questo modo di procedere va molto bene nei Paesi del Nord Europa dove gli inverni sono molto rigidi (si scende tranquillamente sotto gli \n{0}{\degreeCelsius}) mentre le temperature estive sono confortevoli.
 
-Alle nostre latitudini (\ang{41}), invece, l'estate è rappresentata da temperature molto più elevate ma sopratutto da una radiazione solare incidente notevole: si raggiungono i \n{700}{W/m^2}. Il tutto si traduce in un aumento di temperatura delle superfici esposte al sole. Questo fenomeno non è per niente trascurabile. Infatti, nella valutazione del carico termico estivo si usa solitamente la \emph{temperatura sole-aria} (\si{t^'_e}): nell'ipotesi che il solo scambio esterno fosse per convezione, la suddetta temperatura è quella che genera la stessa potenza termica che nella realtà viene scambiata anche per irraggiamento.
+Alle nostre latitudini (\ang{41}), invece, l'estate è rappresentata da temperature molto più elevate ma sopratutto da una radiazione solare incidente notevole: si raggiungono i \n{700}{W/m^2}. Il tutto si traduce in un aumento di temperatura delle superfici esposte al sole. Questo fenomeno non è per niente trascurabile. Infatti, nella valutazione del carico termico estivo si usa solitamente la \emph{temperatura sole-aria} ($t^{'}_e$): nell'ipotesi che il solo scambio esterno fosse per convezione, la suddetta temperatura è quella che genera la stessa potenza termica che nella realtà viene scambiata anche per irraggiamento.
 
-Per rendere l'idea di quanto l'irraggiamento giochi un ruolo cruciale in estate, questa \si{t^'_e} è pari a \n{61.6}{\degreeCelsius} il 21 Luglio (16:00) alle latitudini napoletane su una superficie esposta a Ovest quando alla stessa ora la temperatura esterna è circa \n{34.4}{\degreeCelsius}. 
+Per rendere l'idea di quanto l'irraggiamento giochi un ruolo cruciale in estate, questa $t^{'}_e$ è pari a \n{61.6}{\degreeCelsius} il 21 Luglio (16:00) alle latitudini napoletane su una superficie esposta a Ovest quando alla stessa ora la temperatura esterna è circa \n{34.4}{\degreeCelsius}. 
 
 Nel caso estivo non bisogna usare la stessa metodologia invernale: ovvero limitare la trasmittanza per diminuire il carico proveniente dall'esterno. Infatti, come è stato detto nel paragrafo precedente, la stagione estiva, essendo molto dinamica, introduce all'interno dell'edificio onde termiche molto consistenti: si cerca di realizzare l'involucro in modo tale che queste onde siano più attenuate e sfasate possibili.
 
-I muri da utilizzare devono essere molto \emph{capacitivi}: questo lo si realizza con materiali che possiedono o un'elevata capacità termica o realizzando involucri che siano molto massivi. In questo modo la funzione congiunta della capacità termica e della trasmittanza provoca onde sfasate e attenuate. Il risultato ideale è quello di carico termico costante e limitato tutta la giornata. Questo modo di progettare gli involucri nella stagione estiva lo si nota anche nel Decreto Ministeriale del 26 Giugno 2015 dove si legge:
+I muri da utilizzare devono essere molto \emph{capacitivi}: questo lo si realizza con materiali che possiedono o un'elevata capacità termica o realizzando involucri che siano molto massivi. In questo modo la funzione congiunta della capacità termica e della trasmittanza provoca onde sfasate e attenuate. Il risultato ideale è quello di carico termico costante e limitato tutta la giornata. Questo modo \emph{innovativo} di progettare gli involucri nella stagione estiva è consigliato anche nel Decreto Ministeriale del 26 Giugno 2015 dove si legge:
 \begin{quote}
 	Ad esclusione della zona F per le località in cui il valore medio mensile dell'irradianza sul piano orizzontale nel mese di massima insolazione $I_{m,s} \ge \SI{290}{W/m^2}$, verificare che:
 	\begin{itemize}
@@ -251,7 +247,7 @@ I muri da utilizzare devono essere molto \emph{capacitivi}: questo lo si realizz
 	\end{itemize}
 \end{quote}
 
-Il problema vero e proprio nasce con i componenti trasparenti che permettono, come è risaputo, alla radiazione solare di entrare all'interno degli edifici.
+Il problema vero e proprio nasce con i componenti trasparenti che permettono, per loro natura, alla radiazione solare di entrare all'interno degli edifici.
 
 I vetri a \emph{controllo solare} sono stati sviluppati per proteggere l'ambiente interno dalla radiazione solare stessa. Essi comprendono:
 \begin{itemize}
