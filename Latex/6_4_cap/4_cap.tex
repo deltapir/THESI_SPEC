@@ -159,9 +159,9 @@ Le zone termiche \utic\ e \emod\ hanno visto diminuire il proprio carico termico
 		&	Superficie 				&	Portata Aria Est. 			&	$\dot{Q}_{\mathrm{sol}}+\dot{Q}_{\mathrm{trasm}}$		& 	\multirow{2}{*}{RST}		&	$\dot{Q}_{\mathrm{frigo}}$ 	\\
 		&	{\small \si{m^2}}		&		{\small \si{kg/s}}		&		{\small \si{kW}}				&								&{\small \si{kW}}		\\					
 		\midrule	
-		UTIC		&		\num{146}			&		\num{1.46}				&	\num{3.54}		&	\num{0.91}					&	\num{6.39}		\\
-		Emod.		&		\num{169}			&		\num{1.69}				&	\num{3.78}		&	\num{0.90}					&	\num{7.08}		\\
-		B.O.		&		\num{697}			&		\num{7.33}				&	\num{34.6}		&	\num{0.94}					&	\num{48.3}		\\
+		UTIC		&		\num{145.7}			&		\num{1.46}				&	\num{3.54}		&	\num{0.91}					&	\num{6.39}		\\
+		Emod.		&		\num{164.4}			&		\num{1.69}				&	\num{3.78}		&	\num{0.90}					&	\num{7.08}		\\
+		B.O.		&		\num{696.7}			&		\num{7.33}				&	\num{34.6}		&	\num{0.94}					&	\num{48.3}		\\
 		\bottomrule
 	\end{tabular}
 \end{center}
@@ -177,7 +177,7 @@ Nella \vref{bilancioEST2} vale la stessa ipotesi di aria secca.
 Conoscendo quindi le condizioni ambientali esterne e quelle a cui bisogna immettere l'aria nei locali, sono state calcolate le potenze termiche necessarie, in \si{kW}. Si noti l'aumento di potenza da fornire alla batteria di post-riscaldamento.
 \begin{center}
 	\begin{tabular}{lcc}
-		&	$Q_{\mathrm{UTA,f}}$		&	$Q_{\mathrm{UTA,c}}$\\
+		&	$\dot{Q}_{\mathrm{UTA,f}}$		&	$\dot{Q}_{\mathrm{UTA,c}}$\\
 		\midrule
 		UTIC	&	\num{79.3}			&	\num{11.1}\\
 		Emod.	&	\num{91.7}			&	\num{13.2}\\
@@ -188,7 +188,7 @@ Per quanto riguarda le altre zone termiche i carichi sensibili e latenti da abba
 \begin{center}
 	\begin{tabular}{lcccc}
 		\toprule
-		\multirow{2}*{Zona Termica} & Superficie 			& $Q_L$ 			& $Q_S$ 				& $\dot{Q}_{\mathrm{frigo}}$  \\
+		\multirow{2}*{Zona Termica} & Superficie 			& $\dot{Q}_L$ 			& $\dot{Q}_S$ 				& $\dot{Q}_{\mathrm{frigo}}$  \\
 									& \si{m^2}				& \si{kW}			& \si{kW}				& \si{kW}\\
 		\midrule
 		Radiatori		& \num{291.1}						& ---				& ---					& ---\\
@@ -214,15 +214,15 @@ Con questi valori si valuta il carico termico aggiuntivo necessario per portare 
 		\multirow{2}*{Zona Termica} & Superficie 						& $\dot{Q}_L$ 			& $\dot{Q}_S$ 		& $\dot{Q}_{\mathrm{vent}}$		& $\dot{Q}_{\mathrm{frigo}}$  \\
 									& \si{m^2}							& \si{kW}			& \si{kW}		&\si{kW}			& \si{kW}\\
 		\midrule
-		UTIC						& \num{146}							& \num{0.583}		& \num{5.80}	& \num{68.3}		& \num{74.7} \\
-		Emo.						& \num{291.1}						& \num{0.674}		& \num{7.08}	& \num{78.7}		& \num{86.5}\\
-		B.O.						& \num{291.1}						& \num{2.79}		& \num{45.5}	& \num{360}			& \num{408}\\
+		UTIC						& \num{145.7}							& \num{0.583}		& \num{5.80}	& \num{68.3}		& \num{74.7} \\
+		Emo.						& \num{164.4}						& \num{0.674}		& \num{7.08}	& \num{78.7}		& \num{86.5}\\
+		B.O.						& \num{696.7}						& \num{2.79}		& \num{45.5}	& \num{360}			& \num{408}\\
 		Radiatori					& \num{291.1}						& ---				& ---			& ---				& ---\\
 		Corpo C						& \num{529.2}						& \num{2.3}			& \num{52.0}	& \num{165}			& \num{219}\\
 		Corpo A						& \num{2352.2}						& \num{20.6}		& \num{102}		& \num{287}			& \num{410}\\
 		\bottomrule
 	\end{tabular}
-	\caption{Carichi termici estivi -- Stato di progetto}\label{car:pro}
+	\caption{Carichi Termici estivi -- Stato di progetto}\label{car:pro}
 \end{table}
 
 Vale la seguente relazione:
@@ -268,7 +268,7 @@ Per quanto riguarda le altre zone termiche i risultati da aspettarsi saranno una
 		Corpo A						& \num{2352.2}		& \num{45.8}		& \num{18303}	& \num{200}					& \num{246}	\\
 		\bottomrule
 	\end{tabular}
-	\caption{Carichi termici invernali -- Stato di progetto}\label{car:proinv}
+	\caption{Carichi Termici invernali -- Stato di progetto}\label{car:proinv}
 \end{table}
 
 Sembrerà strano che un edificio di un solo piano, quale è il corpo C, possa avere un carico termico di trasmissione che sia addirittura la metà di quello del Corpo A che, invece, è alto 6 piani. Questo fenomeno lo si può spiegare con il rapporto $S/V$ (Superficie disperdente e Volume dell'edificio). È risaputo che il carico termico per trasmissione avviene tramite le superfici dell'involucro. Si capisce bene, quindi, che, a parità di volume, se un edificio ha una quantità maggiore di superfici disperdenti tenderà a scambiare maggiormente con l'ambiente esterno. Per questo motivo, nella costruzione degli edifici, al giorno d'oggi, è importante tenere basso il valore $S/V$. Nel caso in questione, il Corpo A presenta una struttura più compatta in quanto i vari locali sono disposti su più piani; il Corpo C, invece, ha un solo piano e disperde anche dalla copertura (cosa che non accade per il corpo principale in quanto all'ultimo piano vi è il blocco operatorio che è una zona termica a sè). Volendo però ragionare in maniera più pratica, nel corpo A, inteso come edificio e non zona termica, oltre alla $\dot{Q}_{trasm,CorpoA}$ bisogna conteggiare anche le $\dot{Q}_{trasm}$ delle altre zone termiche. In questo modo il carico di riscaldamento del solo corpo principale vale \n{105.3}{kW}: 4 volte superiore al solo corpo C.
@@ -279,8 +279,14 @@ Avendo calcolato le potenzialità in gioco, è arrivato il momento di dimensiona
 \subsection{Impianto Idronico}
 Il resto del corpo A e il corpo C avrà un impianto misto con aria primaria e fancoil a \emph{due tubi}. La zona termica \radd\ avrà, invece, radiatori e la ripresa dell'aria viziata. L'unico locale dedicato ai servizi igienici del corpo C avrà anch'esso il fancoil in quanto non è economicamente e tecnicamente vantaggioso costruire un impianto separato per un unico radiatore distante da tutti gli altri. Nel corpo C vi è un locale destinato al sistema di gestione informatica del corpo di fabbrica: si tratta di un carico sensibile costante tutto l'anno. Per questo motivo non avrebbe senso utilizzare il fancoil in quanto durante l'inverno funzionerebbe in modalità \emph{caldo} poiché l'impianto è a \emph{due tubi}: si utilizzerà pertanto uno split. 
 
-Prima di descrivere con maggiore precisione tutto l'apparato meccanico, si vuole riportare la pianta di un piano del corpo A in cui si evidenziano i vari cavedi che verranno utilizzati per le montanti dell'impianto idronico.
-\includepdf{6_4_cap/img/cavedi}
+Prima di descrivere con maggiore precisione tutto l'apparato meccanico, in \vref{img:cav} si vuole riportare la pianta di un piano del corpo A in cui si evidenziano i vari cavedi che verranno utilizzati per le montanti dell'impianto idronico.
+\begin{sidewaysfigure}
+	\centering
+	\includegraphics[width=\hsize]{6_4_cap/img/cavedi}
+	\caption{Cavedi del Piano Terzo -- Corpo A}
+	\label{img:cav}
+\end{sidewaysfigure}
+%\includepdf{6_4_cap/img/cavedi}
 I cavedi campiti in verde sono destinati alla rete elettrica. Tutti gli altri (in rosso) sono utilizzati dall'impianto idronico e aeraulico. In particolare, i 3 cavedi più grandi (i due adiacenti agli ascensori) e quello a destra nel torrino verranno utilizzati per le montanti dell'impianto a due tubi dei fancoil e dei radiatori. 
 
 L'impianto dei fancoil è costituito da due tubi (una mandata e un ritorno). Vi saranno due montanti con una rete di distribuzione per ogni piano. Vista la configurazione essenzialmente longitudinale dell'edificio si è preferito costruire un circuito a \emph{ritorno inverso} con la montante di mandata che sale dal cavedio \textbf{A} e ritorna in quello \textbf{B}: in questo modo il \emph{ritorno inverso} è naturale. Per il torrino si è, invece, utilizzato il cavedio \textbf{C}. Lo \emph{switch} estate-inverno avviene in sottocentrale: in questo modo aumenta l'affidabilità di tutto l'impianto perché più semplice e con meno organi di regolazione.
@@ -321,7 +327,7 @@ Non avendo spazio in cui posizionare le UTA, si sono usati dei recuperatori term
 
 Sono stati posizionati due recuperatori per piano nel corpo A (ma solo \num{1} al piano terra) nei pianerottoli delle scale antistanti i cavedi A e B. Nel corpo C vengono usati 4 recuperatori posizionati al piano \num{-1}.
 
-Siccome queste reti aerauliche forniscono aria primaria ad un edificio ospedaliero, si vuole cercare di mantenere quanto è più pulito l'ambiente interno evitando infiltrazioni dall'esterno. Pertanto la portata di estrazione sarà minore di quella immessa in modo tale da generare un ambiente in sovrappressione rispetto l'esterno. Le velocità utilizzate per i canali di distribuzioni sono inferiori ai \n{3}{m/s} per contenere la rumorosità (oltre alle perdite di carico), mentre nei vari locali è stata diminuita a \n{2}{m/s}. Siccome l'impianto è \emph{misto}, la griglia di mandata dei fancoil viene sfruttata per immettere l'aria primaria della rete aeraulica in ambiente: in questo modo anche se la macchina idronica è spenta, l'impianto aeraulico può funzionare senza impedimenti o ostacoli. In \vref{aer} sono riportati due \emph{screenshot} della rete aeraulica dei due corpi. 
+Siccome queste reti aerauliche forniscono aria primaria ad un edificio ospedaliero, si vuole cercare di mantenere quanto è più pulito l'ambiente interno evitando infiltrazioni dall'esterno. Pertanto la portata di estrazione sarà minore di quella immessa in modo tale da generare un ambiente in sovrappressione rispetto l'esterno. Le velocità utilizzate per i canali di distribuzioni sono inferiori ai \n{3}{m/s} per contenere la rumorosità (oltre alle perdite di carico), mentre nei vari locali è stata diminuita a \n{2}{m/s}. Siccome l'impianto è \emph{misto}, la griglia di mandata dei fancoil viene sfruttata per immettere l'aria primaria della rete aeraulica in ambiente: in questo modo anche se la macchina idronica è spenta, l'impianto aeraulico può funzionare senza impedimenti o ostacoli. In \vref{aer} sono riportati due \emph{screenshot} di particolari della rete aeraulica dei due corpi mentre in \vref{img:aer} è presente la rete aeraulica intera del piano terzo come disegnata nell'applicativo \textbf{Load} di CYPE. 
 
 \begin{figure}
 	\centering
@@ -329,8 +335,13 @@ Siccome queste reti aerauliche forniscono aria primaria ad un edificio ospedalie
 	\subfloat[][Particolare del corpo C. Tramite il BIM è possibile disegnare e visualizzare in 3D.]{\includegraphics[width=0.9\textwidth]{6_4_cap/img/aer2}\label{aer2}}
 	\caption[La rete aeraulica]{La rete aeraulica progettata con l'applicativo LOAD di CYPE}\label{aer}
 \end{figure}
-
-\includepdf{6_4_cap/img/aeraulica}
+%\includepdf{6_4_cap/img/aeraulica}
+\begin{sidewaysfigure}
+	\centering
+	\includegraphics[width=\hsize]{6_4_cap/img/aeraulica}
+	\caption{Rete Aeraulica Piano Terzo -- Corpo A}
+	\label{img:aer}
+\end{sidewaysfigure}
 \section{L'impianto - Lato Sottocentrale}
 Prima di procedere con la descrizione della sottocentrale che alimenta tutto il corpo di fabbrica dell'edificio 2, è doveroso elencare le utenze che usufruiranno dei servizi di acqua calda e refrigerata.
 \begin{itemize}
@@ -603,9 +614,14 @@ A questo punto è stato necessario collocare opportunamente le sonde intorno all
 \end{itemize}
 Il campo geotermico è stato suddiviso in più zone, ognuna facente capo ad un collettore. 
 
-Si riporta di seguito il campo sonde. Le campiture grige rappresentano gli edifici; i tratteggi si riferiscono a zone in cui non bisogna scavare: in particolare quello rosso rappresenta il cunicolo sotterraneo. Ogni cerchio ha un raggio di \n{7}{m} e rappresenta la sfera di perturbazione della rispettiva sonda. Le tubazioni di ogni zona (rappresentate con le lettere) sono in rosso mentre le due distribuzioni dalla centrale sono in nero. Le zone verdi rappresentano le sistemazioni a verde.
-
-\includepdf{6_4_cap/img/geot}
+Si riporta in \vref{img:geot} il campo sonde. Le campiture grige rappresentano gli edifici; i tratteggi si riferiscono a zone in cui non bisogna scavare: in particolare quello rosso rappresenta il cunicolo sotterraneo. Ogni cerchio ha un raggio di \n{7}{m} e rappresenta la sfera di perturbazione della rispettiva sonda. Le tubazioni di ogni zona (rappresentate con le lettere) sono in rosso mentre le due distribuzioni dalla centrale sono in nero. Le zone verdi rappresentano le sistemazioni a verde.
+%\includepdf{6_4_cap/img/geot}
+\begin{figure}
+	\centering
+	\includegraphics[width=\hsize]{6_4_cap/img/geot}
+	\caption{Disposizione sonde geotermiche intorno all'edificio 2}
+	\label{img:geot}
+\end{figure}
 
 Nella sottocentrale sono state utilizzate, quindi, due pompe di calore in parallelo capaci di rendere in inverno \n{90}{kW} e \n{100}{kW} in estate: questa scelta è stata effettuata in quanto in caso di carico massimo le due macchine riescono a sfruttare tutto il campo geotermico mentre in occasione dei carichi parziali, è possibile spegnerne una e lavorare sempre a pieno carico (e quindi col massimo dell'efficienza). Vista la numerosa dotazione di macchine per il freddo, avere due pompe di calore permette di aumentare l'affidabilità del sistema geotermico.
 \subsubsection{Gli scambiatori}
@@ -621,4 +637,12 @@ Per quanto riguarda la stagione invernale, le utenze che necessitano di acqua ca
 
 Nel caso estivo, invece, l'acqua refrigerata servirà ai fancoil e alle batterie di raffreddamento delle UTA mentre a quelle di post-riscaldamento servirà l'acqua calda. Pertanto funzioneranno sicuramente gli scambiatori per produrre acqua calda a \n{80}{\degreeCelsius} che verrà poi opportunamente miscelata con quella di ritorno più fredda per produrre acqua a \n{60}{\degreeCelsius} per le UTA; le pompe di calore e il gruppo ad assorbimento si occuperanno dell'acqua refrigerata. In questo modo la produzione del freddo risulterà a ``costo zero'' in quanto si usano i reflui termici (senza considerare ovviamente il consumo di energia elettrica per le pompe e il sistema di monitoraggio) prodotti dal cogeneratore e il campo geotermico come pozzo energetico.
 
-\includepdf{6_4_cap/img/sottocentr}
+In \vref{img:sott} si riporta lo schema della sottocentrale.
+
+%\includepdf{6_4_cap/img/sottocentr}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{6_4_cap/img/sottocentr}
+	\caption{Schema Sottocentrale -- Edificio 2}
+	\label{img:sott}
+\end{figure}
