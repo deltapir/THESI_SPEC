@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  24 MAY 2018 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.11)  24 MAY 2018 17:23
 entering extended mode
 **./TESI_SPEC_NON_CANCELLARE.tex
 (TESI_SPEC_NON_CANCELLARE.tex
@@ -2726,12 +2726,12 @@ File: 6_4_cap/img/idr2.png Graphic file (type png)
 Package pdftex.def Info: 6_4_cap/img/idr2.png used on input line 319.
 (pdftex.def)             Requested size: 390.0pt x 170.9222pt.
 
-<6_4_cap/img/aer1.png, id=311, 814.54312pt x 508.90125pt>
+<6_4_cap/img/aer1.png, id=311, 787.44188pt x 496.85625pt>
 File: 6_4_cap/img/aer1.png Graphic file (type png)
 
 <use 6_4_cap/img/aer1.png>
 Package pdftex.def Info: 6_4_cap/img/aer1.png used on input line 334.
-(pdftex.def)             Requested size: 350.99762pt x 219.28918pt.
+(pdftex.def)             Requested size: 350.99762pt x 221.46803pt.
 
 <6_4_cap/img/aer2.png, id=312, 867.24pt x 487.8225pt>
 File: 6_4_cap/img/aer2.png Graphic file (type png)
@@ -2935,14 +2935,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[95]
+[95])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[96])
+[96]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3024,7 +3024,7 @@ ibertineT.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibe
 rtineTB.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibert
 ineTBI.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLiberti
 neTI.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on TESI_SPEC_NON_CANCELLARE.pdf (109 pages, 41746578 bytes).
+Output written on TESI_SPEC_NON_CANCELLARE.pdf (109 pages, 41743361 bytes).
 PDF statistics:
  465 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
